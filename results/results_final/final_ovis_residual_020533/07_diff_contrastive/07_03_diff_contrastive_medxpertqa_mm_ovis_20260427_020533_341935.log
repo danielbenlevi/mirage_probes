@@ -1,0 +1,203 @@
+stage=diff_contrastive
+mode=medxpertqa_mm
+gpu=0
+command=./miniconda3/envs/probing_vlms/bin/python ./train_activation_diff_contrastive.py --vlm ovis --save_dir ./data_and_results/full_probe_experiments/full_probe_ovis_20260427_020533/07_diff_contrastive/07_03_diff_contrastive_medxpertqa_mm_ovis_20260427_020533_341935 --features_cache_path ./data_and_results/full_probe_experiments/full_probe_ovis_20260427_020533/07_diff_contrastive/07_03_diff_contrastive_medxpertqa_mm_ovis_20260427_020533_341935/features_cache.pt --benchmark_mode medxpertqa_mm
+start_utc=2026-04-27T09:42:46.711612Z
+
+`torch_dtype` is deprecated! Use `dtype` instead!
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 38.10it/s]
+Extracting activations:   0%|          | 0/18 [00:00<?, ?sample/s]Extracting activations:   6%|▌         | 1/18 [00:01<00:18,  1.06s/sample]Extracting activations:  11%|█         | 2/18 [00:01<00:10,  1.55sample/s]Extracting activations:  17%|█▋        | 3/18 [00:01<00:06,  2.30sample/s]Extracting activations:  22%|██▏       | 4/18 [00:01<00:04,  3.03sample/s]Extracting activations:  28%|██▊       | 5/18 [00:02<00:04,  3.06sample/s]Extracting activations:  33%|███▎      | 6/18 [00:02<00:03,  3.52sample/s]Extracting activations:  39%|███▉      | 7/18 [00:02<00:03,  3.06sample/s]Extracting activations:  44%|████▍     | 8/18 [00:03<00:03,  3.13sample/s]Extracting activations:  50%|█████     | 9/18 [00:03<00:03,  2.97sample/s]Extracting activations:  56%|█████▌    | 10/18 [00:03<00:02,  3.19sample/s]Extracting activations:  61%|██████    | 11/18 [00:03<00:02,  3.25sample/s]Extracting activations:  67%|██████▋   | 12/18 [00:04<00:01,  3.55sample/s]Extracting activations:  72%|███████▏  | 13/18 [00:04<00:01,  4.08sample/s]Extracting activations:  78%|███████▊  | 14/18 [00:04<00:01,  3.91sample/s]Extracting activations:  83%|████████▎ | 15/18 [00:04<00:00,  4.23sample/s]Extracting activations:  89%|████████▉ | 16/18 [00:04<00:00,  4.49sample/s]Extracting activations:  94%|█████████▍| 17/18 [00:05<00:00,  4.04sample/s]Extracting activations: 100%|██████████| 18/18 [00:05<00:00,  4.41sample/s]Extracting activations: 100%|██████████| 18/18 [00:05<00:00,  3.29sample/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 25.37it/s]
+Extracting activations:   0%|          | 0/18 [00:00<?, ?sample/s]Extracting activations:  11%|█         | 2/18 [00:00<00:00, 18.87sample/s]Extracting activations:  28%|██▊       | 5/18 [00:00<00:00, 19.60sample/s]Extracting activations:  39%|███▉      | 7/18 [00:00<00:00, 19.61sample/s]Extracting activations:  50%|█████     | 9/18 [00:00<00:00, 19.49sample/s]Extracting activations:  61%|██████    | 11/18 [00:00<00:00, 19.65sample/s]Extracting activations:  72%|███████▏  | 13/18 [00:00<00:00, 19.64sample/s]Extracting activations:  89%|████████▉ | 16/18 [00:00<00:00, 20.83sample/s]Extracting activations: 100%|██████████| 18/18 [00:00<00:00, 20.34sample/s]
+Warning: contrastive with/without feature sets differ; aligning to common keys. with_keys=116 without_keys=87 common_keys=87 dropped_with_only=29 dropped_without_only=0
+Training logreg probes:   0%|          | 0/87 [00:00<?, ?feature/s]Training logreg probes:   1%|          | 1/87 [00:07<10:52,  7.58s/feature]Training logreg probes:   2%|▏         | 2/87 [00:15<11:24,  8.05s/feature]Training logreg probes:   3%|▎         | 3/87 [00:24<11:17,  8.06s/feature]Training logreg probes:   5%|▍         | 4/87 [00:32<11:15,  8.13s/feature]Training logreg probes:   6%|▌         | 5/87 [00:40<11:15,  8.24s/feature]Training logreg probes:   7%|▋         | 6/87 [00:48<11:05,  8.21s/feature]Training logreg probes:   8%|▊         | 7/87 [00:57<11:06,  8.34s/feature]Training logreg probes:   9%|▉         | 8/87 [01:05<11:00,  8.37s/feature]Training logreg probes:  10%|█         | 9/87 [01:14<10:50,  8.34s/feature]Training logreg probes:  11%|█▏        | 10/87 [01:21<10:21,  8.07s/feature]Training logreg probes:  13%|█▎        | 11/87 [01:30<10:22,  8.19s/feature]Training logreg probes:  14%|█▍        | 12/87 [01:38<10:12,  8.17s/feature]Training logreg probes:  15%|█▍        | 13/87 [01:45<09:48,  7.95s/feature]Training logreg probes:  16%|█▌        | 14/87 [01:54<09:50,  8.09s/feature]Training logreg probes:  17%|█▋        | 15/87 [02:01<09:33,  7.97s/feature]Training logreg probes:  18%|█▊        | 16/87 [02:08<09:07,  7.72s/feature]Training logreg probes:  20%|█▉        | 17/87 [02:17<09:16,  7.95s/feature]Training logreg probes:  21%|██        | 18/87 [02:26<09:22,  8.16s/feature]Training logreg probes:  22%|██▏       | 19/87 [02:35<09:32,  8.42s/feature]Training logreg probes:  23%|██▎       | 20/87 [02:43<09:31,  8.53s/feature]Training logreg probes:  24%|██▍       | 21/87 [02:52<09:29,  8.62s/feature]Training logreg probes:  25%|██▌       | 22/87 [03:01<09:14,  8.54s/feature]Training logreg probes:  26%|██▋       | 23/87 [03:09<09:11,  8.62s/feature]Training logreg probes:  28%|██▊       | 24/87 [03:18<09:03,  8.63s/feature]Training logreg probes:  29%|██▊       | 25/87 [03:26<08:48,  8.52s/feature]Training logreg probes:  30%|██▉       | 26/87 [03:35<08:45,  8.61s/feature]Training logreg probes:  31%|███       | 27/87 [03:44<08:33,  8.56s/feature]Training logreg probes:  32%|███▏      | 28/87 [03:51<08:14,  8.39s/feature]Training logreg probes:  33%|███▎      | 29/87 [04:00<08:14,  8.52s/feature]Training logreg probes:  34%|███▍      | 30/87 [04:09<08:06,  8.53s/feature]Training logreg probes:  36%|███▌      | 31/87 [04:17<07:49,  8.39s/feature]Training logreg probes:  37%|███▋      | 32/87 [04:26<07:48,  8.52s/feature]Training logreg probes:  38%|███▊      | 33/87 [04:34<07:41,  8.54s/feature]Training logreg probes:  39%|███▉      | 34/87 [04:43<07:33,  8.55s/feature]Training logreg probes:  40%|████      | 35/87 [04:51<07:15,  8.38s/feature]Training logreg probes:  41%|████▏     | 36/87 [04:59<07:00,  8.24s/feature]Training logreg probes:  43%|████▎     | 37/87 [05:07<06:44,  8.08s/feature]Training logreg probes:  44%|████▎     | 38/87 [05:15<06:41,  8.19s/feature]Training logreg probes:  45%|████▍     | 39/87 [05:23<06:33,  8.20s/feature]Training logreg probes:  46%|████▌     | 40/87 [05:31<06:17,  8.03s/feature]Training logreg probes:  47%|████▋     | 41/87 [05:39<06:14,  8.14s/feature]Training logreg probes:  48%|████▊     | 42/87 [05:47<06:06,  8.14s/feature]Training logreg probes:  49%|████▉     | 43/87 [05:55<05:54,  8.05s/feature]Training logreg probes:  51%|█████     | 44/87 [06:04<05:51,  8.18s/feature]Training logreg probes:  52%|█████▏    | 45/87 [06:12<05:42,  8.16s/feature]Training logreg probes:  53%|█████▎    | 46/87 [06:20<05:31,  8.08s/feature]Training logreg probes:  54%|█████▍    | 47/87 [06:28<05:28,  8.22s/feature]Training logreg probes:  55%|█████▌    | 48/87 [06:36<05:20,  8.22s/feature]Training logreg probes:  56%|█████▋    | 49/87 [06:44<05:07,  8.08s/feature]Training logreg probes:  57%|█████▋    | 50/87 [06:53<05:02,  8.18s/feature]Training logreg probes:  59%|█████▊    | 51/87 [07:01<04:54,  8.19s/feature]Training logreg probes:  60%|█████▉    | 52/87 [07:09<04:43,  8.09s/feature]Training logreg probes:  61%|██████    | 53/87 [07:17<04:38,  8.19s/feature]Training logreg probes:  62%|██████▏   | 54/87 [07:25<04:29,  8.16s/feature]Training logreg probes:  63%|██████▎   | 55/87 [07:33<04:18,  8.06s/feature]Training logreg probes:  64%|██████▍   | 56/87 [07:41<04:13,  8.17s/feature]Training logreg probes:  66%|██████▌   | 57/87 [07:50<04:05,  8.17s/feature]Training logreg probes:  67%|██████▋   | 58/87 [07:58<03:55,  8.11s/feature]Training logreg probes:  68%|██████▊   | 59/87 [08:06<03:50,  8.22s/feature]Training logreg probes:  69%|██████▉   | 60/87 [08:14<03:40,  8.18s/feature]Training logreg probes:  70%|███████   | 61/87 [08:22<03:30,  8.10s/feature]Training logreg probes:  71%|███████▏  | 62/87 [08:31<03:24,  8.20s/feature]Training logreg probes:  72%|███████▏  | 63/87 [08:39<03:15,  8.16s/feature]Training logreg probes:  74%|███████▎  | 64/87 [08:46<03:05,  8.07s/feature]Training logreg probes:  75%|███████▍  | 65/87 [08:55<02:59,  8.17s/feature]Training logreg probes:  76%|███████▌  | 66/87 [09:03<02:50,  8.14s/feature]Training logreg probes:  77%|███████▋  | 67/87 [09:11<02:41,  8.05s/feature]Training logreg probes:  78%|███████▊  | 68/87 [09:19<02:35,  8.16s/feature]Training logreg probes:  79%|███████▉  | 69/87 [09:27<02:26,  8.12s/feature]Training logreg probes:  80%|████████  | 70/87 [09:35<02:17,  8.07s/feature]Training logreg probes:  82%|████████▏ | 71/87 [09:44<02:10,  8.17s/feature]Training logreg probes:  83%|████████▎ | 72/87 [09:52<02:01,  8.13s/feature]Training logreg probes:  84%|████████▍ | 73/87 [09:59<01:52,  8.04s/feature]Training logreg probes:  85%|████████▌ | 74/87 [10:08<01:46,  8.16s/feature]Training logreg probes:  86%|████████▌ | 75/87 [10:16<01:37,  8.11s/feature]Training logreg probes:  87%|████████▋ | 76/87 [10:24<01:28,  8.04s/feature]Training logreg probes:  89%|████████▊ | 77/87 [10:32<01:21,  8.16s/feature]Training logreg probes:  90%|████████▉ | 78/87 [10:40<01:13,  8.14s/feature]Training logreg probes:  91%|█████████ | 79/87 [10:48<01:04,  8.02s/feature]Training logreg probes:  92%|█████████▏| 80/87 [10:56<00:56,  8.14s/feature]Training logreg probes:  93%|█████████▎| 81/87 [11:04<00:48,  8.10s/feature]Training logreg probes:  94%|█████████▍| 82/87 [11:12<00:39,  7.99s/feature]Training logreg probes:  95%|█████████▌| 83/87 [11:21<00:32,  8.11s/feature]Training logreg probes:  97%|█████████▋| 84/87 [11:29<00:24,  8.08s/feature]Training logreg probes:  98%|█████████▊| 85/87 [11:36<00:15,  7.93s/feature]Training logreg probes:  99%|█████████▉| 86/87 [11:45<00:08,  8.07s/feature]Training logreg probes: 100%|██████████| 87/87 [11:53<00:00,  8.07s/feature]Training logreg probes: 100%|██████████| 87/87 [11:53<00:00,  8.20s/feature]
+vqa_rad: skipped 1 item(s) via explicit question-id blocklist ['2054']
+Building unseen holdout payloads:   0%|          | 0/5 [00:00<?, ?seed/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s][ALoading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 35.70it/s]
+
+Extracting activations:   0%|          | 0/20 [00:00<?, ?sample/s][A
+Extracting activations:   5%|▌         | 1/20 [00:00<00:11,  1.61sample/s][A
+Extracting activations:  10%|█         | 2/20 [00:00<00:08,  2.19sample/s][A
+Extracting activations:  15%|█▌        | 3/20 [00:01<00:05,  3.05sample/s][A
+Extracting activations:  20%|██        | 4/20 [00:01<00:06,  2.38sample/s][A
+Extracting activations:  25%|██▌       | 5/20 [00:01<00:05,  2.97sample/s][A
+Extracting activations:  30%|███       | 6/20 [00:02<00:04,  3.41sample/s][A
+Extracting activations:  35%|███▌      | 7/20 [00:02<00:05,  2.58sample/s][A
+Extracting activations:  40%|████      | 8/20 [00:02<00:03,  3.02sample/s][A
+Extracting activations:  45%|████▌     | 9/20 [00:03<00:03,  3.06sample/s][A
+Extracting activations:  50%|█████     | 10/20 [00:03<00:02,  3.46sample/s][A
+Extracting activations:  55%|█████▌    | 11/20 [00:03<00:02,  3.39sample/s][A
+Extracting activations:  60%|██████    | 12/20 [00:04<00:02,  3.35sample/s][A
+Extracting activations:  65%|██████▌   | 13/20 [00:04<00:01,  3.83sample/s][A
+Extracting activations:  70%|███████   | 14/20 [00:04<00:01,  3.38sample/s][A
+Extracting activations:  75%|███████▌  | 15/20 [00:05<00:02,  2.17sample/s][A
+Extracting activations:  80%|████████  | 16/20 [00:05<00:01,  2.14sample/s][A
+Extracting activations:  85%|████████▌ | 17/20 [00:06<00:01,  2.09sample/s][A
+Extracting activations:  90%|█████████ | 18/20 [00:06<00:00,  2.02sample/s][A
+Extracting activations:  95%|█████████▌| 19/20 [00:07<00:00,  2.50sample/s][A
+Extracting activations: 100%|██████████| 20/20 [00:07<00:00,  2.43sample/s][AExtracting activations: 100%|██████████| 20/20 [00:07<00:00,  2.65sample/s]
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s][ALoading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 37.07it/s]
+
+Extracting activations:   0%|          | 0/20 [00:00<?, ?sample/s][A
+Extracting activations:  10%|█         | 2/20 [00:00<00:00, 18.80sample/s][A
+Extracting activations:  25%|██▌       | 5/20 [00:00<00:00, 21.04sample/s][A
+Extracting activations:  40%|████      | 8/20 [00:00<00:00, 22.89sample/s][A
+Extracting activations:  55%|█████▌    | 11/20 [00:00<00:00, 22.44sample/s][A
+Extracting activations:  70%|███████   | 14/20 [00:00<00:00, 21.40sample/s][A
+Extracting activations:  85%|████████▌ | 17/20 [00:00<00:00, 19.18sample/s][A
+Extracting activations: 100%|██████████| 20/20 [00:00<00:00, 19.88sample/s][AExtracting activations: 100%|██████████| 20/20 [00:00<00:00, 20.49sample/s]
+Warning: contrastive with/without feature sets differ; aligning to common keys. with_keys=116 without_keys=87 common_keys=87 dropped_with_only=29 dropped_without_only=0
+Building unseen holdout payloads:  20%|██        | 1/5 [00:12<00:49, 12.49s/seed]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s][ALoading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 36.56it/s]
+
+Extracting activations:   0%|          | 0/20 [00:00<?, ?sample/s][A
+Extracting activations:   5%|▌         | 1/20 [00:00<00:03,  5.53sample/s][A
+Extracting activations:  10%|█         | 2/20 [00:00<00:03,  5.57sample/s][A
+Extracting activations:  15%|█▌        | 3/20 [00:00<00:05,  3.06sample/s][A
+Extracting activations:  20%|██        | 4/20 [00:01<00:05,  3.12sample/s][A
+Extracting activations:  25%|██▌       | 5/20 [00:01<00:07,  2.10sample/s][A
+Extracting activations:  30%|███       | 6/20 [00:02<00:06,  2.24sample/s][A
+Extracting activations:  35%|███▌      | 7/20 [00:02<00:05,  2.53sample/s][A
+Extracting activations:  40%|████      | 8/20 [00:02<00:03,  3.05sample/s][A
+Extracting activations:  45%|████▌     | 9/20 [00:02<00:03,  3.46sample/s][A
+Extracting activations:  50%|█████     | 10/20 [00:03<00:02,  3.48sample/s][A
+Extracting activations:  55%|█████▌    | 11/20 [00:03<00:03,  2.83sample/s][A
+Extracting activations:  60%|██████    | 12/20 [00:03<00:02,  3.29sample/s][A
+Extracting activations:  65%|██████▌   | 13/20 [00:04<00:02,  2.90sample/s][A
+Extracting activations:  70%|███████   | 14/20 [00:04<00:01,  3.45sample/s][A
+Extracting activations:  75%|███████▌  | 15/20 [00:04<00:01,  3.81sample/s][A
+Extracting activations:  80%|████████  | 16/20 [00:05<00:01,  3.59sample/s][A
+Extracting activations:  85%|████████▌ | 17/20 [00:05<00:01,  2.95sample/s][A
+Extracting activations:  90%|█████████ | 18/20 [00:05<00:00,  3.46sample/s][A
+Extracting activations:  95%|█████████▌| 19/20 [00:05<00:00,  3.81sample/s][A
+Extracting activations: 100%|██████████| 20/20 [00:06<00:00,  3.62sample/s][AExtracting activations: 100%|██████████| 20/20 [00:06<00:00,  3.20sample/s]
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s][ALoading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 37.27it/s]
+
+Extracting activations:   0%|          | 0/20 [00:00<?, ?sample/s][A
+Extracting activations:  15%|█▌        | 3/20 [00:00<00:00, 20.92sample/s][A
+Extracting activations:  30%|███       | 6/20 [00:00<00:00, 21.36sample/s][A
+Extracting activations:  45%|████▌     | 9/20 [00:00<00:00, 20.76sample/s][A
+Extracting activations:  60%|██████    | 12/20 [00:00<00:00, 20.44sample/s][A
+Extracting activations:  75%|███████▌  | 15/20 [00:00<00:00, 20.77sample/s][A
+Extracting activations:  90%|█████████ | 18/20 [00:00<00:00, 20.06sample/s][AExtracting activations: 100%|██████████| 20/20 [00:00<00:00, 20.67sample/s]
+Warning: contrastive with/without feature sets differ; aligning to common keys. with_keys=116 without_keys=87 common_keys=87 dropped_with_only=29 dropped_without_only=0
+Building unseen holdout payloads:  40%|████      | 2/5 [00:23<00:34, 11.47s/seed]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s][ALoading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 36.17it/s]
+
+Extracting activations:   0%|          | 0/20 [00:00<?, ?sample/s][A
+Extracting activations:   5%|▌         | 1/20 [00:00<00:11,  1.71sample/s][A
+Extracting activations:  10%|█         | 2/20 [00:01<00:10,  1.79sample/s][A
+Extracting activations:  15%|█▌        | 3/20 [00:01<00:07,  2.25sample/s][A
+Extracting activations:  20%|██        | 4/20 [00:01<00:05,  2.94sample/s][A
+Extracting activations:  25%|██▌       | 5/20 [00:02<00:08,  1.78sample/s][A
+Extracting activations:  30%|███       | 6/20 [00:03<00:07,  1.92sample/s][A
+Extracting activations:  35%|███▌      | 7/20 [00:03<00:05,  2.18sample/s][A
+Extracting activations:  40%|████      | 8/20 [00:03<00:04,  2.72sample/s][A
+Extracting activations:  45%|████▌     | 9/20 [00:03<00:03,  2.89sample/s][A
+Extracting activations:  50%|█████     | 10/20 [00:04<00:03,  3.30sample/s][A
+Extracting activations:  55%|█████▌    | 11/20 [00:04<00:02,  3.58sample/s][A
+Extracting activations:  60%|██████    | 12/20 [00:04<00:01,  4.03sample/s][A
+Extracting activations:  65%|██████▌   | 13/20 [00:04<00:01,  4.08sample/s][A
+Extracting activations:  70%|███████   | 14/20 [00:05<00:01,  3.36sample/s][A
+Extracting activations:  75%|███████▌  | 15/20 [00:05<00:01,  3.71sample/s][A
+Extracting activations:  80%|████████  | 16/20 [00:05<00:01,  3.30sample/s][A
+Extracting activations:  85%|████████▌ | 17/20 [00:05<00:00,  3.73sample/s][A
+Extracting activations:  90%|█████████ | 18/20 [00:06<00:00,  4.15sample/s][A
+Extracting activations:  95%|█████████▌| 19/20 [00:06<00:00,  3.05sample/s][A
+Extracting activations: 100%|██████████| 20/20 [00:06<00:00,  2.84sample/s][AExtracting activations: 100%|██████████| 20/20 [00:06<00:00,  2.87sample/s]
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s][ALoading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 36.99it/s]
+
+Extracting activations:   0%|          | 0/20 [00:00<?, ?sample/s][A
+Extracting activations:  10%|█         | 2/20 [00:00<00:00, 19.29sample/s][A
+Extracting activations:  20%|██        | 4/20 [00:00<00:00, 19.69sample/s][A
+Extracting activations:  30%|███       | 6/20 [00:00<00:00, 18.44sample/s][A
+Extracting activations:  40%|████      | 8/20 [00:00<00:00, 18.97sample/s][A
+Extracting activations:  55%|█████▌    | 11/20 [00:00<00:00, 20.09sample/s][A
+Extracting activations:  65%|██████▌   | 13/20 [00:00<00:00, 19.97sample/s][A
+Extracting activations:  80%|████████  | 16/20 [00:00<00:00, 20.01sample/s][A
+Extracting activations:  95%|█████████▌| 19/20 [00:00<00:00, 20.93sample/s][AExtracting activations: 100%|██████████| 20/20 [00:00<00:00, 20.20sample/s]
+Warning: contrastive with/without feature sets differ; aligning to common keys. with_keys=116 without_keys=87 common_keys=87 dropped_with_only=29 dropped_without_only=0
+Building unseen holdout payloads:  60%|██████    | 3/5 [00:34<00:23, 11.60s/seed]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s][ALoading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 35.15it/s]
+
+Extracting activations:   0%|          | 0/20 [00:00<?, ?sample/s][A
+Extracting activations:   5%|▌         | 1/20 [00:00<00:07,  2.39sample/s][A
+Extracting activations:  10%|█         | 2/20 [00:00<00:04,  3.62sample/s][A
+Extracting activations:  15%|█▌        | 3/20 [00:00<00:03,  4.36sample/s][A
+Extracting activations:  20%|██        | 4/20 [00:00<00:03,  4.54sample/s][A
+Extracting activations:  25%|██▌       | 5/20 [00:01<00:03,  3.94sample/s][A
+Extracting activations:  30%|███       | 6/20 [00:01<00:04,  2.93sample/s][A
+Extracting activations:  35%|███▌      | 7/20 [00:02<00:05,  2.40sample/s][A
+Extracting activations:  40%|████      | 8/20 [00:02<00:04,  2.90sample/s][A
+Extracting activations:  45%|████▌     | 9/20 [00:02<00:03,  3.45sample/s][A
+Extracting activations:  50%|█████     | 10/20 [00:02<00:02,  3.61sample/s][A
+Extracting activations:  55%|█████▌    | 11/20 [00:03<00:02,  3.97sample/s][A
+Extracting activations:  60%|██████    | 12/20 [00:03<00:02,  3.09sample/s][A
+Extracting activations:  65%|██████▌   | 13/20 [00:03<00:01,  3.56sample/s][A
+Extracting activations:  70%|███████   | 14/20 [00:04<00:01,  4.03sample/s][A
+Extracting activations:  75%|███████▌  | 15/20 [00:04<00:01,  3.42sample/s][A
+Extracting activations:  80%|████████  | 16/20 [00:04<00:01,  3.77sample/s][A
+Extracting activations:  85%|████████▌ | 17/20 [00:04<00:00,  4.03sample/s][A
+Extracting activations:  90%|█████████ | 18/20 [00:05<00:00,  4.09sample/s][A
+Extracting activations:  95%|█████████▌| 19/20 [00:05<00:00,  4.34sample/s][A
+Extracting activations: 100%|██████████| 20/20 [00:05<00:00,  3.72sample/s][AExtracting activations: 100%|██████████| 20/20 [00:05<00:00,  3.56sample/s]
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s][ALoading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 36.00it/s]
+
+Extracting activations:   0%|          | 0/20 [00:00<?, ?sample/s][A
+Extracting activations:  15%|█▌        | 3/20 [00:00<00:00, 20.47sample/s][A
+Extracting activations:  30%|███       | 6/20 [00:00<00:00, 20.89sample/s][A
+Extracting activations:  45%|████▌     | 9/20 [00:00<00:00, 21.60sample/s][A
+Extracting activations:  60%|██████    | 12/20 [00:00<00:00, 21.27sample/s][A
+Extracting activations:  75%|███████▌  | 15/20 [00:00<00:00, 20.55sample/s][A
+Extracting activations:  90%|█████████ | 18/20 [00:00<00:00, 21.46sample/s][AExtracting activations: 100%|██████████| 20/20 [00:00<00:00, 20.94sample/s]
+Warning: contrastive with/without feature sets differ; aligning to common keys. with_keys=116 without_keys=87 common_keys=87 dropped_with_only=29 dropped_without_only=0
+Building unseen holdout payloads:  80%|████████  | 4/5 [00:45<00:11, 11.09s/seed]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s][A
+Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 19.93it/s][ALoading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 19.89it/s]
+
+Extracting activations:   0%|          | 0/20 [00:00<?, ?sample/s][A
+Extracting activations:   5%|▌         | 1/20 [00:00<00:07,  2.66sample/s][A
+Extracting activations:  10%|█         | 2/20 [00:00<00:04,  3.63sample/s][A
+Extracting activations:  15%|█▌        | 3/20 [00:00<00:04,  4.19sample/s][A
+Extracting activations:  20%|██        | 4/20 [00:01<00:04,  3.85sample/s][A
+Extracting activations:  25%|██▌       | 5/20 [00:01<00:03,  4.17sample/s][A
+Extracting activations:  30%|███       | 6/20 [00:01<00:04,  2.90sample/s][A
+Extracting activations:  35%|███▌      | 7/20 [00:02<00:04,  3.25sample/s][A
+Extracting activations:  40%|████      | 8/20 [00:02<00:04,  2.84sample/s][A
+Extracting activations:  45%|████▌     | 9/20 [00:02<00:03,  2.93sample/s][A
+Extracting activations:  50%|█████     | 10/20 [00:03<00:03,  3.06sample/s][A
+Extracting activations:  55%|█████▌    | 11/20 [00:03<00:02,  3.44sample/s][A
+Extracting activations:  60%|██████    | 12/20 [00:03<00:02,  3.79sample/s][A
+Extracting activations:  65%|██████▌   | 13/20 [00:03<00:01,  4.22sample/s][A
+Extracting activations:  70%|███████   | 14/20 [00:04<00:02,  2.98sample/s][A
+Extracting activations:  75%|███████▌  | 15/20 [00:04<00:01,  3.47sample/s][A
+Extracting activations:  80%|████████  | 16/20 [00:04<00:01,  2.82sample/s][A
+Extracting activations:  85%|████████▌ | 17/20 [00:05<00:00,  3.27sample/s][A
+Extracting activations:  90%|█████████ | 18/20 [00:05<00:00,  3.26sample/s][A
+Extracting activations:  95%|█████████▌| 19/20 [00:05<00:00,  2.67sample/s][A
+Extracting activations: 100%|██████████| 20/20 [00:06<00:00,  3.16sample/s][AExtracting activations: 100%|██████████| 20/20 [00:06<00:00,  3.24sample/s]
+
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s][ALoading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 37.27it/s]
+
+Extracting activations:   0%|          | 0/20 [00:00<?, ?sample/s][A
+Extracting activations:  10%|█         | 2/20 [00:00<00:00, 19.74sample/s][A
+Extracting activations:  20%|██        | 4/20 [00:00<00:00, 19.64sample/s][A
+Extracting activations:  35%|███▌      | 7/20 [00:00<00:00, 21.24sample/s][A
+Extracting activations:  50%|█████     | 10/20 [00:00<00:00, 21.63sample/s][A
+Extracting activations:  65%|██████▌   | 13/20 [00:00<00:00, 22.49sample/s][A
+Extracting activations:  80%|████████  | 16/20 [00:00<00:00, 22.58sample/s][A
+Extracting activations:  95%|█████████▌| 19/20 [00:00<00:00, 21.04sample/s][AExtracting activations: 100%|██████████| 20/20 [00:00<00:00, 21.23sample/s]
+Warning: contrastive with/without feature sets differ; aligning to common keys. with_keys=116 without_keys=87 common_keys=87 dropped_with_only=29 dropped_without_only=0
+Building unseen holdout payloads: 100%|██████████| 5/5 [00:56<00:00, 10.98s/seed]Building unseen holdout payloads: 100%|██████████| 5/5 [00:56<00:00, 11.22s/seed]
+Saved feature accuracies: ./data_and_results/full_probe_experiments/full_probe_ovis_20260427_020533/07_diff_contrastive/07_03_diff_contrastive_medxpertqa_mm_ovis_20260427_020533_341935/train_activation_diff_contrastive_ovis_medxpertqa_mm_20260427_054257_seed42/ovis_all_feature_probe_accuracies_20260427_054257_seed42.json
+Saved LLM strategy summary: ./data_and_results/full_probe_experiments/full_probe_ovis_20260427_020533/07_diff_contrastive/07_03_diff_contrastive_medxpertqa_mm_ovis_20260427_020533_341935/train_activation_diff_contrastive_ovis_medxpertqa_mm_20260427_054257_seed42/ovis_llm_layer_best_strategy_results_20260427_054257_seed42.json
+Saved run config: ./data_and_results/full_probe_experiments/full_probe_ovis_20260427_020533/07_diff_contrastive/07_03_diff_contrastive_medxpertqa_mm_ovis_20260427_020533_341935/train_activation_diff_contrastive_ovis_medxpertqa_mm_20260427_054257_seed42/ovis_run_config_20260427_054257_seed42.json
+
+end_utc=2026-04-27T09:59:07.619734Z
+elapsed_sec=980.89
+return_code=0

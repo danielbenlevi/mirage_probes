@@ -1,0 +1,4036 @@
+[
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1563",
+    "question_id": "validation_Architecture_and_Engineering_21",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_57",
+    "question_id": "test_Computer_Science_266",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_4",
+    "question_id": "test_Literature_65",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_565",
+    "question_id": "validation_Accounting_24",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1085",
+    "question_id": "test_Pharmacy_260",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_351",
+    "question_id": "validation_Agriculture_6",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_894",
+    "question_id": "test_Pharmacy_410",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1622",
+    "question_id": "test_Basic_Medical_Science_76",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_304",
+    "question_id": "validation_Agriculture_8",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1144",
+    "question_id": "validation_Marketing_14",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_10",
+    "question_id": "test_Pharmacy_287",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_648",
+    "question_id": "test_Agriculture_15",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_873",
+    "question_id": "test_Basic_Medical_Science_177",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_906",
+    "question_id": "validation_Computer_Science_5",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1523",
+    "question_id": "validation_History_17",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1628",
+    "question_id": "test_Diagnostics_and_Laboratory_Medicine_131",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1494",
+    "question_id": "validation_Math_27",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_92",
+    "question_id": "test_Pharmacy_96",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1372",
+    "question_id": "validation_Art_6",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_344",
+    "question_id": "test_Pharmacy_206",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_861",
+    "question_id": "test_Finance_346",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_463",
+    "question_id": "test_Chemistry_287",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_382",
+    "question_id": "validation_Chemistry_21",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_191",
+    "question_id": "test_Psychology_196",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_730",
+    "question_id": "test_Art_Theory_375",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_515",
+    "question_id": "validation_Art_14",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_855",
+    "question_id": "validation_Art_Theory_6",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_2",
+    "question_id": "validation_Design_19",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_807",
+    "question_id": "validation_Art_Theory_25",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_100",
+    "question_id": "test_Sociology_155",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1706",
+    "question_id": "test_Art_164",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1598",
+    "question_id": "test_Music_133",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_413",
+    "question_id": "test_Math_346",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_797",
+    "question_id": "test_Pharmacy_83",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1224",
+    "question_id": "test_Clinical_Medicine_108",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1702",
+    "question_id": "test_Literature_86",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1196",
+    "question_id": "validation_Architecture_and_Engineering_4",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1658",
+    "question_id": "validation_Music_16",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1083",
+    "question_id": "test_Computer_Science_123",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1569",
+    "question_id": "test_Marketing_130",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_856",
+    "question_id": "test_Agriculture_157",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_646",
+    "question_id": "test_Accounting_360",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_827",
+    "question_id": "validation_Electronics_1",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_228",
+    "question_id": "validation_Sociology_20",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_540",
+    "question_id": "test_Design_130",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_882",
+    "question_id": "validation_Diagnostics_and_Laboratory_Medicine_27",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1324",
+    "question_id": "test_Pharmacy_254",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_56",
+    "question_id": "test_Psychology_163",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1052",
+    "question_id": "test_Clinical_Medicine_214",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1097",
+    "question_id": "test_Music_322",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_204",
+    "question_id": "test_Biology_157",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_70",
+    "question_id": "test_Biology_146",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1313",
+    "question_id": "test_History_79",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1256",
+    "question_id": "test_Art_Theory_276",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1339",
+    "question_id": "validation_Geography_30",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1303",
+    "question_id": "test_Basic_Medical_Science_30",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_541",
+    "question_id": "test_Math_115",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_595",
+    "question_id": "validation_Design_29",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1584",
+    "question_id": "validation_Agriculture_23",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1408",
+    "question_id": "test_Music_123",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_22",
+    "question_id": "validation_Clinical_Medicine_3",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_859",
+    "question_id": "test_Materials_297",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1076",
+    "question_id": "test_Chemistry_362",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_674",
+    "question_id": "validation_Literature_26",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1030",
+    "question_id": "validation_Diagnostics_and_Laboratory_Medicine_18",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_592",
+    "question_id": "test_Basic_Medical_Science_29",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_194",
+    "question_id": "test_Art_94",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_451",
+    "question_id": "test_Sociology_52",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1376",
+    "question_id": "test_Literature_97",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_8",
+    "question_id": "test_Accounting_42",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1040",
+    "question_id": "test_Art_Theory_168",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1431",
+    "question_id": "test_Economics_16",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1700",
+    "question_id": "test_Geography_55",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_397",
+    "question_id": "test_Art_Theory_266",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_524",
+    "question_id": "test_Design_139",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_649",
+    "question_id": "validation_Pharmacy_10",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1348",
+    "question_id": "test_Sociology_214",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1046",
+    "question_id": "validation_Pharmacy_28",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1169",
+    "question_id": "test_Sociology_168",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1719",
+    "question_id": "test_Art_9",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1500",
+    "question_id": "validation_History_5",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_974",
+    "question_id": "validation_Chemistry_26",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1206",
+    "question_id": "validation_Diagnostics_and_Laboratory_Medicine_20",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_830",
+    "question_id": "test_Accounting_345",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1146",
+    "question_id": "test_Physics_40",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1467",
+    "question_id": "validation_Literature_2",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_160",
+    "question_id": "test_Sociology_140",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_386",
+    "question_id": "test_Economics_240",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_729",
+    "question_id": "validation_Art_7",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_315",
+    "question_id": "validation_Design_16",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_494",
+    "question_id": "test_History_72",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1483",
+    "question_id": "test_Basic_Medical_Science_41",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_587",
+    "question_id": "test_Mechanical_Engineering_136",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1488",
+    "question_id": "test_Psychology_88",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1397",
+    "question_id": "test_Diagnostics_and_Laboratory_Medicine_14",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1496",
+    "question_id": "test_Biology_295",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_206",
+    "question_id": "validation_Music_25",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_505",
+    "question_id": "test_Materials_423",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_141",
+    "question_id": "test_Sociology_47",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1410",
+    "question_id": "test_Agriculture_102",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1726",
+    "question_id": "test_Geography_222",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1265",
+    "question_id": "test_Physics_397",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_670",
+    "question_id": "test_Architecture_and_Engineering_403",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_889",
+    "question_id": "test_Clinical_Medicine_232",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_641",
+    "question_id": "test_Electronics_108",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1378",
+    "question_id": "validation_Art_16",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1686",
+    "question_id": "validation_Electronics_14",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_139",
+    "question_id": "test_Accounting_131",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_901",
+    "question_id": "test_Agriculture_46",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1077",
+    "question_id": "test_Art_63",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1323",
+    "question_id": "validation_Public_Health_30",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1091",
+    "question_id": "test_Music_251",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1609",
+    "question_id": "validation_Psychology_16",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_676",
+    "question_id": "validation_Design_10",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_714",
+    "question_id": "test_Mechanical_Engineering_333",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_74",
+    "question_id": "validation_Basic_Medical_Science_1",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1556",
+    "question_id": "validation_Accounting_13",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1021",
+    "question_id": "validation_Physics_4",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_387",
+    "question_id": "validation_Computer_Science_14",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1711",
+    "question_id": "test_Geography_241",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1435",
+    "question_id": "test_Manage_10",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_476",
+    "question_id": "test_Literature_11",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_481",
+    "question_id": "validation_Clinical_Medicine_25",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1533",
+    "question_id": "test_Design_39",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_66",
+    "question_id": "test_Computer_Science_351",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_224",
+    "question_id": "test_Psychology_155",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_197",
+    "question_id": "test_Biology_19",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1205",
+    "question_id": "test_Art_121",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_575",
+    "question_id": "test_Music_209",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_497",
+    "question_id": "test_Math_279",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1678",
+    "question_id": "validation_Agriculture_9",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_222",
+    "question_id": "test_Art_25",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_769",
+    "question_id": "validation_Economics_7",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_474",
+    "question_id": "validation_Art_Theory_12",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_50",
+    "question_id": "validation_Math_28",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_904",
+    "question_id": "test_Chemistry_400",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_942",
+    "question_id": "validation_Clinical_Medicine_22",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1283",
+    "question_id": "test_Accounting_63",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1260",
+    "question_id": "test_Manage_80",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1513",
+    "question_id": "test_Manage_73",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1710",
+    "question_id": "test_Literature_50",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_354",
+    "question_id": "test_History_82",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1058",
+    "question_id": "test_Physics_166",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1013",
+    "question_id": "validation_Psychology_4",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_443",
+    "question_id": "test_Geography_301",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_934",
+    "question_id": "validation_Basic_Medical_Science_11",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_752",
+    "question_id": "validation_Geography_9",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_514",
+    "question_id": "test_Economics_215",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_342",
+    "question_id": "test_Music_327",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_716",
+    "question_id": "validation_Mechanical_Engineering_1",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1171",
+    "question_id": "validation_Agriculture_20",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_570",
+    "question_id": "test_Psychology_157",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1060",
+    "question_id": "validation_Music_9",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_172",
+    "question_id": "test_Sociology_176",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_501",
+    "question_id": "test_Design_91",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1129",
+    "question_id": "test_Agriculture_145",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_588",
+    "question_id": "validation_Art_Theory_21",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_919",
+    "question_id": "test_Art_147",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_105",
+    "question_id": "validation_Pharmacy_11",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1098",
+    "question_id": "validation_Art_25",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1461",
+    "question_id": "test_Finance_88",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1384",
+    "question_id": "test_Diagnostics_and_Laboratory_Medicine_76",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1616",
+    "question_id": "test_Materials_446",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_707",
+    "question_id": "validation_Art_Theory_4",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1248",
+    "question_id": "test_History_12",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_339",
+    "question_id": "test_Design_154",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1026",
+    "question_id": "validation_Physics_16",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_839",
+    "question_id": "test_Electronics_159",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_875",
+    "question_id": "test_Agriculture_282",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_182",
+    "question_id": "test_Design_82",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1698",
+    "question_id": "test_History_209",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_539",
+    "question_id": "test_Electronics_140",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_801",
+    "question_id": "test_Agriculture_42",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_260",
+    "question_id": "test_Manage_36",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1546",
+    "question_id": "validation_Public_Health_2",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_997",
+    "question_id": "test_Art_224",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1594",
+    "question_id": "test_Literature_7",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1695",
+    "question_id": "test_Agriculture_193",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_95",
+    "question_id": "validation_Sociology_10",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_128",
+    "question_id": "test_Accounting_279",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_763",
+    "question_id": "test_Economics_56",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_180",
+    "question_id": "test_Basic_Medical_Science_179",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_272",
+    "question_id": "test_Literature_46",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_123",
+    "question_id": "test_Diagnostics_and_Laboratory_Medicine_126",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1346",
+    "question_id": "validation_Art_Theory_28",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_856",
+    "question_id": "test_Agriculture_157",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_242",
+    "question_id": "test_Art_176",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1450",
+    "question_id": "test_Finance_241",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_427",
+    "question_id": "test_Computer_Science_228",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_137",
+    "question_id": "test_Literature_23",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_472",
+    "question_id": "test_Electronics_188",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1499",
+    "question_id": "validation_Accounting_17",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_19",
+    "question_id": "test_Accounting_328",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_891",
+    "question_id": "test_Physics_103",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1427",
+    "question_id": "test_Energy_and_Power_101",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_837",
+    "question_id": "test_Pharmacy_19",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1099",
+    "question_id": "validation_Accounting_30",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_291",
+    "question_id": "test_Math_122",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1250",
+    "question_id": "test_Art_195",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1254",
+    "question_id": "test_Math_18",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_425",
+    "question_id": "test_Literature_47",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_955",
+    "question_id": "test_Pharmacy_20",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1326",
+    "question_id": "test_Design_143",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_662",
+    "question_id": "validation_Literature_13",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_789",
+    "question_id": "validation_Mechanical_Engineering_20",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_671",
+    "question_id": "validation_Music_15",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1433",
+    "question_id": "test_Manage_45",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_749",
+    "question_id": "test_Agriculture_139",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1677",
+    "question_id": "test_Music_299",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_994",
+    "question_id": "test_Economics_260",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_717",
+    "question_id": "validation_Basic_Medical_Science_6",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1620",
+    "question_id": "test_Diagnostics_and_Laboratory_Medicine_135",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1044",
+    "question_id": "validation_Materials_7",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1476",
+    "question_id": "test_Biology_302",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_176",
+    "question_id": "validation_Art_5",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_977",
+    "question_id": "test_Economics_190",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_29",
+    "question_id": "test_Electronics_118",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1064",
+    "question_id": "test_Marketing_108",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_33",
+    "question_id": "validation_Economics_12",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_677",
+    "question_id": "test_History_272",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_264",
+    "question_id": "test_Psychology_56",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1540",
+    "question_id": "validation_Economics_26",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1533",
+    "question_id": "test_Design_39",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_957",
+    "question_id": "test_Sociology_20",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1052",
+    "question_id": "test_Clinical_Medicine_214",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_637",
+    "question_id": "test_Chemistry_30",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_579",
+    "question_id": "test_Diagnostics_and_Laboratory_Medicine_133",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_703",
+    "question_id": "test_Diagnostics_and_Laboratory_Medicine_147",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_437",
+    "question_id": "test_Physics_201",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_179",
+    "question_id": "validation_Literature_11",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1495",
+    "question_id": "test_Chemistry_94",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_639",
+    "question_id": "validation_Clinical_Medicine_18",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_893",
+    "question_id": "validation_Psychology_19",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_963",
+    "question_id": "test_Clinical_Medicine_283",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1034",
+    "question_id": "validation_Manage_12",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1051",
+    "question_id": "test_Public_Health_291",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_115",
+    "question_id": "test_Music_74",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_313",
+    "question_id": "test_Agriculture_187",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1594",
+    "question_id": "test_Literature_7",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1402",
+    "question_id": "test_Art_231",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1425",
+    "question_id": "test_Clinical_Medicine_91",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_325",
+    "question_id": "test_Literature_64",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_60",
+    "question_id": "validation_Computer_Science_12",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_323",
+    "question_id": "test_Geography_90",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1341",
+    "question_id": "test_Economics_112",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1270",
+    "question_id": "validation_Art_13",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1399",
+    "question_id": "test_Basic_Medical_Science_233",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_584",
+    "question_id": "validation_Art_15",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_576",
+    "question_id": "test_Physics_161",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1246",
+    "question_id": "test_Materials_173",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_345",
+    "question_id": "test_Music_42",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1355",
+    "question_id": "validation_Accounting_20",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_955",
+    "question_id": "test_Pharmacy_20",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1273",
+    "question_id": "test_Art_Theory_26",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_203",
+    "question_id": "validation_Music_8",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_211",
+    "question_id": "test_Sociology_1",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1018",
+    "question_id": "test_Sociology_18",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1451",
+    "question_id": "test_Art_Theory_171",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1484",
+    "question_id": "validation_Pharmacy_24",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1715",
+    "question_id": "test_Geography_267",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_422",
+    "question_id": "validation_Economics_4",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1190",
+    "question_id": "test_Art_67",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_913",
+    "question_id": "test_Electronics_171",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_569",
+    "question_id": "validation_Manage_2",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1375",
+    "question_id": "validation_Geography_18",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_803",
+    "question_id": "test_Art_208",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1266",
+    "question_id": "test_Math_65",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_619",
+    "question_id": "test_History_14",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1405",
+    "question_id": "test_Design_168",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1592",
+    "question_id": "test_Pharmacy_34",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_944",
+    "question_id": "test_Geography_521",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1585",
+    "question_id": "test_Math_22",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1365",
+    "question_id": "validation_Geography_16",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1714",
+    "question_id": "test_Geography_40",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_215",
+    "question_id": "test_Diagnostics_and_Laboratory_Medicine_161",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1573",
+    "question_id": "test_Diagnostics_and_Laboratory_Medicine_104",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1543",
+    "question_id": "validation_Literature_7",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_361",
+    "question_id": "validation_Clinical_Medicine_1",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_922",
+    "question_id": "test_Economics_97",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_228",
+    "question_id": "validation_Sociology_20",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_625",
+    "question_id": "validation_Finance_12",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1618",
+    "question_id": "validation_Economics_16",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_387",
+    "question_id": "validation_Computer_Science_14",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_673",
+    "question_id": "test_Geography_412",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_581",
+    "question_id": "test_Design_4",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_430",
+    "question_id": "test_Design_95",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_653",
+    "question_id": "test_Music_70",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1351",
+    "question_id": "test_Manage_173",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_151",
+    "question_id": "test_Pharmacy_246",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_559",
+    "question_id": "validation_Chemistry_2",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1651",
+    "question_id": "test_Design_5",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_87",
+    "question_id": "test_Mechanical_Engineering_62",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1041",
+    "question_id": "test_Diagnostics_and_Laboratory_Medicine_2",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1683",
+    "question_id": "test_Manage_49",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1216",
+    "question_id": "test_History_56",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_791",
+    "question_id": "validation_Computer_Science_24",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1713",
+    "question_id": "test_Geography_61",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1508",
+    "question_id": "validation_Basic_Medical_Science_23",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_783",
+    "question_id": "validation_Literature_10",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_384",
+    "question_id": "test_Psychology_213",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_127",
+    "question_id": "test_History_170",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1648",
+    "question_id": "test_Psychology_201",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_528",
+    "question_id": "validation_Literature_28",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1541",
+    "question_id": "test_Psychology_111",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1530",
+    "question_id": "test_Art_Theory_152",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_152",
+    "question_id": "test_Computer_Science_307",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_371",
+    "question_id": "validation_Marketing_13",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1516",
+    "question_id": "validation_Math_3",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1347",
+    "question_id": "test_Clinical_Medicine_118",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_86",
+    "question_id": "validation_Diagnostics_and_Laboratory_Medicine_16",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_773",
+    "question_id": "validation_Marketing_10",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1288",
+    "question_id": "test_Physics_406",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_687",
+    "question_id": "test_Basic_Medical_Science_269",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1046",
+    "question_id": "validation_Pharmacy_28",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_227",
+    "question_id": "validation_Materials_29",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1085",
+    "question_id": "test_Pharmacy_260",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_281",
+    "question_id": "validation_Agriculture_10",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_248",
+    "question_id": "validation_Economics_24",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_833",
+    "question_id": "test_Mechanical_Engineering_257",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1625",
+    "question_id": "test_Sociology_90",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_822",
+    "question_id": "test_Mechanical_Engineering_201",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_536",
+    "question_id": "test_Design_66",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1591",
+    "question_id": "test_History_142",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1506",
+    "question_id": "validation_Music_5",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1153",
+    "question_id": "test_Geography_191",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_502",
+    "question_id": "test_Manage_70",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_931",
+    "question_id": "validation_Music_24",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_626",
+    "question_id": "validation_Materials_3",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_506",
+    "question_id": "test_Design_87",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1680",
+    "question_id": "test_Design_2",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_106",
+    "question_id": "test_Art_Theory_162",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1039",
+    "question_id": "validation_Public_Health_29",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1151",
+    "question_id": "test_Geography_555",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_743",
+    "question_id": "test_Marketing_27",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_858",
+    "question_id": "validation_Math_29",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_220",
+    "question_id": "test_Art_111",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_694",
+    "question_id": "test_Chemistry_481",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_303",
+    "question_id": "test_Economics_47",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1199",
+    "question_id": "validation_Finance_6",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_612",
+    "question_id": "validation_Literature_12",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_606",
+    "question_id": "test_Music_222",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1550",
+    "question_id": "validation_Sociology_22",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_585",
+    "question_id": "validation_Public_Health_23",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1137",
+    "question_id": "test_Clinical_Medicine_33",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_469",
+    "question_id": "validation_Biology_4",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1006",
+    "question_id": "validation_Finance_22",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1707",
+    "question_id": "test_Geography_14",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1171",
+    "question_id": "validation_Agriculture_20",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1518",
+    "question_id": "validation_Literature_8",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_16",
+    "question_id": "test_History_76",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_337",
+    "question_id": "test_Energy_and_Power_231",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_404",
+    "question_id": "test_Chemistry_197",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1031",
+    "question_id": "test_Music_116",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1572",
+    "question_id": "validation_Finance_1",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_681",
+    "question_id": "test_Public_Health_191",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_244",
+    "question_id": "test_Math_492",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1360",
+    "question_id": "test_Finance_294",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_34",
+    "question_id": "validation_Mechanical_Engineering_24",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1226",
+    "question_id": "test_Sociology_125",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_363",
+    "question_id": "validation_Sociology_8",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_84",
+    "question_id": "test_Design_72",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1638",
+    "question_id": "validation_Mechanical_Engineering_28",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1210",
+    "question_id": "test_Basic_Medical_Science_46",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_712",
+    "question_id": "validation_Music_27",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_824",
+    "question_id": "test_Diagnostics_and_Laboratory_Medicine_78",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1707",
+    "question_id": "test_Geography_14",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1608",
+    "question_id": "test_Marketing_150",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1197",
+    "question_id": "test_Clinical_Medicine_206",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1287",
+    "question_id": "test_Basic_Medical_Science_283",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_716",
+    "question_id": "validation_Mechanical_Engineering_1",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_766",
+    "question_id": "validation_Economics_1",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1528",
+    "question_id": "test_Economics_105",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_114",
+    "question_id": "test_Pharmacy_393",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_678",
+    "question_id": "test_Sociology_40",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_410",
+    "question_id": "test_Agriculture_39",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_697",
+    "question_id": "test_Art_107",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_76",
+    "question_id": "test_Computer_Science_273",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1029",
+    "question_id": "test_Biology_46",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_795",
+    "question_id": "test_History_46",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1345",
+    "question_id": "test_Design_79",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1509",
+    "question_id": "test_Sociology_39",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1015",
+    "question_id": "validation_Sociology_17",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1477",
+    "question_id": "test_Math_16",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1193",
+    "question_id": "test_Sociology_96",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_886",
+    "question_id": "test_History_87",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_939",
+    "question_id": "test_Math_75",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1291",
+    "question_id": "test_Design_53",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1361",
+    "question_id": "test_Design_56",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1503",
+    "question_id": "test_Economics_214",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_796",
+    "question_id": "test_Basic_Medical_Science_107",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1584",
+    "question_id": "validation_Agriculture_23",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1325",
+    "question_id": "validation_Accounting_23",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1471",
+    "question_id": "test_Biology_76",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_583",
+    "question_id": "validation_Materials_21",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_568",
+    "question_id": "validation_Music_13",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_672",
+    "question_id": "validation_Finance_21",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_153",
+    "question_id": "test_Literature_38",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1723",
+    "question_id": "test_Geography_231",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1261",
+    "question_id": "test_Clinical_Medicine_133",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1419",
+    "question_id": "validation_Architecture_and_Engineering_9",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_340",
+    "question_id": "test_Public_Health_199",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_808",
+    "question_id": "test_Diagnostics_and_Laboratory_Medicine_62",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_26",
+    "question_id": "validation_Manage_29",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_982",
+    "question_id": "test_Manage_191",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_392",
+    "question_id": "test_Public_Health_463",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_161",
+    "question_id": "validation_Finance_4",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_493",
+    "question_id": "test_Art_Theory_256",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_823",
+    "question_id": "validation_Agriculture_22",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1553",
+    "question_id": "test_Electronics_252",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1258",
+    "question_id": "validation_Diagnostics_and_Laboratory_Medicine_15",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1016",
+    "question_id": "validation_Art_Theory_26",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_533",
+    "question_id": "validation_Mechanical_Engineering_15",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1253",
+    "question_id": "validation_Electronics_19",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_613",
+    "question_id": "validation_Electronics_8",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1570",
+    "question_id": "test_Diagnostics_and_Laboratory_Medicine_36",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_715",
+    "question_id": "test_Psychology_15",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1211",
+    "question_id": "validation_History_8",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_201",
+    "question_id": "test_Agriculture_269",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_785",
+    "question_id": "test_Marketing_87",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1078",
+    "question_id": "validation_Physics_19",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_619",
+    "question_id": "test_History_14",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_53",
+    "question_id": "validation_Basic_Medical_Science_28",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_144",
+    "question_id": "validation_Art_Theory_30",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_852",
+    "question_id": "test_Basic_Medical_Science_72",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_478",
+    "question_id": "test_Electronics_69",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_534",
+    "question_id": "validation_Economics_14",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1685",
+    "question_id": "test_Pharmacy_211",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1619",
+    "question_id": "test_Agriculture_178",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1212",
+    "question_id": "validation_Art_Theory_14",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_658",
+    "question_id": "test_Agriculture_183",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1358",
+    "question_id": "validation_Literature_30",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_12",
+    "question_id": "test_Clinical_Medicine_73",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_546",
+    "question_id": "test_Geography_317",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_979",
+    "question_id": "validation_Clinical_Medicine_14",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_497",
+    "question_id": "test_Math_279",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_844",
+    "question_id": "test_Clinical_Medicine_173",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1087",
+    "question_id": "test_Biology_153",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1175",
+    "question_id": "test_Diagnostics_and_Laboratory_Medicine_58",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_723",
+    "question_id": "test_Electronics_147",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1350",
+    "question_id": "validation_Literature_22",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_995",
+    "question_id": "test_History_125",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_178",
+    "question_id": "test_Computer_Science_77",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1675",
+    "question_id": "test_Pharmacy_4",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_112",
+    "question_id": "test_Pharmacy_210",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1054",
+    "question_id": "test_Basic_Medical_Science_106",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_456",
+    "question_id": "validation_Design_2",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_276",
+    "question_id": "validation_Agriculture_27",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1627",
+    "question_id": "validation_Clinical_Medicine_28",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1434",
+    "question_id": "test_Finance_122",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_436",
+    "question_id": "test_Physics_384",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1407",
+    "question_id": "test_Design_62",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_302",
+    "question_id": "test_Math_247",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1525",
+    "question_id": "validation_Accounting_14",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_353",
+    "question_id": "validation_Biology_22",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1466",
+    "question_id": "test_Agriculture_234",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1599",
+    "question_id": "validation_Art_Theory_10",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1512",
+    "question_id": "test_Art_93",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_525",
+    "question_id": "test_Music_103",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1241",
+    "question_id": "test_Physics_292",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1222",
+    "question_id": "test_Sociology_93",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_98",
+    "question_id": "validation_Physics_23",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1492",
+    "question_id": "validation_History_10",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_980",
+    "question_id": "test_Clinical_Medicine_126",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1354",
+    "question_id": "test_Geography_213",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_446",
+    "question_id": "test_Pharmacy_226",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_495",
+    "question_id": "test_Art_Theory_24",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_925",
+    "question_id": "validation_Music_29",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_142",
+    "question_id": "test_Physics_98",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_969",
+    "question_id": "test_Clinical_Medicine_247",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_927",
+    "question_id": "validation_Music_3",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1398",
+    "question_id": "validation_Basic_Medical_Science_12",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1173",
+    "question_id": "validation_Literature_20",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_400",
+    "question_id": "test_Pharmacy_231",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_259",
+    "question_id": "test_Sociology_102",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1415",
+    "question_id": "test_Basic_Medical_Science_181",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1519",
+    "question_id": "validation_Computer_Science_25",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_532",
+    "question_id": "test_Agriculture_192",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_288",
+    "question_id": "test_Chemistry_354",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_840",
+    "question_id": "test_Physics_174",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1704",
+    "question_id": "test_Geography_205",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1487",
+    "question_id": "test_Art_Theory_249",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1281",
+    "question_id": "test_Chemistry_233",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_149",
+    "question_id": "validation_Electronics_17",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_813",
+    "question_id": "test_Chemistry_366",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_962",
+    "question_id": "test_Sociology_213",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1182",
+    "question_id": "validation_Diagnostics_and_Laboratory_Medicine_7",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1642",
+    "question_id": "test_Design_25",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_862",
+    "question_id": "test_Marketing_155",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1727",
+    "question_id": "test_Art_2",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_512",
+    "question_id": "test_Marketing_44",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_369",
+    "question_id": "test_Finance_338",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1689",
+    "question_id": "validation_Art_19",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1545",
+    "question_id": "test_Basic_Medical_Science_253",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_989",
+    "question_id": "test_Design_27",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_543",
+    "question_id": "test_Computer_Science_68",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_526",
+    "question_id": "test_Psychology_63",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1578",
+    "question_id": "test_Computer_Science_249",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_402",
+    "question_id": "validation_Accounting_8",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_268",
+    "question_id": "validation_Accounting_4",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_683",
+    "question_id": "test_Basic_Medical_Science_222",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_18",
+    "question_id": "test_Art_Theory_425",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1095",
+    "question_id": "test_Chemistry_102",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_270",
+    "question_id": "test_Sociology_63",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_871",
+    "question_id": "test_Basic_Medical_Science_35",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_889",
+    "question_id": "test_Clinical_Medicine_232",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_332",
+    "question_id": "test_Physics_118",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_679",
+    "question_id": "validation_Basic_Medical_Science_5",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_301",
+    "question_id": "test_Physics_307",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_239",
+    "question_id": "test_Basic_Medical_Science_98",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1344",
+    "question_id": "test_Computer_Science_69",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_811",
+    "question_id": "test_Art_124",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_54",
+    "question_id": "test_Architecture_and_Engineering_266",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_621",
+    "question_id": "test_Architecture_and_Engineering_250",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1117",
+    "question_id": "test_Psychology_245",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1490",
+    "question_id": "test_Pharmacy_170",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_976",
+    "question_id": "test_Design_162",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_757",
+    "question_id": "test_Geography_114",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_608",
+    "question_id": "test_Literature_56",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_853",
+    "question_id": "validation_Pharmacy_9",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_604",
+    "question_id": "test_Diagnostics_and_Laboratory_Medicine_140",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1480",
+    "question_id": "test_Clinical_Medicine_128",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1103",
+    "question_id": "validation_Psychology_21",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1343",
+    "question_id": "validation_Basic_Medical_Science_13",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_177",
+    "question_id": "test_Psychology_96",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1455",
+    "question_id": "validation_Physics_28",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1080",
+    "question_id": "validation_Computer_Science_1",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_563",
+    "question_id": "test_Clinical_Medicine_95",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1220",
+    "question_id": "test_Computer_Science_120",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_159",
+    "question_id": "test_Literature_70",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_769",
+    "question_id": "validation_Economics_7",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1505",
+    "question_id": "validation_Biology_27",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_192",
+    "question_id": "validation_Accounting_5",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1241",
+    "question_id": "test_Physics_292",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_843",
+    "question_id": "test_Biology_132",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_845",
+    "question_id": "validation_Clinical_Medicine_9",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_21",
+    "question_id": "test_Psychology_35",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1163",
+    "question_id": "test_Clinical_Medicine_260",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_720",
+    "question_id": "validation_Accounting_11",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_454",
+    "question_id": "test_Clinical_Medicine_1",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1538",
+    "question_id": "validation_Psychology_1",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1132",
+    "question_id": "test_Electronics_180",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1504",
+    "question_id": "test_Art_81",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_655",
+    "question_id": "test_Accounting_138",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_289",
+    "question_id": "test_Psychology_258",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1011",
+    "question_id": "test_Marketing_64",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_972",
+    "question_id": "validation_Mechanical_Engineering_30",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1531",
+    "question_id": "test_History_207",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_638",
+    "question_id": "test_Public_Health_19",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_504",
+    "question_id": "test_Energy_and_Power_68",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1268",
+    "question_id": "test_Electronics_72",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1001",
+    "question_id": "test_Diagnostics_and_Laboratory_Medicine_93",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1634",
+    "question_id": "test_Clinical_Medicine_172",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_627",
+    "question_id": "validation_Diagnostics_and_Laboratory_Medicine_3",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1073",
+    "question_id": "validation_Physics_8",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1522",
+    "question_id": "validation_Chemistry_3",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1393",
+    "question_id": "test_Accounting_248",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_457",
+    "question_id": "test_Art_184",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_870",
+    "question_id": "test_Agriculture_174",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_970",
+    "question_id": "test_Clinical_Medicine_92",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1526",
+    "question_id": "test_Geography_530",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1659",
+    "question_id": "test_Biology_160",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_858",
+    "question_id": "validation_Math_29",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1395",
+    "question_id": "test_Chemistry_461",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1074",
+    "question_id": "test_Economics_263",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_442",
+    "question_id": "test_Basic_Medical_Science_221",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1383",
+    "question_id": "test_Sociology_83",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_74",
+    "question_id": "validation_Basic_Medical_Science_1",
+    "variant_id": "mutation_1",
+    "label": 0,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_142",
+    "question_id": "test_Physics_98",
+    "variant_id": "mutation_1",
+    "label": 0,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_178",
+    "question_id": "test_Computer_Science_77",
+    "variant_id": "mutation_3",
+    "label": 1,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_215",
+    "question_id": "test_Diagnostics_and_Laboratory_Medicine_161",
+    "variant_id": "mutation_1",
+    "label": 1,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_463",
+    "question_id": "test_Chemistry_287",
+    "variant_id": "mutation_1",
+    "label": 0,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_832",
+    "question_id": "validation_Psychology_24",
+    "variant_id": "mutation_1",
+    "label": 0,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1254",
+    "question_id": "test_Math_18",
+    "variant_id": "mutation_2",
+    "label": 0,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1523",
+    "question_id": "validation_History_17",
+    "variant_id": "mutation_1",
+    "label": 1,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "mmmu_pro",
+    "unique_id": "mmmu_pro_1573",
+    "question_id": "test_Diagnostics_and_Laboratory_Medicine_104",
+    "variant_id": "mutation_1",
+    "label": 1,
+    "source_group": "contrastive_pair_augmentation"
+  }
+]

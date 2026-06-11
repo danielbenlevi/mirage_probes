@@ -1,0 +1,132 @@
+{
+  "language_model/layer_1/post_attention__text_nonspecial_mean": {
+    "best_feature": "language_model/layer_1/post_attention__text_nonspecial_mean",
+    "selection_scope": "all_features",
+    "best_strategy": "text_nonspecial_mean",
+    "best_validation_accuracy": 0.6,
+    "num_eval_seeds": 3,
+    "eval_seeds": [
+      42,
+      43,
+      44
+    ],
+    "train_accuracy_mean": 0.6403508771929824,
+    "validation_accuracy_mean": 0.6,
+    "test_accuracy_mean": 0.5299999999999999,
+    "macro_benchmark_test_accuracy_mean": 0.5299999999999999,
+    "train_accuracy_std": 0.12590087802111688,
+    "validation_accuracy_std": 0.08164965809277258,
+    "test_accuracy_std": 0.13589211407093005,
+    "macro_benchmark_test_accuracy_std": 0.13589211407093005,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 654571518,
+        "feature": "language_model/layer_1/post_attention__text_nonspecial_mean",
+        "best_c": 0.01,
+        "train_accuracy": 0.5789473684210527,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.6,
+        "test_accuracy_mirage_true": 0.5,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.6
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.5
+        },
+        "macro_benchmark_test_accuracy": 0.6,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.5,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 654571618
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_1/post_attention__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.5263157894736842,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.34,
+        "test_accuracy_mirage_true": 0.28,
+        "test_accuracy_mirage_false": 0.4,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.34
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.4
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.28
+        },
+        "macro_benchmark_test_accuracy": 0.34,
+        "macro_benchmark_class0_test_accuracy": 0.4,
+        "macro_benchmark_class1_test_accuracy": 0.28,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 89250953
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 773956047,
+        "feature": "language_model/layer_1/post_attention__text_nonspecial_mean",
+        "best_c": 0.1,
+        "train_accuracy": 0.8157894736842105,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.65,
+        "test_accuracy_mirage_true": 0.72,
+        "test_accuracy_mirage_false": 0.58,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.65
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.58
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.72
+        },
+        "macro_benchmark_test_accuracy": 0.65,
+        "macro_benchmark_class0_test_accuracy": 0.58,
+        "macro_benchmark_class1_test_accuracy": 0.72,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 773957047
+      }
+    ]
+  }
+}

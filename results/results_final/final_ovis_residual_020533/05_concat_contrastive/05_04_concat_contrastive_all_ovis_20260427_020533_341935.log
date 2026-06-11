@@ -1,0 +1,540 @@
+stage=concat_contrastive
+mode=all
+gpu=1
+command=./miniconda3/envs/probing_vlms/bin/python ./train_concat_llm_residual_contrastive.py --vlm ovis --save_dir ./data_and_results/full_probe_experiments/full_probe_ovis_20260427_020533/05_concat_contrastive/05_04_concat_contrastive_all_ovis_20260427_020533_341935 --features_cache_path ./data_and_results/full_probe_experiments/full_probe_ovis_20260427_020533/05_concat_contrastive/05_04_concat_contrastive_all_ovis_20260427_020533_341935/features_cache.pt
+start_utc=2026-04-27T09:17:55.266336Z
+
+`torch_dtype` is deprecated! Use `dtype` instead!
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 37.25it/s]
+Extracting activations:   0%|          | 0/164 [00:00<?, ?sample/s]Extracting activations:   1%|          | 1/164 [00:01<02:46,  1.02s/sample]Extracting activations:   1%|          | 2/164 [00:01<01:29,  1.80sample/s]Extracting activations:   2%|▏         | 3/164 [00:01<01:05,  2.46sample/s]Extracting activations:   2%|▏         | 4/164 [00:01<00:51,  3.09sample/s]Extracting activations:   3%|▎         | 5/164 [00:01<00:47,  3.35sample/s]Extracting activations:   4%|▎         | 6/164 [00:02<00:42,  3.75sample/s]Extracting activations:   4%|▍         | 7/164 [00:02<00:43,  3.57sample/s]Extracting activations:   5%|▍         | 8/164 [00:02<00:50,  3.08sample/s]Extracting activations:   5%|▌         | 9/164 [00:03<00:47,  3.27sample/s]Extracting activations:   6%|▌         | 10/164 [00:03<00:45,  3.41sample/s]Extracting activations:   7%|▋         | 11/164 [00:03<00:39,  3.90sample/s]Extracting activations:   7%|▋         | 12/164 [00:03<00:35,  4.30sample/s]Extracting activations:   8%|▊         | 13/164 [00:04<00:39,  3.79sample/s]Extracting activations:   9%|▊         | 14/164 [00:04<00:34,  4.29sample/s]Extracting activations:   9%|▉         | 15/164 [00:04<00:33,  4.51sample/s]Extracting activations:  10%|▉         | 16/164 [00:04<00:31,  4.72sample/s]Extracting activations:  10%|█         | 17/164 [00:04<00:30,  4.82sample/s]Extracting activations:  11%|█         | 18/164 [00:05<00:29,  5.01sample/s]Extracting activations:  12%|█▏        | 19/164 [00:05<00:34,  4.17sample/s]Extracting activations:  12%|█▏        | 20/164 [00:05<00:35,  4.01sample/s]Extracting activations:  13%|█▎        | 21/164 [00:05<00:32,  4.39sample/s]Extracting activations:  13%|█▎        | 22/164 [00:05<00:30,  4.65sample/s]Extracting activations:  14%|█▍        | 23/164 [00:06<00:28,  4.94sample/s]Extracting activations:  15%|█▍        | 24/164 [00:06<00:32,  4.26sample/s]Extracting activations:  15%|█▌        | 25/164 [00:06<00:30,  4.63sample/s]Extracting activations:  16%|█▌        | 26/164 [00:06<00:27,  4.99sample/s]Extracting activations:  16%|█▋        | 27/164 [00:07<00:27,  4.90sample/s]Extracting activations:  17%|█▋        | 28/164 [00:07<00:27,  5.03sample/s]Extracting activations:  18%|█▊        | 29/164 [00:07<00:26,  5.16sample/s]Extracting activations:  18%|█▊        | 30/164 [00:07<00:29,  4.54sample/s]Extracting activations:  19%|█▉        | 31/164 [00:07<00:30,  4.40sample/s]Extracting activations:  20%|█▉        | 32/164 [00:08<00:29,  4.54sample/s]Extracting activations:  20%|██        | 33/164 [00:08<00:30,  4.23sample/s]Extracting activations:  21%|██        | 34/164 [00:08<00:31,  4.16sample/s]Extracting activations:  21%|██▏       | 35/164 [00:08<00:28,  4.54sample/s]Extracting activations:  22%|██▏       | 36/164 [00:09<00:29,  4.33sample/s]Extracting activations:  23%|██▎       | 37/164 [00:09<00:29,  4.32sample/s]Extracting activations:  23%|██▎       | 38/164 [00:09<00:29,  4.32sample/s]Extracting activations:  24%|██▍       | 39/164 [00:09<00:31,  4.03sample/s]Extracting activations:  24%|██▍       | 40/164 [00:10<00:32,  3.82sample/s]Extracting activations:  25%|██▌       | 41/164 [00:10<00:35,  3.47sample/s]Extracting activations:  26%|██▌       | 42/164 [00:10<00:36,  3.31sample/s]Extracting activations:  26%|██▌       | 43/164 [00:10<00:33,  3.65sample/s]Extracting activations:  27%|██▋       | 44/164 [00:11<00:30,  3.94sample/s]Extracting activations:  27%|██▋       | 45/164 [00:11<00:29,  4.03sample/s]Extracting activations:  28%|██▊       | 46/164 [00:11<00:29,  3.99sample/s]Extracting activations:  29%|██▊       | 47/164 [00:11<00:26,  4.48sample/s]Extracting activations:  29%|██▉       | 48/164 [00:12<00:23,  4.84sample/s]Extracting activations:  30%|██▉       | 49/164 [00:12<00:23,  4.93sample/s]Extracting activations:  30%|███       | 50/164 [00:12<00:22,  5.06sample/s]Extracting activations:  31%|███       | 51/164 [00:12<00:22,  5.01sample/s]Extracting activations:  32%|███▏      | 52/164 [00:12<00:26,  4.16sample/s]Extracting activations:  32%|███▏      | 53/164 [00:13<00:27,  3.98sample/s]Extracting activations:  33%|███▎      | 54/164 [00:13<00:27,  4.06sample/s]Extracting activations:  34%|███▎      | 55/164 [00:13<00:24,  4.39sample/s]Extracting activations:  34%|███▍      | 56/164 [00:13<00:22,  4.81sample/s]Extracting activations:  35%|███▍      | 57/164 [00:14<00:25,  4.14sample/s]Extracting activations:  35%|███▌      | 58/164 [00:14<00:29,  3.64sample/s]Extracting activations:  36%|███▌      | 59/164 [00:14<00:26,  4.04sample/s]Extracting activations:  37%|███▋      | 60/164 [00:14<00:23,  4.46sample/s]Extracting activations:  37%|███▋      | 61/164 [00:15<00:22,  4.57sample/s]Extracting activations:  38%|███▊      | 62/164 [00:15<00:22,  4.49sample/s]Extracting activations:  38%|███▊      | 63/164 [00:15<00:24,  4.06sample/s]Extracting activations:  39%|███▉      | 64/164 [00:15<00:22,  4.39sample/s]Extracting activations:  40%|███▉      | 65/164 [00:15<00:20,  4.85sample/s]Extracting activations:  40%|████      | 66/164 [00:16<00:18,  5.26sample/s]Extracting activations:  41%|████      | 67/164 [00:16<00:20,  4.85sample/s]Extracting activations:  41%|████▏     | 68/164 [00:16<00:20,  4.64sample/s]Extracting activations:  42%|████▏     | 69/164 [00:17<00:29,  3.24sample/s]Extracting activations:  43%|████▎     | 70/164 [00:17<00:31,  2.98sample/s]Extracting activations:  43%|████▎     | 71/164 [00:17<00:30,  3.01sample/s]Extracting activations:  44%|████▍     | 72/164 [00:18<00:33,  2.77sample/s]Extracting activations:  45%|████▍     | 73/164 [00:18<00:28,  3.21sample/s]Extracting activations:  45%|████▌     | 74/164 [00:18<00:24,  3.63sample/s]Extracting activations:  46%|████▌     | 75/164 [00:18<00:22,  3.93sample/s]Extracting activations:  46%|████▋     | 76/164 [00:18<00:20,  4.25sample/s]Extracting activations:  47%|████▋     | 77/164 [00:19<00:19,  4.54sample/s]Extracting activations:  48%|████▊     | 78/164 [00:19<00:21,  4.01sample/s]Extracting activations:  48%|████▊     | 79/164 [00:19<00:21,  3.87sample/s]Extracting activations:  49%|████▉     | 80/164 [00:20<00:21,  3.88sample/s]Extracting activations:  49%|████▉     | 81/164 [00:20<00:19,  4.35sample/s]Extracting activations:  50%|█████     | 82/164 [00:20<00:17,  4.61sample/s]Extracting activations:  51%|█████     | 83/164 [00:20<00:20,  3.98sample/s]Extracting activations:  51%|█████     | 84/164 [00:20<00:17,  4.52sample/s]Extracting activations:  52%|█████▏    | 85/164 [00:21<00:16,  4.90sample/s]Extracting activations:  52%|█████▏    | 86/164 [00:21<00:14,  5.22sample/s]Extracting activations:  53%|█████▎    | 87/164 [00:21<00:16,  4.78sample/s]Extracting activations:  54%|█████▎    | 88/164 [00:21<00:16,  4.63sample/s]Extracting activations:  54%|█████▍    | 89/164 [00:21<00:15,  4.88sample/s]Extracting activations:  55%|█████▍    | 90/164 [00:22<00:16,  4.58sample/s]Extracting activations:  55%|█████▌    | 91/164 [00:22<00:16,  4.31sample/s]Extracting activations:  56%|█████▌    | 92/164 [00:22<00:17,  4.20sample/s]Extracting activations:  57%|█████▋    | 93/164 [00:22<00:15,  4.61sample/s]Extracting activations:  57%|█████▋    | 94/164 [00:22<00:14,  4.85sample/s]Extracting activations:  58%|█████▊    | 95/164 [00:23<00:20,  3.43sample/s]Extracting activations:  59%|█████▊    | 96/164 [00:23<00:21,  3.19sample/s]Extracting activations:  59%|█████▉    | 97/164 [00:24<00:22,  3.03sample/s]Extracting activations:  60%|█████▉    | 98/164 [00:24<00:21,  3.01sample/s]Extracting activations:  60%|██████    | 99/164 [00:24<00:22,  2.92sample/s]Extracting activations:  61%|██████    | 100/164 [00:25<00:18,  3.46sample/s]Extracting activations:  62%|██████▏   | 101/164 [00:25<00:16,  3.87sample/s]Extracting activations:  62%|██████▏   | 102/164 [00:25<00:14,  4.21sample/s]Extracting activations:  63%|██████▎   | 103/164 [00:25<00:13,  4.62sample/s]Extracting activations:  63%|██████▎   | 104/164 [00:25<00:14,  4.05sample/s]Extracting activations:  64%|██████▍   | 105/164 [00:26<00:17,  3.37sample/s]Extracting activations:  65%|██████▍   | 106/164 [00:26<00:19,  2.98sample/s]Extracting activations:  65%|██████▌   | 107/164 [00:26<00:16,  3.51sample/s]Extracting activations:  66%|██████▌   | 108/164 [00:27<00:16,  3.31sample/s]Extracting activations:  66%|██████▋   | 109/164 [00:27<00:14,  3.70sample/s]Extracting activations:  67%|██████▋   | 110/164 [00:27<00:13,  4.09sample/s]Extracting activations:  68%|██████▊   | 111/164 [00:27<00:11,  4.48sample/s]Extracting activations:  68%|██████▊   | 112/164 [00:27<00:10,  4.90sample/s]Extracting activations:  69%|██████▉   | 113/164 [00:28<00:10,  5.09sample/s]Extracting activations:  70%|██████▉   | 114/164 [00:28<00:09,  5.35sample/s]Extracting activations:  70%|███████   | 115/164 [00:28<00:13,  3.65sample/s]Extracting activations:  71%|███████   | 116/164 [00:29<00:13,  3.62sample/s]Extracting activations:  71%|███████▏  | 117/164 [00:29<00:11,  4.05sample/s]Extracting activations:  72%|███████▏  | 118/164 [00:29<00:10,  4.51sample/s]Extracting activations:  73%|███████▎  | 119/164 [00:29<00:10,  4.21sample/s]Extracting activations:  73%|███████▎  | 120/164 [00:30<00:13,  3.17sample/s]Extracting activations:  74%|███████▍  | 121/164 [00:30<00:12,  3.48sample/s]Extracting activations:  74%|███████▍  | 122/164 [00:30<00:13,  3.17sample/s]Extracting activations:  75%|███████▌  | 123/164 [00:31<00:11,  3.45sample/s]Extracting activations:  76%|███████▌  | 124/164 [00:31<00:10,  3.64sample/s]Extracting activations:  76%|███████▌  | 125/164 [00:31<00:12,  3.00sample/s]Extracting activations:  77%|███████▋  | 126/164 [00:32<00:13,  2.91sample/s]Extracting activations:  77%|███████▋  | 127/164 [00:32<00:11,  3.17sample/s]Extracting activations:  78%|███████▊  | 128/164 [00:32<00:10,  3.50sample/s]Extracting activations:  79%|███████▊  | 129/164 [00:32<00:09,  3.78sample/s]Extracting activations:  79%|███████▉  | 130/164 [00:33<00:08,  3.97sample/s]Extracting activations:  80%|███████▉  | 131/164 [00:33<00:07,  4.42sample/s]Extracting activations:  80%|████████  | 132/164 [00:33<00:06,  4.85sample/s]Extracting activations:  81%|████████  | 133/164 [00:33<00:09,  3.21sample/s]Extracting activations:  82%|████████▏ | 134/164 [00:34<00:10,  2.97sample/s]Extracting activations:  82%|████████▏ | 135/164 [00:34<00:08,  3.30sample/s]Extracting activations:  83%|████████▎ | 136/164 [00:34<00:08,  3.48sample/s]Extracting activations:  84%|████████▎ | 137/164 [00:35<00:08,  3.26sample/s]Extracting activations:  84%|████████▍ | 138/164 [00:35<00:07,  3.52sample/s]Extracting activations:  85%|████████▍ | 139/164 [00:35<00:07,  3.46sample/s]Extracting activations:  85%|████████▌ | 140/164 [00:35<00:07,  3.42sample/s]Extracting activations:  86%|████████▌ | 141/164 [00:36<00:07,  2.94sample/s]Extracting activations:  87%|████████▋ | 142/164 [00:36<00:07,  2.82sample/s]Extracting activations:  87%|████████▋ | 143/164 [00:37<00:07,  2.87sample/s]Extracting activations:  88%|████████▊ | 144/164 [00:37<00:07,  2.82sample/s]Extracting activations:  88%|████████▊ | 145/164 [00:37<00:06,  2.85sample/s]Extracting activations:  89%|████████▉ | 146/164 [00:38<00:05,  3.20sample/s]Extracting activations:  90%|████████▉ | 147/164 [00:38<00:05,  2.91sample/s]Extracting activations:  90%|█████████ | 148/164 [00:38<00:05,  2.68sample/s]Extracting activations:  91%|█████████ | 149/164 [00:39<00:04,  3.22sample/s]Extracting activations:  91%|█████████▏| 150/164 [00:39<00:03,  3.76sample/s]Extracting activations:  92%|█████████▏| 151/164 [00:39<00:04,  3.21sample/s]Extracting activations:  93%|█████████▎| 152/164 [00:40<00:04,  2.92sample/s]Extracting activations:  93%|█████████▎| 153/164 [00:40<00:03,  3.06sample/s]Extracting activations:  94%|█████████▍| 154/164 [00:40<00:03,  3.19sample/s]Extracting activations:  95%|█████████▍| 155/164 [00:40<00:02,  3.75sample/s]Extracting activations:  95%|█████████▌| 156/164 [00:40<00:01,  4.09sample/s]Extracting activations:  96%|█████████▌| 157/164 [00:41<00:01,  4.55sample/s]Extracting activations:  96%|█████████▋| 158/164 [00:41<00:01,  4.98sample/s]Extracting activations:  97%|█████████▋| 159/164 [00:41<00:00,  5.32sample/s]Extracting activations:  98%|█████████▊| 160/164 [00:41<00:00,  5.36sample/s]Extracting activations:  98%|█████████▊| 161/164 [00:41<00:00,  5.24sample/s]Extracting activations:  99%|█████████▉| 162/164 [00:42<00:00,  5.25sample/s]Extracting activations:  99%|█████████▉| 163/164 [00:42<00:00,  4.94sample/s]Extracting activations: 100%|██████████| 164/164 [00:42<00:00,  4.73sample/s]Extracting activations: 100%|██████████| 164/164 [00:42<00:00,  3.86sample/s]
+Training logreg probes:   0%|          | 0/3 [00:00<?, ?feature/s]Training logreg probes:  33%|███▎      | 1/3 [00:10<00:21, 10.73s/feature]Training logreg probes:  67%|██████▋   | 2/3 [00:23<00:11, 11.83s/feature]Training logreg probes: 100%|██████████| 3/3 [00:34<00:00, 11.37s/feature]Training logreg probes: 100%|██████████| 3/3 [00:34<00:00, 11.39s/feature]
+vqa_rad: skipped 1 item(s) via explicit question-id blocklist ['2054']
+Building unseen holdout payloads:   0%|          | 0/5 [00:00<?, ?seed/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s][ALoading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 35.69it/s]
+
+Extracting activations:   0%|          | 0/100 [00:00<?, ?sample/s][A
+Extracting activations:   1%|          | 1/100 [00:00<00:22,  4.44sample/s][A
+Extracting activations:   2%|▏         | 2/100 [00:00<00:25,  3.84sample/s][A
+Extracting activations:   3%|▎         | 3/100 [00:00<00:22,  4.29sample/s][A
+Extracting activations:   4%|▍         | 4/100 [00:01<00:45,  2.10sample/s][A
+Extracting activations:   5%|▌         | 5/100 [00:01<00:36,  2.62sample/s][A
+Extracting activations:   6%|▌         | 6/100 [00:02<00:32,  2.86sample/s][A
+Extracting activations:   7%|▋         | 7/100 [00:02<00:36,  2.53sample/s][A
+Extracting activations:   8%|▊         | 8/100 [00:02<00:29,  3.09sample/s][A
+Extracting activations:   9%|▉         | 9/100 [00:03<00:29,  3.06sample/s][A
+Extracting activations:  10%|█         | 10/100 [00:03<00:25,  3.56sample/s][A
+Extracting activations:  11%|█         | 11/100 [00:03<00:26,  3.41sample/s][A
+Extracting activations:  12%|█▏        | 12/100 [00:03<00:23,  3.79sample/s][A
+Extracting activations:  13%|█▎        | 13/100 [00:03<00:20,  4.16sample/s][A
+Extracting activations:  14%|█▍        | 14/100 [00:04<00:27,  3.10sample/s][A
+Extracting activations:  15%|█▌        | 15/100 [00:04<00:24,  3.52sample/s][A
+Extracting activations:  16%|█▌        | 16/100 [00:05<00:39,  2.13sample/s][A
+Extracting activations:  17%|█▋        | 17/100 [00:05<00:36,  2.25sample/s][A
+Extracting activations:  18%|█▊        | 18/100 [00:06<00:29,  2.77sample/s][A
+Extracting activations:  19%|█▉        | 19/100 [00:06<00:27,  2.97sample/s][A
+Extracting activations:  20%|██        | 20/100 [00:06<00:23,  3.34sample/s][A
+Extracting activations:  21%|██        | 21/100 [00:06<00:24,  3.28sample/s][A
+Extracting activations:  22%|██▏       | 22/100 [00:07<00:21,  3.58sample/s][A
+Extracting activations:  23%|██▎       | 23/100 [00:07<00:20,  3.80sample/s][A
+Extracting activations:  24%|██▍       | 24/100 [00:07<00:22,  3.32sample/s][A
+Extracting activations:  25%|██▌       | 25/100 [00:08<00:23,  3.25sample/s][A
+Extracting activations:  26%|██▌       | 26/100 [00:08<00:19,  3.72sample/s][A
+Extracting activations:  27%|██▋       | 27/100 [00:08<00:17,  4.19sample/s][A
+Extracting activations:  28%|██▊       | 28/100 [00:08<00:17,  4.17sample/s][A
+Extracting activations:  29%|██▉       | 29/100 [00:08<00:16,  4.25sample/s][A
+Extracting activations:  30%|███       | 30/100 [00:09<00:15,  4.61sample/s][A
+Extracting activations:  31%|███       | 31/100 [00:09<00:14,  4.68sample/s][A
+Extracting activations:  32%|███▏      | 32/100 [00:09<00:13,  4.95sample/s][A
+Extracting activations:  33%|███▎      | 33/100 [00:09<00:14,  4.78sample/s][A
+Extracting activations:  34%|███▍      | 34/100 [00:10<00:18,  3.61sample/s][A
+Extracting activations:  35%|███▌      | 35/100 [00:10<00:19,  3.35sample/s][A
+Extracting activations:  36%|███▌      | 36/100 [00:10<00:21,  3.03sample/s][A
+Extracting activations:  37%|███▋      | 37/100 [00:11<00:19,  3.19sample/s][A
+Extracting activations:  38%|███▊      | 38/100 [00:11<00:20,  3.07sample/s][A
+Extracting activations:  39%|███▉      | 39/100 [00:12<00:24,  2.44sample/s][A
+Extracting activations:  40%|████      | 40/100 [00:12<00:20,  2.92sample/s][A
+Extracting activations:  41%|████      | 41/100 [00:12<00:16,  3.47sample/s][A
+Extracting activations:  42%|████▏     | 42/100 [00:12<00:14,  3.89sample/s][A
+Extracting activations:  43%|████▎     | 43/100 [00:12<00:13,  4.24sample/s][A
+Extracting activations:  44%|████▍     | 44/100 [00:13<00:15,  3.57sample/s][A
+Extracting activations:  45%|████▌     | 45/100 [00:13<00:14,  3.74sample/s][A
+Extracting activations:  46%|████▌     | 46/100 [00:13<00:14,  3.65sample/s][A
+Extracting activations:  47%|████▋     | 47/100 [00:13<00:13,  3.86sample/s][A
+Extracting activations:  48%|████▊     | 48/100 [00:14<00:16,  3.22sample/s][A
+Extracting activations:  49%|████▉     | 49/100 [00:14<00:13,  3.70sample/s][A
+Extracting activations:  50%|█████     | 50/100 [00:14<00:15,  3.32sample/s][A
+Extracting activations:  51%|█████     | 51/100 [00:15<00:17,  2.85sample/s][A
+Extracting activations:  52%|█████▏    | 52/100 [00:15<00:15,  3.13sample/s][A
+Extracting activations:  53%|█████▎    | 53/100 [00:16<00:18,  2.61sample/s][A
+Extracting activations:  54%|█████▍    | 54/100 [00:16<00:15,  2.90sample/s][A
+Extracting activations:  55%|█████▌    | 55/100 [00:16<00:15,  2.95sample/s][A
+Extracting activations:  56%|█████▌    | 56/100 [00:17<00:14,  3.11sample/s][A
+Extracting activations:  57%|█████▋    | 57/100 [00:17<00:11,  3.62sample/s][A
+Extracting activations:  58%|█████▊    | 58/100 [00:17<00:10,  3.95sample/s][A
+Extracting activations:  59%|█████▉    | 59/100 [00:17<00:11,  3.54sample/s][A
+Extracting activations:  60%|██████    | 60/100 [00:17<00:10,  3.76sample/s][A
+Extracting activations:  61%|██████    | 61/100 [00:18<00:09,  3.99sample/s][A
+Extracting activations:  62%|██████▏   | 62/100 [00:18<00:08,  4.27sample/s][A
+Extracting activations:  63%|██████▎   | 63/100 [00:18<00:08,  4.58sample/s][A
+Extracting activations:  64%|██████▍   | 64/100 [00:18<00:07,  4.77sample/s][A
+Extracting activations:  65%|██████▌   | 65/100 [00:18<00:07,  4.84sample/s][A
+Extracting activations:  66%|██████▌   | 66/100 [00:19<00:06,  5.12sample/s][A
+Extracting activations:  67%|██████▋   | 67/100 [00:19<00:08,  3.95sample/s][A
+Extracting activations:  68%|██████▊   | 68/100 [00:19<00:07,  4.36sample/s][A
+Extracting activations:  69%|██████▉   | 69/100 [00:19<00:06,  4.58sample/s][A
+Extracting activations:  70%|███████   | 70/100 [00:20<00:06,  4.71sample/s][A
+Extracting activations:  71%|███████   | 71/100 [00:20<00:05,  4.85sample/s][A
+Extracting activations:  72%|███████▏  | 72/100 [00:20<00:05,  4.90sample/s][A
+Extracting activations:  73%|███████▎  | 73/100 [00:20<00:06,  4.40sample/s][A
+Extracting activations:  74%|███████▍  | 74/100 [00:20<00:06,  4.29sample/s][A
+Extracting activations:  75%|███████▌  | 75/100 [00:21<00:05,  4.24sample/s][A
+Extracting activations:  76%|███████▌  | 76/100 [00:21<00:05,  4.65sample/s][A
+Extracting activations:  77%|███████▋  | 77/100 [00:21<00:06,  3.77sample/s][A
+Extracting activations:  78%|███████▊  | 78/100 [00:22<00:05,  3.84sample/s][A
+Extracting activations:  79%|███████▉  | 79/100 [00:22<00:05,  3.89sample/s][A
+Extracting activations:  80%|████████  | 80/100 [00:22<00:04,  4.19sample/s][A
+Extracting activations:  81%|████████  | 81/100 [00:22<00:04,  3.92sample/s][A
+Extracting activations:  82%|████████▏ | 82/100 [00:22<00:04,  4.34sample/s][A
+Extracting activations:  83%|████████▎ | 83/100 [00:23<00:03,  4.43sample/s][A
+Extracting activations:  84%|████████▍ | 84/100 [00:23<00:03,  4.47sample/s][A
+Extracting activations:  85%|████████▌ | 85/100 [00:23<00:04,  3.39sample/s][A
+Extracting activations:  86%|████████▌ | 86/100 [00:24<00:04,  3.26sample/s][A
+Extracting activations:  87%|████████▋ | 87/100 [00:24<00:03,  3.66sample/s][A
+Extracting activations:  88%|████████▊ | 88/100 [00:24<00:02,  4.08sample/s][A
+Extracting activations:  89%|████████▉ | 89/100 [00:24<00:03,  3.38sample/s][A
+Extracting activations:  90%|█████████ | 90/100 [00:25<00:03,  3.23sample/s][A
+Extracting activations:  91%|█████████ | 91/100 [00:25<00:02,  3.54sample/s][A
+Extracting activations:  92%|█████████▏| 92/100 [00:25<00:01,  4.01sample/s][A
+Extracting activations:  93%|█████████▎| 93/100 [00:25<00:01,  4.29sample/s][A
+Extracting activations:  94%|█████████▍| 94/100 [00:26<00:01,  4.50sample/s][A
+Extracting activations:  95%|█████████▌| 95/100 [00:26<00:01,  3.99sample/s][A
+Extracting activations:  96%|█████████▌| 96/100 [00:26<00:00,  4.44sample/s][A
+Extracting activations:  97%|█████████▋| 97/100 [00:27<00:00,  3.27sample/s][A
+Extracting activations:  98%|█████████▊| 98/100 [00:27<00:00,  3.24sample/s][A
+Extracting activations:  99%|█████████▉| 99/100 [00:27<00:00,  2.73sample/s][A
+Extracting activations: 100%|██████████| 100/100 [00:28<00:00,  3.16sample/s][AExtracting activations: 100%|██████████| 100/100 [00:28<00:00,  3.56sample/s]
+Building unseen holdout payloads:  20%|██        | 1/5 [00:30<02:01, 30.25s/seed]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s][ALoading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 36.28it/s]
+
+Extracting activations:   0%|          | 0/100 [00:00<?, ?sample/s][A
+Extracting activations:   1%|          | 1/100 [00:00<00:52,  1.89sample/s][A
+Extracting activations:   2%|▏         | 2/100 [00:00<00:41,  2.34sample/s][A
+Extracting activations:   3%|▎         | 3/100 [00:01<00:39,  2.49sample/s][A
+Extracting activations:   4%|▍         | 4/100 [00:01<00:31,  3.06sample/s][A
+Extracting activations:   5%|▌         | 5/100 [00:01<00:34,  2.78sample/s][A
+Extracting activations:   6%|▌         | 6/100 [00:02<00:28,  3.31sample/s][A
+Extracting activations:   7%|▋         | 7/100 [00:02<00:36,  2.54sample/s][A
+Extracting activations:   8%|▊         | 8/100 [00:02<00:33,  2.77sample/s][A
+Extracting activations:   9%|▉         | 9/100 [00:03<00:44,  2.07sample/s][A
+Extracting activations:  10%|█         | 10/100 [00:03<00:38,  2.36sample/s][A
+Extracting activations:  11%|█         | 11/100 [00:04<00:38,  2.34sample/s][A
+Extracting activations:  12%|█▏        | 12/100 [00:04<00:32,  2.73sample/s][A
+Extracting activations:  13%|█▎        | 13/100 [00:04<00:27,  3.20sample/s][A
+Extracting activations:  14%|█▍        | 14/100 [00:05<00:23,  3.68sample/s][A
+Extracting activations:  15%|█▌        | 15/100 [00:05<00:20,  4.21sample/s][A
+Extracting activations:  16%|█▌        | 16/100 [00:05<00:18,  4.60sample/s][A
+Extracting activations:  17%|█▋        | 17/100 [00:05<00:22,  3.74sample/s][A
+Extracting activations:  18%|█▊        | 18/100 [00:05<00:19,  4.14sample/s][A
+Extracting activations:  19%|█▉        | 19/100 [00:06<00:17,  4.63sample/s][A
+Extracting activations:  20%|██        | 20/100 [00:06<00:16,  5.00sample/s][A
+Extracting activations:  21%|██        | 21/100 [00:06<00:15,  5.15sample/s][A
+Extracting activations:  22%|██▏       | 22/100 [00:06<00:14,  5.25sample/s][A
+Extracting activations:  23%|██▎       | 23/100 [00:07<00:20,  3.74sample/s][A
+Extracting activations:  24%|██▍       | 24/100 [00:07<00:22,  3.40sample/s][A
+Extracting activations:  25%|██▌       | 25/100 [00:07<00:23,  3.13sample/s][A
+Extracting activations:  26%|██▌       | 26/100 [00:07<00:20,  3.53sample/s][A
+Extracting activations:  27%|██▋       | 27/100 [00:08<00:20,  3.55sample/s][A
+Extracting activations:  28%|██▊       | 28/100 [00:08<00:19,  3.78sample/s][A
+Extracting activations:  29%|██▉       | 29/100 [00:08<00:18,  3.87sample/s][A
+Extracting activations:  30%|███       | 30/100 [00:08<00:16,  4.35sample/s][A
+Extracting activations:  31%|███       | 31/100 [00:09<00:15,  4.59sample/s][A
+Extracting activations:  32%|███▏      | 32/100 [00:09<00:13,  4.94sample/s][A
+Extracting activations:  33%|███▎      | 33/100 [00:09<00:12,  5.25sample/s][A
+Extracting activations:  34%|███▍      | 34/100 [00:09<00:15,  4.33sample/s][A
+Extracting activations:  35%|███▌      | 35/100 [00:10<00:16,  3.92sample/s][A
+Extracting activations:  36%|███▌      | 36/100 [00:10<00:19,  3.35sample/s][A
+Extracting activations:  37%|███▋      | 37/100 [00:10<00:21,  2.96sample/s][A
+Extracting activations:  38%|███▊      | 38/100 [00:11<00:25,  2.41sample/s][A
+Extracting activations:  39%|███▉      | 39/100 [00:11<00:21,  2.85sample/s][A
+Extracting activations:  40%|████      | 40/100 [00:11<00:19,  3.03sample/s][A
+Extracting activations:  41%|████      | 41/100 [00:12<00:16,  3.53sample/s][A
+Extracting activations:  42%|████▏     | 42/100 [00:12<00:16,  3.48sample/s][A
+Extracting activations:  43%|████▎     | 43/100 [00:12<00:17,  3.28sample/s][A
+Extracting activations:  44%|████▍     | 44/100 [00:13<00:18,  2.95sample/s][A
+Extracting activations:  45%|████▌     | 45/100 [00:13<00:21,  2.61sample/s][A
+Extracting activations:  46%|████▌     | 46/100 [00:14<00:22,  2.36sample/s][A
+Extracting activations:  47%|████▋     | 47/100 [00:14<00:21,  2.42sample/s][A
+Extracting activations:  48%|████▊     | 48/100 [00:14<00:20,  2.54sample/s][A
+Extracting activations:  49%|████▉     | 49/100 [00:15<00:20,  2.51sample/s][A
+Extracting activations:  50%|█████     | 50/100 [00:15<00:17,  2.80sample/s][A
+Extracting activations:  51%|█████     | 51/100 [00:16<00:18,  2.70sample/s][A
+Extracting activations:  52%|█████▏    | 52/100 [00:16<00:15,  3.16sample/s][A
+Extracting activations:  53%|█████▎    | 53/100 [00:16<00:14,  3.18sample/s][A
+Extracting activations:  54%|█████▍    | 54/100 [00:16<00:12,  3.68sample/s][A
+Extracting activations:  55%|█████▌    | 55/100 [00:16<00:10,  4.11sample/s][A
+Extracting activations:  56%|█████▌    | 56/100 [00:17<00:10,  4.08sample/s][A
+Extracting activations:  57%|█████▋    | 57/100 [00:17<00:10,  4.13sample/s][A
+Extracting activations:  58%|█████▊    | 58/100 [00:17<00:10,  3.93sample/s][A
+Extracting activations:  59%|█████▉    | 59/100 [00:17<00:10,  3.95sample/s][A
+Extracting activations:  60%|██████    | 60/100 [00:18<00:10,  3.81sample/s][A
+Extracting activations:  61%|██████    | 61/100 [00:18<00:09,  4.13sample/s][A
+Extracting activations:  62%|██████▏   | 62/100 [00:18<00:11,  3.29sample/s][A
+Extracting activations:  63%|██████▎   | 63/100 [00:19<00:10,  3.62sample/s][A
+Extracting activations:  64%|██████▍   | 64/100 [00:19<00:09,  3.98sample/s][A
+Extracting activations:  65%|██████▌   | 65/100 [00:19<00:07,  4.38sample/s][A
+Extracting activations:  66%|██████▌   | 66/100 [00:19<00:07,  4.49sample/s][A
+Extracting activations:  67%|██████▋   | 67/100 [00:19<00:08,  3.91sample/s][A
+Extracting activations:  68%|██████▊   | 68/100 [00:20<00:07,  4.39sample/s][A
+Extracting activations:  69%|██████▉   | 69/100 [00:20<00:08,  3.52sample/s][A
+Extracting activations:  70%|███████   | 70/100 [00:20<00:07,  3.80sample/s][A
+Extracting activations:  71%|███████   | 71/100 [00:20<00:07,  4.08sample/s][A
+Extracting activations:  72%|███████▏  | 72/100 [00:21<00:06,  4.46sample/s][A
+Extracting activations:  73%|███████▎  | 73/100 [00:21<00:05,  4.81sample/s][A
+Extracting activations:  74%|███████▍  | 74/100 [00:21<00:06,  4.28sample/s][A
+Extracting activations:  75%|███████▌  | 75/100 [00:21<00:05,  4.69sample/s][A
+Extracting activations:  76%|███████▌  | 76/100 [00:21<00:05,  4.32sample/s][A
+Extracting activations:  77%|███████▋  | 77/100 [00:22<00:05,  4.48sample/s][A
+Extracting activations:  78%|███████▊  | 78/100 [00:22<00:06,  3.57sample/s][A
+Extracting activations:  79%|███████▉  | 79/100 [00:22<00:05,  4.00sample/s][A
+Extracting activations:  80%|████████  | 80/100 [00:23<00:05,  3.72sample/s][A
+Extracting activations:  81%|████████  | 81/100 [00:23<00:05,  3.45sample/s][A
+Extracting activations:  82%|████████▏ | 82/100 [00:23<00:04,  3.95sample/s][A
+Extracting activations:  83%|████████▎ | 83/100 [00:23<00:03,  4.29sample/s][A
+Extracting activations:  84%|████████▍ | 84/100 [00:24<00:03,  4.32sample/s][A
+Extracting activations:  85%|████████▌ | 85/100 [00:24<00:03,  4.64sample/s][A
+Extracting activations:  86%|████████▌ | 86/100 [00:24<00:03,  3.97sample/s][A
+Extracting activations:  87%|████████▋ | 87/100 [00:24<00:02,  4.42sample/s][A
+Extracting activations:  88%|████████▊ | 88/100 [00:24<00:02,  4.76sample/s][A
+Extracting activations:  89%|████████▉ | 89/100 [00:25<00:02,  4.71sample/s][A
+Extracting activations:  90%|█████████ | 90/100 [00:25<00:02,  4.85sample/s][A
+Extracting activations:  91%|█████████ | 91/100 [00:25<00:02,  4.13sample/s][A
+Extracting activations:  92%|█████████▏| 92/100 [00:26<00:02,  3.07sample/s][A
+Extracting activations:  93%|█████████▎| 93/100 [00:26<00:02,  3.43sample/s][A
+Extracting activations:  94%|█████████▍| 94/100 [00:26<00:01,  3.94sample/s][A
+Extracting activations:  95%|█████████▌| 95/100 [00:26<00:01,  4.40sample/s][A
+Extracting activations:  96%|█████████▌| 96/100 [00:26<00:00,  4.38sample/s][A
+Extracting activations:  97%|█████████▋| 97/100 [00:27<00:00,  4.60sample/s][A
+Extracting activations:  98%|█████████▊| 98/100 [00:27<00:00,  4.96sample/s][A
+Extracting activations:  99%|█████████▉| 99/100 [00:27<00:00,  4.07sample/s][A
+Extracting activations: 100%|██████████| 100/100 [00:27<00:00,  4.17sample/s][AExtracting activations: 100%|██████████| 100/100 [00:27<00:00,  3.59sample/s]
+Building unseen holdout payloads:  40%|████      | 2/5 [01:00<01:29, 29.99s/seed]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s][ALoading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 36.16it/s]
+
+Extracting activations:   0%|          | 0/100 [00:00<?, ?sample/s][A
+Extracting activations:   1%|          | 1/100 [00:00<00:21,  4.53sample/s][A
+Extracting activations:   2%|▏         | 2/100 [00:00<00:27,  3.57sample/s][A
+Extracting activations:   3%|▎         | 3/100 [00:00<00:23,  4.07sample/s][A
+Extracting activations:   4%|▍         | 4/100 [00:00<00:21,  4.55sample/s][A
+Extracting activations:   5%|▌         | 5/100 [00:01<00:20,  4.56sample/s][A
+Extracting activations:   6%|▌         | 6/100 [00:01<00:27,  3.44sample/s][A
+Extracting activations:   7%|▋         | 7/100 [00:01<00:27,  3.44sample/s][A
+Extracting activations:   8%|▊         | 8/100 [00:02<00:25,  3.63sample/s][A
+Extracting activations:   9%|▉         | 9/100 [00:02<00:27,  3.32sample/s][A
+Extracting activations:  10%|█         | 10/100 [00:02<00:23,  3.87sample/s][A
+Extracting activations:  11%|█         | 11/100 [00:02<00:20,  4.39sample/s][A
+Extracting activations:  12%|█▏        | 12/100 [00:02<00:18,  4.67sample/s][A
+Extracting activations:  13%|█▎        | 13/100 [00:03<00:20,  4.24sample/s][A
+Extracting activations:  14%|█▍        | 14/100 [00:03<00:18,  4.70sample/s][A
+Extracting activations:  15%|█▌        | 15/100 [00:04<00:36,  2.33sample/s][A
+Extracting activations:  16%|█▌        | 16/100 [00:04<00:32,  2.61sample/s][A
+Extracting activations:  17%|█▋        | 17/100 [00:05<00:31,  2.62sample/s][A
+Extracting activations:  18%|█▊        | 18/100 [00:05<00:26,  3.15sample/s][A
+Extracting activations:  19%|█▉        | 19/100 [00:05<00:21,  3.69sample/s][A
+Extracting activations:  20%|██        | 20/100 [00:05<00:25,  3.16sample/s][A
+Extracting activations:  21%|██        | 21/100 [00:05<00:21,  3.61sample/s][A
+Extracting activations:  22%|██▏       | 22/100 [00:06<00:26,  2.95sample/s][A
+Extracting activations:  23%|██▎       | 23/100 [00:06<00:22,  3.39sample/s][A
+Extracting activations:  24%|██▍       | 24/100 [00:06<00:20,  3.67sample/s][A
+Extracting activations:  25%|██▌       | 25/100 [00:07<00:18,  4.09sample/s][A
+Extracting activations:  26%|██▌       | 26/100 [00:07<00:20,  3.60sample/s][A
+Extracting activations:  27%|██▋       | 27/100 [00:07<00:17,  4.07sample/s][A
+Extracting activations:  28%|██▊       | 28/100 [00:07<00:17,  4.10sample/s][A
+Extracting activations:  29%|██▉       | 29/100 [00:07<00:15,  4.54sample/s][A
+Extracting activations:  30%|███       | 30/100 [00:08<00:15,  4.64sample/s][A
+Extracting activations:  31%|███       | 31/100 [00:08<00:15,  4.57sample/s][A
+Extracting activations:  32%|███▏      | 32/100 [00:08<00:17,  3.95sample/s][A
+Extracting activations:  33%|███▎      | 33/100 [00:09<00:18,  3.61sample/s][A
+Extracting activations:  34%|███▍      | 34/100 [00:09<00:16,  4.03sample/s][A
+Extracting activations:  35%|███▌      | 35/100 [00:09<00:14,  4.38sample/s][A
+Extracting activations:  36%|███▌      | 36/100 [00:09<00:14,  4.29sample/s][A
+Extracting activations:  37%|███▋      | 37/100 [00:09<00:16,  3.75sample/s][A
+Extracting activations:  38%|███▊      | 38/100 [00:10<00:14,  4.23sample/s][A
+Extracting activations:  39%|███▉      | 39/100 [00:10<00:13,  4.56sample/s][A
+Extracting activations:  40%|████      | 40/100 [00:10<00:14,  4.16sample/s][A
+Extracting activations:  41%|████      | 41/100 [00:10<00:13,  4.27sample/s][A
+Extracting activations:  42%|████▏     | 42/100 [00:11<00:13,  4.37sample/s][A
+Extracting activations:  43%|████▎     | 43/100 [00:11<00:13,  4.07sample/s][A
+Extracting activations:  44%|████▍     | 44/100 [00:11<00:12,  4.48sample/s][A
+Extracting activations:  45%|████▌     | 45/100 [00:11<00:16,  3.37sample/s][A
+Extracting activations:  46%|████▌     | 46/100 [00:12<00:16,  3.32sample/s][A
+Extracting activations:  47%|████▋     | 47/100 [00:12<00:17,  2.98sample/s][A
+Extracting activations:  48%|████▊     | 48/100 [00:12<00:15,  3.42sample/s][A
+Extracting activations:  49%|████▉     | 49/100 [00:13<00:15,  3.37sample/s][A
+Extracting activations:  50%|█████     | 50/100 [00:13<00:13,  3.77sample/s][A
+Extracting activations:  51%|█████     | 51/100 [00:13<00:11,  4.28sample/s][A
+Extracting activations:  52%|█████▏    | 52/100 [00:13<00:10,  4.59sample/s][A
+Extracting activations:  53%|█████▎    | 53/100 [00:13<00:09,  4.95sample/s][A
+Extracting activations:  54%|█████▍    | 54/100 [00:14<00:11,  4.07sample/s][A
+Extracting activations:  55%|█████▌    | 55/100 [00:14<00:13,  3.27sample/s][A
+Extracting activations:  56%|█████▌    | 56/100 [00:15<00:13,  3.20sample/s][A
+Extracting activations:  57%|█████▋    | 57/100 [00:15<00:11,  3.67sample/s][A
+Extracting activations:  58%|█████▊    | 58/100 [00:15<00:12,  3.45sample/s][A
+Extracting activations:  59%|█████▉    | 59/100 [00:15<00:10,  3.87sample/s][A
+Extracting activations:  60%|██████    | 60/100 [00:15<00:09,  4.14sample/s][A
+Extracting activations:  61%|██████    | 61/100 [00:16<00:08,  4.53sample/s][A
+Extracting activations:  62%|██████▏   | 62/100 [00:16<00:07,  4.75sample/s][A
+Extracting activations:  63%|██████▎   | 63/100 [00:16<00:07,  5.12sample/s][A
+Extracting activations:  64%|██████▍   | 64/100 [00:16<00:06,  5.44sample/s][A
+Extracting activations:  65%|██████▌   | 65/100 [00:16<00:06,  5.69sample/s][A
+Extracting activations:  66%|██████▌   | 66/100 [00:17<00:08,  3.96sample/s][A
+Extracting activations:  67%|██████▋   | 67/100 [00:17<00:09,  3.36sample/s][A
+Extracting activations:  68%|██████▊   | 68/100 [00:18<00:11,  2.71sample/s][A
+Extracting activations:  69%|██████▉   | 69/100 [00:18<00:09,  3.24sample/s][A
+Extracting activations:  70%|███████   | 70/100 [00:18<00:10,  2.80sample/s][A
+Extracting activations:  71%|███████   | 71/100 [00:18<00:08,  3.23sample/s][A
+Extracting activations:  72%|███████▏  | 72/100 [00:19<00:09,  2.97sample/s][A
+Extracting activations:  73%|███████▎  | 73/100 [00:19<00:07,  3.49sample/s][A
+Extracting activations:  74%|███████▍  | 74/100 [00:19<00:07,  3.51sample/s][A
+Extracting activations:  75%|███████▌  | 75/100 [00:20<00:07,  3.35sample/s][A
+Extracting activations:  76%|███████▌  | 76/100 [00:20<00:07,  3.23sample/s][A
+Extracting activations:  77%|███████▋  | 77/100 [00:20<00:06,  3.72sample/s][A
+Extracting activations:  78%|███████▊  | 78/100 [00:21<00:07,  3.01sample/s][A
+Extracting activations:  79%|███████▉  | 79/100 [00:21<00:06,  3.43sample/s][A
+Extracting activations:  80%|████████  | 80/100 [00:21<00:06,  2.90sample/s][A
+Extracting activations:  81%|████████  | 81/100 [00:22<00:06,  3.05sample/s][A
+Extracting activations:  82%|████████▏ | 82/100 [00:22<00:05,  3.18sample/s][A
+Extracting activations:  83%|████████▎ | 83/100 [00:22<00:04,  3.64sample/s][A
+Extracting activations:  84%|████████▍ | 84/100 [00:22<00:04,  3.38sample/s][A
+Extracting activations:  85%|████████▌ | 85/100 [00:23<00:04,  3.05sample/s][A
+Extracting activations:  86%|████████▌ | 86/100 [00:23<00:04,  3.40sample/s][A
+Extracting activations:  87%|████████▋ | 87/100 [00:23<00:04,  2.99sample/s][A
+Extracting activations:  88%|████████▊ | 88/100 [00:24<00:03,  3.43sample/s][A
+Extracting activations:  89%|████████▉ | 89/100 [00:24<00:02,  3.75sample/s][A
+Extracting activations:  90%|█████████ | 90/100 [00:24<00:02,  4.17sample/s][A
+Extracting activations:  91%|█████████ | 91/100 [00:24<00:02,  3.68sample/s][A
+Extracting activations:  92%|█████████▏| 92/100 [00:25<00:01,  4.17sample/s][A
+Extracting activations:  93%|█████████▎| 93/100 [00:25<00:01,  3.77sample/s][A
+Extracting activations:  94%|█████████▍| 94/100 [00:25<00:01,  4.07sample/s][A
+Extracting activations:  95%|█████████▌| 95/100 [00:25<00:01,  4.41sample/s][A
+Extracting activations:  96%|█████████▌| 96/100 [00:25<00:00,  4.81sample/s][A
+Extracting activations:  97%|█████████▋| 97/100 [00:26<00:00,  5.12sample/s][A
+Extracting activations:  98%|█████████▊| 98/100 [00:26<00:00,  4.82sample/s][A
+Extracting activations:  99%|█████████▉| 99/100 [00:26<00:00,  4.22sample/s][A
+Extracting activations: 100%|██████████| 100/100 [00:26<00:00,  4.08sample/s][AExtracting activations: 100%|██████████| 100/100 [00:26<00:00,  3.72sample/s]
+Building unseen holdout payloads:  60%|██████    | 3/5 [01:28<00:58, 29.49s/seed]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s][ALoading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 32.96it/s]
+
+Extracting activations:   0%|          | 0/100 [00:00<?, ?sample/s][A
+Extracting activations:   1%|          | 1/100 [00:00<00:24,  3.99sample/s][A
+Extracting activations:   2%|▏         | 2/100 [00:00<00:22,  4.36sample/s][A
+Extracting activations:   3%|▎         | 3/100 [00:00<00:24,  3.94sample/s][A
+Extracting activations:   4%|▍         | 4/100 [00:01<00:32,  2.99sample/s][A
+Extracting activations:   5%|▌         | 5/100 [00:01<00:37,  2.54sample/s][A
+Extracting activations:   6%|▌         | 6/100 [00:02<00:39,  2.38sample/s][A
+Extracting activations:   7%|▋         | 7/100 [00:02<00:32,  2.87sample/s][A
+Extracting activations:   8%|▊         | 8/100 [00:02<00:28,  3.20sample/s][A
+Extracting activations:   9%|▉         | 9/100 [00:02<00:26,  3.39sample/s][A
+Extracting activations:  10%|█         | 10/100 [00:03<00:24,  3.71sample/s][A
+Extracting activations:  11%|█         | 11/100 [00:03<00:22,  4.04sample/s][A
+Extracting activations:  12%|█▏        | 12/100 [00:03<00:19,  4.48sample/s][A
+Extracting activations:  13%|█▎        | 13/100 [00:03<00:22,  3.79sample/s][A
+Extracting activations:  14%|█▍        | 14/100 [00:03<00:20,  4.24sample/s][A
+Extracting activations:  15%|█▌        | 15/100 [00:04<00:21,  4.00sample/s][A
+Extracting activations:  16%|█▌        | 16/100 [00:04<00:18,  4.44sample/s][A
+Extracting activations:  17%|█▋        | 17/100 [00:04<00:22,  3.66sample/s][A
+Extracting activations:  18%|█▊        | 18/100 [00:05<00:20,  4.03sample/s][A
+Extracting activations:  19%|█▉        | 19/100 [00:05<00:18,  4.33sample/s][A
+Extracting activations:  20%|██        | 20/100 [00:05<00:17,  4.49sample/s][A
+Extracting activations:  21%|██        | 21/100 [00:05<00:19,  4.10sample/s][A
+Extracting activations:  22%|██▏       | 22/100 [00:06<00:21,  3.68sample/s][A
+Extracting activations:  23%|██▎       | 23/100 [00:06<00:22,  3.46sample/s][A
+Extracting activations:  24%|██▍       | 24/100 [00:06<00:19,  3.83sample/s][A
+Extracting activations:  25%|██▌       | 25/100 [00:06<00:19,  3.76sample/s][A
+Extracting activations:  26%|██▌       | 26/100 [00:07<00:20,  3.62sample/s][A
+Extracting activations:  27%|██▋       | 27/100 [00:07<00:19,  3.80sample/s][A
+Extracting activations:  28%|██▊       | 28/100 [00:07<00:22,  3.24sample/s][A
+Extracting activations:  29%|██▉       | 29/100 [00:07<00:19,  3.72sample/s][A
+Extracting activations:  30%|███       | 30/100 [00:08<00:18,  3.89sample/s][A
+Extracting activations:  31%|███       | 31/100 [00:08<00:17,  3.85sample/s][A
+Extracting activations:  32%|███▏      | 32/100 [00:08<00:18,  3.66sample/s][A
+Extracting activations:  33%|███▎      | 33/100 [00:08<00:17,  3.82sample/s][A
+Extracting activations:  34%|███▍      | 34/100 [00:09<00:19,  3.43sample/s][A
+Extracting activations:  35%|███▌      | 35/100 [00:09<00:17,  3.76sample/s][A
+Extracting activations:  36%|███▌      | 36/100 [00:09<00:15,  4.24sample/s][A
+Extracting activations:  37%|███▋      | 37/100 [00:09<00:13,  4.65sample/s][A
+Extracting activations:  38%|███▊      | 38/100 [00:10<00:16,  3.80sample/s][A
+Extracting activations:  39%|███▉      | 39/100 [00:10<00:16,  3.81sample/s][A
+Extracting activations:  40%|████      | 40/100 [00:10<00:17,  3.50sample/s][A
+Extracting activations:  41%|████      | 41/100 [00:11<00:15,  3.90sample/s][A
+Extracting activations:  42%|████▏     | 42/100 [00:11<00:14,  4.06sample/s][A
+Extracting activations:  43%|████▎     | 43/100 [00:11<00:12,  4.53sample/s][A
+Extracting activations:  44%|████▍     | 44/100 [00:11<00:12,  4.47sample/s][A
+Extracting activations:  45%|████▌     | 45/100 [00:11<00:11,  4.71sample/s][A
+Extracting activations:  46%|████▌     | 46/100 [00:12<00:10,  4.99sample/s][A
+Extracting activations:  47%|████▋     | 47/100 [00:12<00:14,  3.78sample/s][A
+Extracting activations:  48%|████▊     | 48/100 [00:12<00:15,  3.30sample/s][A
+Extracting activations:  49%|████▉     | 49/100 [00:13<00:13,  3.79sample/s][A
+Extracting activations:  50%|█████     | 50/100 [00:13<00:11,  4.20sample/s][A
+Extracting activations:  51%|█████     | 51/100 [00:13<00:11,  4.42sample/s][A
+Extracting activations:  52%|█████▏    | 52/100 [00:13<00:10,  4.76sample/s][A
+Extracting activations:  53%|█████▎    | 53/100 [00:13<00:12,  3.80sample/s][A
+Extracting activations:  54%|█████▍    | 54/100 [00:14<00:11,  4.12sample/s][A
+Extracting activations:  55%|█████▌    | 55/100 [00:14<00:11,  3.92sample/s][A
+Extracting activations:  56%|█████▌    | 56/100 [00:14<00:10,  4.27sample/s][A
+Extracting activations:  57%|█████▋    | 57/100 [00:14<00:09,  4.46sample/s][A
+Extracting activations:  58%|█████▊    | 58/100 [00:14<00:08,  4.87sample/s][A
+Extracting activations:  59%|█████▉    | 59/100 [00:15<00:10,  3.77sample/s][A
+Extracting activations:  60%|██████    | 60/100 [00:15<00:09,  4.22sample/s][A
+Extracting activations:  61%|██████    | 61/100 [00:15<00:08,  4.65sample/s][A
+Extracting activations:  62%|██████▏   | 62/100 [00:15<00:07,  5.07sample/s][A
+Extracting activations:  63%|██████▎   | 63/100 [00:16<00:07,  4.64sample/s][A
+Extracting activations:  64%|██████▍   | 64/100 [00:16<00:09,  3.66sample/s][A
+Extracting activations:  65%|██████▌   | 65/100 [00:16<00:09,  3.75sample/s][A
+Extracting activations:  66%|██████▌   | 66/100 [00:17<00:09,  3.43sample/s][A
+Extracting activations:  67%|██████▋   | 67/100 [00:17<00:09,  3.62sample/s][A
+Extracting activations:  68%|██████▊   | 68/100 [00:17<00:07,  4.05sample/s][A
+Extracting activations:  69%|██████▉   | 69/100 [00:17<00:08,  3.76sample/s][A
+Extracting activations:  70%|███████   | 70/100 [00:18<00:07,  4.23sample/s][A
+Extracting activations:  71%|███████   | 71/100 [00:18<00:08,  3.48sample/s][A
+Extracting activations:  72%|███████▏  | 72/100 [00:18<00:07,  3.66sample/s][A
+Extracting activations:  73%|███████▎  | 73/100 [00:18<00:06,  4.11sample/s][A
+Extracting activations:  74%|███████▍  | 74/100 [00:19<00:05,  4.55sample/s][A
+Extracting activations:  75%|███████▌  | 75/100 [00:19<00:05,  4.89sample/s][A
+Extracting activations:  76%|███████▌  | 76/100 [00:19<00:05,  4.76sample/s][A
+Extracting activations:  77%|███████▋  | 77/100 [00:19<00:05,  4.49sample/s][A
+Extracting activations:  78%|███████▊  | 78/100 [00:19<00:04,  4.63sample/s][A
+Extracting activations:  79%|███████▉  | 79/100 [00:20<00:05,  3.66sample/s][A
+Extracting activations:  80%|████████  | 80/100 [00:20<00:04,  4.14sample/s][A
+Extracting activations:  81%|████████  | 81/100 [00:21<00:07,  2.56sample/s][A
+Extracting activations:  82%|████████▏ | 82/100 [00:21<00:06,  2.76sample/s][A
+Extracting activations:  83%|████████▎ | 83/100 [00:21<00:05,  3.26sample/s][A
+Extracting activations:  84%|████████▍ | 84/100 [00:21<00:04,  3.75sample/s][A
+Extracting activations:  85%|████████▌ | 85/100 [00:22<00:03,  4.02sample/s][A
+Extracting activations:  86%|████████▌ | 86/100 [00:22<00:04,  3.40sample/s][A
+Extracting activations:  87%|████████▋ | 87/100 [00:22<00:04,  3.04sample/s][A
+Extracting activations:  88%|████████▊ | 88/100 [00:23<00:03,  3.06sample/s][A
+Extracting activations:  89%|████████▉ | 89/100 [00:23<00:03,  3.39sample/s][A
+Extracting activations:  90%|█████████ | 90/100 [00:23<00:02,  3.41sample/s][A
+Extracting activations:  91%|█████████ | 91/100 [00:24<00:02,  3.17sample/s][A
+Extracting activations:  92%|█████████▏| 92/100 [00:24<00:02,  3.58sample/s][A
+Extracting activations:  93%|█████████▎| 93/100 [00:24<00:02,  3.02sample/s][A
+Extracting activations:  94%|█████████▍| 94/100 [00:24<00:01,  3.51sample/s][A
+Extracting activations:  95%|█████████▌| 95/100 [00:25<00:01,  3.83sample/s][A
+Extracting activations:  96%|█████████▌| 96/100 [00:25<00:00,  4.24sample/s][A
+Extracting activations:  97%|█████████▋| 97/100 [00:25<00:00,  4.46sample/s][A
+Extracting activations:  98%|█████████▊| 98/100 [00:25<00:00,  4.53sample/s][A
+Extracting activations:  99%|█████████▉| 99/100 [00:25<00:00,  4.70sample/s][A
+Extracting activations: 100%|██████████| 100/100 [00:26<00:00,  4.59sample/s][AExtracting activations: 100%|██████████| 100/100 [00:26<00:00,  3.84sample/s]
+Building unseen holdout payloads:  80%|████████  | 4/5 [01:57<00:28, 28.96s/seed]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s][ALoading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 25.43it/s]
+
+Extracting activations:   0%|          | 0/100 [00:00<?, ?sample/s][A
+Extracting activations:   1%|          | 1/100 [00:00<00:17,  5.82sample/s][A
+Extracting activations:   2%|▏         | 2/100 [00:00<00:19,  5.01sample/s][A
+Extracting activations:   3%|▎         | 3/100 [00:00<00:19,  5.03sample/s][A
+Extracting activations:   4%|▍         | 4/100 [00:00<00:18,  5.24sample/s][A
+Extracting activations:   5%|▌         | 5/100 [00:00<00:18,  5.26sample/s][A
+Extracting activations:   6%|▌         | 6/100 [00:01<00:18,  5.21sample/s][A
+Extracting activations:   7%|▋         | 7/100 [00:01<00:18,  5.05sample/s][A
+Extracting activations:   8%|▊         | 8/100 [00:01<00:17,  5.26sample/s][A
+Extracting activations:   9%|▉         | 9/100 [00:01<00:16,  5.48sample/s][A
+Extracting activations:  10%|█         | 10/100 [00:01<00:19,  4.64sample/s][A
+Extracting activations:  11%|█         | 11/100 [00:02<00:24,  3.62sample/s][A
+Extracting activations:  12%|█▏        | 12/100 [00:02<00:22,  3.93sample/s][A
+Extracting activations:  13%|█▎        | 13/100 [00:02<00:21,  4.01sample/s][A
+Extracting activations:  14%|█▍        | 14/100 [00:03<00:19,  4.48sample/s][A
+Extracting activations:  15%|█▌        | 15/100 [00:03<00:20,  4.23sample/s][A
+Extracting activations:  16%|█▌        | 16/100 [00:03<00:19,  4.38sample/s][A
+Extracting activations:  17%|█▋        | 17/100 [00:03<00:18,  4.50sample/s][A
+Extracting activations:  18%|█▊        | 18/100 [00:03<00:17,  4.58sample/s][A
+Extracting activations:  19%|█▉        | 19/100 [00:04<00:16,  4.97sample/s][A
+Extracting activations:  20%|██        | 20/100 [00:04<00:18,  4.35sample/s][A
+Extracting activations:  21%|██        | 21/100 [00:04<00:22,  3.50sample/s][A
+Extracting activations:  22%|██▏       | 22/100 [00:04<00:19,  3.99sample/s][A
+Extracting activations:  23%|██▎       | 23/100 [00:05<00:17,  4.37sample/s][A
+Extracting activations:  24%|██▍       | 24/100 [00:05<00:16,  4.67sample/s][A
+Extracting activations:  25%|██▌       | 25/100 [00:05<00:20,  3.57sample/s][A
+Extracting activations:  26%|██▌       | 26/100 [00:05<00:18,  4.00sample/s][A
+Extracting activations:  27%|██▋       | 27/100 [00:06<00:23,  3.06sample/s][A
+Extracting activations:  28%|██▊       | 28/100 [00:06<00:23,  3.11sample/s][A
+Extracting activations:  29%|██▉       | 29/100 [00:06<00:19,  3.60sample/s][A
+Extracting activations:  30%|███       | 30/100 [00:07<00:19,  3.60sample/s][A
+Extracting activations:  31%|███       | 31/100 [00:07<00:20,  3.37sample/s][A
+Extracting activations:  32%|███▏      | 32/100 [00:07<00:17,  3.82sample/s][A
+Extracting activations:  33%|███▎      | 33/100 [00:07<00:16,  4.11sample/s][A
+Extracting activations:  34%|███▍      | 34/100 [00:08<00:15,  4.39sample/s][A
+Extracting activations:  35%|███▌      | 35/100 [00:08<00:20,  3.14sample/s][A
+Extracting activations:  36%|███▌      | 36/100 [00:09<00:25,  2.53sample/s][A
+Extracting activations:  37%|███▋      | 37/100 [00:09<00:20,  3.03sample/s][A
+Extracting activations:  38%|███▊      | 38/100 [00:09<00:20,  3.08sample/s][A
+Extracting activations:  39%|███▉      | 39/100 [00:10<00:20,  3.01sample/s][A
+Extracting activations:  40%|████      | 40/100 [00:10<00:20,  2.88sample/s][A
+Extracting activations:  41%|████      | 41/100 [00:10<00:20,  2.88sample/s][A
+Extracting activations:  42%|████▏     | 42/100 [00:10<00:17,  3.25sample/s][A
+Extracting activations:  43%|████▎     | 43/100 [00:11<00:18,  3.08sample/s][A
+Extracting activations:  44%|████▍     | 44/100 [00:11<00:19,  2.92sample/s][A
+Extracting activations:  45%|████▌     | 45/100 [00:12<00:19,  2.84sample/s][A
+Extracting activations:  46%|████▌     | 46/100 [00:12<00:19,  2.74sample/s][A
+Extracting activations:  47%|████▋     | 47/100 [00:12<00:16,  3.21sample/s][A
+Extracting activations:  48%|████▊     | 48/100 [00:12<00:16,  3.23sample/s][A
+Extracting activations:  49%|████▉     | 49/100 [00:13<00:15,  3.29sample/s][A
+Extracting activations:  50%|█████     | 50/100 [00:13<00:18,  2.68sample/s][A
+Extracting activations:  51%|█████     | 51/100 [00:14<00:15,  3.08sample/s][A
+Extracting activations:  52%|█████▏    | 52/100 [00:14<00:14,  3.20sample/s][A
+Extracting activations:  53%|█████▎    | 53/100 [00:14<00:13,  3.49sample/s][A
+Extracting activations:  54%|█████▍    | 54/100 [00:14<00:12,  3.81sample/s][A
+Extracting activations:  55%|█████▌    | 55/100 [00:15<00:13,  3.31sample/s][A
+Extracting activations:  56%|█████▌    | 56/100 [00:15<00:14,  3.12sample/s][A
+Extracting activations:  57%|█████▋    | 57/100 [00:15<00:12,  3.57sample/s][A
+Extracting activations:  58%|█████▊    | 58/100 [00:15<00:10,  3.84sample/s][A
+Extracting activations:  59%|█████▉    | 59/100 [00:16<00:13,  3.14sample/s][A
+Extracting activations:  60%|██████    | 60/100 [00:16<00:13,  3.03sample/s][A
+Extracting activations:  61%|██████    | 61/100 [00:17<00:12,  3.04sample/s][A
+Extracting activations:  62%|██████▏   | 62/100 [00:17<00:10,  3.56sample/s][A
+Extracting activations:  63%|██████▎   | 63/100 [00:17<00:09,  4.02sample/s][A
+Extracting activations:  64%|██████▍   | 64/100 [00:17<00:09,  3.80sample/s][A
+Extracting activations:  65%|██████▌   | 65/100 [00:17<00:08,  4.05sample/s][A
+Extracting activations:  66%|██████▌   | 66/100 [00:18<00:09,  3.66sample/s][A
+Extracting activations:  67%|██████▋   | 67/100 [00:18<00:07,  4.15sample/s][A
+Extracting activations:  68%|██████▊   | 68/100 [00:18<00:09,  3.48sample/s][A
+Extracting activations:  69%|██████▉   | 69/100 [00:19<00:08,  3.70sample/s][A
+Extracting activations:  70%|███████   | 70/100 [00:19<00:07,  3.96sample/s][A
+Extracting activations:  71%|███████   | 71/100 [00:19<00:06,  4.23sample/s][A
+Extracting activations:  72%|███████▏  | 72/100 [00:19<00:06,  4.56sample/s][A
+Extracting activations:  73%|███████▎  | 73/100 [00:19<00:05,  4.66sample/s][A
+Extracting activations:  74%|███████▍  | 74/100 [00:19<00:05,  4.99sample/s][A
+Extracting activations:  75%|███████▌  | 75/100 [00:20<00:07,  3.28sample/s][A
+Extracting activations:  76%|███████▌  | 76/100 [00:20<00:06,  3.60sample/s][A
+Extracting activations:  77%|███████▋  | 77/100 [00:21<00:07,  3.24sample/s][A
+Extracting activations:  78%|███████▊  | 78/100 [00:21<00:06,  3.18sample/s][A
+Extracting activations:  79%|███████▉  | 79/100 [00:21<00:05,  3.59sample/s][A
+Extracting activations:  80%|████████  | 80/100 [00:22<00:08,  2.24sample/s][A
+Extracting activations:  81%|████████  | 81/100 [00:22<00:08,  2.32sample/s][A
+Extracting activations:  82%|████████▏ | 82/100 [00:23<00:06,  2.80sample/s][A
+Extracting activations:  83%|████████▎ | 83/100 [00:23<00:06,  2.78sample/s][A
+Extracting activations:  84%|████████▍ | 84/100 [00:23<00:04,  3.29sample/s][A
+Extracting activations:  85%|████████▌ | 85/100 [00:23<00:03,  3.77sample/s][A
+Extracting activations:  86%|████████▌ | 86/100 [00:23<00:03,  4.16sample/s][A
+Extracting activations:  87%|████████▋ | 87/100 [00:24<00:03,  3.53sample/s][A
+Extracting activations:  88%|████████▊ | 88/100 [00:24<00:02,  4.00sample/s][A
+Extracting activations:  89%|████████▉ | 89/100 [00:24<00:02,  4.46sample/s][A
+Extracting activations:  90%|█████████ | 90/100 [00:24<00:02,  4.50sample/s][A
+Extracting activations:  91%|█████████ | 91/100 [00:25<00:01,  4.88sample/s][A
+Extracting activations:  92%|█████████▏| 92/100 [00:25<00:02,  3.40sample/s][A
+Extracting activations:  93%|█████████▎| 93/100 [00:25<00:01,  3.89sample/s][A
+Extracting activations:  94%|█████████▍| 94/100 [00:26<00:01,  3.75sample/s][A
+Extracting activations:  95%|█████████▌| 95/100 [00:26<00:01,  4.25sample/s][A
+Extracting activations:  96%|█████████▌| 96/100 [00:26<00:00,  4.55sample/s][A
+Extracting activations:  97%|█████████▋| 97/100 [00:26<00:00,  4.76sample/s][A
+Extracting activations:  98%|█████████▊| 98/100 [00:26<00:00,  4.50sample/s][A
+Extracting activations:  99%|█████████▉| 99/100 [00:27<00:00,  4.71sample/s][A
+Extracting activations: 100%|██████████| 100/100 [00:27<00:00,  5.07sample/s][AExtracting activations: 100%|██████████| 100/100 [00:27<00:00,  3.68sample/s]
+Building unseen holdout payloads: 100%|██████████| 5/5 [02:26<00:00, 29.06s/seed]Building unseen holdout payloads: 100%|██████████| 5/5 [02:26<00:00, 29.27s/seed]
+Saved feature accuracies: ./data_and_results/full_probe_experiments/full_probe_ovis_20260427_020533/05_concat_contrastive/05_04_concat_contrastive_all_ovis_20260427_020533_341935/train_concat_llm_residual_contrastive_ovis_all_20260427_051804_seed42/ovis_all_feature_probe_accuracies_20260427_051804_seed42.json
+Saved LLM strategy summary: ./data_and_results/full_probe_experiments/full_probe_ovis_20260427_020533/05_concat_contrastive/05_04_concat_contrastive_all_ovis_20260427_020533_341935/train_concat_llm_residual_contrastive_ovis_all_20260427_051804_seed42/ovis_llm_layer_best_strategy_results_20260427_051804_seed42.json
+Saved run config: ./data_and_results/full_probe_experiments/full_probe_ovis_20260427_020533/05_concat_contrastive/05_04_concat_contrastive_all_ovis_20260427_020533_341935/train_concat_llm_residual_contrastive_ovis_all_20260427_051804_seed42/ovis_run_config_20260427_051804_seed42.json
+
+end_utc=2026-04-27T09:22:25.522029Z
+elapsed_sec=270.25
+return_code=0

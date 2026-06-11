@@ -1,0 +1,4 @@
+raw_data/
+__pycache__/
+*.pyc
+**/features_cache.pt

@@ -1,0 +1,732 @@
+{
+  "vlm": "ovis",
+  "execute": true,
+  "gpus": "4,5",
+  "poll_interval_sec": 10.0,
+  "analysis_script": "analyze_full_probe_results.py",
+  "analysis_output_dir_name": "analysis",
+  "stages": [
+    {
+      "stage_key": "logreg_contrastive",
+      "jobs": [
+        {
+          "mode": "vqa_rad",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/01_logreg_contrastive/01_01_logreg_contrastive_vqa_rad_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/01_logreg_contrastive/01_01_logreg_contrastive_vqa_rad_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_log_reg_contrastive.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/01_logreg_contrastive/01_01_logreg_contrastive_vqa_rad_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/01_logreg_contrastive/01_01_logreg_contrastive_vqa_rad_ovis_20260501_023840_488024/features_cache.pt",
+            "--vqa_only_pairs",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        },
+        {
+          "mode": "mmmu_pro",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/01_logreg_contrastive/01_02_logreg_contrastive_mmmu_pro_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/01_logreg_contrastive/01_02_logreg_contrastive_mmmu_pro_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_log_reg_contrastive.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/01_logreg_contrastive/01_02_logreg_contrastive_mmmu_pro_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/01_logreg_contrastive/01_02_logreg_contrastive_mmmu_pro_ovis_20260501_023840_488024/features_cache.pt",
+            "--mmmu_only_pairs",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        },
+        {
+          "mode": "medxpertqa_mm",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/01_logreg_contrastive/01_03_logreg_contrastive_medxpertqa_mm_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/01_logreg_contrastive/01_03_logreg_contrastive_medxpertqa_mm_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_log_reg_contrastive.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/01_logreg_contrastive/01_03_logreg_contrastive_medxpertqa_mm_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/01_logreg_contrastive/01_03_logreg_contrastive_medxpertqa_mm_ovis_20260501_023840_488024/features_cache.pt",
+            "--medxpert_only_pairs",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        },
+        {
+          "mode": "all",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/01_logreg_contrastive/01_04_logreg_contrastive_all_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/01_logreg_contrastive/01_04_logreg_contrastive_all_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_log_reg_contrastive.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/01_logreg_contrastive/01_04_logreg_contrastive_all_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/01_logreg_contrastive/01_04_logreg_contrastive_all_ovis_20260501_023840_488024/features_cache.pt",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        }
+      ]
+    },
+    {
+      "stage_key": "logreg_all_examples",
+      "jobs": [
+        {
+          "mode": "vqa_rad",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/02_logreg_all_examples/02_01_logreg_all_examples_vqa_rad_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/02_logreg_all_examples/02_01_logreg_all_examples_vqa_rad_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_log_reg_all_examples.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/02_logreg_all_examples/02_01_logreg_all_examples_vqa_rad_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/02_logreg_all_examples/02_01_logreg_all_examples_vqa_rad_ovis_20260501_023840_488024/features_cache.pt",
+            "--vqa_only_examples",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        },
+        {
+          "mode": "mmmu_pro",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/02_logreg_all_examples/02_02_logreg_all_examples_mmmu_pro_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/02_logreg_all_examples/02_02_logreg_all_examples_mmmu_pro_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_log_reg_all_examples.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/02_logreg_all_examples/02_02_logreg_all_examples_mmmu_pro_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/02_logreg_all_examples/02_02_logreg_all_examples_mmmu_pro_ovis_20260501_023840_488024/features_cache.pt",
+            "--mmmu_only_examples",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        },
+        {
+          "mode": "medxpertqa_mm",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/02_logreg_all_examples/02_03_logreg_all_examples_medxpertqa_mm_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/02_logreg_all_examples/02_03_logreg_all_examples_medxpertqa_mm_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_log_reg_all_examples.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/02_logreg_all_examples/02_03_logreg_all_examples_medxpertqa_mm_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/02_logreg_all_examples/02_03_logreg_all_examples_medxpertqa_mm_ovis_20260501_023840_488024/features_cache.pt",
+            "--medxpert_only_examples",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        },
+        {
+          "mode": "all",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/02_logreg_all_examples/02_04_logreg_all_examples_all_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/02_logreg_all_examples/02_04_logreg_all_examples_all_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_log_reg_all_examples.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/02_logreg_all_examples/02_04_logreg_all_examples_all_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/02_logreg_all_examples/02_04_logreg_all_examples_all_ovis_20260501_023840_488024/features_cache.pt",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        }
+      ]
+    },
+    {
+      "stage_key": "mlp_contrastive",
+      "jobs": [
+        {
+          "mode": "vqa_rad",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/03_mlp_contrastive/03_01_mlp_contrastive_vqa_rad_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/03_mlp_contrastive/03_01_mlp_contrastive_vqa_rad_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_mlp_contrastive.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/03_mlp_contrastive/03_01_mlp_contrastive_vqa_rad_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/03_mlp_contrastive/03_01_mlp_contrastive_vqa_rad_ovis_20260501_023840_488024/features_cache.pt",
+            "--benchmark_mode",
+            "vqa_rad",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        },
+        {
+          "mode": "mmmu_pro",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/03_mlp_contrastive/03_02_mlp_contrastive_mmmu_pro_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/03_mlp_contrastive/03_02_mlp_contrastive_mmmu_pro_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_mlp_contrastive.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/03_mlp_contrastive/03_02_mlp_contrastive_mmmu_pro_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/03_mlp_contrastive/03_02_mlp_contrastive_mmmu_pro_ovis_20260501_023840_488024/features_cache.pt",
+            "--benchmark_mode",
+            "mmmu_pro",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        },
+        {
+          "mode": "medxpertqa_mm",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/03_mlp_contrastive/03_03_mlp_contrastive_medxpertqa_mm_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/03_mlp_contrastive/03_03_mlp_contrastive_medxpertqa_mm_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_mlp_contrastive.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/03_mlp_contrastive/03_03_mlp_contrastive_medxpertqa_mm_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/03_mlp_contrastive/03_03_mlp_contrastive_medxpertqa_mm_ovis_20260501_023840_488024/features_cache.pt",
+            "--benchmark_mode",
+            "medxpertqa_mm",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        },
+        {
+          "mode": "all",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/03_mlp_contrastive/03_04_mlp_contrastive_all_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/03_mlp_contrastive/03_04_mlp_contrastive_all_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_mlp_contrastive.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/03_mlp_contrastive/03_04_mlp_contrastive_all_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/03_mlp_contrastive/03_04_mlp_contrastive_all_ovis_20260501_023840_488024/features_cache.pt",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        }
+      ]
+    },
+    {
+      "stage_key": "mlp_all_examples",
+      "jobs": [
+        {
+          "mode": "vqa_rad",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/04_mlp_all_examples/04_01_mlp_all_examples_vqa_rad_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/04_mlp_all_examples/04_01_mlp_all_examples_vqa_rad_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_mlp_all_examples.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/04_mlp_all_examples/04_01_mlp_all_examples_vqa_rad_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/04_mlp_all_examples/04_01_mlp_all_examples_vqa_rad_ovis_20260501_023840_488024/features_cache.pt",
+            "--benchmark_mode",
+            "vqa_rad",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        },
+        {
+          "mode": "mmmu_pro",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/04_mlp_all_examples/04_02_mlp_all_examples_mmmu_pro_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/04_mlp_all_examples/04_02_mlp_all_examples_mmmu_pro_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_mlp_all_examples.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/04_mlp_all_examples/04_02_mlp_all_examples_mmmu_pro_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/04_mlp_all_examples/04_02_mlp_all_examples_mmmu_pro_ovis_20260501_023840_488024/features_cache.pt",
+            "--benchmark_mode",
+            "mmmu_pro",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        },
+        {
+          "mode": "medxpertqa_mm",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/04_mlp_all_examples/04_03_mlp_all_examples_medxpertqa_mm_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/04_mlp_all_examples/04_03_mlp_all_examples_medxpertqa_mm_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_mlp_all_examples.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/04_mlp_all_examples/04_03_mlp_all_examples_medxpertqa_mm_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/04_mlp_all_examples/04_03_mlp_all_examples_medxpertqa_mm_ovis_20260501_023840_488024/features_cache.pt",
+            "--benchmark_mode",
+            "medxpertqa_mm",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        },
+        {
+          "mode": "all",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/04_mlp_all_examples/04_04_mlp_all_examples_all_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/04_mlp_all_examples/04_04_mlp_all_examples_all_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_mlp_all_examples.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/04_mlp_all_examples/04_04_mlp_all_examples_all_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/04_mlp_all_examples/04_04_mlp_all_examples_all_ovis_20260501_023840_488024/features_cache.pt",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        }
+      ]
+    },
+    {
+      "stage_key": "concat_contrastive",
+      "jobs": [
+        {
+          "mode": "vqa_rad",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/05_concat_contrastive/05_01_concat_contrastive_vqa_rad_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/05_concat_contrastive/05_01_concat_contrastive_vqa_rad_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_concat_llm_residual_contrastive.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/05_concat_contrastive/05_01_concat_contrastive_vqa_rad_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/05_concat_contrastive/05_01_concat_contrastive_vqa_rad_ovis_20260501_023840_488024/features_cache.pt",
+            "--benchmark_mode",
+            "vqa_rad",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        },
+        {
+          "mode": "mmmu_pro",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/05_concat_contrastive/05_02_concat_contrastive_mmmu_pro_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/05_concat_contrastive/05_02_concat_contrastive_mmmu_pro_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_concat_llm_residual_contrastive.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/05_concat_contrastive/05_02_concat_contrastive_mmmu_pro_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/05_concat_contrastive/05_02_concat_contrastive_mmmu_pro_ovis_20260501_023840_488024/features_cache.pt",
+            "--benchmark_mode",
+            "mmmu_pro",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        },
+        {
+          "mode": "medxpertqa_mm",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/05_concat_contrastive/05_03_concat_contrastive_medxpertqa_mm_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/05_concat_contrastive/05_03_concat_contrastive_medxpertqa_mm_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_concat_llm_residual_contrastive.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/05_concat_contrastive/05_03_concat_contrastive_medxpertqa_mm_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/05_concat_contrastive/05_03_concat_contrastive_medxpertqa_mm_ovis_20260501_023840_488024/features_cache.pt",
+            "--benchmark_mode",
+            "medxpertqa_mm",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        },
+        {
+          "mode": "all",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/05_concat_contrastive/05_04_concat_contrastive_all_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/05_concat_contrastive/05_04_concat_contrastive_all_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_concat_llm_residual_contrastive.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/05_concat_contrastive/05_04_concat_contrastive_all_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/05_concat_contrastive/05_04_concat_contrastive_all_ovis_20260501_023840_488024/features_cache.pt",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        }
+      ]
+    },
+    {
+      "stage_key": "concat_all_examples",
+      "jobs": [
+        {
+          "mode": "vqa_rad",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/06_concat_all_examples/06_01_concat_all_examples_vqa_rad_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/06_concat_all_examples/06_01_concat_all_examples_vqa_rad_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_concat_llm_residual_all_examples.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/06_concat_all_examples/06_01_concat_all_examples_vqa_rad_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/06_concat_all_examples/06_01_concat_all_examples_vqa_rad_ovis_20260501_023840_488024/features_cache.pt",
+            "--benchmark_mode",
+            "vqa_rad",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        },
+        {
+          "mode": "mmmu_pro",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/06_concat_all_examples/06_02_concat_all_examples_mmmu_pro_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/06_concat_all_examples/06_02_concat_all_examples_mmmu_pro_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_concat_llm_residual_all_examples.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/06_concat_all_examples/06_02_concat_all_examples_mmmu_pro_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/06_concat_all_examples/06_02_concat_all_examples_mmmu_pro_ovis_20260501_023840_488024/features_cache.pt",
+            "--benchmark_mode",
+            "mmmu_pro",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        },
+        {
+          "mode": "medxpertqa_mm",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/06_concat_all_examples/06_03_concat_all_examples_medxpertqa_mm_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/06_concat_all_examples/06_03_concat_all_examples_medxpertqa_mm_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_concat_llm_residual_all_examples.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/06_concat_all_examples/06_03_concat_all_examples_medxpertqa_mm_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/06_concat_all_examples/06_03_concat_all_examples_medxpertqa_mm_ovis_20260501_023840_488024/features_cache.pt",
+            "--benchmark_mode",
+            "medxpertqa_mm",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        },
+        {
+          "mode": "all",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/06_concat_all_examples/06_04_concat_all_examples_all_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/06_concat_all_examples/06_04_concat_all_examples_all_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_concat_llm_residual_all_examples.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/06_concat_all_examples/06_04_concat_all_examples_all_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/06_concat_all_examples/06_04_concat_all_examples_all_ovis_20260501_023840_488024/features_cache.pt",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        }
+      ]
+    },
+    {
+      "stage_key": "diff_contrastive",
+      "jobs": [
+        {
+          "mode": "vqa_rad",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/07_diff_contrastive/07_01_diff_contrastive_vqa_rad_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/07_diff_contrastive/07_01_diff_contrastive_vqa_rad_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_activation_diff_contrastive.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/07_diff_contrastive/07_01_diff_contrastive_vqa_rad_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/07_diff_contrastive/07_01_diff_contrastive_vqa_rad_ovis_20260501_023840_488024/features_cache.pt",
+            "--benchmark_mode",
+            "vqa_rad",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        },
+        {
+          "mode": "mmmu_pro",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/07_diff_contrastive/07_02_diff_contrastive_mmmu_pro_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/07_diff_contrastive/07_02_diff_contrastive_mmmu_pro_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_activation_diff_contrastive.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/07_diff_contrastive/07_02_diff_contrastive_mmmu_pro_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/07_diff_contrastive/07_02_diff_contrastive_mmmu_pro_ovis_20260501_023840_488024/features_cache.pt",
+            "--benchmark_mode",
+            "mmmu_pro",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        },
+        {
+          "mode": "medxpertqa_mm",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/07_diff_contrastive/07_03_diff_contrastive_medxpertqa_mm_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/07_diff_contrastive/07_03_diff_contrastive_medxpertqa_mm_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_activation_diff_contrastive.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/07_diff_contrastive/07_03_diff_contrastive_medxpertqa_mm_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/07_diff_contrastive/07_03_diff_contrastive_medxpertqa_mm_ovis_20260501_023840_488024/features_cache.pt",
+            "--benchmark_mode",
+            "medxpertqa_mm",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        },
+        {
+          "mode": "all",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/07_diff_contrastive/07_04_diff_contrastive_all_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/07_diff_contrastive/07_04_diff_contrastive_all_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_activation_diff_contrastive.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/07_diff_contrastive/07_04_diff_contrastive_all_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/07_diff_contrastive/07_04_diff_contrastive_all_ovis_20260501_023840_488024/features_cache.pt",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        }
+      ]
+    },
+    {
+      "stage_key": "diff_all_examples",
+      "jobs": [
+        {
+          "mode": "vqa_rad",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/08_diff_all_examples/08_01_diff_all_examples_vqa_rad_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/08_diff_all_examples/08_01_diff_all_examples_vqa_rad_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_activation_diff_all_examples.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/08_diff_all_examples/08_01_diff_all_examples_vqa_rad_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/08_diff_all_examples/08_01_diff_all_examples_vqa_rad_ovis_20260501_023840_488024/features_cache.pt",
+            "--benchmark_mode",
+            "vqa_rad",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        },
+        {
+          "mode": "mmmu_pro",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/08_diff_all_examples/08_02_diff_all_examples_mmmu_pro_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/08_diff_all_examples/08_02_diff_all_examples_mmmu_pro_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_activation_diff_all_examples.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/08_diff_all_examples/08_02_diff_all_examples_mmmu_pro_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/08_diff_all_examples/08_02_diff_all_examples_mmmu_pro_ovis_20260501_023840_488024/features_cache.pt",
+            "--benchmark_mode",
+            "mmmu_pro",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        },
+        {
+          "mode": "medxpertqa_mm",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/08_diff_all_examples/08_03_diff_all_examples_medxpertqa_mm_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/08_diff_all_examples/08_03_diff_all_examples_medxpertqa_mm_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_activation_diff_all_examples.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/08_diff_all_examples/08_03_diff_all_examples_medxpertqa_mm_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/08_diff_all_examples/08_03_diff_all_examples_medxpertqa_mm_ovis_20260501_023840_488024/features_cache.pt",
+            "--benchmark_mode",
+            "medxpertqa_mm",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        },
+        {
+          "mode": "all",
+          "save_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/08_diff_all_examples/08_04_diff_all_examples_all_ovis_20260501_023840_488024",
+          "log_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/08_diff_all_examples/08_04_diff_all_examples_all_ovis_20260501_023840_488024.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_activation_diff_all_examples.py",
+            "--vlm",
+            "ovis",
+            "--save_dir",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/08_diff_all_examples/08_04_diff_all_examples_all_ovis_20260501_023840_488024",
+            "--features_cache_path",
+            "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/08_diff_all_examples/08_04_diff_all_examples_all_ovis_20260501_023840_488024/features_cache.pt",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        }
+      ]
+    }
+  ]
+}

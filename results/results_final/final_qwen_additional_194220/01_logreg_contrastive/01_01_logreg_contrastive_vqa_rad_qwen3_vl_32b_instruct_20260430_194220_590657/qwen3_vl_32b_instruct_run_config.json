@@ -1,0 +1,343 @@
+{
+  "num_pairs": 111,
+  "num_samples": 222,
+  "num_class0_samples": 111,
+  "num_class1_samples": 111,
+  "training_pair_counts_by_benchmark": {
+    "vqa_rad": 111
+  },
+  "training_sample_counts_by_benchmark_and_class": {
+    "vqa_rad": {
+      "class0": 111,
+      "class1": 111,
+      "total": 222
+    }
+  },
+  "selected_benchmark": "vqa_rad",
+  "training_mode": "pair_vqa_rad_validation_multiseed",
+  "num_split_seeds": 3,
+  "split_seeds": [
+    654571518,
+    89250953,
+    773956047
+  ],
+  "regularization_sweep_c_values": [
+    0.0,
+    0.01,
+    0.1,
+    1.0
+  ],
+  "hyperparam_selection_metric": "validation_accuracy",
+  "probe_epochs": 800,
+  "probe_lr": 0.03,
+  "multi_init_probe_selection": false,
+  "probe_num_initializations": 1,
+  "early_stopping_patience": 200,
+  "early_stopping_min_delta": 0.0001,
+  "include_attention_probes": true,
+  "include_mlp_probes": true,
+  "include_residual_probes": false,
+  "include_additional_attention_mlp_probes": true,
+  "use_additional_feature_preextract_cache": null,
+  "requested_llm_feature_strategies": [
+    "text_nonspecial_mean"
+  ],
+  "llm_strategies": [
+    "current_visual_plus_last",
+    "text_nonspecial_mean",
+    "all_nonspecial_mean"
+  ],
+  "feature_extraction_version": 2,
+  "num_attention_activation_features": 2112,
+  "num_eval_seeds": 3,
+  "eval_seeds": [
+    42,
+    43,
+    44
+  ],
+  "num_holdout_mirage_true": 50,
+  "num_holdout_mirage_false": 50,
+  "exclude_short_responses_in_training_pairs": true,
+  "num_training_pairs_skipped_short_responses": 0,
+  "min_response_tokens_required_for_training_pairs": 10,
+  "exclude_short_responses_in_holdout": false,
+  "num_candidates_skipped_short_responses": 0,
+  "holdout_pool_sizes_before_preextract_filter": {
+    "mirage_true": 2853,
+    "mirage_false": 128
+  },
+  "holdout_pool_sizes_by_benchmark_before_preextract_filter": {
+    "vqa_rad": {
+      "mirage_true": 2853,
+      "mirage_false": 128,
+      "pair_cap": 128
+    }
+  },
+  "holdout_selection_plan_before_preextract_filter": {
+    "selection_policy": "benchmark_cap_proportional_balanced_per_class",
+    "requested_num_holdout_mirage_true": 50,
+    "requested_num_holdout_mirage_false": 50,
+    "requested_num_holdout_per_class_balanced": 50,
+    "selected_num_holdout_per_class_balanced": 50,
+    "selected_num_holdout_total": 100,
+    "num_classes": 2,
+    "represented_benchmarks_with_both_classes": [
+      "vqa_rad"
+    ],
+    "pair_caps_by_benchmark": {
+      "vqa_rad": 128
+    },
+    "selected_pairs_by_benchmark": {
+      "vqa_rad": 50
+    },
+    "counts_by_benchmark_before_selection": {
+      "vqa_rad": {
+        "mirage_true": 2853,
+        "mirage_false": 128,
+        "pair_cap": 128
+      }
+    }
+  },
+  "holdout_pool_sizes": {
+    "mirage_true": 2853,
+    "mirage_false": 128
+  },
+  "holdout_pool_sizes_by_benchmark_after_preextract_filter": {
+    "vqa_rad": {
+      "mirage_true": 2853,
+      "mirage_false": 128,
+      "pair_cap": 128
+    }
+  },
+  "holdout_selection_plan_after_preextract_filter": {
+    "selection_policy": "benchmark_cap_proportional_balanced_per_class",
+    "requested_num_holdout_mirage_true": 50,
+    "requested_num_holdout_mirage_false": 50,
+    "requested_num_holdout_per_class_balanced": 50,
+    "selected_num_holdout_per_class_balanced": 50,
+    "selected_num_holdout_total": 100,
+    "num_classes": 2,
+    "represented_benchmarks_with_both_classes": [
+      "vqa_rad"
+    ],
+    "pair_caps_by_benchmark": {
+      "vqa_rad": 128
+    },
+    "selected_pairs_by_benchmark": {
+      "vqa_rad": 50
+    },
+    "counts_by_benchmark_before_selection": {
+      "vqa_rad": {
+        "mirage_true": 2853,
+        "mirage_false": 128,
+        "pair_cap": 128
+      }
+    }
+  },
+  "holdout_pool_filter_to_preextract_cache": {
+    "mirage_true_before": 2853,
+    "mirage_false_before": 128,
+    "mirage_true_after": 2853,
+    "mirage_false_after": 128,
+    "mirage_true_dropped": 0,
+    "mirage_false_dropped": 0
+  },
+  "holdout_selected_sizes_by_seed": {},
+  "pairs_path": "./data_and_results/qwen3_vl_32b_instruct/contrastive_conversation_pairs.json",
+  "responses_path": "./data_and_results/gen_qwen3_vl_32b_instruct_/responses.json",
+  "mirage_root": "./MIRAGE",
+  "neutral_as_non_mirage_pairs": false,
+  "vqa_only_pairs": true,
+  "mmmu_only_pairs": false,
+  "medxpert_only_pairs": false,
+  "single_benchmark_validation_pairs": 5,
+  "all_mode_validation_pairs": 9,
+  "qwen_validation_fraction_if_applicable": 0.1,
+  "supported_contrastive_benchmarks": [
+    "vqa_rad",
+    "mmmu_pro",
+    "medxpertqa_mm"
+  ],
+  "vlm": "qwen3_vl_32b_instruct",
+  "model_path": "./models/qwen3_vl_32b_instruct",
+  "attn_implementation": "eager",
+  "device_map": "",
+  "max_memory_per_gpu_gib": 0.0,
+  "max_memory_cpu_gib": 0.0,
+  "features_cache_path": "./data_and_results/qwen3_vl_32b_instruct/qwen3_vl_32b_instruct_preextracted_contrastive_additional_features.pt",
+  "normalize_features": true,
+  "pca_components": 0,
+  "split_details": [
+    {
+      "split_seed": 654571518,
+      "validation_pairs": [
+        19,
+        22,
+        31,
+        32,
+        48,
+        51,
+        57,
+        71,
+        81,
+        93,
+        99
+      ],
+      "validation_pairs_by_benchmark": {
+        "vqa_rad": [
+          19,
+          22,
+          31,
+          32,
+          48,
+          51,
+          57,
+          71,
+          81,
+          93,
+          99
+        ]
+      },
+      "split_sizes": {
+        "train_total": 200,
+        "val_total": 22
+      },
+      "split_label_counts": {
+        "train_class0": 100,
+        "train_class1": 100,
+        "val_class0": 11,
+        "val_class1": 11
+      },
+      "split_benchmark_class_counts": {
+        "train": {
+          "vqa_rad": {
+            "class0": 100,
+            "class1": 100,
+            "total": 200
+          }
+        },
+        "val": {
+          "vqa_rad": {
+            "class0": 11,
+            "class1": 11,
+            "total": 22
+          }
+        }
+      }
+    },
+    {
+      "split_seed": 89250953,
+      "validation_pairs": [
+        1,
+        2,
+        20,
+        27,
+        34,
+        52,
+        57,
+        71,
+        78,
+        84,
+        87
+      ],
+      "validation_pairs_by_benchmark": {
+        "vqa_rad": [
+          1,
+          2,
+          20,
+          27,
+          34,
+          52,
+          57,
+          71,
+          78,
+          84,
+          87
+        ]
+      },
+      "split_sizes": {
+        "train_total": 200,
+        "val_total": 22
+      },
+      "split_label_counts": {
+        "train_class0": 100,
+        "train_class1": 100,
+        "val_class0": 11,
+        "val_class1": 11
+      },
+      "split_benchmark_class_counts": {
+        "train": {
+          "vqa_rad": {
+            "class0": 100,
+            "class1": 100,
+            "total": 200
+          }
+        },
+        "val": {
+          "vqa_rad": {
+            "class0": 11,
+            "class1": 11,
+            "total": 22
+          }
+        }
+      }
+    },
+    {
+      "split_seed": 773956047,
+      "validation_pairs": [
+        16,
+        26,
+        30,
+        31,
+        36,
+        38,
+        50,
+        63,
+        76,
+        85,
+        104
+      ],
+      "validation_pairs_by_benchmark": {
+        "vqa_rad": [
+          16,
+          26,
+          30,
+          31,
+          36,
+          38,
+          50,
+          63,
+          76,
+          85,
+          104
+        ]
+      },
+      "split_sizes": {
+        "train_total": 200,
+        "val_total": 22
+      },
+      "split_label_counts": {
+        "train_class0": 100,
+        "train_class1": 100,
+        "val_class0": 11,
+        "val_class1": 11
+      },
+      "split_benchmark_class_counts": {
+        "train": {
+          "vqa_rad": {
+            "class0": 100,
+            "class1": 100,
+            "total": 200
+          }
+        },
+        "val": {
+          "vqa_rad": {
+            "class0": 11,
+            "class1": 11,
+            "total": 22
+          }
+        }
+      }
+    }
+  ]
+}

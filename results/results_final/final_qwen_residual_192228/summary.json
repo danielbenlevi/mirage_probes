@@ -1,0 +1,701 @@
+{
+  "run_root": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228",
+  "vlm": "qwen3_vl_32b_instruct",
+  "execute": true,
+  "plan_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/plan.json",
+  "analysis_command": [
+    "./miniconda3/envs/probing_vlms/bin/python",
+    "./analyze_full_probe_results.py",
+    "--experiment_run_root",
+    "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228",
+    "--output_dir",
+    "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/analysis"
+  ],
+  "analysis_result": {
+    "stage_key": "analysis",
+    "mode": "all",
+    "gpu": "4",
+    "command": [
+      "./miniconda3/envs/probing_vlms/bin/python",
+      "./analyze_full_probe_results.py",
+      "--experiment_run_root",
+      "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228",
+      "--output_dir",
+      "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/analysis"
+    ],
+    "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/analysis",
+    "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/analysis.log",
+    "elapsed_sec": 6.536720275878906,
+    "return_code": 0
+  },
+  "any_failure": false,
+  "results": [
+    {
+      "stage_key": "logreg_contrastive",
+      "mode": "mmmu_pro",
+      "gpu": "3",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_log_reg_contrastive.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/01_logreg_contrastive/01_02_logreg_contrastive_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/01_logreg_contrastive/01_02_logreg_contrastive_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt",
+        "--mmmu_only_pairs"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/01_logreg_contrastive/01_02_logreg_contrastive_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/01_logreg_contrastive/01_02_logreg_contrastive_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 1931.886022567749,
+      "return_code": 0
+    },
+    {
+      "stage_key": "logreg_contrastive",
+      "mode": "medxpertqa_mm",
+      "gpu": "4",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_log_reg_contrastive.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/01_logreg_contrastive/01_03_logreg_contrastive_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/01_logreg_contrastive/01_03_logreg_contrastive_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt",
+        "--medxpert_only_pairs"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/01_logreg_contrastive/01_03_logreg_contrastive_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/01_logreg_contrastive/01_03_logreg_contrastive_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 1951.905415058136,
+      "return_code": 0
+    },
+    {
+      "stage_key": "logreg_contrastive",
+      "mode": "vqa_rad",
+      "gpu": "2",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_log_reg_contrastive.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/01_logreg_contrastive/01_01_logreg_contrastive_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/01_logreg_contrastive/01_01_logreg_contrastive_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt",
+        "--vqa_only_pairs"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/01_logreg_contrastive/01_01_logreg_contrastive_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/01_logreg_contrastive/01_01_logreg_contrastive_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 2001.9559772014618,
+      "return_code": 0
+    },
+    {
+      "stage_key": "logreg_contrastive",
+      "mode": "all",
+      "gpu": "5",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_log_reg_contrastive.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/01_logreg_contrastive/01_04_logreg_contrastive_all_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/01_logreg_contrastive/01_04_logreg_contrastive_all_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/01_logreg_contrastive/01_04_logreg_contrastive_all_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/01_logreg_contrastive/01_04_logreg_contrastive_all_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 2052.009043455124,
+      "return_code": 0
+    },
+    {
+      "stage_key": "logreg_all_examples",
+      "mode": "medxpertqa_mm",
+      "gpu": "4",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_log_reg_all_examples.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/02_logreg_all_examples/02_03_logreg_all_examples_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/02_logreg_all_examples/02_03_logreg_all_examples_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt",
+        "--medxpert_only_examples"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/02_logreg_all_examples/02_03_logreg_all_examples_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/02_logreg_all_examples/02_03_logreg_all_examples_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 2031.9792532920837,
+      "return_code": 0
+    },
+    {
+      "stage_key": "logreg_all_examples",
+      "mode": "vqa_rad",
+      "gpu": "2",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_log_reg_all_examples.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/02_logreg_all_examples/02_01_logreg_all_examples_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/02_logreg_all_examples/02_01_logreg_all_examples_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt",
+        "--vqa_only_examples"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/02_logreg_all_examples/02_01_logreg_all_examples_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/02_logreg_all_examples/02_01_logreg_all_examples_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 2102.0536673069,
+      "return_code": 0
+    },
+    {
+      "stage_key": "logreg_all_examples",
+      "mode": "mmmu_pro",
+      "gpu": "3",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_log_reg_all_examples.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/02_logreg_all_examples/02_02_logreg_all_examples_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/02_logreg_all_examples/02_02_logreg_all_examples_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt",
+        "--mmmu_only_examples"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/02_logreg_all_examples/02_02_logreg_all_examples_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/02_logreg_all_examples/02_02_logreg_all_examples_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 2112.0623445510864,
+      "return_code": 0
+    },
+    {
+      "stage_key": "logreg_all_examples",
+      "mode": "all",
+      "gpu": "5",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_log_reg_all_examples.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/02_logreg_all_examples/02_04_logreg_all_examples_all_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/02_logreg_all_examples/02_04_logreg_all_examples_all_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/02_logreg_all_examples/02_04_logreg_all_examples_all_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/02_logreg_all_examples/02_04_logreg_all_examples_all_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 2162.108307123184,
+      "return_code": 0
+    },
+    {
+      "stage_key": "mlp_contrastive",
+      "mode": "medxpertqa_mm",
+      "gpu": "4",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_mlp_contrastive.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/03_mlp_contrastive/03_03_mlp_contrastive_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/03_mlp_contrastive/03_03_mlp_contrastive_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt",
+        "--benchmark_mode",
+        "medxpertqa_mm"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/03_mlp_contrastive/03_03_mlp_contrastive_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/03_mlp_contrastive/03_03_mlp_contrastive_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 6465.801929950714,
+      "return_code": 0
+    },
+    {
+      "stage_key": "mlp_contrastive",
+      "mode": "mmmu_pro",
+      "gpu": "3",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_mlp_contrastive.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/03_mlp_contrastive/03_02_mlp_contrastive_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/03_mlp_contrastive/03_02_mlp_contrastive_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt",
+        "--benchmark_mode",
+        "mmmu_pro"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/03_mlp_contrastive/03_02_mlp_contrastive_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/03_mlp_contrastive/03_02_mlp_contrastive_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 6505.83766913414,
+      "return_code": 0
+    },
+    {
+      "stage_key": "mlp_contrastive",
+      "mode": "vqa_rad",
+      "gpu": "2",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_mlp_contrastive.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/03_mlp_contrastive/03_01_mlp_contrastive_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/03_mlp_contrastive/03_01_mlp_contrastive_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt",
+        "--benchmark_mode",
+        "vqa_rad"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/03_mlp_contrastive/03_01_mlp_contrastive_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/03_mlp_contrastive/03_01_mlp_contrastive_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 6605.927744150162,
+      "return_code": 0
+    },
+    {
+      "stage_key": "mlp_contrastive",
+      "mode": "all",
+      "gpu": "5",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_mlp_contrastive.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/03_mlp_contrastive/03_04_mlp_contrastive_all_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/03_mlp_contrastive/03_04_mlp_contrastive_all_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/03_mlp_contrastive/03_04_mlp_contrastive_all_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/03_mlp_contrastive/03_04_mlp_contrastive_all_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 7046.3338787555695,
+      "return_code": 0
+    },
+    {
+      "stage_key": "mlp_all_examples",
+      "mode": "mmmu_pro",
+      "gpu": "3",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_mlp_all_examples.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/04_mlp_all_examples/04_02_mlp_all_examples_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/04_mlp_all_examples/04_02_mlp_all_examples_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt",
+        "--benchmark_mode",
+        "mmmu_pro"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/04_mlp_all_examples/04_02_mlp_all_examples_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/04_mlp_all_examples/04_02_mlp_all_examples_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 5935.187623023987,
+      "return_code": 0
+    },
+    {
+      "stage_key": "mlp_all_examples",
+      "mode": "medxpertqa_mm",
+      "gpu": "4",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_mlp_all_examples.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/04_mlp_all_examples/04_03_mlp_all_examples_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/04_mlp_all_examples/04_03_mlp_all_examples_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt",
+        "--benchmark_mode",
+        "medxpertqa_mm"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/04_mlp_all_examples/04_03_mlp_all_examples_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/04_mlp_all_examples/04_03_mlp_all_examples_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 5995.248331785202,
+      "return_code": 0
+    },
+    {
+      "stage_key": "mlp_all_examples",
+      "mode": "vqa_rad",
+      "gpu": "2",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_mlp_all_examples.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/04_mlp_all_examples/04_01_mlp_all_examples_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/04_mlp_all_examples/04_01_mlp_all_examples_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt",
+        "--benchmark_mode",
+        "vqa_rad"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/04_mlp_all_examples/04_01_mlp_all_examples_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/04_mlp_all_examples/04_01_mlp_all_examples_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 6015.269021272659,
+      "return_code": 0
+    },
+    {
+      "stage_key": "concat_contrastive",
+      "mode": "medxpertqa_mm",
+      "gpu": "4",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_concat_llm_residual_contrastive.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/05_concat_contrastive/05_03_concat_contrastive_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/05_concat_contrastive/05_03_concat_contrastive_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt",
+        "--benchmark_mode",
+        "medxpertqa_mm"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/05_concat_contrastive/05_03_concat_contrastive_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/05_concat_contrastive/05_03_concat_contrastive_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 920.8644239902496,
+      "return_code": 0
+    },
+    {
+      "stage_key": "concat_contrastive",
+      "mode": "vqa_rad",
+      "gpu": "2",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_concat_llm_residual_contrastive.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/05_concat_contrastive/05_01_concat_contrastive_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/05_concat_contrastive/05_01_concat_contrastive_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt",
+        "--benchmark_mode",
+        "vqa_rad"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/05_concat_contrastive/05_01_concat_contrastive_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/05_concat_contrastive/05_01_concat_contrastive_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 930.8933908939362,
+      "return_code": 0
+    },
+    {
+      "stage_key": "mlp_all_examples",
+      "mode": "all",
+      "gpu": "5",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_mlp_all_examples.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/04_mlp_all_examples/04_04_mlp_all_examples_all_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/04_mlp_all_examples/04_04_mlp_all_examples_all_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/04_mlp_all_examples/04_04_mlp_all_examples_all_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/04_mlp_all_examples/04_04_mlp_all_examples_all_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 6415.70166015625,
+      "return_code": 0
+    },
+    {
+      "stage_key": "concat_contrastive",
+      "mode": "mmmu_pro",
+      "gpu": "3",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_concat_llm_residual_contrastive.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/05_concat_contrastive/05_02_concat_contrastive_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/05_concat_contrastive/05_02_concat_contrastive_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt",
+        "--benchmark_mode",
+        "mmmu_pro"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/05_concat_contrastive/05_02_concat_contrastive_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/05_concat_contrastive/05_02_concat_contrastive_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 970.9251613616943,
+      "return_code": 0
+    },
+    {
+      "stage_key": "concat_all_examples",
+      "mode": "medxpertqa_mm",
+      "gpu": "3",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_concat_llm_residual_all_examples.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/06_concat_all_examples/06_03_concat_all_examples_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/06_concat_all_examples/06_03_concat_all_examples_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt",
+        "--benchmark_mode",
+        "medxpertqa_mm"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/06_concat_all_examples/06_03_concat_all_examples_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/06_concat_all_examples/06_03_concat_all_examples_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 480.4547390937805,
+      "return_code": 0
+    },
+    {
+      "stage_key": "concat_all_examples",
+      "mode": "vqa_rad",
+      "gpu": "5",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_concat_llm_residual_all_examples.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/06_concat_all_examples/06_01_concat_all_examples_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/06_concat_all_examples/06_01_concat_all_examples_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt",
+        "--benchmark_mode",
+        "vqa_rad"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/06_concat_all_examples/06_01_concat_all_examples_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/06_concat_all_examples/06_01_concat_all_examples_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 490.49287486076355,
+      "return_code": 0
+    },
+    {
+      "stage_key": "concat_all_examples",
+      "mode": "mmmu_pro",
+      "gpu": "2",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_concat_llm_residual_all_examples.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/06_concat_all_examples/06_02_concat_all_examples_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/06_concat_all_examples/06_02_concat_all_examples_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt",
+        "--benchmark_mode",
+        "mmmu_pro"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/06_concat_all_examples/06_02_concat_all_examples_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/06_concat_all_examples/06_02_concat_all_examples_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 570.5572102069855,
+      "return_code": 0
+    },
+    {
+      "stage_key": "concat_contrastive",
+      "mode": "all",
+      "gpu": "4",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_concat_llm_residual_contrastive.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/05_concat_contrastive/05_04_concat_contrastive_all_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/05_concat_contrastive/05_04_concat_contrastive_all_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/05_concat_contrastive/05_04_concat_contrastive_all_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/05_concat_contrastive/05_04_concat_contrastive_all_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 1151.139890909195,
+      "return_code": 0
+    },
+    {
+      "stage_key": "concat_all_examples",
+      "mode": "all",
+      "gpu": "3",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_concat_llm_residual_all_examples.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/06_concat_all_examples/06_04_concat_all_examples_all_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/06_concat_all_examples/06_04_concat_all_examples_all_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/06_concat_all_examples/06_04_concat_all_examples_all_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/06_concat_all_examples/06_04_concat_all_examples_all_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 750.7253465652466,
+      "return_code": 0
+    },
+    {
+      "stage_key": "diff_contrastive",
+      "mode": "vqa_rad",
+      "gpu": "4",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_activation_diff_contrastive.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/07_diff_contrastive/07_01_diff_contrastive_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/07_diff_contrastive/07_01_diff_contrastive_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt",
+        "--benchmark_mode",
+        "vqa_rad"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/07_diff_contrastive/07_01_diff_contrastive_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/07_diff_contrastive/07_01_diff_contrastive_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 2662.592164516449,
+      "return_code": 0
+    },
+    {
+      "stage_key": "diff_contrastive",
+      "mode": "medxpertqa_mm",
+      "gpu": "2",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_activation_diff_contrastive.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/07_diff_contrastive/07_03_diff_contrastive_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/07_diff_contrastive/07_03_diff_contrastive_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt",
+        "--benchmark_mode",
+        "medxpertqa_mm"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/07_diff_contrastive/07_03_diff_contrastive_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/07_diff_contrastive/07_03_diff_contrastive_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 2692.619922876358,
+      "return_code": 0
+    },
+    {
+      "stage_key": "diff_contrastive",
+      "mode": "mmmu_pro",
+      "gpu": "5",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_activation_diff_contrastive.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/07_diff_contrastive/07_02_diff_contrastive_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/07_diff_contrastive/07_02_diff_contrastive_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt",
+        "--benchmark_mode",
+        "mmmu_pro"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/07_diff_contrastive/07_02_diff_contrastive_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/07_diff_contrastive/07_02_diff_contrastive_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 2742.672300338745,
+      "return_code": 0
+    },
+    {
+      "stage_key": "diff_contrastive",
+      "mode": "all",
+      "gpu": "3",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_activation_diff_contrastive.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/07_diff_contrastive/07_04_diff_contrastive_all_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/07_diff_contrastive/07_04_diff_contrastive_all_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/07_diff_contrastive/07_04_diff_contrastive_all_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/07_diff_contrastive/07_04_diff_contrastive_all_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 2872.819346666336,
+      "return_code": 0
+    },
+    {
+      "stage_key": "diff_all_examples",
+      "mode": "medxpertqa_mm",
+      "gpu": "2",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_activation_diff_all_examples.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/08_diff_all_examples/08_03_diff_all_examples_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/08_diff_all_examples/08_03_diff_all_examples_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt",
+        "--benchmark_mode",
+        "medxpertqa_mm"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/08_diff_all_examples/08_03_diff_all_examples_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/08_diff_all_examples/08_03_diff_all_examples_medxpertqa_mm_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 1941.92715549469,
+      "return_code": 0
+    },
+    {
+      "stage_key": "diff_all_examples",
+      "mode": "vqa_rad",
+      "gpu": "4",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_activation_diff_all_examples.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/08_diff_all_examples/08_01_diff_all_examples_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/08_diff_all_examples/08_01_diff_all_examples_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt",
+        "--benchmark_mode",
+        "vqa_rad"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/08_diff_all_examples/08_01_diff_all_examples_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/08_diff_all_examples/08_01_diff_all_examples_vqa_rad_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 1971.9613156318665,
+      "return_code": 0
+    },
+    {
+      "stage_key": "diff_all_examples",
+      "mode": "mmmu_pro",
+      "gpu": "5",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_activation_diff_all_examples.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/08_diff_all_examples/08_02_diff_all_examples_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/08_diff_all_examples/08_02_diff_all_examples_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt",
+        "--benchmark_mode",
+        "mmmu_pro"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/08_diff_all_examples/08_02_diff_all_examples_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/08_diff_all_examples/08_02_diff_all_examples_mmmu_pro_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 1981.9699912071228,
+      "return_code": 0
+    },
+    {
+      "stage_key": "diff_all_examples",
+      "mode": "all",
+      "gpu": "3",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./train_activation_diff_all_examples.py",
+        "--vlm",
+        "qwen3_vl_32b_instruct",
+        "--save_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/08_diff_all_examples/08_04_diff_all_examples_all_qwen3_vl_32b_instruct_20260427_192228_199911",
+        "--features_cache_path",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/08_diff_all_examples/08_04_diff_all_examples_all_qwen3_vl_32b_instruct_20260427_192228_199911/features_cache.pt"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/08_diff_all_examples/08_04_diff_all_examples_all_qwen3_vl_32b_instruct_20260427_192228_199911",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/08_diff_all_examples/08_04_diff_all_examples_all_qwen3_vl_32b_instruct_20260427_192228_199911.log",
+      "elapsed_sec": 2072.0422539711,
+      "return_code": 0
+    },
+    {
+      "stage_key": "analysis",
+      "mode": "all",
+      "gpu": "4",
+      "command": [
+        "./miniconda3/envs/probing_vlms/bin/python",
+        "./analyze_full_probe_results.py",
+        "--experiment_run_root",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228",
+        "--output_dir",
+        "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/analysis"
+      ],
+      "save_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/analysis",
+      "log_path": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/analysis.log",
+      "elapsed_sec": 6.536720275878906,
+      "return_code": 0
+    }
+  ]
+}

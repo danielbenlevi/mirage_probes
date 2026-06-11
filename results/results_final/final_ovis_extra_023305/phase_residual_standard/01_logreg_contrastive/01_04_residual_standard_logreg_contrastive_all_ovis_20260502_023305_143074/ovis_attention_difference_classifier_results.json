@@ -1,0 +1,6 @@
+{
+  "deprecated": true,
+  "note": "Legacy threshold classifier over attention-weight metrics is no longer used.",
+  "best_layer_by_test_accuracy": null,
+  "best_layer_test_accuracy": null
+}

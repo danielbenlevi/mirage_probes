@@ -1,0 +1,5630 @@
+{
+  "language_model/layer_1": {
+    "best_feature": "language_model/layer_1__text_nonspecial_mean",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.7263157894736841,
+    "validation_accuracy_mean": 0.66,
+    "test_accuracy_mean": 0.526,
+    "macro_benchmark_test_accuracy_mean": 0.526,
+    "train_accuracy_std": 0.17817169347169215,
+    "validation_accuracy_std": 0.08000000000000002,
+    "test_accuracy_std": 0.11603447763488231,
+    "macro_benchmark_test_accuracy_std": 0.11603447763488231,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_1__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.5526315789473685,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.35,
+        "test_accuracy_mirage_true": 0.5,
+        "test_accuracy_mirage_false": 0.2,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.35
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.2
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.5
+        },
+        "macro_benchmark_test_accuracy": 0.35,
+        "macro_benchmark_class0_test_accuracy": 0.2,
+        "macro_benchmark_class1_test_accuracy": 0.5,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 774156052
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_1__text_nonspecial_mean",
+        "best_c": 0.1,
+        "train_accuracy": 0.9210526315789473,
+        "validation_accuracy": 0.8,
+        "test_accuracy": 0.58,
+        "test_accuracy_mirage_true": 0.64,
+        "test_accuracy_mirage_false": 0.52,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.58
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.52
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.64
+        },
+        "macro_benchmark_test_accuracy": 0.58,
+        "macro_benchmark_class0_test_accuracy": 0.52,
+        "macro_benchmark_class1_test_accuracy": 0.64,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 438979442
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_1__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.9473684210526315,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.62,
+        "test_accuracy_mirage_true": 0.68,
+        "test_accuracy_mirage_false": 0.56,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.62
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.56
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.68
+        },
+        "macro_benchmark_test_accuracy": 0.62,
+        "macro_benchmark_class0_test_accuracy": 0.56,
+        "macro_benchmark_class1_test_accuracy": 0.68,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 654571517
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_1__text_nonspecial_mean",
+        "best_c": 0.1,
+        "train_accuracy": 0.6842105263157895,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.43,
+        "test_accuracy_mirage_true": 0.52,
+        "test_accuracy_mirage_false": 0.34,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.43
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.34
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.52
+        },
+        "macro_benchmark_test_accuracy": 0.43,
+        "macro_benchmark_class0_test_accuracy": 0.34,
+        "macro_benchmark_class1_test_accuracy": 0.52,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 89251953
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_1__text_nonspecial_mean",
+        "best_c": 0.01,
+        "train_accuracy": 0.5263157894736842,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.65,
+        "test_accuracy_mirage_true": 0.74,
+        "test_accuracy_mirage_false": 0.56,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.65
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.56
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.74
+        },
+        "macro_benchmark_test_accuracy": 0.65,
+        "macro_benchmark_class0_test_accuracy": 0.56,
+        "macro_benchmark_class1_test_accuracy": 0.74,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 433215341
+      }
+    ]
+  },
+  "language_model/layer_2": {
+    "best_feature": "language_model/layer_2__text_nonspecial_mean",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.7894736842105263,
+    "validation_accuracy_mean": 0.64,
+    "test_accuracy_mean": 0.6439999999999999,
+    "macro_benchmark_test_accuracy_mean": 0.6439999999999999,
+    "train_accuracy_std": 0.21700555924303475,
+    "validation_accuracy_std": 0.08000000000000003,
+    "test_accuracy_std": 0.049234134500364686,
+    "macro_benchmark_test_accuracy_std": 0.049234134500364686,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_2__text_nonspecial_mean",
+        "best_c": 0.01,
+        "train_accuracy": 0.5526315789473685,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.64,
+        "test_accuracy_mirage_true": 0.66,
+        "test_accuracy_mirage_false": 0.62,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.64
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.62
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.66
+        },
+        "macro_benchmark_test_accuracy": 0.64,
+        "macro_benchmark_class0_test_accuracy": 0.62,
+        "macro_benchmark_class1_test_accuracy": 0.66,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 774056149
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_2__text_nonspecial_mean",
+        "best_c": 0.1,
+        "train_accuracy": 0.9736842105263158,
+        "validation_accuracy": 0.8,
+        "test_accuracy": 0.61,
+        "test_accuracy_mirage_true": 0.74,
+        "test_accuracy_mirage_false": 0.48,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.61
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.48
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.74
+        },
+        "macro_benchmark_test_accuracy": 0.61,
+        "macro_benchmark_class0_test_accuracy": 0.48,
+        "macro_benchmark_class1_test_accuracy": 0.74,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 439079445
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_2__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.9210526315789473,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.61,
+        "test_accuracy_mirage_true": 0.76,
+        "test_accuracy_mirage_false": 0.46,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.61
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.46
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.76
+        },
+        "macro_benchmark_test_accuracy": 0.61,
+        "macro_benchmark_class0_test_accuracy": 0.46,
+        "macro_benchmark_class1_test_accuracy": 0.76,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 654771523
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_2__text_nonspecial_mean",
+        "best_c": 0.01,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.62,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.64,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.62
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.64
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.62,
+        "macro_benchmark_class0_test_accuracy": 0.64,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 89251053
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_2__text_nonspecial_mean",
+        "best_c": 0.1,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.74,
+        "test_accuracy_mirage_true": 0.82,
+        "test_accuracy_mirage_false": 0.66,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.74
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.66
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.82
+        },
+        "macro_benchmark_test_accuracy": 0.74,
+        "macro_benchmark_class0_test_accuracy": 0.66,
+        "macro_benchmark_class1_test_accuracy": 0.82,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 433116238
+      }
+    ]
+  },
+  "language_model/layer_3": {
+    "best_feature": "language_model/layer_3__text_nonspecial_mean",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.7,
+    "validation_accuracy_mean": 0.6199999999999999,
+    "test_accuracy_mean": 0.504,
+    "macro_benchmark_test_accuracy_mean": 0.504,
+    "train_accuracy_std": 0.15398672461397678,
+    "validation_accuracy_std": 0.0748331477354788,
+    "test_accuracy_std": 0.09134549797335388,
+    "macro_benchmark_test_accuracy_std": 0.09134549797335388,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_3__text_nonspecial_mean",
+        "best_c": 0.01,
+        "train_accuracy": 0.6052631578947368,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.58,
+        "test_accuracy_mirage_true": 0.48,
+        "test_accuracy_mirage_false": 0.68,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.58
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.68
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.48
+        },
+        "macro_benchmark_test_accuracy": 0.58,
+        "macro_benchmark_class0_test_accuracy": 0.68,
+        "macro_benchmark_class1_test_accuracy": 0.48,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 774156152
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_3__text_nonspecial_mean",
+        "best_c": 0.1,
+        "train_accuracy": 0.9736842105263158,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.57,
+        "test_accuracy_mirage_true": 0.56,
+        "test_accuracy_mirage_false": 0.58,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.57
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.58
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.56
+        },
+        "macro_benchmark_test_accuracy": 0.57,
+        "macro_benchmark_class0_test_accuracy": 0.58,
+        "macro_benchmark_class1_test_accuracy": 0.56,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 438879439
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_3__text_nonspecial_mean",
+        "best_c": 0.01,
+        "train_accuracy": 0.6052631578947368,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.33,
+        "test_accuracy_mirage_true": 0.12,
+        "test_accuracy_mirage_false": 0.54,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.33
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.54
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.12
+        },
+        "macro_benchmark_test_accuracy": 0.33,
+        "macro_benchmark_class0_test_accuracy": 0.54,
+        "macro_benchmark_class1_test_accuracy": 0.12,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 654771623
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_3__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.7631578947368421,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.5,
+        "test_accuracy_mirage_true": 0.38,
+        "test_accuracy_mirage_false": 0.62,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.5
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.62
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.38
+        },
+        "macro_benchmark_test_accuracy": 0.5,
+        "macro_benchmark_class0_test_accuracy": 0.62,
+        "macro_benchmark_class1_test_accuracy": 0.38,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 89450959
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_3__text_nonspecial_mean",
+        "best_c": 0.01,
+        "train_accuracy": 0.5526315789473685,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.54,
+        "test_accuracy_mirage_true": 0.7,
+        "test_accuracy_mirage_false": 0.38,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.54
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.38
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.7
+        },
+        "macro_benchmark_test_accuracy": 0.54,
+        "macro_benchmark_class0_test_accuracy": 0.38,
+        "macro_benchmark_class1_test_accuracy": 0.7,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433015335
+      }
+    ]
+  },
+  "language_model/layer_4": {
+    "best_feature": "language_model/layer_4__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.7684210526315789,
+    "validation_accuracy_mean": 0.6399999999999999,
+    "test_accuracy_mean": 0.544,
+    "macro_benchmark_test_accuracy_mean": 0.544,
+    "train_accuracy_std": 0.1795654958866524,
+    "validation_accuracy_std": 0.04898979485566355,
+    "test_accuracy_std": 0.025768197453450242,
+    "macro_benchmark_test_accuracy_std": 0.025768197453450242,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_4__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.6052631578947368,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.52,
+        "test_accuracy_mirage_true": 0.46,
+        "test_accuracy_mirage_false": 0.58,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.52
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.58
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.46
+        },
+        "macro_benchmark_test_accuracy": 0.52,
+        "macro_benchmark_class0_test_accuracy": 0.58,
+        "macro_benchmark_class1_test_accuracy": 0.46,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 774056049
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_4__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.6052631578947368,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.51,
+        "test_accuracy_mirage_true": 0.44,
+        "test_accuracy_mirage_false": 0.58,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.51
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.58
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.44
+        },
+        "macro_benchmark_test_accuracy": 0.51,
+        "macro_benchmark_class0_test_accuracy": 0.58,
+        "macro_benchmark_class1_test_accuracy": 0.44,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 439078545
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_4__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.6578947368421053,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.58,
+        "test_accuracy_mirage_true": 0.66,
+        "test_accuracy_mirage_false": 0.5,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.58
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.5
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.66
+        },
+        "macro_benchmark_test_accuracy": 0.58,
+        "macro_benchmark_class0_test_accuracy": 0.5,
+        "macro_benchmark_class1_test_accuracy": 0.66,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 654571517
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_4__current_visual_plus_last",
+        "best_c": 0.1,
+        "train_accuracy": 0.9736842105263158,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.55,
+        "test_accuracy_mirage_true": 0.64,
+        "test_accuracy_mirage_false": 0.46,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.55
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.46
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.64
+        },
+        "macro_benchmark_test_accuracy": 0.55,
+        "macro_benchmark_class0_test_accuracy": 0.46,
+        "macro_benchmark_class1_test_accuracy": 0.64,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 89451959
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_4__current_visual_plus_last",
+        "best_c": 1.0,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.56,
+        "test_accuracy_mirage_true": 0.72,
+        "test_accuracy_mirage_false": 0.4,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.56
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.4
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.72
+        },
+        "macro_benchmark_test_accuracy": 0.56,
+        "macro_benchmark_class0_test_accuracy": 0.4,
+        "macro_benchmark_class1_test_accuracy": 0.72,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433025235
+      }
+    ]
+  },
+  "language_model/layer_5": {
+    "best_feature": "language_model/layer_5__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.7473684210526315,
+    "validation_accuracy_mean": 0.66,
+    "test_accuracy_mean": 0.5039999999999999,
+    "macro_benchmark_test_accuracy_mean": 0.5039999999999999,
+    "train_accuracy_std": 0.15398672461397678,
+    "validation_accuracy_std": 0.12000000000000002,
+    "test_accuracy_std": 0.036110940170535594,
+    "macro_benchmark_test_accuracy_std": 0.036110940170535594,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_5__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.5263157894736842,
+        "validation_accuracy": 0.8,
+        "test_accuracy": 0.46,
+        "test_accuracy_mirage_true": 0.54,
+        "test_accuracy_mirage_false": 0.38,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.46
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.38
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.54
+        },
+        "macro_benchmark_test_accuracy": 0.46,
+        "macro_benchmark_class0_test_accuracy": 0.38,
+        "macro_benchmark_class1_test_accuracy": 0.54,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 773956146
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_5__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.6842105263157895,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.52,
+        "test_accuracy_mirage_true": 0.44,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.52
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.44
+        },
+        "macro_benchmark_test_accuracy": 0.52,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.44,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 438878439
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_5__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.7368421052631579,
+        "validation_accuracy": 0.8,
+        "test_accuracy": 0.56,
+        "test_accuracy_mirage_true": 0.56,
+        "test_accuracy_mirage_false": 0.56,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.56
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.56
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.56
+        },
+        "macro_benchmark_test_accuracy": 0.56,
+        "macro_benchmark_class0_test_accuracy": 0.56,
+        "macro_benchmark_class1_test_accuracy": 0.56,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 654771523
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_5__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.7894736842105263,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.51,
+        "test_accuracy_mirage_true": 0.56,
+        "test_accuracy_mirage_false": 0.46,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.51
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.46
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.56
+        },
+        "macro_benchmark_test_accuracy": 0.51,
+        "macro_benchmark_class0_test_accuracy": 0.46,
+        "macro_benchmark_class1_test_accuracy": 0.56,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 89250953
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_5__current_visual_plus_last",
+        "best_c": 0.1,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.47,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.34,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.47
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.34
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.47,
+        "macro_benchmark_class0_test_accuracy": 0.34,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 433216241
+      }
+    ]
+  },
+  "language_model/layer_6": {
+    "best_feature": "language_model/layer_6__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.7736842105263159,
+    "validation_accuracy_mean": 0.66,
+    "test_accuracy_mean": 0.492,
+    "macro_benchmark_test_accuracy_mean": 0.492,
+    "train_accuracy_std": 0.21482454349430055,
+    "validation_accuracy_std": 0.1356465996625054,
+    "test_accuracy_std": 0.04166533331199933,
+    "macro_benchmark_test_accuracy_std": 0.04166533331199933,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_6__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.42105263157894735,
+        "validation_accuracy": 0.9,
+        "test_accuracy": 0.55,
+        "test_accuracy_mirage_true": 0.54,
+        "test_accuracy_mirage_false": 0.56,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.55
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.56
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.54
+        },
+        "macro_benchmark_test_accuracy": 0.55,
+        "macro_benchmark_class0_test_accuracy": 0.56,
+        "macro_benchmark_class1_test_accuracy": 0.54,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 773956146
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_6__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.6578947368421053,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.45,
+        "test_accuracy_mirage_true": 0.26,
+        "test_accuracy_mirage_false": 0.64,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.45
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.64
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.26
+        },
+        "macro_benchmark_test_accuracy": 0.45,
+        "macro_benchmark_class0_test_accuracy": 0.64,
+        "macro_benchmark_class1_test_accuracy": 0.26,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 438878439
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_6__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.8157894736842105,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.5,
+        "test_accuracy_mirage_true": 0.54,
+        "test_accuracy_mirage_false": 0.46,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.5
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.46
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.54
+        },
+        "macro_benchmark_test_accuracy": 0.5,
+        "macro_benchmark_class0_test_accuracy": 0.46,
+        "macro_benchmark_class1_test_accuracy": 0.54,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 654771523
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_6__current_visual_plus_last",
+        "best_c": 0.1,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.52,
+        "test_accuracy_mirage_true": 0.48,
+        "test_accuracy_mirage_false": 0.56,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.52
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.56
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.48
+        },
+        "macro_benchmark_test_accuracy": 0.52,
+        "macro_benchmark_class0_test_accuracy": 0.56,
+        "macro_benchmark_class1_test_accuracy": 0.48,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 89451959
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_6__current_visual_plus_last",
+        "best_c": 0.1,
+        "train_accuracy": 0.9736842105263158,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.44,
+        "test_accuracy_mirage_true": 0.46,
+        "test_accuracy_mirage_false": 0.42,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.44
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.42
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.46
+        },
+        "macro_benchmark_test_accuracy": 0.44,
+        "macro_benchmark_class0_test_accuracy": 0.42,
+        "macro_benchmark_class1_test_accuracy": 0.46,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 433216241
+      }
+    ]
+  },
+  "language_model/layer_7": {
+    "best_feature": "language_model/layer_7__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.6684210526315789,
+    "validation_accuracy_mean": 0.64,
+    "test_accuracy_mean": 0.47800000000000004,
+    "macro_benchmark_test_accuracy_mean": 0.47800000000000004,
+    "train_accuracy_std": 0.18652679101757214,
+    "validation_accuracy_std": 0.08000000000000003,
+    "test_accuracy_std": 0.10476640682967034,
+    "macro_benchmark_test_accuracy_std": 0.10476640682967034,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_7__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.42105263157894735,
+        "validation_accuracy": 0.8,
+        "test_accuracy": 0.6,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.6
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.6,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 773956146
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_7__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.6578947368421053,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.41,
+        "test_accuracy_mirage_true": 0.28,
+        "test_accuracy_mirage_false": 0.54,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.41
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.54
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.28
+        },
+        "macro_benchmark_test_accuracy": 0.41,
+        "macro_benchmark_class0_test_accuracy": 0.54,
+        "macro_benchmark_class1_test_accuracy": 0.28,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 438878439
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_7__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.631578947368421,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.32,
+        "test_accuracy_mirage_true": 0.32,
+        "test_accuracy_mirage_false": 0.32,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.32
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.32
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.32
+        },
+        "macro_benchmark_test_accuracy": 0.32,
+        "macro_benchmark_class0_test_accuracy": 0.32,
+        "macro_benchmark_class1_test_accuracy": 0.32,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 654771623
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_7__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.631578947368421,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.58,
+        "test_accuracy_mirage_true": 0.48,
+        "test_accuracy_mirage_false": 0.68,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.58
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.68
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.48
+        },
+        "macro_benchmark_test_accuracy": 0.58,
+        "macro_benchmark_class0_test_accuracy": 0.68,
+        "macro_benchmark_class1_test_accuracy": 0.48,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 89451059
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_7__current_visual_plus_last",
+        "best_c": 0.1,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.48,
+        "test_accuracy_mirage_true": 0.52,
+        "test_accuracy_mirage_false": 0.44,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.48
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.44
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.52
+        },
+        "macro_benchmark_test_accuracy": 0.48,
+        "macro_benchmark_class0_test_accuracy": 0.44,
+        "macro_benchmark_class1_test_accuracy": 0.52,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433016235
+      }
+    ]
+  },
+  "language_model/layer_8": {
+    "best_feature": "language_model/layer_8__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.568421052631579,
+    "validation_accuracy_mean": 0.66,
+    "test_accuracy_mean": 0.554,
+    "macro_benchmark_test_accuracy_mean": 0.554,
+    "train_accuracy_std": 0.045883146774112336,
+    "validation_accuracy_std": 0.08000000000000002,
+    "test_accuracy_std": 0.10781465577554843,
+    "macro_benchmark_test_accuracy_std": 0.10781465577554843,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_8__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 0.8,
+        "test_accuracy": 0.62,
+        "test_accuracy_mirage_true": 0.48,
+        "test_accuracy_mirage_false": 0.76,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.62
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.76
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.48
+        },
+        "macro_benchmark_test_accuracy": 0.62,
+        "macro_benchmark_class0_test_accuracy": 0.76,
+        "macro_benchmark_class1_test_accuracy": 0.48,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 773956046
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_8__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.6052631578947368,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.45,
+        "test_accuracy_mirage_true": 0.36,
+        "test_accuracy_mirage_false": 0.54,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.45
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.54
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.36
+        },
+        "macro_benchmark_test_accuracy": 0.45,
+        "macro_benchmark_class0_test_accuracy": 0.54,
+        "macro_benchmark_class1_test_accuracy": 0.36,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 439078445
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_8__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.5526315789473685,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.72,
+        "test_accuracy_mirage_true": 0.8,
+        "test_accuracy_mirage_false": 0.64,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.72
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.64
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.8
+        },
+        "macro_benchmark_test_accuracy": 0.72,
+        "macro_benchmark_class0_test_accuracy": 0.64,
+        "macro_benchmark_class1_test_accuracy": 0.8,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 654771523
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_8__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.631578947368421,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.43,
+        "test_accuracy_mirage_true": 0.42,
+        "test_accuracy_mirage_false": 0.44,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.43
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.44
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.42
+        },
+        "macro_benchmark_test_accuracy": 0.43,
+        "macro_benchmark_class0_test_accuracy": 0.44,
+        "macro_benchmark_class1_test_accuracy": 0.42,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 89450959
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_8__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.5526315789473685,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.55,
+        "test_accuracy_mirage_true": 0.56,
+        "test_accuracy_mirage_false": 0.54,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.55
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.54
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.56
+        },
+        "macro_benchmark_test_accuracy": 0.55,
+        "macro_benchmark_class0_test_accuracy": 0.54,
+        "macro_benchmark_class1_test_accuracy": 0.56,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 433115238
+      }
+    ]
+  },
+  "language_model/layer_9": {
+    "best_feature": "language_model/layer_9__text_nonspecial_mean",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.7894736842105263,
+    "validation_accuracy_mean": 0.64,
+    "test_accuracy_mean": 0.518,
+    "macro_benchmark_test_accuracy_mean": 0.518,
+    "train_accuracy_std": 0.16050474402080953,
+    "validation_accuracy_std": 0.07999999999999999,
+    "test_accuracy_std": 0.09368030742904293,
+    "macro_benchmark_test_accuracy_std": 0.09368030742904293,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_9__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.6842105263157895,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.54,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.68,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.54
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.68
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.54,
+        "macro_benchmark_class0_test_accuracy": 0.68,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 773956046
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_9__text_nonspecial_mean",
+        "best_c": 0.1,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.48,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.56,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.48
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.56
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.48,
+        "macro_benchmark_class0_test_accuracy": 0.56,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 439079445
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_9__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.5526315789473685,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.69,
+        "test_accuracy_mirage_true": 0.7,
+        "test_accuracy_mirage_false": 0.68,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.69
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.68
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.7
+        },
+        "macro_benchmark_test_accuracy": 0.69,
+        "macro_benchmark_class0_test_accuracy": 0.68,
+        "macro_benchmark_class1_test_accuracy": 0.7,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 654571517
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_9__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.7894736842105263,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.45,
+        "test_accuracy_mirage_true": 0.34,
+        "test_accuracy_mirage_false": 0.56,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.45
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.56
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.34
+        },
+        "macro_benchmark_test_accuracy": 0.45,
+        "macro_benchmark_class0_test_accuracy": 0.56,
+        "macro_benchmark_class1_test_accuracy": 0.34,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 89250953
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_9__text_nonspecial_mean",
+        "best_c": 0.1,
+        "train_accuracy": 0.9210526315789473,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.43,
+        "test_accuracy_mirage_true": 0.36,
+        "test_accuracy_mirage_false": 0.5,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.43
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.5
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.36
+        },
+        "macro_benchmark_test_accuracy": 0.43,
+        "macro_benchmark_class0_test_accuracy": 0.5,
+        "macro_benchmark_class1_test_accuracy": 0.36,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433016235
+      }
+    ]
+  },
+  "language_model/layer_10": {
+    "best_feature": "language_model/layer_10__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.6578947368421052,
+    "validation_accuracy_mean": 0.7,
+    "test_accuracy_mean": 0.454,
+    "macro_benchmark_test_accuracy_mean": 0.454,
+    "train_accuracy_std": 0.07254762501100116,
+    "validation_accuracy_std": 0.0632455532033676,
+    "test_accuracy_std": 0.08187795796183489,
+    "macro_benchmark_test_accuracy_std": 0.08187795796183489,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_10__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.7631578947368421,
+        "validation_accuracy": 0.8,
+        "test_accuracy": 0.42,
+        "test_accuracy_mirage_true": 0.32,
+        "test_accuracy_mirage_false": 0.52,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.42
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.52
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.32
+        },
+        "macro_benchmark_test_accuracy": 0.42,
+        "macro_benchmark_class0_test_accuracy": 0.52,
+        "macro_benchmark_class1_test_accuracy": 0.32,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 774056049
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_10__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.5789473684210527,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.5,
+        "test_accuracy_mirage_true": 0.48,
+        "test_accuracy_mirage_false": 0.52,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.5
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.52
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.48
+        },
+        "macro_benchmark_test_accuracy": 0.5,
+        "macro_benchmark_class0_test_accuracy": 0.52,
+        "macro_benchmark_class1_test_accuracy": 0.48,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 438978542
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_10__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.7105263157894737,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.5,
+        "test_accuracy_mirage_true": 0.28,
+        "test_accuracy_mirage_false": 0.72,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.5
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.72
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.28
+        },
+        "macro_benchmark_test_accuracy": 0.5,
+        "macro_benchmark_class0_test_accuracy": 0.72,
+        "macro_benchmark_class1_test_accuracy": 0.28,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 654671620
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_10__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.5789473684210527,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.54,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.68,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.54
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.68
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.54,
+        "macro_benchmark_class0_test_accuracy": 0.68,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 89451059
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_10__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.6578947368421053,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.31,
+        "test_accuracy_mirage_true": 0.34,
+        "test_accuracy_mirage_false": 0.28,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.31
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.28
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.34
+        },
+        "macro_benchmark_test_accuracy": 0.31,
+        "macro_benchmark_class0_test_accuracy": 0.28,
+        "macro_benchmark_class1_test_accuracy": 0.34,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433015235
+      }
+    ]
+  },
+  "language_model/layer_11": {
+    "best_feature": "language_model/layer_11__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.7052631578947368,
+    "validation_accuracy_mean": 0.7,
+    "test_accuracy_mean": 0.458,
+    "macro_benchmark_test_accuracy_mean": 0.458,
+    "train_accuracy_std": 0.2061384845006962,
+    "validation_accuracy_std": 0.0632455532033676,
+    "test_accuracy_std": 0.04707440918375928,
+    "macro_benchmark_test_accuracy_std": 0.04707440918375928,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_11__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.39473684210526316,
+        "validation_accuracy": 0.8,
+        "test_accuracy": 0.52,
+        "test_accuracy_mirage_true": 0.64,
+        "test_accuracy_mirage_false": 0.4,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.52
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.4
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.64
+        },
+        "macro_benchmark_test_accuracy": 0.52,
+        "macro_benchmark_class0_test_accuracy": 0.4,
+        "macro_benchmark_class1_test_accuracy": 0.64,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 774056149
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_11__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.8157894736842105,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.39,
+        "test_accuracy_mirage_true": 0.3,
+        "test_accuracy_mirage_false": 0.48,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.39
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.48
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.3
+        },
+        "macro_benchmark_test_accuracy": 0.39,
+        "macro_benchmark_class0_test_accuracy": 0.48,
+        "macro_benchmark_class1_test_accuracy": 0.3,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 438878439
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_11__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.7368421052631579,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.5,
+        "test_accuracy_mirage_true": 0.64,
+        "test_accuracy_mirage_false": 0.36,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.5
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.36
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.64
+        },
+        "macro_benchmark_test_accuracy": 0.5,
+        "macro_benchmark_class0_test_accuracy": 0.36,
+        "macro_benchmark_class1_test_accuracy": 0.64,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 654571517
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_11__current_visual_plus_last",
+        "best_c": 1.0,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.45,
+        "test_accuracy_mirage_true": 0.36,
+        "test_accuracy_mirage_false": 0.54,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.45
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.54
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.36
+        },
+        "macro_benchmark_test_accuracy": 0.45,
+        "macro_benchmark_class0_test_accuracy": 0.54,
+        "macro_benchmark_class1_test_accuracy": 0.36,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 89260953
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_11__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.5789473684210527,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.43,
+        "test_accuracy_mirage_true": 0.46,
+        "test_accuracy_mirage_false": 0.4,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.43
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.4
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.46
+        },
+        "macro_benchmark_test_accuracy": 0.43,
+        "macro_benchmark_class0_test_accuracy": 0.4,
+        "macro_benchmark_class1_test_accuracy": 0.46,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433015335
+      }
+    ]
+  },
+  "language_model/layer_12": {
+    "best_feature": "language_model/layer_12__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.7789473684210526,
+    "validation_accuracy_mean": 0.6199999999999999,
+    "test_accuracy_mean": 0.43,
+    "macro_benchmark_test_accuracy_mean": 0.43,
+    "train_accuracy_std": 0.10863035495026471,
+    "validation_accuracy_std": 0.11661903789690602,
+    "test_accuracy_std": 0.03898717737923585,
+    "macro_benchmark_test_accuracy_std": 0.03898717737923585,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_12__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.7368421052631579,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.46,
+        "test_accuracy_mirage_true": 0.56,
+        "test_accuracy_mirage_false": 0.36,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.46
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.36
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.56
+        },
+        "macro_benchmark_test_accuracy": 0.46,
+        "macro_benchmark_class0_test_accuracy": 0.36,
+        "macro_benchmark_class1_test_accuracy": 0.56,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 773956046
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_12__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.6842105263157895,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.48,
+        "test_accuracy_mirage_true": 0.46,
+        "test_accuracy_mirage_false": 0.5,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.48
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.5
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.46
+        },
+        "macro_benchmark_test_accuracy": 0.48,
+        "macro_benchmark_class0_test_accuracy": 0.5,
+        "macro_benchmark_class1_test_accuracy": 0.46,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 438978442
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_12__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.8157894736842105,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.44,
+        "test_accuracy_mirage_true": 0.34,
+        "test_accuracy_mirage_false": 0.54,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.44
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.54
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.34
+        },
+        "macro_benchmark_test_accuracy": 0.44,
+        "macro_benchmark_class0_test_accuracy": 0.54,
+        "macro_benchmark_class1_test_accuracy": 0.34,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 654771523
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_12__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.6842105263157895,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.39,
+        "test_accuracy_mirage_true": 0.36,
+        "test_accuracy_mirage_false": 0.42,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.39
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.42
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.36
+        },
+        "macro_benchmark_test_accuracy": 0.39,
+        "macro_benchmark_class0_test_accuracy": 0.42,
+        "macro_benchmark_class1_test_accuracy": 0.36,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 89350956
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_12__current_visual_plus_last",
+        "best_c": 0.1,
+        "train_accuracy": 0.9736842105263158,
+        "validation_accuracy": 0.8,
+        "test_accuracy": 0.38,
+        "test_accuracy_mirage_true": 0.48,
+        "test_accuracy_mirage_false": 0.28,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.38
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.28
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.48
+        },
+        "macro_benchmark_test_accuracy": 0.38,
+        "macro_benchmark_class0_test_accuracy": 0.28,
+        "macro_benchmark_class1_test_accuracy": 0.48,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433016235
+      }
+    ]
+  },
+  "language_model/layer_13": {
+    "best_feature": "language_model/layer_13__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.6526315789473685,
+    "validation_accuracy_mean": 0.64,
+    "test_accuracy_mean": 0.4779999999999999,
+    "macro_benchmark_test_accuracy_mean": 0.4779999999999999,
+    "train_accuracy_std": 0.16676820545005117,
+    "validation_accuracy_std": 0.04898979485566354,
+    "test_accuracy_std": 0.06705221845696083,
+    "macro_benchmark_test_accuracy_std": 0.06705221845696083,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_13__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.5526315789473685,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.48,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.56,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.48
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.56
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.48,
+        "macro_benchmark_class0_test_accuracy": 0.56,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 774056149
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_13__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.5263157894736842,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.5,
+        "test_accuracy_mirage_true": 0.48,
+        "test_accuracy_mirage_false": 0.52,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.5
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.52
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.48
+        },
+        "macro_benchmark_test_accuracy": 0.5,
+        "macro_benchmark_class0_test_accuracy": 0.52,
+        "macro_benchmark_class1_test_accuracy": 0.48,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 438978442
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_13__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.5526315789473685,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.59,
+        "test_accuracy_mirage_true": 0.76,
+        "test_accuracy_mirage_false": 0.42,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.59
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.42
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.76
+        },
+        "macro_benchmark_test_accuracy": 0.59,
+        "macro_benchmark_class0_test_accuracy": 0.42,
+        "macro_benchmark_class1_test_accuracy": 0.76,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 654571617
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_13__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.6578947368421053,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.4,
+        "test_accuracy_mirage_true": 0.28,
+        "test_accuracy_mirage_false": 0.52,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.4
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.52
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.28
+        },
+        "macro_benchmark_test_accuracy": 0.4,
+        "macro_benchmark_class0_test_accuracy": 0.52,
+        "macro_benchmark_class1_test_accuracy": 0.28,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 89250953
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_13__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.9736842105263158,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.42,
+        "test_accuracy_mirage_true": 0.42,
+        "test_accuracy_mirage_false": 0.42,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.42
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.42
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.42
+        },
+        "macro_benchmark_test_accuracy": 0.42,
+        "macro_benchmark_class0_test_accuracy": 0.42,
+        "macro_benchmark_class1_test_accuracy": 0.42,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 433115238
+      }
+    ]
+  },
+  "language_model/layer_14": {
+    "best_feature": "language_model/layer_14__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.8052631578947368,
+    "validation_accuracy_mean": 0.64,
+    "test_accuracy_mean": 0.426,
+    "macro_benchmark_test_accuracy_mean": 0.426,
+    "train_accuracy_std": 0.16526651019060612,
+    "validation_accuracy_std": 0.10198039027185571,
+    "test_accuracy_std": 0.06280127387243034,
+    "macro_benchmark_test_accuracy_std": 0.06280127387243034,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_14__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.47,
+        "test_accuracy_mirage_true": 0.52,
+        "test_accuracy_mirage_false": 0.42,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.47
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.42
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.52
+        },
+        "macro_benchmark_test_accuracy": 0.47,
+        "macro_benchmark_class0_test_accuracy": 0.42,
+        "macro_benchmark_class1_test_accuracy": 0.52,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 774156052
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_14__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.6052631578947368,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.52,
+        "test_accuracy_mirage_true": 0.38,
+        "test_accuracy_mirage_false": 0.66,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.52
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.66
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.38
+        },
+        "macro_benchmark_test_accuracy": 0.52,
+        "macro_benchmark_class0_test_accuracy": 0.66,
+        "macro_benchmark_class1_test_accuracy": 0.38,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 439078545
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_14__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.631578947368421,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.37,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.34,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.37
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.34
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.37,
+        "macro_benchmark_class0_test_accuracy": 0.34,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 654671620
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_14__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.8157894736842105,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.35,
+        "test_accuracy_mirage_true": 0.32,
+        "test_accuracy_mirage_false": 0.38,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.35
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.38
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.32
+        },
+        "macro_benchmark_test_accuracy": 0.35,
+        "macro_benchmark_class0_test_accuracy": 0.38,
+        "macro_benchmark_class1_test_accuracy": 0.32,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 89250953
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_14__current_visual_plus_last",
+        "best_c": 0.1,
+        "train_accuracy": 0.9736842105263158,
+        "validation_accuracy": 0.8,
+        "test_accuracy": 0.42,
+        "test_accuracy_mirage_true": 0.44,
+        "test_accuracy_mirage_false": 0.4,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.42
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.4
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.44
+        },
+        "macro_benchmark_test_accuracy": 0.42,
+        "macro_benchmark_class0_test_accuracy": 0.4,
+        "macro_benchmark_class1_test_accuracy": 0.44,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 433116238
+      }
+    ]
+  },
+  "language_model/layer_15": {
+    "best_feature": "language_model/layer_15__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.7894736842105263,
+    "validation_accuracy_mean": 0.6599999999999999,
+    "test_accuracy_mean": 0.514,
+    "macro_benchmark_test_accuracy_mean": 0.514,
+    "train_accuracy_std": 0.11531001210635075,
+    "validation_accuracy_std": 0.07999999999999999,
+    "test_accuracy_std": 0.07709734106958552,
+    "macro_benchmark_test_accuracy_std": 0.07709734106958552,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_15__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.6052631578947368,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.6,
+        "test_accuracy_mirage_true": 0.46,
+        "test_accuracy_mirage_false": 0.74,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.6
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.74
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.46
+        },
+        "macro_benchmark_test_accuracy": 0.6,
+        "macro_benchmark_class0_test_accuracy": 0.74,
+        "macro_benchmark_class1_test_accuracy": 0.46,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 774056149
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_15__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.7631578947368421,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.49,
+        "test_accuracy_mirage_true": 0.5,
+        "test_accuracy_mirage_false": 0.48,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.49
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.48
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.5
+        },
+        "macro_benchmark_test_accuracy": 0.49,
+        "macro_benchmark_class0_test_accuracy": 0.48,
+        "macro_benchmark_class1_test_accuracy": 0.5,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 438978442
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_15__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.868421052631579,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.61,
+        "test_accuracy_mirage_true": 0.52,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.61
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.52
+        },
+        "macro_benchmark_test_accuracy": 0.61,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.52,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 654671520
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_15__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.7631578947368421,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.43,
+        "test_accuracy_mirage_true": 0.36,
+        "test_accuracy_mirage_false": 0.5,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.43
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.5
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.36
+        },
+        "macro_benchmark_test_accuracy": 0.43,
+        "macro_benchmark_class0_test_accuracy": 0.5,
+        "macro_benchmark_class1_test_accuracy": 0.36,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 89450959
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_15__current_visual_plus_last",
+        "best_c": 0.1,
+        "train_accuracy": 0.9473684210526315,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.44,
+        "test_accuracy_mirage_true": 0.5,
+        "test_accuracy_mirage_false": 0.38,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.44
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.38
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.5
+        },
+        "macro_benchmark_test_accuracy": 0.44,
+        "macro_benchmark_class0_test_accuracy": 0.38,
+        "macro_benchmark_class1_test_accuracy": 0.5,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433016235
+      }
+    ]
+  },
+  "language_model/layer_16": {
+    "best_feature": "language_model/layer_16__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.731578947368421,
+    "validation_accuracy_mean": 0.72,
+    "test_accuracy_mean": 0.476,
+    "macro_benchmark_test_accuracy_mean": 0.476,
+    "train_accuracy_std": 0.13356397410999493,
+    "validation_accuracy_std": 0.09797958971132714,
+    "test_accuracy_std": 0.07787168933572715,
+    "macro_benchmark_test_accuracy_std": 0.07787168933572715,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_16__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.5263157894736842,
+        "validation_accuracy": 0.9,
+        "test_accuracy": 0.63,
+        "test_accuracy_mirage_true": 0.58,
+        "test_accuracy_mirage_false": 0.68,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.63
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.68
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.58
+        },
+        "macro_benchmark_test_accuracy": 0.63,
+        "macro_benchmark_class0_test_accuracy": 0.68,
+        "macro_benchmark_class1_test_accuracy": 0.58,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 774056149
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_16__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.7368421052631579,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.43,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.46,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.43
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.46
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.43,
+        "macro_benchmark_class0_test_accuracy": 0.46,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 438878439
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_16__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.7368421052631579,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.45,
+        "test_accuracy_mirage_true": 0.44,
+        "test_accuracy_mirage_false": 0.46,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.45
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.46
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.44
+        },
+        "macro_benchmark_test_accuracy": 0.45,
+        "macro_benchmark_class0_test_accuracy": 0.46,
+        "macro_benchmark_class1_test_accuracy": 0.44,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 654571517
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_16__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.7105263157894737,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.42,
+        "test_accuracy_mirage_true": 0.34,
+        "test_accuracy_mirage_false": 0.5,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.42
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.5
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.34
+        },
+        "macro_benchmark_test_accuracy": 0.42,
+        "macro_benchmark_class0_test_accuracy": 0.5,
+        "macro_benchmark_class1_test_accuracy": 0.34,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 89450959
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_16__current_visual_plus_last",
+        "best_c": 0.1,
+        "train_accuracy": 0.9473684210526315,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.45,
+        "test_accuracy_mirage_true": 0.48,
+        "test_accuracy_mirage_false": 0.42,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.45
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.42
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.48
+        },
+        "macro_benchmark_test_accuracy": 0.45,
+        "macro_benchmark_class0_test_accuracy": 0.42,
+        "macro_benchmark_class1_test_accuracy": 0.48,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433016235
+      }
+    ]
+  },
+  "language_model/layer_17": {
+    "best_feature": "language_model/layer_17__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.8631578947368421,
+    "validation_accuracy_mean": 0.7200000000000001,
+    "test_accuracy_mean": 0.506,
+    "macro_benchmark_test_accuracy_mean": 0.506,
+    "train_accuracy_std": 0.08712076503814133,
+    "validation_accuracy_std": 0.07483314773547886,
+    "test_accuracy_std": 0.057131427428342804,
+    "macro_benchmark_test_accuracy_std": 0.057131427428342804,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_17__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.8421052631578947,
+        "validation_accuracy": 0.8,
+        "test_accuracy": 0.55,
+        "test_accuracy_mirage_true": 0.44,
+        "test_accuracy_mirage_false": 0.66,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.55
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.66
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.44
+        },
+        "macro_benchmark_test_accuracy": 0.55,
+        "macro_benchmark_class0_test_accuracy": 0.66,
+        "macro_benchmark_class1_test_accuracy": 0.44,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 774156052
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_17__current_visual_plus_last",
+        "best_c": 0.1,
+        "train_accuracy": 0.9736842105263158,
+        "validation_accuracy": 0.8,
+        "test_accuracy": 0.56,
+        "test_accuracy_mirage_true": 0.48,
+        "test_accuracy_mirage_false": 0.64,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.56
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.64
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.48
+        },
+        "macro_benchmark_test_accuracy": 0.56,
+        "macro_benchmark_class0_test_accuracy": 0.64,
+        "macro_benchmark_class1_test_accuracy": 0.48,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 438979442
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_17__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.7368421052631579,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.5,
+        "test_accuracy_mirage_true": 0.48,
+        "test_accuracy_mirage_false": 0.52,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.5
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.52
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.48
+        },
+        "macro_benchmark_test_accuracy": 0.5,
+        "macro_benchmark_class0_test_accuracy": 0.52,
+        "macro_benchmark_class1_test_accuracy": 0.48,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 654571517
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_17__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.8157894736842105,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.52,
+        "test_accuracy_mirage_true": 0.42,
+        "test_accuracy_mirage_false": 0.62,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.52
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.62
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.42
+        },
+        "macro_benchmark_test_accuracy": 0.52,
+        "macro_benchmark_class0_test_accuracy": 0.62,
+        "macro_benchmark_class1_test_accuracy": 0.42,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 89250953
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_17__current_visual_plus_last",
+        "best_c": 0.1,
+        "train_accuracy": 0.9473684210526315,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.4,
+        "test_accuracy_mirage_true": 0.42,
+        "test_accuracy_mirage_false": 0.38,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.4
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.38
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.42
+        },
+        "macro_benchmark_test_accuracy": 0.4,
+        "macro_benchmark_class0_test_accuracy": 0.38,
+        "macro_benchmark_class1_test_accuracy": 0.42,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433016235
+      }
+    ]
+  },
+  "language_model/layer_18": {
+    "best_feature": "language_model/layer_18__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.7842105263157895,
+    "validation_accuracy_mean": 0.6599999999999999,
+    "test_accuracy_mean": 0.47400000000000003,
+    "macro_benchmark_test_accuracy_mean": 0.47400000000000003,
+    "train_accuracy_std": 0.18637822325921868,
+    "validation_accuracy_std": 0.04898979485566355,
+    "test_accuracy_std": 0.11534296684236972,
+    "macro_benchmark_test_accuracy_std": 0.11534296684236972,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_18__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.9736842105263158,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.56,
+        "test_accuracy_mirage_true": 0.52,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.56
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.52
+        },
+        "macro_benchmark_test_accuracy": 0.56,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.52,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 774056049
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_18__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.6842105263157895,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.64,
+        "test_accuracy_mirage_true": 0.76,
+        "test_accuracy_mirage_false": 0.52,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.64
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.52
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.76
+        },
+        "macro_benchmark_test_accuracy": 0.64,
+        "macro_benchmark_class0_test_accuracy": 0.52,
+        "macro_benchmark_class1_test_accuracy": 0.76,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 439078445
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_18__current_visual_plus_last",
+        "best_c": 1.0,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.31,
+        "test_accuracy_mirage_true": 0.18,
+        "test_accuracy_mirage_false": 0.44,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.31
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.44
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.18
+        },
+        "macro_benchmark_test_accuracy": 0.31,
+        "macro_benchmark_class0_test_accuracy": 0.44,
+        "macro_benchmark_class1_test_accuracy": 0.18,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 654781523
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_18__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.7631578947368421,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.45,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.5,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.45
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.5
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.45,
+        "macro_benchmark_class0_test_accuracy": 0.5,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 89250953
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_18__current_visual_plus_last",
+        "best_c": 1.0,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.41,
+        "test_accuracy_mirage_true": 0.44,
+        "test_accuracy_mirage_false": 0.38,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.41
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.38
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.44
+        },
+        "macro_benchmark_test_accuracy": 0.41,
+        "macro_benchmark_class0_test_accuracy": 0.38,
+        "macro_benchmark_class1_test_accuracy": 0.44,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433025235
+      }
+    ]
+  },
+  "language_model/layer_19": {
+    "best_feature": "language_model/layer_19__text_nonspecial_mean",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.7315789473684211,
+    "validation_accuracy_mean": 0.68,
+    "test_accuracy_mean": 0.6180000000000001,
+    "macro_benchmark_test_accuracy_mean": 0.6180000000000001,
+    "train_accuracy_std": 0.16425775299291825,
+    "validation_accuracy_std": 0.09797958971132713,
+    "test_accuracy_std": 0.11720068259186889,
+    "macro_benchmark_test_accuracy_std": 0.11720068259186889,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_19__text_nonspecial_mean",
+        "best_c": 1.0,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.73,
+        "test_accuracy_mirage_true": 0.68,
+        "test_accuracy_mirage_false": 0.78,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.73
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.78
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.68
+        },
+        "macro_benchmark_test_accuracy": 0.73,
+        "macro_benchmark_class0_test_accuracy": 0.78,
+        "macro_benchmark_class1_test_accuracy": 0.68,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 774066049
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_19__text_nonspecial_mean",
+        "best_c": 0.01,
+        "train_accuracy": 0.5789473684210527,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.62,
+        "test_accuracy_mirage_true": 0.7,
+        "test_accuracy_mirage_false": 0.54,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.62
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.54
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.7
+        },
+        "macro_benchmark_test_accuracy": 0.62,
+        "macro_benchmark_class0_test_accuracy": 0.54,
+        "macro_benchmark_class1_test_accuracy": 0.7,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 439078545
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_19__text_nonspecial_mean",
+        "best_c": 1.0,
+        "train_accuracy": 0.8157894736842105,
+        "validation_accuracy": 0.8,
+        "test_accuracy": 0.73,
+        "test_accuracy_mirage_true": 0.78,
+        "test_accuracy_mirage_false": 0.68,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.73
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.68
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.78
+        },
+        "macro_benchmark_test_accuracy": 0.73,
+        "macro_benchmark_class0_test_accuracy": 0.68,
+        "macro_benchmark_class1_test_accuracy": 0.78,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 654581517
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_19__text_nonspecial_mean",
+        "best_c": 0.01,
+        "train_accuracy": 0.5526315789473685,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.6,
+        "test_accuracy_mirage_true": 0.54,
+        "test_accuracy_mirage_false": 0.66,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.6
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.66
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.54
+        },
+        "macro_benchmark_test_accuracy": 0.6,
+        "macro_benchmark_class0_test_accuracy": 0.66,
+        "macro_benchmark_class1_test_accuracy": 0.54,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 89451059
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_19__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.7105263157894737,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.41,
+        "test_accuracy_mirage_true": 0.3,
+        "test_accuracy_mirage_false": 0.52,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.41
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.52
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.3
+        },
+        "macro_benchmark_test_accuracy": 0.41,
+        "macro_benchmark_class0_test_accuracy": 0.52,
+        "macro_benchmark_class1_test_accuracy": 0.3,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433015235
+      }
+    ]
+  },
+  "language_model/layer_20": {
+    "best_feature": "language_model/layer_20__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.7263157894736842,
+    "validation_accuracy_mean": 0.64,
+    "test_accuracy_mean": 0.504,
+    "macro_benchmark_test_accuracy_mean": 0.504,
+    "train_accuracy_std": 0.19020327367992265,
+    "validation_accuracy_std": 0.10198039027185571,
+    "test_accuracy_std": 0.08522910301065005,
+    "macro_benchmark_test_accuracy_std": 0.08522910301065005,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_20__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.7894736842105263,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.57,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.74,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.57
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.74
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.57,
+        "macro_benchmark_class0_test_accuracy": 0.74,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 774056049
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_20__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.6052631578947368,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.43,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.46,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.43
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.46
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.43,
+        "macro_benchmark_class0_test_accuracy": 0.46,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 438978442
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_20__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.868421052631579,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.51,
+        "test_accuracy_mirage_true": 0.38,
+        "test_accuracy_mirage_false": 0.64,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.51
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.64
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.38
+        },
+        "macro_benchmark_test_accuracy": 0.51,
+        "macro_benchmark_class0_test_accuracy": 0.64,
+        "macro_benchmark_class1_test_accuracy": 0.38,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 654671520
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_20__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.42105263157894735,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.62,
+        "test_accuracy_mirage_true": 0.64,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.62
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.64
+        },
+        "macro_benchmark_test_accuracy": 0.62,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.64,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 89351056
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_20__current_visual_plus_last",
+        "best_c": 0.1,
+        "train_accuracy": 0.9473684210526315,
+        "validation_accuracy": 0.8,
+        "test_accuracy": 0.39,
+        "test_accuracy_mirage_true": 0.26,
+        "test_accuracy_mirage_false": 0.52,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.39
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.52
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.26
+        },
+        "macro_benchmark_test_accuracy": 0.39,
+        "macro_benchmark_class0_test_accuracy": 0.52,
+        "macro_benchmark_class1_test_accuracy": 0.26,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433016235
+      }
+    ]
+  },
+  "language_model/layer_21": {
+    "best_feature": "language_model/layer_21__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.8263157894736842,
+    "validation_accuracy_mean": 0.6,
+    "test_accuracy_mean": 0.5619999999999999,
+    "macro_benchmark_test_accuracy_mean": 0.5619999999999999,
+    "train_accuracy_std": 0.09206766149755735,
+    "validation_accuracy_std": 0.08944271909999157,
+    "test_accuracy_std": 0.06675327707311456,
+    "macro_benchmark_test_accuracy_std": 0.06675327707311456,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_21__current_visual_plus_last",
+        "best_c": 0.1,
+        "train_accuracy": 0.9210526315789473,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.65,
+        "test_accuracy_mirage_true": 0.66,
+        "test_accuracy_mirage_false": 0.64,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.65
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.64
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.66
+        },
+        "macro_benchmark_test_accuracy": 0.65,
+        "macro_benchmark_class0_test_accuracy": 0.64,
+        "macro_benchmark_class1_test_accuracy": 0.66,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 774057049
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_21__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.6578947368421053,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.61,
+        "test_accuracy_mirage_true": 0.54,
+        "test_accuracy_mirage_false": 0.68,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.61
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.68
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.54
+        },
+        "macro_benchmark_test_accuracy": 0.61,
+        "macro_benchmark_class0_test_accuracy": 0.68,
+        "macro_benchmark_class1_test_accuracy": 0.54,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 438878439
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_21__current_visual_plus_last",
+        "best_c": 1.0,
+        "train_accuracy": 0.8157894736842105,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.48,
+        "test_accuracy_mirage_true": 0.42,
+        "test_accuracy_mirage_false": 0.54,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.48
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.54
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.42
+        },
+        "macro_benchmark_test_accuracy": 0.48,
+        "macro_benchmark_class0_test_accuracy": 0.54,
+        "macro_benchmark_class1_test_accuracy": 0.42,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 654681520
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_21__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.8421052631578947,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.58,
+        "test_accuracy_mirage_true": 0.52,
+        "test_accuracy_mirage_false": 0.64,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.58
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.64
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.52
+        },
+        "macro_benchmark_test_accuracy": 0.58,
+        "macro_benchmark_class0_test_accuracy": 0.64,
+        "macro_benchmark_class1_test_accuracy": 0.52,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 89250953
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_21__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.8947368421052632,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.49,
+        "test_accuracy_mirage_true": 0.34,
+        "test_accuracy_mirage_false": 0.64,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.49
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.64
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.34
+        },
+        "macro_benchmark_test_accuracy": 0.49,
+        "macro_benchmark_class0_test_accuracy": 0.64,
+        "macro_benchmark_class1_test_accuracy": 0.34,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 433115238
+      }
+    ]
+  },
+  "language_model/layer_22": {
+    "best_feature": "language_model/layer_22__all_nonspecial_mean",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.6631578947368422,
+    "validation_accuracy_mean": 0.6599999999999999,
+    "test_accuracy_mean": 0.5880000000000001,
+    "macro_benchmark_test_accuracy_mean": 0.5880000000000001,
+    "train_accuracy_std": 0.14452137071311558,
+    "validation_accuracy_std": 0.04898979485566355,
+    "test_accuracy_std": 0.10380751417888784,
+    "macro_benchmark_test_accuracy_std": 0.10380751417888784,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_22__all_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.5789473684210527,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.4,
+        "test_accuracy_mirage_true": 0.48,
+        "test_accuracy_mirage_false": 0.32,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.4
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.32
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.48
+        },
+        "macro_benchmark_test_accuracy": 0.4,
+        "macro_benchmark_class0_test_accuracy": 0.32,
+        "macro_benchmark_class1_test_accuracy": 0.48,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 773956046
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_22__all_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.5789473684210527,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.66,
+        "test_accuracy_mirage_true": 0.84,
+        "test_accuracy_mirage_false": 0.48,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.66
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.48
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.84
+        },
+        "macro_benchmark_test_accuracy": 0.66,
+        "macro_benchmark_class0_test_accuracy": 0.48,
+        "macro_benchmark_class1_test_accuracy": 0.84,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 438978442
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_22__all_nonspecial_mean",
+        "best_c": 0.1,
+        "train_accuracy": 0.8947368421052632,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.67,
+        "test_accuracy_mirage_true": 0.8,
+        "test_accuracy_mirage_false": 0.54,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.67
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.54
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.8
+        },
+        "macro_benchmark_test_accuracy": 0.67,
+        "macro_benchmark_class0_test_accuracy": 0.54,
+        "macro_benchmark_class1_test_accuracy": 0.8,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 654772523
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_22__all_nonspecial_mean",
+        "best_c": 0.01,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.66,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.72,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.66
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.72
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.66,
+        "macro_benchmark_class0_test_accuracy": 0.72,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 89251053
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_22__all_nonspecial_mean",
+        "best_c": 0.1,
+        "train_accuracy": 0.7631578947368421,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.55,
+        "test_accuracy_mirage_true": 0.64,
+        "test_accuracy_mirage_false": 0.46,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.55
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.46
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.64
+        },
+        "macro_benchmark_test_accuracy": 0.55,
+        "macro_benchmark_class0_test_accuracy": 0.46,
+        "macro_benchmark_class1_test_accuracy": 0.64,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 433116238
+      }
+    ]
+  },
+  "language_model/layer_23": {
+    "best_feature": "language_model/layer_23__all_nonspecial_mean",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.6631578947368422,
+    "validation_accuracy_mean": 0.62,
+    "test_accuracy_mean": 0.5960000000000001,
+    "macro_benchmark_test_accuracy_mean": 0.5960000000000001,
+    "train_accuracy_std": 0.16842105263157894,
+    "validation_accuracy_std": 0.0748331477354788,
+    "test_accuracy_std": 0.053141321022345686,
+    "macro_benchmark_test_accuracy_std": 0.053141321022345686,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_23__all_nonspecial_mean",
+        "best_c": 1.0,
+        "train_accuracy": 0.5263157894736842,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.62,
+        "test_accuracy_mirage_true": 0.52,
+        "test_accuracy_mirage_false": 0.72,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.62
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.72
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.52
+        },
+        "macro_benchmark_test_accuracy": 0.62,
+        "macro_benchmark_class0_test_accuracy": 0.72,
+        "macro_benchmark_class1_test_accuracy": 0.52,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 774066049
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_23__all_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.5526315789473685,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.62,
+        "test_accuracy_mirage_true": 0.72,
+        "test_accuracy_mirage_false": 0.52,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.62
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.52
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.72
+        },
+        "macro_benchmark_test_accuracy": 0.62,
+        "macro_benchmark_class0_test_accuracy": 0.52,
+        "macro_benchmark_class1_test_accuracy": 0.72,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 438878439
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_23__all_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.9736842105263158,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.67,
+        "test_accuracy_mirage_true": 0.74,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.67
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.74
+        },
+        "macro_benchmark_test_accuracy": 0.67,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.74,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 654771523
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_23__all_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.7105263157894737,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.54,
+        "test_accuracy_mirage_true": 0.62,
+        "test_accuracy_mirage_false": 0.46,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.54
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.46
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.62
+        },
+        "macro_benchmark_test_accuracy": 0.54,
+        "macro_benchmark_class0_test_accuracy": 0.46,
+        "macro_benchmark_class1_test_accuracy": 0.62,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 89450959
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_23__all_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.5526315789473685,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.53,
+        "test_accuracy_mirage_true": 0.66,
+        "test_accuracy_mirage_false": 0.4,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.53
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.4
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.66
+        },
+        "macro_benchmark_test_accuracy": 0.53,
+        "macro_benchmark_class0_test_accuracy": 0.4,
+        "macro_benchmark_class1_test_accuracy": 0.66,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433015235
+      }
+    ]
+  },
+  "language_model/layer_24": {
+    "best_feature": "language_model/layer_24__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.568421052631579,
+    "validation_accuracy_mean": 0.62,
+    "test_accuracy_mean": 0.554,
+    "macro_benchmark_test_accuracy_mean": 0.554,
+    "train_accuracy_std": 0.10069013931425784,
+    "validation_accuracy_std": 0.0748331477354788,
+    "test_accuracy_std": 0.09850888284819799,
+    "macro_benchmark_test_accuracy_std": 0.09850888284819799,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_24__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.5526315789473685,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.63,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.66,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.63
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.66
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.63,
+        "macro_benchmark_class0_test_accuracy": 0.66,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 773956046
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_24__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.5789473684210527,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.69,
+        "test_accuracy_mirage_true": 0.58,
+        "test_accuracy_mirage_false": 0.8,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.69
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.8
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.58
+        },
+        "macro_benchmark_test_accuracy": 0.69,
+        "macro_benchmark_class0_test_accuracy": 0.8,
+        "macro_benchmark_class1_test_accuracy": 0.58,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 439078445
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_24__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.7368421052631579,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.56,
+        "test_accuracy_mirage_true": 0.58,
+        "test_accuracy_mirage_false": 0.54,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.56
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.54
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.58
+        },
+        "macro_benchmark_test_accuracy": 0.56,
+        "macro_benchmark_class0_test_accuracy": 0.54,
+        "macro_benchmark_class1_test_accuracy": 0.58,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 654571517
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_24__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.42105263157894735,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.43,
+        "test_accuracy_mirage_true": 0.5,
+        "test_accuracy_mirage_false": 0.36,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.43
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.36
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.5
+        },
+        "macro_benchmark_test_accuracy": 0.43,
+        "macro_benchmark_class0_test_accuracy": 0.36,
+        "macro_benchmark_class1_test_accuracy": 0.5,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 89251053
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_24__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.5526315789473685,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.46,
+        "test_accuracy_mirage_true": 0.56,
+        "test_accuracy_mirage_false": 0.36,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.46
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.36
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.56
+        },
+        "macro_benchmark_test_accuracy": 0.46,
+        "macro_benchmark_class0_test_accuracy": 0.36,
+        "macro_benchmark_class1_test_accuracy": 0.56,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 433115338
+      }
+    ]
+  },
+  "language_model/layer_25": {
+    "best_feature": "language_model/layer_25__all_nonspecial_mean",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.7315789473684211,
+    "validation_accuracy_mean": 0.6,
+    "test_accuracy_mean": 0.616,
+    "macro_benchmark_test_accuracy_mean": 0.616,
+    "train_accuracy_std": 0.11214355659296063,
+    "validation_accuracy_std": 0.06324555320336757,
+    "test_accuracy_std": 0.026532998322843223,
+    "macro_benchmark_test_accuracy_std": 0.026532998322843223,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_25__all_nonspecial_mean",
+        "best_c": 1.0,
+        "train_accuracy": 0.6052631578947368,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.59,
+        "test_accuracy_mirage_true": 0.72,
+        "test_accuracy_mirage_false": 0.46,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.59
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.46
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.72
+        },
+        "macro_benchmark_test_accuracy": 0.59,
+        "macro_benchmark_class0_test_accuracy": 0.46,
+        "macro_benchmark_class1_test_accuracy": 0.72,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 774166052
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_25__all_nonspecial_mean",
+        "best_c": 1.0,
+        "train_accuracy": 0.7894736842105263,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.65,
+        "test_accuracy_mirage_true": 0.62,
+        "test_accuracy_mirage_false": 0.68,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.65
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.68
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.62
+        },
+        "macro_benchmark_test_accuracy": 0.65,
+        "macro_benchmark_class0_test_accuracy": 0.68,
+        "macro_benchmark_class1_test_accuracy": 0.62,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 439088445
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_25__all_nonspecial_mean",
+        "best_c": 0.1,
+        "train_accuracy": 0.7631578947368421,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.63,
+        "test_accuracy_mirage_true": 0.74,
+        "test_accuracy_mirage_false": 0.52,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.63
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.52
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.74
+        },
+        "macro_benchmark_test_accuracy": 0.63,
+        "macro_benchmark_class0_test_accuracy": 0.52,
+        "macro_benchmark_class1_test_accuracy": 0.74,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 654672520
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_25__all_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.6052631578947368,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.58,
+        "test_accuracy_mirage_true": 0.66,
+        "test_accuracy_mirage_false": 0.5,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.58
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.5
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.66
+        },
+        "macro_benchmark_test_accuracy": 0.58,
+        "macro_benchmark_class0_test_accuracy": 0.5,
+        "macro_benchmark_class1_test_accuracy": 0.66,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 89450959
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_25__all_nonspecial_mean",
+        "best_c": 0.1,
+        "train_accuracy": 0.8947368421052632,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.63,
+        "test_accuracy_mirage_true": 0.72,
+        "test_accuracy_mirage_false": 0.54,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.63
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.54
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.72
+        },
+        "macro_benchmark_test_accuracy": 0.63,
+        "macro_benchmark_class0_test_accuracy": 0.54,
+        "macro_benchmark_class1_test_accuracy": 0.72,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 433116238
+      }
+    ]
+  },
+  "language_model/layer_26": {
+    "best_feature": "language_model/layer_26__all_nonspecial_mean",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.5947368421052631,
+    "validation_accuracy_mean": 0.62,
+    "test_accuracy_mean": 0.6380000000000001,
+    "macro_benchmark_test_accuracy_mean": 0.6380000000000001,
+    "train_accuracy_std": 0.05156820511122481,
+    "validation_accuracy_std": 0.039999999999999994,
+    "test_accuracy_std": 0.08304215796810675,
+    "macro_benchmark_test_accuracy_std": 0.08304215796810675,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_26__all_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.5789473684210527,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.76,
+        "test_accuracy_mirage_true": 0.82,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.76
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.82
+        },
+        "macro_benchmark_test_accuracy": 0.76,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.82,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 773956046
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_26__all_nonspecial_mean",
+        "best_c": 0.1,
+        "train_accuracy": 0.6842105263157895,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.56,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.52,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.56
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.52
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.56,
+        "macro_benchmark_class0_test_accuracy": 0.52,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 439079445
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_26__all_nonspecial_mean",
+        "best_c": 0.1,
+        "train_accuracy": 0.5789473684210527,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.54,
+        "test_accuracy_mirage_true": 0.52,
+        "test_accuracy_mirage_false": 0.56,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.54
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.56
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.52
+        },
+        "macro_benchmark_test_accuracy": 0.54,
+        "macro_benchmark_class0_test_accuracy": 0.56,
+        "macro_benchmark_class1_test_accuracy": 0.52,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 654572517
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_26__all_nonspecial_mean",
+        "best_c": 0.01,
+        "train_accuracy": 0.5263157894736842,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.63,
+        "test_accuracy_mirage_true": 0.58,
+        "test_accuracy_mirage_false": 0.68,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.63
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.68
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.58
+        },
+        "macro_benchmark_test_accuracy": 0.63,
+        "macro_benchmark_class0_test_accuracy": 0.68,
+        "macro_benchmark_class1_test_accuracy": 0.58,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 89251053
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_26__all_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.6052631578947368,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.7,
+        "test_accuracy_mirage_true": 0.9,
+        "test_accuracy_mirage_false": 0.5,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.7
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.5
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.9
+        },
+        "macro_benchmark_test_accuracy": 0.7,
+        "macro_benchmark_class0_test_accuracy": 0.5,
+        "macro_benchmark_class1_test_accuracy": 0.9,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433015235
+      }
+    ]
+  },
+  "language_model/layer_27": {
+    "best_feature": "language_model/layer_27__all_nonspecial_mean",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.6210526315789473,
+    "validation_accuracy_mean": 0.64,
+    "test_accuracy_mean": 0.5599999999999999,
+    "macro_benchmark_test_accuracy_mean": 0.5599999999999999,
+    "train_accuracy_std": 0.0858395075278952,
+    "validation_accuracy_std": 0.04898979485566354,
+    "test_accuracy_std": 0.032863353450309954,
+    "macro_benchmark_test_accuracy_std": 0.032863353450309954,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_27__all_nonspecial_mean",
+        "best_c": 1.0,
+        "train_accuracy": 0.5526315789473685,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.56,
+        "test_accuracy_mirage_true": 0.76,
+        "test_accuracy_mirage_false": 0.36,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.56
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.36
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.76
+        },
+        "macro_benchmark_test_accuracy": 0.56,
+        "macro_benchmark_class0_test_accuracy": 0.36,
+        "macro_benchmark_class1_test_accuracy": 0.76,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 773966046
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_27__all_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.7105263157894737,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.62,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.64,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.62
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.64
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.62,
+        "macro_benchmark_class0_test_accuracy": 0.64,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 438878439
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_27__all_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.5263157894736842,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.52,
+        "test_accuracy_mirage_true": 0.44,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.52
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.44
+        },
+        "macro_benchmark_test_accuracy": 0.52,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.44,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 654571517
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_27__all_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.5789473684210527,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.55,
+        "test_accuracy_mirage_true": 0.56,
+        "test_accuracy_mirage_false": 0.54,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.55
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.54
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.56
+        },
+        "macro_benchmark_test_accuracy": 0.55,
+        "macro_benchmark_class0_test_accuracy": 0.54,
+        "macro_benchmark_class1_test_accuracy": 0.56,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 89450959
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_27__all_nonspecial_mean",
+        "best_c": 0.1,
+        "train_accuracy": 0.7368421052631579,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.55,
+        "test_accuracy_mirage_true": 0.46,
+        "test_accuracy_mirage_false": 0.64,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.55
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.64
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.46
+        },
+        "macro_benchmark_test_accuracy": 0.55,
+        "macro_benchmark_class0_test_accuracy": 0.64,
+        "macro_benchmark_class1_test_accuracy": 0.46,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 433216241
+      }
+    ]
+  },
+  "language_model/layer_28": {
+    "best_feature": "language_model/layer_28__text_nonspecial_mean",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.6684210526315789,
+    "validation_accuracy_mean": 0.6,
+    "test_accuracy_mean": 0.5880000000000001,
+    "macro_benchmark_test_accuracy_mean": 0.5880000000000001,
+    "train_accuracy_std": 0.03938586722919938,
+    "validation_accuracy_std": 0.06324555320336757,
+    "test_accuracy_std": 0.061773780845922,
+    "macro_benchmark_test_accuracy_std": 0.061773780845922,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_28__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.6842105263157895,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.61,
+        "test_accuracy_mirage_true": 0.66,
+        "test_accuracy_mirage_false": 0.56,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.61
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.56
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.66
+        },
+        "macro_benchmark_test_accuracy": 0.61,
+        "macro_benchmark_class0_test_accuracy": 0.56,
+        "macro_benchmark_class1_test_accuracy": 0.66,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 773956046
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_28__text_nonspecial_mean",
+        "best_c": 0.1,
+        "train_accuracy": 0.631578947368421,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.51,
+        "test_accuracy_mirage_true": 0.46,
+        "test_accuracy_mirage_false": 0.56,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.51
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.56
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.46
+        },
+        "macro_benchmark_test_accuracy": 0.51,
+        "macro_benchmark_class0_test_accuracy": 0.56,
+        "macro_benchmark_class1_test_accuracy": 0.46,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 438979442
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_28__text_nonspecial_mean",
+        "best_c": 0.1,
+        "train_accuracy": 0.6578947368421053,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.64,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.68,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.64
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.68
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.64,
+        "macro_benchmark_class0_test_accuracy": 0.68,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 654672520
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_28__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.7368421052631579,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.66,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.72,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.66
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.72
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.66,
+        "macro_benchmark_class0_test_accuracy": 0.72,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 89450959
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_28__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.631578947368421,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.52,
+        "test_accuracy_mirage_true": 0.62,
+        "test_accuracy_mirage_false": 0.42,
+        "benchmark_test_accuracy": {
+          "mmmu_pro": 0.52
+        },
+        "benchmark_class0_test_accuracy": {
+          "mmmu_pro": 0.42
+        },
+        "benchmark_class1_test_accuracy": {
+          "mmmu_pro": 0.62
+        },
+        "macro_benchmark_test_accuracy": 0.52,
+        "macro_benchmark_class0_test_accuracy": 0.42,
+        "macro_benchmark_class1_test_accuracy": 0.62,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "mmmu_pro": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 433115238
+      }
+    ]
+  }
+}

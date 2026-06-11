@@ -1,0 +1,6 @@
+{
+  "analysis_summary_json": "./data_and_results/full_probe_experiments/full_probe_ovis_20260427_020533/analysis/top_probe_summary.json",
+  "plots_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260427_020533/analysis/plots",
+  "num_experiments": 32,
+  "plot_runtime_notes": []
+}

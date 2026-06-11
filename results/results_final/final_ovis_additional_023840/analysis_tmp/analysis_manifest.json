@@ -1,0 +1,12 @@
+{
+  "analysis_summary_json": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/analysis_tmp/top_probe_summary.json",
+  "plots_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/analysis_tmp/plots",
+  "num_experiments": 28,
+  "plot_runtime_notes": [
+    "Skipped contrastive artifact with no heldout test accuracies: ./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/01_logreg_contrastive/01_01_logreg_contrastive_vqa_rad_ovis_20260501_023840_488024/ovis_all_feature_probe_accuracies.json",
+    "Skipped contrastive artifact with no heldout test accuracies: ./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/01_logreg_contrastive/01_02_logreg_contrastive_mmmu_pro_ovis_20260501_023840_488024/ovis_all_feature_probe_accuracies.json",
+    "Skipped contrastive artifact with no heldout test accuracies: ./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/01_logreg_contrastive/01_03_logreg_contrastive_medxpertqa_mm_ovis_20260501_023840_488024/ovis_all_feature_probe_accuracies.json",
+    "Skipped contrastive artifact with no heldout test accuracies: ./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/01_logreg_contrastive/01_04_logreg_contrastive_all_ovis_20260501_023840_488024/ovis_all_feature_probe_accuracies.json",
+    "matplotlib unavailable; using Pillow fallback renderer. error=ModuleNotFoundError: No module named 'matplotlib'"
+  ]
+}

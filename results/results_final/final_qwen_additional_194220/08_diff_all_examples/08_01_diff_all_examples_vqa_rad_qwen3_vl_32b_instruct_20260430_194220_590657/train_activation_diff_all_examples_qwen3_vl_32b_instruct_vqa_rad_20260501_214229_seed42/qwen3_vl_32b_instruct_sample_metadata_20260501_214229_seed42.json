@@ -1,0 +1,2522 @@
+[
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_419",
+    "question_id": "754",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_699",
+    "question_id": "1435",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_986",
+    "question_id": "1871",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_447",
+    "question_id": "801",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_237",
+    "question_id": "428",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_542",
+    "question_id": "1009",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_502",
+    "question_id": "892",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_357",
+    "question_id": "662",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_383",
+    "question_id": "704",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_606",
+    "question_id": "1169",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1004",
+    "question_id": "1904",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_21",
+    "question_id": "37",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_923",
+    "question_id": "1767",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_666",
+    "question_id": "1360",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_933",
+    "question_id": "1783",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1178",
+    "question_id": "2226",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_547",
+    "question_id": "1027",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_950",
+    "question_id": "1808",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_591",
+    "question_id": "1128",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_932",
+    "question_id": "1782",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1103",
+    "question_id": "2107",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_146",
+    "question_id": "264",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_42",
+    "question_id": "62",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_731",
+    "question_id": "1507",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_397",
+    "question_id": "727",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_67",
+    "question_id": "116",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_413",
+    "question_id": "747",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_208",
+    "question_id": "366",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1017",
+    "question_id": "1941",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_37",
+    "question_id": "57",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1145",
+    "question_id": "2174",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_539",
+    "question_id": "1003",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1006",
+    "question_id": "1908",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_81",
+    "question_id": "158",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_963",
+    "question_id": "1826",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_722",
+    "question_id": "1488",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_500",
+    "question_id": "887",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_163",
+    "question_id": "286",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_775",
+    "question_id": "1566",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_376",
+    "question_id": "694",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1156",
+    "question_id": "2186",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_946",
+    "question_id": "1802",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_618",
+    "question_id": "1219",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_552",
+    "question_id": "1036",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_815",
+    "question_id": "1624",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_762",
+    "question_id": "1548",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_790",
+    "question_id": "1590",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_954",
+    "question_id": "1813",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_246",
+    "question_id": "442",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_464",
+    "question_id": "824",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_644",
+    "question_id": "1308",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_26",
+    "question_id": "44",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_117",
+    "question_id": "217",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_305",
+    "question_id": "568",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_117",
+    "question_id": "217",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_684",
+    "question_id": "1398",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1134",
+    "question_id": "2161",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_260",
+    "question_id": "479",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_480",
+    "question_id": "854",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_178",
+    "question_id": "305",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_355",
+    "question_id": "659",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_757",
+    "question_id": "1542",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1177",
+    "question_id": "2225",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1011",
+    "question_id": "1915",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1082",
+    "question_id": "2080",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_566",
+    "question_id": "1071",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_863",
+    "question_id": "1680",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_188",
+    "question_id": "326",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_32",
+    "question_id": "52",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_283",
+    "question_id": "518",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_320",
+    "question_id": "607",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_124",
+    "question_id": "228",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_999",
+    "question_id": "1899",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_688",
+    "question_id": "1404",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_871",
+    "question_id": "1693",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1127",
+    "question_id": "2152",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_389",
+    "question_id": "715",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_853",
+    "question_id": "1670",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_170",
+    "question_id": "294",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_611",
+    "question_id": "1177",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_835",
+    "question_id": "1652",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_536",
+    "question_id": "998",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_202",
+    "question_id": "350",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_371",
+    "question_id": "687",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_413",
+    "question_id": "747",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1045",
+    "question_id": "2010",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1157",
+    "question_id": "2187",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_66",
+    "question_id": "115",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_951",
+    "question_id": "1809",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1045",
+    "question_id": "2010",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1051",
+    "question_id": "2018",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_800",
+    "question_id": "1602",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1039",
+    "question_id": "1997",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1142",
+    "question_id": "2171",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_380",
+    "question_id": "699",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_623",
+    "question_id": "1235",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_323",
+    "question_id": "612",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_602",
+    "question_id": "1154",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1069",
+    "question_id": "2057",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_364",
+    "question_id": "674",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1010",
+    "question_id": "1914",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_341",
+    "question_id": "635",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_62",
+    "question_id": "109",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_960",
+    "question_id": "1822",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_119",
+    "question_id": "219",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_327",
+    "question_id": "617",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1030",
+    "question_id": "1967",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_205",
+    "question_id": "357",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1033",
+    "question_id": "1980",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_874",
+    "question_id": "1696",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_381",
+    "question_id": "700",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_437",
+    "question_id": "785",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_862",
+    "question_id": "1679",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_218",
+    "question_id": "392",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1104",
+    "question_id": "2109",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_196",
+    "question_id": "341",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_872",
+    "question_id": "1694",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1125",
+    "question_id": "2149",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_848",
+    "question_id": "1665",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_965",
+    "question_id": "1834",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_655",
+    "question_id": "1332",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_732",
+    "question_id": "1508",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_749",
+    "question_id": "1533",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_574",
+    "question_id": "1080",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_18",
+    "question_id": "34",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1021",
+    "question_id": "1949",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1012",
+    "question_id": "1923",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_125",
+    "question_id": "230",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_452",
+    "question_id": "809",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_122",
+    "question_id": "225",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_755",
+    "question_id": "1540",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_514",
+    "question_id": "925",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_448",
+    "question_id": "803",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_176",
+    "question_id": "303",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_45",
+    "question_id": "69",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_911",
+    "question_id": "1751",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_363",
+    "question_id": "672",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_398",
+    "question_id": "729",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1110",
+    "question_id": "2115",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_613",
+    "question_id": "1181",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_927",
+    "question_id": "1773",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_498",
+    "question_id": "885",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_910",
+    "question_id": "1749",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_856",
+    "question_id": "1673",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_999",
+    "question_id": "1899",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_367",
+    "question_id": "678",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_923",
+    "question_id": "1767",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_726",
+    "question_id": "1495",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_77",
+    "question_id": "141",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_358",
+    "question_id": "663",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_599",
+    "question_id": "1147",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_220",
+    "question_id": "397",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_124",
+    "question_id": "228",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_512",
+    "question_id": "923",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_994",
+    "question_id": "1888",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_996",
+    "question_id": "1892",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_717",
+    "question_id": "1471",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_581",
+    "question_id": "1099",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_145",
+    "question_id": "262",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1070",
+    "question_id": "2062",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_630",
+    "question_id": "1260",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_697",
+    "question_id": "1431",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_967",
+    "question_id": "1836",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_852",
+    "question_id": "1669",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_879",
+    "question_id": "1703",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_232",
+    "question_id": "422",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_557",
+    "question_id": "1049",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_965",
+    "question_id": "1834",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_977",
+    "question_id": "1857",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_525",
+    "question_id": "951",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_620",
+    "question_id": "1224",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_961",
+    "question_id": "1823",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_647",
+    "question_id": "1312",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_762",
+    "question_id": "1548",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_201",
+    "question_id": "349",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_227",
+    "question_id": "416",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_574",
+    "question_id": "1080",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_588",
+    "question_id": "1120",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_394",
+    "question_id": "722",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_627",
+    "question_id": "1248",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_605",
+    "question_id": "1163",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_729",
+    "question_id": "1502",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1168",
+    "question_id": "2206",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_541",
+    "question_id": "1007",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_183",
+    "question_id": "316",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_170",
+    "question_id": "294",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_436",
+    "question_id": "784",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1028",
+    "question_id": "1965",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_175",
+    "question_id": "302",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_884",
+    "question_id": "1708",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_696",
+    "question_id": "1424",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_43",
+    "question_id": "64",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_970",
+    "question_id": "1842",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_858",
+    "question_id": "1675",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_672",
+    "question_id": "1376",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_868",
+    "question_id": "1689",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_145",
+    "question_id": "262",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1105",
+    "question_id": "2110",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_40",
+    "question_id": "60",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1055",
+    "question_id": "2031",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_210",
+    "question_id": "373",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_708",
+    "question_id": "1449",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_162",
+    "question_id": "285",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_685",
+    "question_id": "1401",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_859",
+    "question_id": "1676",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_263",
+    "question_id": "482",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1067",
+    "question_id": "2055",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_517",
+    "question_id": "936",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_816",
+    "question_id": "1626",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_943",
+    "question_id": "1797",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_309",
+    "question_id": "580",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_604",
+    "question_id": "1162",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_836",
+    "question_id": "1653",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_818",
+    "question_id": "1628",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_97",
+    "question_id": "187",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_82",
+    "question_id": "164",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_209",
+    "question_id": "369",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_886",
+    "question_id": "1712",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_619",
+    "question_id": "1221",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_661",
+    "question_id": "1351",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_297",
+    "question_id": "543",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_899",
+    "question_id": "1732",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_387",
+    "question_id": "711",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_298",
+    "question_id": "545",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_497",
+    "question_id": "884",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_980",
+    "question_id": "1861",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_23",
+    "question_id": "39",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_886",
+    "question_id": "1712",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_13",
+    "question_id": "25",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1005",
+    "question_id": "1907",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_838",
+    "question_id": "1655",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_430",
+    "question_id": "774",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_653",
+    "question_id": "1330",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_30",
+    "question_id": "48",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_272",
+    "question_id": "495",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1037",
+    "question_id": "1993",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_558",
+    "question_id": "1054",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_474",
+    "question_id": "841",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1152",
+    "question_id": "2181",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_247",
+    "question_id": "445",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_307",
+    "question_id": "577",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_347",
+    "question_id": "647",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_400",
+    "question_id": "731",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_306",
+    "question_id": "576",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_983",
+    "question_id": "1867",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_518",
+    "question_id": "937",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_867",
+    "question_id": "1686",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_857",
+    "question_id": "1674",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_114",
+    "question_id": "214",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_987",
+    "question_id": "1872",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_513",
+    "question_id": "924",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_135",
+    "question_id": "248",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_409",
+    "question_id": "741",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_713",
+    "question_id": "1466",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_448",
+    "question_id": "803",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_197",
+    "question_id": "342",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_51",
+    "question_id": "84",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_891",
+    "question_id": "1721",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1030",
+    "question_id": "1967",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_102",
+    "question_id": "197",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_193",
+    "question_id": "332",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_486",
+    "question_id": "863",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_57",
+    "question_id": "95",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_204",
+    "question_id": "356",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_727",
+    "question_id": "1499",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_172",
+    "question_id": "298",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_774",
+    "question_id": "1565",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_104",
+    "question_id": "200",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_845",
+    "question_id": "1662",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_615",
+    "question_id": "1188",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_153",
+    "question_id": "272",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1053",
+    "question_id": "2024",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_922",
+    "question_id": "1766",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_288",
+    "question_id": "525",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_203",
+    "question_id": "351",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_185",
+    "question_id": "320",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_532",
+    "question_id": "976",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_626",
+    "question_id": "1247",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_61",
+    "question_id": "108",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_890",
+    "question_id": "1716",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_431",
+    "question_id": "776",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_289",
+    "question_id": "526",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_608",
+    "question_id": "1173",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1182",
+    "question_id": "2232",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_63",
+    "question_id": "110",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_874",
+    "question_id": "1696",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_947",
+    "question_id": "1803",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_758",
+    "question_id": "1543",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1176",
+    "question_id": "2223",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_324",
+    "question_id": "613",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_422",
+    "question_id": "757",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_177",
+    "question_id": "304",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_388",
+    "question_id": "714",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_920",
+    "question_id": "1764",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1016",
+    "question_id": "1940",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_316",
+    "question_id": "596",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_429",
+    "question_id": "772",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_706",
+    "question_id": "1446",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_75",
+    "question_id": "139",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_719",
+    "question_id": "1474",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_869",
+    "question_id": "1691",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_155",
+    "question_id": "276",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_47",
+    "question_id": "71",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1139",
+    "question_id": "2166",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_46",
+    "question_id": "70",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_111",
+    "question_id": "207",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_654",
+    "question_id": "1331",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_548",
+    "question_id": "1030",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_85",
+    "question_id": "167",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_792",
+    "question_id": "1594",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_519",
+    "question_id": "942",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_447",
+    "question_id": "801",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1031",
+    "question_id": "1968",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_196",
+    "question_id": "341",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_165",
+    "question_id": "289",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_14",
+    "question_id": "27",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_403",
+    "question_id": "735",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_715",
+    "question_id": "1469",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_912",
+    "question_id": "1752",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1169",
+    "question_id": "2207",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_471",
+    "question_id": "833",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_346",
+    "question_id": "645",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_567",
+    "question_id": "1072",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_300",
+    "question_id": "552",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_284",
+    "question_id": "521",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_312",
+    "question_id": "588",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_24",
+    "question_id": "40",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_921",
+    "question_id": "1765",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1038",
+    "question_id": "1994",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_670",
+    "question_id": "1374",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_314",
+    "question_id": "592",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_390",
+    "question_id": "716",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_682",
+    "question_id": "1396",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_979",
+    "question_id": "1860",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_12",
+    "question_id": "24",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_53",
+    "question_id": "88",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_37",
+    "question_id": "57",
+    "variant_id": "mutation_1",
+    "label": 1,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_40",
+    "question_id": "60",
+    "variant_id": "mutation_1",
+    "label": 0,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_45",
+    "question_id": "69",
+    "variant_id": "mutation_1",
+    "label": 1,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_146",
+    "question_id": "264",
+    "variant_id": "mutation_1",
+    "label": 0,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_163",
+    "question_id": "286",
+    "variant_id": "mutation_1",
+    "label": 0,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_175",
+    "question_id": "302",
+    "variant_id": "mutation_2",
+    "label": 1,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_220",
+    "question_id": "397",
+    "variant_id": "mutation_3",
+    "label": 0,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_371",
+    "question_id": "687",
+    "variant_id": "mutation_1",
+    "label": 1,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_381",
+    "question_id": "700",
+    "variant_id": "mutation_1",
+    "label": 0,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_436",
+    "question_id": "784",
+    "variant_id": "original",
+    "label": 1,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_497",
+    "question_id": "884",
+    "variant_id": "mutation_4",
+    "label": 1,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_518",
+    "question_id": "937",
+    "variant_id": "mutation_1",
+    "label": 1,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_661",
+    "question_id": "1351",
+    "variant_id": "mutation_1",
+    "label": 0,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_666",
+    "question_id": "1360",
+    "variant_id": "mutation_1",
+    "label": 0,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_835",
+    "question_id": "1652",
+    "variant_id": "mutation_3",
+    "label": 0,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_858",
+    "question_id": "1675",
+    "variant_id": "mutation_1",
+    "label": 0,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_965",
+    "question_id": "1834",
+    "variant_id": "mutation_1",
+    "label": 0,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_970",
+    "question_id": "1842",
+    "variant_id": "mutation_1",
+    "label": 0,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_980",
+    "question_id": "1861",
+    "variant_id": "mutation_2",
+    "label": 0,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1156",
+    "question_id": "2186",
+    "variant_id": "mutation_1",
+    "label": 1,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "vqa_rad",
+    "unique_id": "vqa_rad_1168",
+    "question_id": "2206",
+    "variant_id": "mutation_2",
+    "label": 0,
+    "source_group": "contrastive_pair_augmentation"
+  }
+]

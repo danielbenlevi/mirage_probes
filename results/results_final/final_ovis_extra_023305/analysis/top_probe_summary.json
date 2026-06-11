@@ -1,0 +1,1350 @@
+{
+  "generated_at_utc": "2026-05-02T07:42:53.159449Z",
+  "experiment_run_root": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305",
+  "output_dir": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis",
+  "top_k": 3,
+  "num_experiments": 16,
+  "plot_runtime_notes": [],
+  "experiments": [
+    {
+      "experiment_id": "phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074",
+      "stage_key": "logreg_all_examples",
+      "mode": "all",
+      "artifact_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_additional_targets_text_nonspecial_mean/04_logreg_all_examples/04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074/ovis_all_feature_probe_accuracies.json",
+      "config_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_additional_targets_text_nonspecial_mean/04_logreg_all_examples/04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074/ovis_run_config.json",
+      "script_name": null,
+      "probe_type": null,
+      "feature_variant": null,
+      "vlm": "ovis",
+      "num_probe_rows": 476,
+      "layer_plot_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_llm_residual_test_accuracy.png",
+      "additional_family_layer_plot_paths": {
+        "attention_head_1": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_1_cross_layer_test_accuracy.png",
+        "attention_head_2": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_2_cross_layer_test_accuracy.png",
+        "attention_head_3": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_3_cross_layer_test_accuracy.png",
+        "attention_head_4": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_4_cross_layer_test_accuracy.png",
+        "attention_head_5": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_5_cross_layer_test_accuracy.png",
+        "attention_head_6": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_6_cross_layer_test_accuracy.png",
+        "attention_head_7": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_7_cross_layer_test_accuracy.png",
+        "attention_head_8": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_8_cross_layer_test_accuracy.png",
+        "attention_head_9": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_9_cross_layer_test_accuracy.png",
+        "attention_head_10": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_10_cross_layer_test_accuracy.png",
+        "attention_head_11": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_11_cross_layer_test_accuracy.png",
+        "attention_head_12": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_12_cross_layer_test_accuracy.png",
+        "attention_head_13": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_13_cross_layer_test_accuracy.png",
+        "attention_head_14": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_14_cross_layer_test_accuracy.png",
+        "attention_head_15": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_15_cross_layer_test_accuracy.png",
+        "attention_head_16": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_16_cross_layer_test_accuracy.png",
+        "attention_head_17": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_17_cross_layer_test_accuracy.png",
+        "attention_head_18": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_18_cross_layer_test_accuracy.png",
+        "attention_head_19": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_19_cross_layer_test_accuracy.png",
+        "attention_head_20": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_20_cross_layer_test_accuracy.png",
+        "attention_head_21": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_21_cross_layer_test_accuracy.png",
+        "attention_head_22": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_22_cross_layer_test_accuracy.png",
+        "attention_head_23": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_23_cross_layer_test_accuracy.png",
+        "attention_head_24": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_24_cross_layer_test_accuracy.png",
+        "attention_head_25": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_25_cross_layer_test_accuracy.png",
+        "attention_head_26": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_26_cross_layer_test_accuracy.png",
+        "attention_head_27": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_27_cross_layer_test_accuracy.png",
+        "attention_head_28": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_28_cross_layer_test_accuracy.png",
+        "attention_head_29": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_29_cross_layer_test_accuracy.png",
+        "attention_head_30": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_30_cross_layer_test_accuracy.png",
+        "attention_head_31": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_31_cross_layer_test_accuracy.png",
+        "attention_head_32": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_attention_head_32_cross_layer_test_accuracy.png",
+        "post_attention": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_post_attention_cross_layer_test_accuracy.png",
+        "mlp": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_04_additional_targets_text_nonspecial_mean_logreg_all_examples_all_ovis_20260502_023305_143074_mlp_cross_layer_test_accuracy.png"
+      },
+      "top_probes": [
+        {
+          "rank": 1,
+          "feature": "language_model/layer_3/post_attention__text_nonspecial_mean",
+          "layer_name": "layer_3",
+          "layer_index": 3,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.7407407407407408,
+          "class0_test_accuracy_avg": 0.7058823529411765,
+          "class1_test_accuracy_avg": 0.7659574468085105,
+          "benchmark_test_accuracy_avg": {
+            "medxpertqa_mm": 0.7142857142857143,
+            "mmmu_pro": 0.6785714285714285,
+            "vqa_rad": 0.782608695652174
+          },
+          "benchmark_class0_test_accuracy_avg": {
+            "medxpertqa_mm": 0.7777777777777777,
+            "mmmu_pro": 0.7777777777777777,
+            "vqa_rad": 0.6491228070175439
+          },
+          "benchmark_class1_test_accuracy_avg": {
+            "medxpertqa_mm": 0.6666666666666666,
+            "mmmu_pro": 0.6041666666666666,
+            "vqa_rad": 0.8765432098765432
+          }
+        },
+        {
+          "rank": 2,
+          "feature": "language_model/layer_5/attention_head_3__text_nonspecial_mean",
+          "layer_name": "layer_5",
+          "layer_index": 5,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.7283950617283951,
+          "class0_test_accuracy_avg": 0.6274509803921569,
+          "class1_test_accuracy_avg": 0.8014184397163121,
+          "benchmark_test_accuracy_avg": {
+            "medxpertqa_mm": 0.6666666666666666,
+            "mmmu_pro": 0.7261904761904763,
+            "vqa_rad": 0.7391304347826088
+          },
+          "benchmark_class0_test_accuracy_avg": {
+            "medxpertqa_mm": 0.5555555555555555,
+            "mmmu_pro": 0.6388888888888888,
+            "vqa_rad": 0.6315789473684211
+          },
+          "benchmark_class1_test_accuracy_avg": {
+            "medxpertqa_mm": 0.75,
+            "mmmu_pro": 0.7916666666666666,
+            "vqa_rad": 0.8148148148148149
+          }
+        },
+        {
+          "rank": 3,
+          "feature": "language_model/layer_5/attention_head_5__text_nonspecial_mean",
+          "layer_name": "layer_5",
+          "layer_index": 5,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.7283950617283951,
+          "class0_test_accuracy_avg": 0.5980392156862746,
+          "class1_test_accuracy_avg": 0.8226950354609929,
+          "benchmark_test_accuracy_avg": {
+            "medxpertqa_mm": 0.7619047619047619,
+            "mmmu_pro": 0.6309523809523809,
+            "vqa_rad": 0.7826086956521738
+          },
+          "benchmark_class0_test_accuracy_avg": {
+            "medxpertqa_mm": 0.6666666666666666,
+            "mmmu_pro": 0.6111111111111112,
+            "vqa_rad": 0.5789473684210527
+          },
+          "benchmark_class1_test_accuracy_avg": {
+            "medxpertqa_mm": 0.8333333333333334,
+            "mmmu_pro": 0.6458333333333334,
+            "vqa_rad": 0.9259259259259259
+          }
+        }
+      ]
+    },
+    {
+      "experiment_id": "phase_residual_standard__02_logreg_all_examples__02_04_residual_standard_logreg_all_examples_all_ovis_20260502_023305_143074",
+      "stage_key": "logreg_all_examples",
+      "mode": "all",
+      "artifact_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_residual_standard/02_logreg_all_examples/02_04_residual_standard_logreg_all_examples_all_ovis_20260502_023305_143074/ovis_all_feature_probe_accuracies.json",
+      "config_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_residual_standard/02_logreg_all_examples/02_04_residual_standard_logreg_all_examples_all_ovis_20260502_023305_143074/ovis_run_config.json",
+      "script_name": null,
+      "probe_type": null,
+      "feature_variant": null,
+      "vlm": "ovis",
+      "num_probe_rows": 87,
+      "layer_plot_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_residual_standard__02_logreg_all_examples__02_04_residual_standard_logreg_all_examples_all_ovis_20260502_023305_143074_llm_residual_test_accuracy.png",
+      "additional_family_layer_plot_paths": {},
+      "top_probes": [
+        {
+          "rank": 1,
+          "feature": "language_model/layer_6__text_nonspecial_mean",
+          "layer_name": "layer_6",
+          "layer_index": 6,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.7135802469135802,
+          "class0_test_accuracy_avg": 0.6823529411764706,
+          "class1_test_accuracy_avg": 0.7361702127659575,
+          "benchmark_test_accuracy_avg": {
+            "medxpertqa_mm": 0.6857142857142857,
+            "mmmu_pro": 0.7428571428571429,
+            "vqa_rad": 0.7
+          },
+          "benchmark_class0_test_accuracy_avg": {
+            "medxpertqa_mm": 0.6,
+            "mmmu_pro": 0.6833333333333333,
+            "vqa_rad": 0.6947368421052632
+          },
+          "benchmark_class1_test_accuracy_avg": {
+            "medxpertqa_mm": 0.75,
+            "mmmu_pro": 0.7875,
+            "vqa_rad": 0.7037037037037037
+          }
+        },
+        {
+          "rank": 2,
+          "feature": "language_model/layer_13__text_nonspecial_mean",
+          "layer_name": "layer_13",
+          "layer_index": 13,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.7037037037037038,
+          "class0_test_accuracy_avg": 0.6588235294117647,
+          "class1_test_accuracy_avg": 0.7361702127659575,
+          "benchmark_test_accuracy_avg": {
+            "medxpertqa_mm": 0.6285714285714286,
+            "mmmu_pro": 0.7,
+            "vqa_rad": 0.7173913043478262
+          },
+          "benchmark_class0_test_accuracy_avg": {
+            "medxpertqa_mm": 0.39999999999999997,
+            "mmmu_pro": 0.7,
+            "vqa_rad": 0.6736842105263158
+          },
+          "benchmark_class1_test_accuracy_avg": {
+            "medxpertqa_mm": 0.8,
+            "mmmu_pro": 0.7,
+            "vqa_rad": 0.7481481481481481
+          }
+        },
+        {
+          "rank": 3,
+          "feature": "language_model/layer_5__text_nonspecial_mean",
+          "layer_name": "layer_5",
+          "layer_index": 5,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.7037037037037037,
+          "class0_test_accuracy_avg": 0.6823529411764706,
+          "class1_test_accuracy_avg": 0.7191489361702128,
+          "benchmark_test_accuracy_avg": {
+            "medxpertqa_mm": 0.6,
+            "mmmu_pro": 0.75,
+            "vqa_rad": 0.691304347826087
+          },
+          "benchmark_class0_test_accuracy_avg": {
+            "medxpertqa_mm": 0.4666666666666666,
+            "mmmu_pro": 0.7666666666666666,
+            "vqa_rad": 0.6631578947368422
+          },
+          "benchmark_class1_test_accuracy_avg": {
+            "medxpertqa_mm": 0.7,
+            "mmmu_pro": 0.7375,
+            "vqa_rad": 0.711111111111111
+          }
+        }
+      ]
+    },
+    {
+      "experiment_id": "phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074",
+      "stage_key": "logreg_all_examples",
+      "mode": "medxpertqa_mm",
+      "artifact_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_additional_targets_text_nonspecial_mean/04_logreg_all_examples/04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074/ovis_all_feature_probe_accuracies.json",
+      "config_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_additional_targets_text_nonspecial_mean/04_logreg_all_examples/04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074/ovis_run_config.json",
+      "script_name": null,
+      "probe_type": null,
+      "feature_variant": null,
+      "vlm": "ovis",
+      "num_probe_rows": 476,
+      "layer_plot_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_llm_residual_test_accuracy.png",
+      "additional_family_layer_plot_paths": {
+        "attention_head_1": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_1_cross_layer_test_accuracy.png",
+        "attention_head_2": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_2_cross_layer_test_accuracy.png",
+        "attention_head_3": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_3_cross_layer_test_accuracy.png",
+        "attention_head_4": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_4_cross_layer_test_accuracy.png",
+        "attention_head_5": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_5_cross_layer_test_accuracy.png",
+        "attention_head_6": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_6_cross_layer_test_accuracy.png",
+        "attention_head_7": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_7_cross_layer_test_accuracy.png",
+        "attention_head_8": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_8_cross_layer_test_accuracy.png",
+        "attention_head_9": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_9_cross_layer_test_accuracy.png",
+        "attention_head_10": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_10_cross_layer_test_accuracy.png",
+        "attention_head_11": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_11_cross_layer_test_accuracy.png",
+        "attention_head_12": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_12_cross_layer_test_accuracy.png",
+        "attention_head_13": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_13_cross_layer_test_accuracy.png",
+        "attention_head_14": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_14_cross_layer_test_accuracy.png",
+        "attention_head_15": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_15_cross_layer_test_accuracy.png",
+        "attention_head_16": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_16_cross_layer_test_accuracy.png",
+        "attention_head_17": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_17_cross_layer_test_accuracy.png",
+        "attention_head_18": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_18_cross_layer_test_accuracy.png",
+        "attention_head_19": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_19_cross_layer_test_accuracy.png",
+        "attention_head_20": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_20_cross_layer_test_accuracy.png",
+        "attention_head_21": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_21_cross_layer_test_accuracy.png",
+        "attention_head_22": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_22_cross_layer_test_accuracy.png",
+        "attention_head_23": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_23_cross_layer_test_accuracy.png",
+        "attention_head_24": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_24_cross_layer_test_accuracy.png",
+        "attention_head_25": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_25_cross_layer_test_accuracy.png",
+        "attention_head_26": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_26_cross_layer_test_accuracy.png",
+        "attention_head_27": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_27_cross_layer_test_accuracy.png",
+        "attention_head_28": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_28_cross_layer_test_accuracy.png",
+        "attention_head_29": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_29_cross_layer_test_accuracy.png",
+        "attention_head_30": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_30_cross_layer_test_accuracy.png",
+        "attention_head_31": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_31_cross_layer_test_accuracy.png",
+        "attention_head_32": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_32_cross_layer_test_accuracy.png",
+        "post_attention": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_post_attention_cross_layer_test_accuracy.png",
+        "mlp": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_03_additional_targets_text_nonspecial_mean_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_mlp_cross_layer_test_accuracy.png"
+      },
+      "top_probes": [
+        {
+          "rank": 1,
+          "feature": "language_model/layer_15/attention_head_20__text_nonspecial_mean",
+          "layer_name": "layer_15",
+          "layer_index": 15,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.8571428571428571,
+          "class0_test_accuracy_avg": 0.7777777777777777,
+          "class1_test_accuracy_avg": 0.9166666666666666,
+          "benchmark_test_accuracy_avg": {
+            "medxpertqa_mm": 0.8571428571428571
+          },
+          "benchmark_class0_test_accuracy_avg": {
+            "medxpertqa_mm": 0.7777777777777777
+          },
+          "benchmark_class1_test_accuracy_avg": {
+            "medxpertqa_mm": 0.9166666666666666
+          }
+        },
+        {
+          "rank": 2,
+          "feature": "language_model/layer_15/attention_head_18__text_nonspecial_mean",
+          "layer_name": "layer_15",
+          "layer_index": 15,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.7619047619047619,
+          "class0_test_accuracy_avg": 0.6666666666666666,
+          "class1_test_accuracy_avg": 0.8333333333333334,
+          "benchmark_test_accuracy_avg": {
+            "medxpertqa_mm": 0.7619047619047619
+          },
+          "benchmark_class0_test_accuracy_avg": {
+            "medxpertqa_mm": 0.6666666666666666
+          },
+          "benchmark_class1_test_accuracy_avg": {
+            "medxpertqa_mm": 0.8333333333333334
+          }
+        },
+        {
+          "rank": 3,
+          "feature": "language_model/layer_11/attention_head_8__text_nonspecial_mean",
+          "layer_name": "layer_11",
+          "layer_index": 11,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.7142857142857143,
+          "class0_test_accuracy_avg": 0.7777777777777777,
+          "class1_test_accuracy_avg": 0.6666666666666666,
+          "benchmark_test_accuracy_avg": {
+            "medxpertqa_mm": 0.7142857142857143
+          },
+          "benchmark_class0_test_accuracy_avg": {
+            "medxpertqa_mm": 0.7777777777777777
+          },
+          "benchmark_class1_test_accuracy_avg": {
+            "medxpertqa_mm": 0.6666666666666666
+          }
+        }
+      ]
+    },
+    {
+      "experiment_id": "phase_residual_standard__02_logreg_all_examples__02_03_residual_standard_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074",
+      "stage_key": "logreg_all_examples",
+      "mode": "medxpertqa_mm",
+      "artifact_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_residual_standard/02_logreg_all_examples/02_03_residual_standard_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074/ovis_all_feature_probe_accuracies.json",
+      "config_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_residual_standard/02_logreg_all_examples/02_03_residual_standard_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074/ovis_run_config.json",
+      "script_name": null,
+      "probe_type": null,
+      "feature_variant": null,
+      "vlm": "ovis",
+      "num_probe_rows": 87,
+      "layer_plot_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_residual_standard__02_logreg_all_examples__02_03_residual_standard_logreg_all_examples_medxpertqa_mm_ovis_20260502_023305_143074_llm_residual_test_accuracy.png",
+      "additional_family_layer_plot_paths": {},
+      "top_probes": [
+        {
+          "rank": 1,
+          "feature": "language_model/layer_21__current_visual_plus_last",
+          "layer_name": "layer_21",
+          "layer_index": 21,
+          "strategy": "current_visual_plus_last",
+          "test_accuracy": 0.5714285714285714,
+          "class0_test_accuracy_avg": 0.5333333333333333,
+          "class1_test_accuracy_avg": 0.6,
+          "benchmark_test_accuracy_avg": {
+            "medxpertqa_mm": 0.5714285714285714
+          },
+          "benchmark_class0_test_accuracy_avg": {
+            "medxpertqa_mm": 0.5333333333333333
+          },
+          "benchmark_class1_test_accuracy_avg": {
+            "medxpertqa_mm": 0.6
+          }
+        },
+        {
+          "rank": 2,
+          "feature": "language_model/layer_20__current_visual_plus_last",
+          "layer_name": "layer_20",
+          "layer_index": 20,
+          "strategy": "current_visual_plus_last",
+          "test_accuracy": 0.5428571428571429,
+          "class0_test_accuracy_avg": 0.5333333333333333,
+          "class1_test_accuracy_avg": 0.55,
+          "benchmark_test_accuracy_avg": {
+            "medxpertqa_mm": 0.5428571428571429
+          },
+          "benchmark_class0_test_accuracy_avg": {
+            "medxpertqa_mm": 0.5333333333333333
+          },
+          "benchmark_class1_test_accuracy_avg": {
+            "medxpertqa_mm": 0.55
+          }
+        },
+        {
+          "rank": 3,
+          "feature": "language_model/layer_1__current_visual_plus_last",
+          "layer_name": "layer_1",
+          "layer_index": 1,
+          "strategy": "current_visual_plus_last",
+          "test_accuracy": 0.5428571428571427,
+          "class0_test_accuracy_avg": 0.4666666666666667,
+          "class1_test_accuracy_avg": 0.6,
+          "benchmark_test_accuracy_avg": {
+            "medxpertqa_mm": 0.5428571428571427
+          },
+          "benchmark_class0_test_accuracy_avg": {
+            "medxpertqa_mm": 0.4666666666666667
+          },
+          "benchmark_class1_test_accuracy_avg": {
+            "medxpertqa_mm": 0.6
+          }
+        }
+      ]
+    },
+    {
+      "experiment_id": "phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074",
+      "stage_key": "logreg_all_examples",
+      "mode": "mmmu_pro",
+      "artifact_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_additional_targets_text_nonspecial_mean/04_logreg_all_examples/04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074/ovis_all_feature_probe_accuracies.json",
+      "config_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_additional_targets_text_nonspecial_mean/04_logreg_all_examples/04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074/ovis_run_config.json",
+      "script_name": null,
+      "probe_type": null,
+      "feature_variant": null,
+      "vlm": "ovis",
+      "num_probe_rows": 476,
+      "layer_plot_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_llm_residual_test_accuracy.png",
+      "additional_family_layer_plot_paths": {
+        "attention_head_1": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_1_cross_layer_test_accuracy.png",
+        "attention_head_2": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_2_cross_layer_test_accuracy.png",
+        "attention_head_3": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_3_cross_layer_test_accuracy.png",
+        "attention_head_4": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_4_cross_layer_test_accuracy.png",
+        "attention_head_5": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_5_cross_layer_test_accuracy.png",
+        "attention_head_6": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_6_cross_layer_test_accuracy.png",
+        "attention_head_7": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_7_cross_layer_test_accuracy.png",
+        "attention_head_8": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_8_cross_layer_test_accuracy.png",
+        "attention_head_9": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_9_cross_layer_test_accuracy.png",
+        "attention_head_10": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_10_cross_layer_test_accuracy.png",
+        "attention_head_11": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_11_cross_layer_test_accuracy.png",
+        "attention_head_12": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_12_cross_layer_test_accuracy.png",
+        "attention_head_13": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_13_cross_layer_test_accuracy.png",
+        "attention_head_14": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_14_cross_layer_test_accuracy.png",
+        "attention_head_15": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_15_cross_layer_test_accuracy.png",
+        "attention_head_16": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_16_cross_layer_test_accuracy.png",
+        "attention_head_17": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_17_cross_layer_test_accuracy.png",
+        "attention_head_18": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_18_cross_layer_test_accuracy.png",
+        "attention_head_19": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_19_cross_layer_test_accuracy.png",
+        "attention_head_20": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_20_cross_layer_test_accuracy.png",
+        "attention_head_21": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_21_cross_layer_test_accuracy.png",
+        "attention_head_22": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_22_cross_layer_test_accuracy.png",
+        "attention_head_23": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_23_cross_layer_test_accuracy.png",
+        "attention_head_24": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_24_cross_layer_test_accuracy.png",
+        "attention_head_25": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_25_cross_layer_test_accuracy.png",
+        "attention_head_26": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_26_cross_layer_test_accuracy.png",
+        "attention_head_27": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_27_cross_layer_test_accuracy.png",
+        "attention_head_28": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_28_cross_layer_test_accuracy.png",
+        "attention_head_29": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_29_cross_layer_test_accuracy.png",
+        "attention_head_30": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_30_cross_layer_test_accuracy.png",
+        "attention_head_31": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_31_cross_layer_test_accuracy.png",
+        "attention_head_32": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_attention_head_32_cross_layer_test_accuracy.png",
+        "post_attention": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_post_attention_cross_layer_test_accuracy.png",
+        "mlp": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_02_additional_targets_text_nonspecial_mean_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_mlp_cross_layer_test_accuracy.png"
+      },
+      "top_probes": [
+        {
+          "rank": 1,
+          "feature": "language_model/layer_19/attention_head_1__text_nonspecial_mean",
+          "layer_name": "layer_19",
+          "layer_index": 19,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.7701149425287356,
+          "class0_test_accuracy_avg": 0.7179487179487181,
+          "class1_test_accuracy_avg": 0.8125,
+          "benchmark_test_accuracy_avg": {
+            "mmmu_pro": 0.7701149425287356
+          },
+          "benchmark_class0_test_accuracy_avg": {
+            "mmmu_pro": 0.7179487179487181
+          },
+          "benchmark_class1_test_accuracy_avg": {
+            "mmmu_pro": 0.8125
+          }
+        },
+        {
+          "rank": 2,
+          "feature": "language_model/layer_1/attention_head_23__text_nonspecial_mean",
+          "layer_name": "layer_1",
+          "layer_index": 1,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.7471264367816092,
+          "class0_test_accuracy_avg": 0.6666666666666666,
+          "class1_test_accuracy_avg": 0.8125,
+          "benchmark_test_accuracy_avg": {
+            "mmmu_pro": 0.7471264367816092
+          },
+          "benchmark_class0_test_accuracy_avg": {
+            "mmmu_pro": 0.6666666666666666
+          },
+          "benchmark_class1_test_accuracy_avg": {
+            "mmmu_pro": 0.8125
+          }
+        },
+        {
+          "rank": 3,
+          "feature": "language_model/layer_19/attention_head_4__text_nonspecial_mean",
+          "layer_name": "layer_19",
+          "layer_index": 19,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.735632183908046,
+          "class0_test_accuracy_avg": 0.6153846153846154,
+          "class1_test_accuracy_avg": 0.8333333333333334,
+          "benchmark_test_accuracy_avg": {
+            "mmmu_pro": 0.735632183908046
+          },
+          "benchmark_class0_test_accuracy_avg": {
+            "mmmu_pro": 0.6153846153846154
+          },
+          "benchmark_class1_test_accuracy_avg": {
+            "mmmu_pro": 0.8333333333333334
+          }
+        }
+      ]
+    },
+    {
+      "experiment_id": "phase_residual_standard__02_logreg_all_examples__02_02_residual_standard_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074",
+      "stage_key": "logreg_all_examples",
+      "mode": "mmmu_pro",
+      "artifact_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_residual_standard/02_logreg_all_examples/02_02_residual_standard_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074/ovis_all_feature_probe_accuracies.json",
+      "config_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_residual_standard/02_logreg_all_examples/02_02_residual_standard_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074/ovis_run_config.json",
+      "script_name": null,
+      "probe_type": null,
+      "feature_variant": null,
+      "vlm": "ovis",
+      "num_probe_rows": 87,
+      "layer_plot_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_residual_standard__02_logreg_all_examples__02_02_residual_standard_logreg_all_examples_mmmu_pro_ovis_20260502_023305_143074_llm_residual_test_accuracy.png",
+      "additional_family_layer_plot_paths": {},
+      "top_probes": [
+        {
+          "rank": 1,
+          "feature": "language_model/layer_17__current_visual_plus_last",
+          "layer_name": "layer_17",
+          "layer_index": 17,
+          "strategy": "current_visual_plus_last",
+          "test_accuracy": 0.7310344827586207,
+          "class0_test_accuracy_avg": 0.6923076923076923,
+          "class1_test_accuracy_avg": 0.7625,
+          "benchmark_test_accuracy_avg": {
+            "mmmu_pro": 0.7310344827586207
+          },
+          "benchmark_class0_test_accuracy_avg": {
+            "mmmu_pro": 0.6923076923076923
+          },
+          "benchmark_class1_test_accuracy_avg": {
+            "mmmu_pro": 0.7625
+          }
+        },
+        {
+          "rank": 2,
+          "feature": "language_model/layer_18__text_nonspecial_mean",
+          "layer_name": "layer_18",
+          "layer_index": 18,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.7310344827586206,
+          "class0_test_accuracy_avg": 0.7076923076923076,
+          "class1_test_accuracy_avg": 0.75,
+          "benchmark_test_accuracy_avg": {
+            "mmmu_pro": 0.7310344827586206
+          },
+          "benchmark_class0_test_accuracy_avg": {
+            "mmmu_pro": 0.7076923076923076
+          },
+          "benchmark_class1_test_accuracy_avg": {
+            "mmmu_pro": 0.75
+          }
+        },
+        {
+          "rank": 3,
+          "feature": "language_model/layer_13__text_nonspecial_mean",
+          "layer_name": "layer_13",
+          "layer_index": 13,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.7241379310344828,
+          "class0_test_accuracy_avg": 0.7384615384615385,
+          "class1_test_accuracy_avg": 0.7125,
+          "benchmark_test_accuracy_avg": {
+            "mmmu_pro": 0.7241379310344828
+          },
+          "benchmark_class0_test_accuracy_avg": {
+            "mmmu_pro": 0.7384615384615385
+          },
+          "benchmark_class1_test_accuracy_avg": {
+            "mmmu_pro": 0.7125
+          }
+        }
+      ]
+    },
+    {
+      "experiment_id": "phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074",
+      "stage_key": "logreg_all_examples",
+      "mode": "vqa_rad",
+      "artifact_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_additional_targets_text_nonspecial_mean/04_logreg_all_examples/04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074/ovis_all_feature_probe_accuracies.json",
+      "config_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_additional_targets_text_nonspecial_mean/04_logreg_all_examples/04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074/ovis_run_config.json",
+      "script_name": null,
+      "probe_type": null,
+      "feature_variant": null,
+      "vlm": "ovis",
+      "num_probe_rows": 476,
+      "layer_plot_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_llm_residual_test_accuracy.png",
+      "additional_family_layer_plot_paths": {
+        "attention_head_1": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_1_cross_layer_test_accuracy.png",
+        "attention_head_2": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_2_cross_layer_test_accuracy.png",
+        "attention_head_3": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_3_cross_layer_test_accuracy.png",
+        "attention_head_4": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_4_cross_layer_test_accuracy.png",
+        "attention_head_5": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_5_cross_layer_test_accuracy.png",
+        "attention_head_6": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_6_cross_layer_test_accuracy.png",
+        "attention_head_7": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_7_cross_layer_test_accuracy.png",
+        "attention_head_8": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_8_cross_layer_test_accuracy.png",
+        "attention_head_9": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_9_cross_layer_test_accuracy.png",
+        "attention_head_10": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_10_cross_layer_test_accuracy.png",
+        "attention_head_11": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_11_cross_layer_test_accuracy.png",
+        "attention_head_12": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_12_cross_layer_test_accuracy.png",
+        "attention_head_13": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_13_cross_layer_test_accuracy.png",
+        "attention_head_14": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_14_cross_layer_test_accuracy.png",
+        "attention_head_15": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_15_cross_layer_test_accuracy.png",
+        "attention_head_16": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_16_cross_layer_test_accuracy.png",
+        "attention_head_17": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_17_cross_layer_test_accuracy.png",
+        "attention_head_18": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_18_cross_layer_test_accuracy.png",
+        "attention_head_19": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_19_cross_layer_test_accuracy.png",
+        "attention_head_20": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_20_cross_layer_test_accuracy.png",
+        "attention_head_21": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_21_cross_layer_test_accuracy.png",
+        "attention_head_22": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_22_cross_layer_test_accuracy.png",
+        "attention_head_23": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_23_cross_layer_test_accuracy.png",
+        "attention_head_24": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_24_cross_layer_test_accuracy.png",
+        "attention_head_25": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_25_cross_layer_test_accuracy.png",
+        "attention_head_26": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_26_cross_layer_test_accuracy.png",
+        "attention_head_27": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_27_cross_layer_test_accuracy.png",
+        "attention_head_28": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_28_cross_layer_test_accuracy.png",
+        "attention_head_29": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_29_cross_layer_test_accuracy.png",
+        "attention_head_30": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_30_cross_layer_test_accuracy.png",
+        "attention_head_31": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_31_cross_layer_test_accuracy.png",
+        "attention_head_32": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_attention_head_32_cross_layer_test_accuracy.png",
+        "post_attention": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_post_attention_cross_layer_test_accuracy.png",
+        "mlp": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__04_logreg_all_examples__04_01_additional_targets_text_nonspecial_mean_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_mlp_cross_layer_test_accuracy.png"
+      },
+      "top_probes": [
+        {
+          "rank": 1,
+          "feature": "language_model/layer_15/attention_head_1__text_nonspecial_mean",
+          "layer_name": "layer_15",
+          "layer_index": 15,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.75177304964539,
+          "class0_test_accuracy_avg": 0.6491228070175438,
+          "class1_test_accuracy_avg": 0.8214285714285713,
+          "benchmark_test_accuracy_avg": {
+            "vqa_rad": 0.75177304964539
+          },
+          "benchmark_class0_test_accuracy_avg": {
+            "vqa_rad": 0.6491228070175438
+          },
+          "benchmark_class1_test_accuracy_avg": {
+            "vqa_rad": 0.8214285714285713
+          }
+        },
+        {
+          "rank": 2,
+          "feature": "language_model/layer_15/attention_head_20__text_nonspecial_mean",
+          "layer_name": "layer_15",
+          "layer_index": 15,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.7446808510638299,
+          "class0_test_accuracy_avg": 0.6491228070175438,
+          "class1_test_accuracy_avg": 0.8095238095238096,
+          "benchmark_test_accuracy_avg": {
+            "vqa_rad": 0.7446808510638299
+          },
+          "benchmark_class0_test_accuracy_avg": {
+            "vqa_rad": 0.6491228070175438
+          },
+          "benchmark_class1_test_accuracy_avg": {
+            "vqa_rad": 0.8095238095238096
+          }
+        },
+        {
+          "rank": 3,
+          "feature": "language_model/layer_9/attention_head_26__text_nonspecial_mean",
+          "layer_name": "layer_9",
+          "layer_index": 9,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.7446808510638299,
+          "class0_test_accuracy_avg": 0.6140350877192983,
+          "class1_test_accuracy_avg": 0.8333333333333334,
+          "benchmark_test_accuracy_avg": {
+            "vqa_rad": 0.7446808510638299
+          },
+          "benchmark_class0_test_accuracy_avg": {
+            "vqa_rad": 0.6140350877192983
+          },
+          "benchmark_class1_test_accuracy_avg": {
+            "vqa_rad": 0.8333333333333334
+          }
+        }
+      ]
+    },
+    {
+      "experiment_id": "phase_residual_standard__02_logreg_all_examples__02_01_residual_standard_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074",
+      "stage_key": "logreg_all_examples",
+      "mode": "vqa_rad",
+      "artifact_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_residual_standard/02_logreg_all_examples/02_01_residual_standard_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074/ovis_all_feature_probe_accuracies.json",
+      "config_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_residual_standard/02_logreg_all_examples/02_01_residual_standard_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074/ovis_run_config.json",
+      "script_name": null,
+      "probe_type": null,
+      "feature_variant": null,
+      "vlm": "ovis",
+      "num_probe_rows": 87,
+      "layer_plot_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_residual_standard__02_logreg_all_examples__02_01_residual_standard_logreg_all_examples_vqa_rad_ovis_20260502_023305_143074_llm_residual_test_accuracy.png",
+      "additional_family_layer_plot_paths": {},
+      "top_probes": [
+        {
+          "rank": 1,
+          "feature": "language_model/layer_4__text_nonspecial_mean",
+          "layer_name": "layer_4",
+          "layer_index": 4,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.6808510638297872,
+          "class0_test_accuracy_avg": 0.6105263157894737,
+          "class1_test_accuracy_avg": 0.7285714285714285,
+          "benchmark_test_accuracy_avg": {
+            "vqa_rad": 0.6808510638297872
+          },
+          "benchmark_class0_test_accuracy_avg": {
+            "vqa_rad": 0.6105263157894737
+          },
+          "benchmark_class1_test_accuracy_avg": {
+            "vqa_rad": 0.7285714285714285
+          }
+        },
+        {
+          "rank": 2,
+          "feature": "language_model/layer_17__text_nonspecial_mean",
+          "layer_name": "layer_17",
+          "layer_index": 17,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.6638297872340425,
+          "class0_test_accuracy_avg": 0.6842105263157895,
+          "class1_test_accuracy_avg": 0.65,
+          "benchmark_test_accuracy_avg": {
+            "vqa_rad": 0.6638297872340425
+          },
+          "benchmark_class0_test_accuracy_avg": {
+            "vqa_rad": 0.6842105263157895
+          },
+          "benchmark_class1_test_accuracy_avg": {
+            "vqa_rad": 0.65
+          }
+        },
+        {
+          "rank": 3,
+          "feature": "language_model/layer_18__text_nonspecial_mean",
+          "layer_name": "layer_18",
+          "layer_index": 18,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.6638297872340425,
+          "class0_test_accuracy_avg": 0.6842105263157895,
+          "class1_test_accuracy_avg": 0.65,
+          "benchmark_test_accuracy_avg": {
+            "vqa_rad": 0.6638297872340425
+          },
+          "benchmark_class0_test_accuracy_avg": {
+            "vqa_rad": 0.6842105263157895
+          },
+          "benchmark_class1_test_accuracy_avg": {
+            "vqa_rad": 0.65
+          }
+        }
+      ]
+    },
+    {
+      "experiment_id": "phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074",
+      "stage_key": "logreg_contrastive",
+      "mode": "all",
+      "artifact_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_additional_targets_text_nonspecial_mean/03_logreg_contrastive/03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074/ovis_all_feature_probe_accuracies.json",
+      "config_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_additional_targets_text_nonspecial_mean/03_logreg_contrastive/03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074/ovis_run_config.json",
+      "script_name": null,
+      "probe_type": null,
+      "feature_variant": null,
+      "vlm": "ovis",
+      "num_probe_rows": 476,
+      "layer_plot_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_llm_residual_test_accuracy.png",
+      "additional_family_layer_plot_paths": {
+        "attention_head_1": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_1_cross_layer_test_accuracy.png",
+        "attention_head_2": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_2_cross_layer_test_accuracy.png",
+        "attention_head_3": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_3_cross_layer_test_accuracy.png",
+        "attention_head_4": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_4_cross_layer_test_accuracy.png",
+        "attention_head_5": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_5_cross_layer_test_accuracy.png",
+        "attention_head_6": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_6_cross_layer_test_accuracy.png",
+        "attention_head_7": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_7_cross_layer_test_accuracy.png",
+        "attention_head_8": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_8_cross_layer_test_accuracy.png",
+        "attention_head_9": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_9_cross_layer_test_accuracy.png",
+        "attention_head_10": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_10_cross_layer_test_accuracy.png",
+        "attention_head_11": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_11_cross_layer_test_accuracy.png",
+        "attention_head_12": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_12_cross_layer_test_accuracy.png",
+        "attention_head_13": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_13_cross_layer_test_accuracy.png",
+        "attention_head_14": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_14_cross_layer_test_accuracy.png",
+        "attention_head_15": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_15_cross_layer_test_accuracy.png",
+        "attention_head_16": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_16_cross_layer_test_accuracy.png",
+        "attention_head_17": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_17_cross_layer_test_accuracy.png",
+        "attention_head_18": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_18_cross_layer_test_accuracy.png",
+        "attention_head_19": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_19_cross_layer_test_accuracy.png",
+        "attention_head_20": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_20_cross_layer_test_accuracy.png",
+        "attention_head_21": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_21_cross_layer_test_accuracy.png",
+        "attention_head_22": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_22_cross_layer_test_accuracy.png",
+        "attention_head_23": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_23_cross_layer_test_accuracy.png",
+        "attention_head_24": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_24_cross_layer_test_accuracy.png",
+        "attention_head_25": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_25_cross_layer_test_accuracy.png",
+        "attention_head_26": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_26_cross_layer_test_accuracy.png",
+        "attention_head_27": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_27_cross_layer_test_accuracy.png",
+        "attention_head_28": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_28_cross_layer_test_accuracy.png",
+        "attention_head_29": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_29_cross_layer_test_accuracy.png",
+        "attention_head_30": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_30_cross_layer_test_accuracy.png",
+        "attention_head_31": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_31_cross_layer_test_accuracy.png",
+        "attention_head_32": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_attention_head_32_cross_layer_test_accuracy.png",
+        "post_attention": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_post_attention_cross_layer_test_accuracy.png",
+        "mlp": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_ovis_20260502_023305_143074_mlp_cross_layer_test_accuracy.png"
+      },
+      "top_probes": [
+        {
+          "rank": 1,
+          "feature": "language_model/layer_17/attention_head_1__text_nonspecial_mean",
+          "layer_name": "layer_17",
+          "layer_index": 17,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.7366666666666667,
+          "class0_test_accuracy_avg": null,
+          "class1_test_accuracy_avg": null,
+          "benchmark_test_accuracy_avg": null,
+          "benchmark_class0_test_accuracy_avg": null,
+          "benchmark_class1_test_accuracy_avg": null
+        },
+        {
+          "rank": 2,
+          "feature": "language_model/layer_17/mlp__text_nonspecial_mean",
+          "layer_name": "layer_17",
+          "layer_index": 17,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.7200000000000001,
+          "class0_test_accuracy_avg": null,
+          "class1_test_accuracy_avg": null,
+          "benchmark_test_accuracy_avg": null,
+          "benchmark_class0_test_accuracy_avg": null,
+          "benchmark_class1_test_accuracy_avg": null
+        },
+        {
+          "rank": 3,
+          "feature": "language_model/layer_19/mlp__text_nonspecial_mean",
+          "layer_name": "layer_19",
+          "layer_index": 19,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.7200000000000001,
+          "class0_test_accuracy_avg": null,
+          "class1_test_accuracy_avg": null,
+          "benchmark_test_accuracy_avg": null,
+          "benchmark_class0_test_accuracy_avg": null,
+          "benchmark_class1_test_accuracy_avg": null
+        }
+      ]
+    },
+    {
+      "experiment_id": "phase_residual_standard__01_logreg_contrastive__01_04_residual_standard_logreg_contrastive_all_ovis_20260502_023305_143074",
+      "stage_key": "logreg_contrastive",
+      "mode": "all",
+      "artifact_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_residual_standard/01_logreg_contrastive/01_04_residual_standard_logreg_contrastive_all_ovis_20260502_023305_143074/ovis_all_feature_probe_accuracies.json",
+      "config_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_residual_standard/01_logreg_contrastive/01_04_residual_standard_logreg_contrastive_all_ovis_20260502_023305_143074/ovis_run_config.json",
+      "script_name": null,
+      "probe_type": null,
+      "feature_variant": null,
+      "vlm": "ovis",
+      "num_probe_rows": 87,
+      "layer_plot_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_residual_standard__01_logreg_contrastive__01_04_residual_standard_logreg_contrastive_all_ovis_20260502_023305_143074_llm_residual_test_accuracy.png",
+      "additional_family_layer_plot_paths": {},
+      "top_probes": [
+        {
+          "rank": 1,
+          "feature": "language_model/layer_18__text_nonspecial_mean",
+          "layer_name": "layer_18",
+          "layer_index": 18,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.722,
+          "class0_test_accuracy_avg": null,
+          "class1_test_accuracy_avg": null,
+          "benchmark_test_accuracy_avg": null,
+          "benchmark_class0_test_accuracy_avg": null,
+          "benchmark_class1_test_accuracy_avg": null
+        },
+        {
+          "rank": 2,
+          "feature": "language_model/layer_16__text_nonspecial_mean",
+          "layer_name": "layer_16",
+          "layer_index": 16,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.7139999999999999,
+          "class0_test_accuracy_avg": null,
+          "class1_test_accuracy_avg": null,
+          "benchmark_test_accuracy_avg": null,
+          "benchmark_class0_test_accuracy_avg": null,
+          "benchmark_class1_test_accuracy_avg": null
+        },
+        {
+          "rank": 3,
+          "feature": "language_model/layer_20__text_nonspecial_mean",
+          "layer_name": "layer_20",
+          "layer_index": 20,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.712,
+          "class0_test_accuracy_avg": null,
+          "class1_test_accuracy_avg": null,
+          "benchmark_test_accuracy_avg": null,
+          "benchmark_class0_test_accuracy_avg": null,
+          "benchmark_class1_test_accuracy_avg": null
+        }
+      ]
+    },
+    {
+      "experiment_id": "phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074",
+      "stage_key": "logreg_contrastive",
+      "mode": "medxpertqa_mm",
+      "artifact_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_additional_targets_text_nonspecial_mean/03_logreg_contrastive/03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074/ovis_all_feature_probe_accuracies.json",
+      "config_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_additional_targets_text_nonspecial_mean/03_logreg_contrastive/03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074/ovis_run_config.json",
+      "script_name": null,
+      "probe_type": null,
+      "feature_variant": null,
+      "vlm": "ovis",
+      "num_probe_rows": 476,
+      "layer_plot_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_llm_residual_test_accuracy.png",
+      "additional_family_layer_plot_paths": {
+        "attention_head_1": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_1_cross_layer_test_accuracy.png",
+        "attention_head_2": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_2_cross_layer_test_accuracy.png",
+        "attention_head_3": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_3_cross_layer_test_accuracy.png",
+        "attention_head_4": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_4_cross_layer_test_accuracy.png",
+        "attention_head_5": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_5_cross_layer_test_accuracy.png",
+        "attention_head_6": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_6_cross_layer_test_accuracy.png",
+        "attention_head_7": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_7_cross_layer_test_accuracy.png",
+        "attention_head_8": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_8_cross_layer_test_accuracy.png",
+        "attention_head_9": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_9_cross_layer_test_accuracy.png",
+        "attention_head_10": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_10_cross_layer_test_accuracy.png",
+        "attention_head_11": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_11_cross_layer_test_accuracy.png",
+        "attention_head_12": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_12_cross_layer_test_accuracy.png",
+        "attention_head_13": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_13_cross_layer_test_accuracy.png",
+        "attention_head_14": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_14_cross_layer_test_accuracy.png",
+        "attention_head_15": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_15_cross_layer_test_accuracy.png",
+        "attention_head_16": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_16_cross_layer_test_accuracy.png",
+        "attention_head_17": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_17_cross_layer_test_accuracy.png",
+        "attention_head_18": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_18_cross_layer_test_accuracy.png",
+        "attention_head_19": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_19_cross_layer_test_accuracy.png",
+        "attention_head_20": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_20_cross_layer_test_accuracy.png",
+        "attention_head_21": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_21_cross_layer_test_accuracy.png",
+        "attention_head_22": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_22_cross_layer_test_accuracy.png",
+        "attention_head_23": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_23_cross_layer_test_accuracy.png",
+        "attention_head_24": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_24_cross_layer_test_accuracy.png",
+        "attention_head_25": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_25_cross_layer_test_accuracy.png",
+        "attention_head_26": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_26_cross_layer_test_accuracy.png",
+        "attention_head_27": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_27_cross_layer_test_accuracy.png",
+        "attention_head_28": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_28_cross_layer_test_accuracy.png",
+        "attention_head_29": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_29_cross_layer_test_accuracy.png",
+        "attention_head_30": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_30_cross_layer_test_accuracy.png",
+        "attention_head_31": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_31_cross_layer_test_accuracy.png",
+        "attention_head_32": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_attention_head_32_cross_layer_test_accuracy.png",
+        "post_attention": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_post_attention_cross_layer_test_accuracy.png",
+        "mlp": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_mlp_cross_layer_test_accuracy.png"
+      },
+      "top_probes": [
+        {
+          "rank": 1,
+          "feature": "language_model/layer_9/attention_head_30__text_nonspecial_mean",
+          "layer_name": "layer_9",
+          "layer_index": 9,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.7000000000000001,
+          "class0_test_accuracy_avg": null,
+          "class1_test_accuracy_avg": null,
+          "benchmark_test_accuracy_avg": null,
+          "benchmark_class0_test_accuracy_avg": null,
+          "benchmark_class1_test_accuracy_avg": null
+        },
+        {
+          "rank": 2,
+          "feature": "language_model/layer_1/attention_head_7__text_nonspecial_mean",
+          "layer_name": "layer_1",
+          "layer_index": 1,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.6833333333333332,
+          "class0_test_accuracy_avg": null,
+          "class1_test_accuracy_avg": null,
+          "benchmark_test_accuracy_avg": null,
+          "benchmark_class0_test_accuracy_avg": null,
+          "benchmark_class1_test_accuracy_avg": null
+        },
+        {
+          "rank": 3,
+          "feature": "language_model/layer_23/attention_head_23__text_nonspecial_mean",
+          "layer_name": "layer_23",
+          "layer_index": 23,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.6833333333333332,
+          "class0_test_accuracy_avg": null,
+          "class1_test_accuracy_avg": null,
+          "benchmark_test_accuracy_avg": null,
+          "benchmark_class0_test_accuracy_avg": null,
+          "benchmark_class1_test_accuracy_avg": null
+        }
+      ]
+    },
+    {
+      "experiment_id": "phase_residual_standard__01_logreg_contrastive__01_03_residual_standard_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074",
+      "stage_key": "logreg_contrastive",
+      "mode": "medxpertqa_mm",
+      "artifact_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_residual_standard/01_logreg_contrastive/01_03_residual_standard_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074/ovis_all_feature_probe_accuracies.json",
+      "config_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_residual_standard/01_logreg_contrastive/01_03_residual_standard_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074/ovis_run_config.json",
+      "script_name": null,
+      "probe_type": null,
+      "feature_variant": null,
+      "vlm": "ovis",
+      "num_probe_rows": 87,
+      "layer_plot_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_residual_standard__01_logreg_contrastive__01_03_residual_standard_logreg_contrastive_medxpertqa_mm_ovis_20260502_023305_143074_llm_residual_test_accuracy.png",
+      "additional_family_layer_plot_paths": {},
+      "top_probes": [
+        {
+          "rank": 1,
+          "feature": "language_model/layer_6__all_nonspecial_mean",
+          "layer_name": "layer_6",
+          "layer_index": 6,
+          "strategy": "all_nonspecial_mean",
+          "test_accuracy": 0.68,
+          "class0_test_accuracy_avg": null,
+          "class1_test_accuracy_avg": null,
+          "benchmark_test_accuracy_avg": null,
+          "benchmark_class0_test_accuracy_avg": null,
+          "benchmark_class1_test_accuracy_avg": null
+        },
+        {
+          "rank": 2,
+          "feature": "language_model/layer_8__all_nonspecial_mean",
+          "layer_name": "layer_8",
+          "layer_index": 8,
+          "strategy": "all_nonspecial_mean",
+          "test_accuracy": 0.68,
+          "class0_test_accuracy_avg": null,
+          "class1_test_accuracy_avg": null,
+          "benchmark_test_accuracy_avg": null,
+          "benchmark_class0_test_accuracy_avg": null,
+          "benchmark_class1_test_accuracy_avg": null
+        },
+        {
+          "rank": 3,
+          "feature": "language_model/layer_10__all_nonspecial_mean",
+          "layer_name": "layer_10",
+          "layer_index": 10,
+          "strategy": "all_nonspecial_mean",
+          "test_accuracy": 0.65,
+          "class0_test_accuracy_avg": null,
+          "class1_test_accuracy_avg": null,
+          "benchmark_test_accuracy_avg": null,
+          "benchmark_class0_test_accuracy_avg": null,
+          "benchmark_class1_test_accuracy_avg": null
+        }
+      ]
+    },
+    {
+      "experiment_id": "phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074",
+      "stage_key": "logreg_contrastive",
+      "mode": "mmmu_pro",
+      "artifact_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_additional_targets_text_nonspecial_mean/03_logreg_contrastive/03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074/ovis_all_feature_probe_accuracies.json",
+      "config_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_additional_targets_text_nonspecial_mean/03_logreg_contrastive/03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074/ovis_run_config.json",
+      "script_name": null,
+      "probe_type": null,
+      "feature_variant": null,
+      "vlm": "ovis",
+      "num_probe_rows": 476,
+      "layer_plot_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_llm_residual_test_accuracy.png",
+      "additional_family_layer_plot_paths": {
+        "attention_head_1": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_1_cross_layer_test_accuracy.png",
+        "attention_head_2": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_2_cross_layer_test_accuracy.png",
+        "attention_head_3": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_3_cross_layer_test_accuracy.png",
+        "attention_head_4": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_4_cross_layer_test_accuracy.png",
+        "attention_head_5": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_5_cross_layer_test_accuracy.png",
+        "attention_head_6": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_6_cross_layer_test_accuracy.png",
+        "attention_head_7": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_7_cross_layer_test_accuracy.png",
+        "attention_head_8": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_8_cross_layer_test_accuracy.png",
+        "attention_head_9": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_9_cross_layer_test_accuracy.png",
+        "attention_head_10": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_10_cross_layer_test_accuracy.png",
+        "attention_head_11": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_11_cross_layer_test_accuracy.png",
+        "attention_head_12": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_12_cross_layer_test_accuracy.png",
+        "attention_head_13": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_13_cross_layer_test_accuracy.png",
+        "attention_head_14": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_14_cross_layer_test_accuracy.png",
+        "attention_head_15": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_15_cross_layer_test_accuracy.png",
+        "attention_head_16": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_16_cross_layer_test_accuracy.png",
+        "attention_head_17": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_17_cross_layer_test_accuracy.png",
+        "attention_head_18": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_18_cross_layer_test_accuracy.png",
+        "attention_head_19": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_19_cross_layer_test_accuracy.png",
+        "attention_head_20": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_20_cross_layer_test_accuracy.png",
+        "attention_head_21": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_21_cross_layer_test_accuracy.png",
+        "attention_head_22": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_22_cross_layer_test_accuracy.png",
+        "attention_head_23": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_23_cross_layer_test_accuracy.png",
+        "attention_head_24": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_24_cross_layer_test_accuracy.png",
+        "attention_head_25": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_25_cross_layer_test_accuracy.png",
+        "attention_head_26": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_26_cross_layer_test_accuracy.png",
+        "attention_head_27": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_27_cross_layer_test_accuracy.png",
+        "attention_head_28": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_28_cross_layer_test_accuracy.png",
+        "attention_head_29": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_29_cross_layer_test_accuracy.png",
+        "attention_head_30": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_30_cross_layer_test_accuracy.png",
+        "attention_head_31": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_31_cross_layer_test_accuracy.png",
+        "attention_head_32": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_attention_head_32_cross_layer_test_accuracy.png",
+        "post_attention": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_post_attention_cross_layer_test_accuracy.png",
+        "mlp": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_mlp_cross_layer_test_accuracy.png"
+      },
+      "top_probes": [
+        {
+          "rank": 1,
+          "feature": "language_model/layer_25/attention_head_6__text_nonspecial_mean",
+          "layer_name": "layer_25",
+          "layer_index": 25,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.68,
+          "class0_test_accuracy_avg": null,
+          "class1_test_accuracy_avg": null,
+          "benchmark_test_accuracy_avg": null,
+          "benchmark_class0_test_accuracy_avg": null,
+          "benchmark_class1_test_accuracy_avg": null
+        },
+        {
+          "rank": 2,
+          "feature": "language_model/layer_7/attention_head_18__text_nonspecial_mean",
+          "layer_name": "layer_7",
+          "layer_index": 7,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.6766666666666667,
+          "class0_test_accuracy_avg": null,
+          "class1_test_accuracy_avg": null,
+          "benchmark_test_accuracy_avg": null,
+          "benchmark_class0_test_accuracy_avg": null,
+          "benchmark_class1_test_accuracy_avg": null
+        },
+        {
+          "rank": 3,
+          "feature": "language_model/layer_1/attention_head_15__text_nonspecial_mean",
+          "layer_name": "layer_1",
+          "layer_index": 1,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.6766666666666666,
+          "class0_test_accuracy_avg": null,
+          "class1_test_accuracy_avg": null,
+          "benchmark_test_accuracy_avg": null,
+          "benchmark_class0_test_accuracy_avg": null,
+          "benchmark_class1_test_accuracy_avg": null
+        }
+      ]
+    },
+    {
+      "experiment_id": "phase_residual_standard__01_logreg_contrastive__01_02_residual_standard_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074",
+      "stage_key": "logreg_contrastive",
+      "mode": "mmmu_pro",
+      "artifact_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_residual_standard/01_logreg_contrastive/01_02_residual_standard_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074/ovis_all_feature_probe_accuracies.json",
+      "config_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_residual_standard/01_logreg_contrastive/01_02_residual_standard_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074/ovis_run_config.json",
+      "script_name": null,
+      "probe_type": null,
+      "feature_variant": null,
+      "vlm": "ovis",
+      "num_probe_rows": 87,
+      "layer_plot_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_residual_standard__01_logreg_contrastive__01_02_residual_standard_logreg_contrastive_mmmu_pro_ovis_20260502_023305_143074_llm_residual_test_accuracy.png",
+      "additional_family_layer_plot_paths": {},
+      "top_probes": [
+        {
+          "rank": 1,
+          "feature": "language_model/layer_20__text_nonspecial_mean",
+          "layer_name": "layer_20",
+          "layer_index": 20,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.65,
+          "class0_test_accuracy_avg": null,
+          "class1_test_accuracy_avg": null,
+          "benchmark_test_accuracy_avg": null,
+          "benchmark_class0_test_accuracy_avg": null,
+          "benchmark_class1_test_accuracy_avg": null
+        },
+        {
+          "rank": 2,
+          "feature": "language_model/layer_2__text_nonspecial_mean",
+          "layer_name": "layer_2",
+          "layer_index": 2,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.6439999999999999,
+          "class0_test_accuracy_avg": null,
+          "class1_test_accuracy_avg": null,
+          "benchmark_test_accuracy_avg": null,
+          "benchmark_class0_test_accuracy_avg": null,
+          "benchmark_class1_test_accuracy_avg": null
+        },
+        {
+          "rank": 3,
+          "feature": "language_model/layer_26__all_nonspecial_mean",
+          "layer_name": "layer_26",
+          "layer_index": 26,
+          "strategy": "all_nonspecial_mean",
+          "test_accuracy": 0.6380000000000001,
+          "class0_test_accuracy_avg": null,
+          "class1_test_accuracy_avg": null,
+          "benchmark_test_accuracy_avg": null,
+          "benchmark_class0_test_accuracy_avg": null,
+          "benchmark_class1_test_accuracy_avg": null
+        }
+      ]
+    },
+    {
+      "experiment_id": "phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074",
+      "stage_key": "logreg_contrastive",
+      "mode": "vqa_rad",
+      "artifact_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_additional_targets_text_nonspecial_mean/03_logreg_contrastive/03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074/ovis_all_feature_probe_accuracies.json",
+      "config_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_additional_targets_text_nonspecial_mean/03_logreg_contrastive/03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074/ovis_run_config.json",
+      "script_name": null,
+      "probe_type": null,
+      "feature_variant": null,
+      "vlm": "ovis",
+      "num_probe_rows": 476,
+      "layer_plot_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_llm_residual_test_accuracy.png",
+      "additional_family_layer_plot_paths": {
+        "attention_head_1": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_1_cross_layer_test_accuracy.png",
+        "attention_head_2": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_2_cross_layer_test_accuracy.png",
+        "attention_head_3": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_3_cross_layer_test_accuracy.png",
+        "attention_head_4": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_4_cross_layer_test_accuracy.png",
+        "attention_head_5": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_5_cross_layer_test_accuracy.png",
+        "attention_head_6": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_6_cross_layer_test_accuracy.png",
+        "attention_head_7": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_7_cross_layer_test_accuracy.png",
+        "attention_head_8": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_8_cross_layer_test_accuracy.png",
+        "attention_head_9": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_9_cross_layer_test_accuracy.png",
+        "attention_head_10": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_10_cross_layer_test_accuracy.png",
+        "attention_head_11": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_11_cross_layer_test_accuracy.png",
+        "attention_head_12": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_12_cross_layer_test_accuracy.png",
+        "attention_head_13": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_13_cross_layer_test_accuracy.png",
+        "attention_head_14": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_14_cross_layer_test_accuracy.png",
+        "attention_head_15": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_15_cross_layer_test_accuracy.png",
+        "attention_head_16": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_16_cross_layer_test_accuracy.png",
+        "attention_head_17": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_17_cross_layer_test_accuracy.png",
+        "attention_head_18": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_18_cross_layer_test_accuracy.png",
+        "attention_head_19": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_19_cross_layer_test_accuracy.png",
+        "attention_head_20": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_20_cross_layer_test_accuracy.png",
+        "attention_head_21": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_21_cross_layer_test_accuracy.png",
+        "attention_head_22": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_22_cross_layer_test_accuracy.png",
+        "attention_head_23": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_23_cross_layer_test_accuracy.png",
+        "attention_head_24": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_24_cross_layer_test_accuracy.png",
+        "attention_head_25": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_25_cross_layer_test_accuracy.png",
+        "attention_head_26": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_26_cross_layer_test_accuracy.png",
+        "attention_head_27": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_27_cross_layer_test_accuracy.png",
+        "attention_head_28": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_28_cross_layer_test_accuracy.png",
+        "attention_head_29": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_29_cross_layer_test_accuracy.png",
+        "attention_head_30": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_30_cross_layer_test_accuracy.png",
+        "attention_head_31": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_31_cross_layer_test_accuracy.png",
+        "attention_head_32": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_attention_head_32_cross_layer_test_accuracy.png",
+        "post_attention": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_post_attention_cross_layer_test_accuracy.png",
+        "mlp": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_additional_targets_text_nonspecial_mean__03_logreg_contrastive__03_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_mlp_cross_layer_test_accuracy.png"
+      },
+      "top_probes": [
+        {
+          "rank": 1,
+          "feature": "language_model/layer_15/mlp__text_nonspecial_mean",
+          "layer_name": "layer_15",
+          "layer_index": 15,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.7633333333333333,
+          "class0_test_accuracy_avg": null,
+          "class1_test_accuracy_avg": null,
+          "benchmark_test_accuracy_avg": null,
+          "benchmark_class0_test_accuracy_avg": null,
+          "benchmark_class1_test_accuracy_avg": null
+        },
+        {
+          "rank": 2,
+          "feature": "language_model/layer_17/mlp__text_nonspecial_mean",
+          "layer_name": "layer_17",
+          "layer_index": 17,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.7566666666666667,
+          "class0_test_accuracy_avg": null,
+          "class1_test_accuracy_avg": null,
+          "benchmark_test_accuracy_avg": null,
+          "benchmark_class0_test_accuracy_avg": null,
+          "benchmark_class1_test_accuracy_avg": null
+        },
+        {
+          "rank": 3,
+          "feature": "language_model/layer_7/attention_head_4__text_nonspecial_mean",
+          "layer_name": "layer_7",
+          "layer_index": 7,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.7466666666666667,
+          "class0_test_accuracy_avg": null,
+          "class1_test_accuracy_avg": null,
+          "benchmark_test_accuracy_avg": null,
+          "benchmark_class0_test_accuracy_avg": null,
+          "benchmark_class1_test_accuracy_avg": null
+        }
+      ]
+    },
+    {
+      "experiment_id": "phase_residual_standard__01_logreg_contrastive__01_01_residual_standard_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074",
+      "stage_key": "logreg_contrastive",
+      "mode": "vqa_rad",
+      "artifact_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_residual_standard/01_logreg_contrastive/01_01_residual_standard_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074/ovis_all_feature_probe_accuracies.json",
+      "config_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_residual_standard/01_logreg_contrastive/01_01_residual_standard_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074/ovis_run_config.json",
+      "script_name": null,
+      "probe_type": null,
+      "feature_variant": null,
+      "vlm": "ovis",
+      "num_probe_rows": 87,
+      "layer_plot_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots/phase_residual_standard__01_logreg_contrastive__01_01_residual_standard_logreg_contrastive_vqa_rad_ovis_20260502_023305_143074_llm_residual_test_accuracy.png",
+      "additional_family_layer_plot_paths": {},
+      "top_probes": [
+        {
+          "rank": 1,
+          "feature": "language_model/layer_16__text_nonspecial_mean",
+          "layer_name": "layer_16",
+          "layer_index": 16,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.7500000000000001,
+          "class0_test_accuracy_avg": null,
+          "class1_test_accuracy_avg": null,
+          "benchmark_test_accuracy_avg": null,
+          "benchmark_class0_test_accuracy_avg": null,
+          "benchmark_class1_test_accuracy_avg": null
+        },
+        {
+          "rank": 2,
+          "feature": "language_model/layer_13__text_nonspecial_mean",
+          "layer_name": "layer_13",
+          "layer_index": 13,
+          "strategy": "text_nonspecial_mean",
+          "test_accuracy": 0.7300000000000001,
+          "class0_test_accuracy_avg": null,
+          "class1_test_accuracy_avg": null,
+          "benchmark_test_accuracy_avg": null,
+          "benchmark_class0_test_accuracy_avg": null,
+          "benchmark_class1_test_accuracy_avg": null
+        },
+        {
+          "rank": 3,
+          "feature": "language_model/layer_18__all_nonspecial_mean",
+          "layer_name": "layer_18",
+          "layer_index": 18,
+          "strategy": "all_nonspecial_mean",
+          "test_accuracy": 0.724,
+          "class0_test_accuracy_avg": null,
+          "class1_test_accuracy_avg": null,
+          "benchmark_test_accuracy_avg": null,
+          "benchmark_class0_test_accuracy_avg": null,
+          "benchmark_class1_test_accuracy_avg": null
+        }
+      ]
+    }
+  ]
+}

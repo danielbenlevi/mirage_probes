@@ -1,0 +1,6 @@
+{
+  "analysis_summary_json": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/top_probe_summary.json",
+  "plots_dir": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots",
+  "num_experiments": 16,
+  "plot_runtime_notes": []
+}

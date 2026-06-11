@@ -1,0 +1,142 @@
+phase=residual_standard
+stage=concat_contrastive
+mode=medxpertqa_mm
+gpu=2
+command=./miniconda3/envs/probing_vlms/bin/python ./train_concat_llm_residual_contrastive.py --vlm ovis --save_dir ./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_165134/phase_residual_standard/02_concat_contrastive/02_03_residual_standard_concat_contrastive_medxpertqa_mm_ovis_20260502_165134_204053 --features_cache_path ./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_165134/phase_residual_standard/02_concat_contrastive/02_03_residual_standard_concat_contrastive_medxpertqa_mm_ovis_20260502_165134_204053/features_cache.pt --use_nonlinear_mlp --benchmark_mode medxpertqa_mm
+start_utc=2026-05-02T21:14:44.320499Z
+
+`torch_dtype` is deprecated! Use `dtype` instead!
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 37.41it/s]
+Extracting activations:   0%|          | 0/18 [00:00<?, ?sample/s]Extracting activations:   6%|▌         | 1/18 [00:01<00:24,  1.41s/sample]Extracting activations:  11%|█         | 2/18 [00:01<00:12,  1.30sample/s]Extracting activations:  17%|█▋        | 3/18 [00:01<00:08,  1.86sample/s]Extracting activations:  22%|██▏       | 4/18 [00:02<00:05,  2.37sample/s]Extracting activations:  28%|██▊       | 5/18 [00:02<00:04,  2.65sample/s]Extracting activations:  33%|███▎      | 6/18 [00:03<00:06,  1.96sample/s]Extracting activations:  39%|███▉      | 7/18 [00:04<00:07,  1.48sample/s]Extracting activations:  44%|████▍     | 8/18 [00:05<00:07,  1.31sample/s]Extracting activations:  50%|█████     | 9/18 [00:05<00:05,  1.54sample/s]Extracting activations:  56%|█████▌    | 10/18 [00:06<00:04,  1.80sample/s]Extracting activations:  61%|██████    | 11/18 [00:06<00:03,  2.21sample/s]Extracting activations:  67%|██████▋   | 12/18 [00:06<00:02,  2.67sample/s]Extracting activations:  72%|███████▏  | 13/18 [00:06<00:01,  2.94sample/s]Extracting activations:  78%|███████▊  | 14/18 [00:06<00:01,  3.27sample/s]Extracting activations:  83%|████████▎ | 15/18 [00:07<00:00,  3.44sample/s]Extracting activations:  89%|████████▉ | 16/18 [00:07<00:00,  3.62sample/s]Extracting activations:  94%|█████████▍| 17/18 [00:07<00:00,  3.80sample/s]Extracting activations: 100%|██████████| 18/18 [00:07<00:00,  4.02sample/s]Extracting activations: 100%|██████████| 18/18 [00:07<00:00,  2.29sample/s]
+Training mlp probes:   0%|          | 0/3 [00:00<?, ?feature/s]Training mlp probes:  33%|███▎      | 1/3 [02:52<05:44, 172.11s/feature]Training mlp probes:  67%|██████▋   | 2/3 [11:50<06:27, 387.66s/feature]Training mlp probes: 100%|██████████| 3/3 [15:29<00:00, 310.52s/feature]Training mlp probes: 100%|██████████| 3/3 [15:29<00:00, 309.79s/feature]
+vqa_rad: skipped 1 item(s) via explicit question-id blocklist ['2054']
+Building unseen holdout payloads:   0%|          | 0/5 [00:00<?, ?seed/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s][ALoading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 35.96it/s]
+
+Extracting activations:   0%|          | 0/20 [00:00<?, ?sample/s][A
+Extracting activations:   5%|▌         | 1/20 [00:00<00:13,  1.46sample/s][A
+Extracting activations:  10%|█         | 2/20 [00:01<00:08,  2.02sample/s][A
+Extracting activations:  15%|█▌        | 3/20 [00:01<00:06,  2.66sample/s][A
+Extracting activations:  20%|██        | 4/20 [00:01<00:06,  2.30sample/s][A
+Extracting activations:  25%|██▌       | 5/20 [00:02<00:05,  2.67sample/s][A
+Extracting activations:  30%|███       | 6/20 [00:02<00:04,  2.98sample/s][A
+Extracting activations:  35%|███▌      | 7/20 [00:02<00:05,  2.31sample/s][A
+Extracting activations:  40%|████      | 8/20 [00:03<00:06,  1.73sample/s][A
+Extracting activations:  45%|████▌     | 9/20 [00:04<00:07,  1.38sample/s][A
+Extracting activations:  50%|█████     | 10/20 [00:05<00:05,  1.75sample/s][A
+Extracting activations:  55%|█████▌    | 11/20 [00:05<00:05,  1.70sample/s][A
+Extracting activations:  60%|██████    | 12/20 [00:05<00:03,  2.10sample/s][A
+Extracting activations:  65%|██████▌   | 13/20 [00:06<00:02,  2.36sample/s][A
+Extracting activations:  70%|███████   | 14/20 [00:06<00:02,  2.33sample/s][A
+Extracting activations:  75%|███████▌  | 15/20 [00:07<00:02,  1.72sample/s][A
+Extracting activations:  80%|████████  | 16/20 [00:08<00:02,  1.78sample/s][A
+Extracting activations:  85%|████████▌ | 17/20 [00:08<00:01,  1.80sample/s][A
+Extracting activations:  90%|█████████ | 18/20 [00:09<00:01,  1.87sample/s][A
+Extracting activations:  95%|█████████▌| 19/20 [00:09<00:00,  2.19sample/s][A
+Extracting activations: 100%|██████████| 20/20 [00:09<00:00,  2.14sample/s][AExtracting activations: 100%|██████████| 20/20 [00:09<00:00,  2.01sample/s]
+Building unseen holdout payloads:  20%|██        | 1/5 [00:11<00:47, 11.82s/seed]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s][ALoading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 32.58it/s]
+
+Extracting activations:   0%|          | 0/20 [00:00<?, ?sample/s][A
+Extracting activations:   5%|▌         | 1/20 [00:00<00:04,  3.93sample/s][A
+Extracting activations:  10%|█         | 2/20 [00:00<00:04,  4.19sample/s][A
+Extracting activations:  15%|█▌        | 3/20 [00:01<00:06,  2.59sample/s][A
+Extracting activations:  20%|██        | 4/20 [00:01<00:06,  2.66sample/s][A
+Extracting activations:  25%|██▌       | 5/20 [00:02<00:07,  1.88sample/s][A
+Extracting activations:  30%|███       | 6/20 [00:02<00:07,  1.97sample/s][A
+Extracting activations:  35%|███▌      | 7/20 [00:03<00:05,  2.22sample/s][A
+Extracting activations:  40%|████      | 8/20 [00:03<00:04,  2.70sample/s][A
+Extracting activations:  45%|████▌     | 9/20 [00:03<00:04,  2.73sample/s][A
+Extracting activations:  50%|█████     | 10/20 [00:04<00:06,  1.63sample/s][A
+Extracting activations:  55%|█████▌    | 11/20 [00:05<00:06,  1.35sample/s][A
+Extracting activations:  60%|██████    | 12/20 [00:06<00:05,  1.36sample/s][A
+Extracting activations:  65%|██████▌   | 13/20 [00:07<00:04,  1.48sample/s][A
+Extracting activations:  70%|███████   | 14/20 [00:07<00:03,  1.82sample/s][A
+Extracting activations:  75%|███████▌  | 15/20 [00:07<00:02,  2.12sample/s][A
+Extracting activations:  80%|████████  | 16/20 [00:07<00:01,  2.32sample/s][A
+Extracting activations:  85%|████████▌ | 17/20 [00:08<00:01,  2.21sample/s][A
+Extracting activations:  90%|█████████ | 18/20 [00:08<00:00,  2.63sample/s][A
+Extracting activations:  95%|█████████▌| 19/20 [00:08<00:00,  2.89sample/s][A
+Extracting activations: 100%|██████████| 20/20 [00:09<00:00,  2.90sample/s][AExtracting activations: 100%|██████████| 20/20 [00:09<00:00,  2.17sample/s]
+Building unseen holdout payloads:  40%|████      | 2/5 [00:22<00:34, 11.42s/seed]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s][A
+Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 19.14it/s][ALoading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 19.09it/s]
+
+Extracting activations:   0%|          | 0/20 [00:00<?, ?sample/s][A
+Extracting activations:   5%|▌         | 1/20 [00:00<00:16,  1.14sample/s][A
+Extracting activations:  10%|█         | 2/20 [00:01<00:13,  1.38sample/s][A
+Extracting activations:  15%|█▌        | 3/20 [00:01<00:09,  1.78sample/s][A
+Extracting activations:  20%|██        | 4/20 [00:02<00:06,  2.40sample/s][A
+Extracting activations:  25%|██▌       | 5/20 [00:03<00:09,  1.61sample/s][A
+Extracting activations:  30%|███       | 6/20 [00:03<00:09,  1.46sample/s][A
+Extracting activations:  35%|███▌      | 7/20 [00:04<00:08,  1.59sample/s][A
+Extracting activations:  40%|████      | 8/20 [00:04<00:06,  1.98sample/s][A
+Extracting activations:  45%|████▌     | 9/20 [00:04<00:05,  2.17sample/s][A
+Extracting activations:  50%|█████     | 10/20 [00:05<00:03,  2.51sample/s][A
+Extracting activations:  55%|█████▌    | 11/20 [00:05<00:03,  2.79sample/s][A
+Extracting activations:  60%|██████    | 12/20 [00:05<00:02,  3.08sample/s][A
+Extracting activations:  65%|██████▌   | 13/20 [00:05<00:02,  3.41sample/s][A
+Extracting activations:  70%|███████   | 14/20 [00:06<00:02,  2.86sample/s][A
+Extracting activations:  75%|███████▌  | 15/20 [00:06<00:01,  3.07sample/s][A
+Extracting activations:  80%|████████  | 16/20 [00:07<00:01,  2.91sample/s][A
+Extracting activations:  85%|████████▌ | 17/20 [00:07<00:00,  3.17sample/s][A
+Extracting activations:  90%|█████████ | 18/20 [00:07<00:00,  2.90sample/s][A
+Extracting activations:  95%|█████████▌| 19/20 [00:09<00:00,  1.54sample/s][A
+Extracting activations: 100%|██████████| 20/20 [00:10<00:00,  1.18sample/s][AExtracting activations: 100%|██████████| 20/20 [00:10<00:00,  1.92sample/s]
+Building unseen holdout payloads:  60%|██████    | 3/5 [00:35<00:23, 11.93s/seed]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s][ALoading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 21.46it/s]
+
+Extracting activations:   0%|          | 0/20 [00:00<?, ?sample/s][A
+Extracting activations:   5%|▌         | 1/20 [00:00<00:10,  1.89sample/s][A
+Extracting activations:  10%|█         | 2/20 [00:00<00:06,  2.74sample/s][A
+Extracting activations:  15%|█▌        | 3/20 [00:01<00:06,  2.68sample/s][A
+Extracting activations:  20%|██        | 4/20 [00:01<00:07,  2.05sample/s][A
+Extracting activations:  25%|██▌       | 5/20 [00:02<00:07,  2.10sample/s][A
+Extracting activations:  30%|███       | 6/20 [00:02<00:06,  2.05sample/s][A
+Extracting activations:  35%|███▌      | 7/20 [00:03<00:07,  1.84sample/s][A
+Extracting activations:  40%|████      | 8/20 [00:03<00:05,  2.21sample/s][A
+Extracting activations:  45%|████▌     | 9/20 [00:03<00:04,  2.53sample/s][A
+Extracting activations:  50%|█████     | 10/20 [00:04<00:03,  2.83sample/s][A
+Extracting activations:  55%|█████▌    | 11/20 [00:04<00:02,  3.08sample/s][A
+Extracting activations:  60%|██████    | 12/20 [00:05<00:04,  2.00sample/s][A
+Extracting activations:  65%|██████▌   | 13/20 [00:05<00:03,  2.17sample/s][A
+Extracting activations:  70%|███████   | 14/20 [00:05<00:02,  2.61sample/s][A
+Extracting activations:  75%|███████▌  | 15/20 [00:06<00:01,  2.65sample/s][A
+Extracting activations:  80%|████████  | 16/20 [00:06<00:01,  2.97sample/s][A
+Extracting activations:  85%|████████▌ | 17/20 [00:06<00:00,  3.26sample/s][A
+Extracting activations:  90%|█████████ | 18/20 [00:07<00:00,  3.40sample/s][A
+Extracting activations:  95%|█████████▌| 19/20 [00:07<00:00,  3.62sample/s][A
+Extracting activations: 100%|██████████| 20/20 [00:07<00:00,  3.47sample/s][AExtracting activations: 100%|██████████| 20/20 [00:07<00:00,  2.62sample/s]
+Building unseen holdout payloads:  80%|████████  | 4/5 [00:45<00:11, 11.08s/seed]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s][ALoading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 33.85it/s]
+
+Extracting activations:   0%|          | 0/20 [00:00<?, ?sample/s][A
+Extracting activations:   5%|▌         | 1/20 [00:00<00:13,  1.36sample/s][A
+Extracting activations:  10%|█         | 2/20 [00:00<00:07,  2.28sample/s][A
+Extracting activations:  15%|█▌        | 3/20 [00:01<00:05,  2.89sample/s][A
+Extracting activations:  20%|██        | 4/20 [00:01<00:05,  2.87sample/s][A
+Extracting activations:  25%|██▌       | 5/20 [00:01<00:04,  3.17sample/s][A
+Extracting activations:  30%|███       | 6/20 [00:02<00:05,  2.58sample/s][A
+Extracting activations:  35%|███▌      | 7/20 [00:02<00:04,  2.91sample/s][A
+Extracting activations:  40%|████      | 8/20 [00:03<00:04,  2.63sample/s][A
+Extracting activations:  45%|████▌     | 9/20 [00:03<00:04,  2.73sample/s][A
+Extracting activations:  50%|█████     | 10/20 [00:03<00:03,  3.13sample/s][A
+Extracting activations:  55%|█████▌    | 11/20 [00:03<00:02,  3.29sample/s][A
+Extracting activations:  60%|██████    | 12/20 [00:04<00:02,  3.42sample/s][A
+Extracting activations:  65%|██████▌   | 13/20 [00:04<00:01,  3.69sample/s][A
+Extracting activations:  70%|███████   | 14/20 [00:04<00:02,  2.87sample/s][A
+Extracting activations:  75%|███████▌  | 15/20 [00:05<00:01,  3.15sample/s][A
+Extracting activations:  80%|████████  | 16/20 [00:05<00:01,  2.57sample/s][A
+Extracting activations:  85%|████████▌ | 17/20 [00:05<00:01,  2.85sample/s][A
+Extracting activations:  90%|█████████ | 18/20 [00:06<00:00,  3.07sample/s][A
+Extracting activations:  95%|█████████▌| 19/20 [00:06<00:00,  2.49sample/s][A
+Extracting activations: 100%|██████████| 20/20 [00:07<00:00,  2.88sample/s][AExtracting activations: 100%|██████████| 20/20 [00:07<00:00,  2.85sample/s]
+Building unseen holdout payloads: 100%|██████████| 5/5 [00:54<00:00, 10.29s/seed]Building unseen holdout payloads: 100%|██████████| 5/5 [00:54<00:00, 10.83s/seed]
+Saved feature accuracies: ./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_165134/phase_residual_standard/02_concat_contrastive/02_03_residual_standard_concat_contrastive_medxpertqa_mm_ovis_20260502_165134_204053/train_concat_llm_residual_contrastive_ovis_medxpertqa_mm_20260502_171458_seed42/ovis_all_feature_probe_accuracies_20260502_171458_seed42.json
+Saved LLM strategy summary: ./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_165134/phase_residual_standard/02_concat_contrastive/02_03_residual_standard_concat_contrastive_medxpertqa_mm_ovis_20260502_165134_204053/train_concat_llm_residual_contrastive_ovis_medxpertqa_mm_20260502_171458_seed42/ovis_llm_layer_best_strategy_results_20260502_171458_seed42.json
+Saved run config: ./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_165134/phase_residual_standard/02_concat_contrastive/02_03_residual_standard_concat_contrastive_medxpertqa_mm_ovis_20260502_165134_204053/train_concat_llm_residual_contrastive_ovis_medxpertqa_mm_20260502_171458_seed42/ovis_run_config_20260502_171458_seed42.json
+
+end_utc=2026-05-02T21:33:35.306863Z
+elapsed_sec=1130.99
+return_code=0

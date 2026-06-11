@@ -1,0 +1,5 @@
+{
+  "deprecated": true,
+  "note": "Legacy attention-weight metrics were removed. This run extracts attention/MLP activations as probe features instead.",
+  "feature_extraction_version": 2
+}

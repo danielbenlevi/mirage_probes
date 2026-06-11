@@ -1,0 +1,132 @@
+{
+  "language_model/layer_1/post_attention__text_nonspecial_mean": {
+    "best_feature": "language_model/layer_1/post_attention__text_nonspecial_mean",
+    "selection_scope": "all_features",
+    "best_strategy": "text_nonspecial_mean",
+    "best_validation_accuracy": 0.5666666666666668,
+    "num_eval_seeds": 3,
+    "eval_seeds": [
+      42,
+      43,
+      44
+    ],
+    "train_accuracy_mean": 0.6931818181818182,
+    "validation_accuracy_mean": 0.5666666666666668,
+    "test_accuracy_mean": 0.7033333333333333,
+    "macro_benchmark_test_accuracy_mean": 0.7033333333333333,
+    "train_accuracy_std": 0.07927443006233463,
+    "validation_accuracy_std": 0.04714045207910316,
+    "test_accuracy_std": 0.04921607686744466,
+    "macro_benchmark_test_accuracy_std": 0.04921607686744466,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 654571518,
+        "feature": "language_model/layer_1/post_attention__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.6022727272727273,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.64,
+        "test_accuracy_mirage_true": 0.46,
+        "test_accuracy_mirage_false": 0.82,
+        "benchmark_test_accuracy": {
+          "vqa_rad": 0.64
+        },
+        "benchmark_class0_test_accuracy": {
+          "vqa_rad": 0.82
+        },
+        "benchmark_class1_test_accuracy": {
+          "vqa_rad": 0.46
+        },
+        "macro_benchmark_test_accuracy": 0.64,
+        "macro_benchmark_class0_test_accuracy": 0.82,
+        "macro_benchmark_class1_test_accuracy": 0.46,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "vqa_rad": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 654571518
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_1/post_attention__text_nonspecial_mean",
+        "best_c": 0.01,
+        "train_accuracy": 0.6818181818181818,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.76,
+        "test_accuracy_mirage_true": 0.84,
+        "test_accuracy_mirage_false": 0.68,
+        "benchmark_test_accuracy": {
+          "vqa_rad": 0.76
+        },
+        "benchmark_class0_test_accuracy": {
+          "vqa_rad": 0.68
+        },
+        "benchmark_class1_test_accuracy": {
+          "vqa_rad": 0.84
+        },
+        "macro_benchmark_test_accuracy": 0.76,
+        "macro_benchmark_class0_test_accuracy": 0.68,
+        "macro_benchmark_class1_test_accuracy": 0.84,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "vqa_rad": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 89251053
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 773956047,
+        "feature": "language_model/layer_1/post_attention__text_nonspecial_mean",
+        "best_c": 0.1,
+        "train_accuracy": 0.7954545454545454,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.71,
+        "test_accuracy_mirage_true": 0.66,
+        "test_accuracy_mirage_false": 0.76,
+        "benchmark_test_accuracy": {
+          "vqa_rad": 0.71
+        },
+        "benchmark_class0_test_accuracy": {
+          "vqa_rad": 0.76
+        },
+        "benchmark_class1_test_accuracy": {
+          "vqa_rad": 0.66
+        },
+        "macro_benchmark_test_accuracy": 0.71,
+        "macro_benchmark_class0_test_accuracy": 0.76,
+        "macro_benchmark_class1_test_accuracy": 0.66,
+        "num_holdout_examples": 100,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 50,
+          "mirage_false": 50
+        },
+        "num_holdout_examples_by_benchmark": {
+          "vqa_rad": {
+            "mirage_true": 50,
+            "mirage_false": 50
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 773957047
+      }
+    ]
+  }
+}

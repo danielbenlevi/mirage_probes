@@ -1,0 +1,464 @@
+{
+  "num_samples": 1356,
+  "num_train_examples": 947,
+  "num_val_examples": 137,
+  "num_test_examples": 272,
+  "num_class0_total": 643,
+  "num_class1_total": 713,
+  "training_mode": "all_examples_benchmark_balanced_train_val_test_multiseed",
+  "num_split_seeds": 5,
+  "split_seeds": [
+    773956046,
+    438878439,
+    654571517,
+    89250953,
+    433015235
+  ],
+  "val_fraction": 0.1,
+  "test_fraction": 0.2,
+  "regularization_sweep_c_values": [
+    0.0,
+    0.01,
+    0.1,
+    1.0
+  ],
+  "hyperparam_selection_metric": "val_accuracy",
+  "early_stopping_patience": 200,
+  "early_stopping_min_delta": 0.0001,
+  "probe_epochs": 800,
+  "probe_lr": 0.03,
+  "multi_init_probe_selection": true,
+  "probe_num_initializations": 3,
+  "normalize_features": true,
+  "pca_components": 0,
+  "include_additional_attention_mlp_probes": false,
+  "neutral_as_non_mirage": false,
+  "include_contrastive_pairs_in_training_examples": true,
+  "num_contrastive_pair_examples_added": 356,
+  "num_examples_dropped_not_in_preextracted_cache": 0,
+  "exclude_short_responses_in_training_examples": true,
+  "selected_benchmark": null,
+  "included_datasets": [
+    "vqa_rad",
+    "mmmu_pro",
+    "medxpertqa_mm"
+  ],
+  "excluded_datasets": [
+    "microvqa"
+  ],
+  "target_examples_per_class": 500,
+  "selection_stats": {
+    "selected_benchmark": null,
+    "excluded_datasets": [
+      "microvqa"
+    ],
+    "benchmark_parity_across_classes_enabled": true,
+    "represented_datasets": [
+      "medxpertqa_mm",
+      "mmmu_pro",
+      "vqa_rad"
+    ],
+    "desired_examples_per_class_pre_split": 500,
+    "selected_examples_per_dataset_pre_split": {
+      "medxpertqa_mm": 116,
+      "mmmu_pro": 265,
+      "vqa_rad": 119
+    },
+    "selected_examples_per_class_pre_split": {
+      "class0": 500,
+      "class1": 500
+    },
+    "selected_per_dataset_per_class": {
+      "medxpertqa_mm": {
+        "class0_selected": 116,
+        "class1_selected": 116,
+        "class0_non_neutral_selected": 116,
+        "class0_neutral_selected": 0,
+        "class0_available_total": 164,
+        "class1_available_total": 427
+      },
+      "mmmu_pro": {
+        "class0_selected": 265,
+        "class1_selected": 265,
+        "class0_non_neutral_selected": 265,
+        "class0_neutral_selected": 0,
+        "class0_available_total": 377,
+        "class1_available_total": 388
+      },
+      "vqa_rad": {
+        "class0_selected": 119,
+        "class1_selected": 119,
+        "class0_non_neutral_selected": 119,
+        "class0_neutral_selected": 0,
+        "class0_available_total": 168,
+        "class1_available_total": 388
+      }
+    },
+    "pair_caps_by_ds": {
+      "medxpertqa_mm": 164,
+      "mmmu_pro": 377,
+      "vqa_rad": 168
+    },
+    "class0_non_neutral_available": 709,
+    "class0_neutral_available": 0,
+    "class1_available": 1203,
+    "class0_non_neutral_selected": 500,
+    "class0_neutral_selected": 0,
+    "exclude_short_responses_in_training_examples": true,
+    "min_response_tokens_required": 10,
+    "short_response_examples_excluded_pre_sampling": 0
+  },
+  "preextract_response_filter_stats": {
+    "responses_before_signature_filter": 24600,
+    "responses_after_signature_filter": 2431,
+    "responses_dropped_by_signature_filter": 22169,
+    "responses_kept_in_all_examples_cache": 2000,
+    "responses_kept_in_contrastive_cache_only": 431,
+    "all_examples_signature_count": 2000,
+    "contrastive_signature_count": 756,
+    "union_signature_count": 2449,
+    "preextract_path": "./data_and_results/qwen3_vl_32b_instruct/qwen3_vl_32b_instruct_preextracted_all_examples_features.pt",
+    "all_examples_preextract_path": "./data_and_results/qwen3_vl_32b_instruct/qwen3_vl_32b_instruct_preextracted_all_examples_features.pt",
+    "contrastive_preextract_path": "./data_and_results/qwen3_vl_32b_instruct/qwen3_vl_32b_instruct_preextracted_contrastive_features.pt"
+  },
+  "preextract_selected_filter_stats": {
+    "selected_before_signature_filter": 1356,
+    "selected_after_signature_filter": 1356,
+    "selected_dropped_by_signature_filter": 0,
+    "selected_kept_in_all_examples_cache": 925,
+    "selected_kept_in_contrastive_cache_only": 431,
+    "all_examples_signature_count": 2000,
+    "contrastive_signature_count": 756,
+    "union_signature_count": 2449,
+    "all_examples_preextract_path": "./data_and_results/qwen3_vl_32b_instruct/qwen3_vl_32b_instruct_preextracted_all_examples_features.pt",
+    "contrastive_preextract_path": "./data_and_results/qwen3_vl_32b_instruct/qwen3_vl_32b_instruct_preextracted_contrastive_features.pt"
+  },
+  "preextract_feature_source_stats": {
+    "num_samples_requested": 1356,
+    "num_samples_from_all_examples_cache": 925,
+    "num_samples_from_contrastive_cache_only": 431,
+    "num_samples_missing_in_both_caches": 0,
+    "all_examples_preextract_path": "./data_and_results/qwen3_vl_32b_instruct/qwen3_vl_32b_instruct_preextracted_all_examples_features.pt",
+    "contrastive_preextract_path": "./data_and_results/qwen3_vl_32b_instruct/qwen3_vl_32b_instruct_preextracted_contrastive_features.pt"
+  },
+  "split_stats_by_seed": [
+    {
+      "split_seed": 773956046,
+      "split_sizes": {
+        "train_total": 947,
+        "train_class0": 449,
+        "train_class1": 498,
+        "val_total": 137,
+        "val_class0": 65,
+        "val_class1": 72,
+        "test_total": 272,
+        "test_class0": 129,
+        "test_class1": 143
+      },
+      "split_stats": {
+        "represented_datasets": [
+          "medxpertqa_mm",
+          "mmmu_pro",
+          "vqa_rad"
+        ],
+        "bucket_summary": {
+          "class_0::medxpertqa_mm": {
+            "total": 158,
+            "train": 110,
+            "val": 16,
+            "test": 32
+          },
+          "class_0::mmmu_pro": {
+            "total": 327,
+            "train": 229,
+            "val": 33,
+            "test": 65
+          },
+          "class_0::vqa_rad": {
+            "total": 158,
+            "train": 110,
+            "val": 16,
+            "test": 32
+          },
+          "class_1::medxpertqa_mm": {
+            "total": 189,
+            "train": 132,
+            "val": 19,
+            "test": 38
+          },
+          "class_1::mmmu_pro": {
+            "total": 328,
+            "train": 229,
+            "val": 33,
+            "test": 66
+          },
+          "class_1::vqa_rad": {
+            "total": 196,
+            "train": 137,
+            "val": 20,
+            "test": 39
+          }
+        },
+        "val_fraction": 0.1,
+        "test_fraction": 0.2
+      }
+    },
+    {
+      "split_seed": 438878439,
+      "split_sizes": {
+        "train_total": 947,
+        "train_class0": 449,
+        "train_class1": 498,
+        "val_total": 137,
+        "val_class0": 65,
+        "val_class1": 72,
+        "test_total": 272,
+        "test_class0": 129,
+        "test_class1": 143
+      },
+      "split_stats": {
+        "represented_datasets": [
+          "medxpertqa_mm",
+          "mmmu_pro",
+          "vqa_rad"
+        ],
+        "bucket_summary": {
+          "class_0::medxpertqa_mm": {
+            "total": 158,
+            "train": 110,
+            "val": 16,
+            "test": 32
+          },
+          "class_0::mmmu_pro": {
+            "total": 327,
+            "train": 229,
+            "val": 33,
+            "test": 65
+          },
+          "class_0::vqa_rad": {
+            "total": 158,
+            "train": 110,
+            "val": 16,
+            "test": 32
+          },
+          "class_1::medxpertqa_mm": {
+            "total": 189,
+            "train": 132,
+            "val": 19,
+            "test": 38
+          },
+          "class_1::mmmu_pro": {
+            "total": 328,
+            "train": 229,
+            "val": 33,
+            "test": 66
+          },
+          "class_1::vqa_rad": {
+            "total": 196,
+            "train": 137,
+            "val": 20,
+            "test": 39
+          }
+        },
+        "val_fraction": 0.1,
+        "test_fraction": 0.2
+      }
+    },
+    {
+      "split_seed": 654571517,
+      "split_sizes": {
+        "train_total": 947,
+        "train_class0": 449,
+        "train_class1": 498,
+        "val_total": 137,
+        "val_class0": 65,
+        "val_class1": 72,
+        "test_total": 272,
+        "test_class0": 129,
+        "test_class1": 143
+      },
+      "split_stats": {
+        "represented_datasets": [
+          "medxpertqa_mm",
+          "mmmu_pro",
+          "vqa_rad"
+        ],
+        "bucket_summary": {
+          "class_0::medxpertqa_mm": {
+            "total": 158,
+            "train": 110,
+            "val": 16,
+            "test": 32
+          },
+          "class_0::mmmu_pro": {
+            "total": 327,
+            "train": 229,
+            "val": 33,
+            "test": 65
+          },
+          "class_0::vqa_rad": {
+            "total": 158,
+            "train": 110,
+            "val": 16,
+            "test": 32
+          },
+          "class_1::medxpertqa_mm": {
+            "total": 189,
+            "train": 132,
+            "val": 19,
+            "test": 38
+          },
+          "class_1::mmmu_pro": {
+            "total": 328,
+            "train": 229,
+            "val": 33,
+            "test": 66
+          },
+          "class_1::vqa_rad": {
+            "total": 196,
+            "train": 137,
+            "val": 20,
+            "test": 39
+          }
+        },
+        "val_fraction": 0.1,
+        "test_fraction": 0.2
+      }
+    },
+    {
+      "split_seed": 89250953,
+      "split_sizes": {
+        "train_total": 947,
+        "train_class0": 449,
+        "train_class1": 498,
+        "val_total": 137,
+        "val_class0": 65,
+        "val_class1": 72,
+        "test_total": 272,
+        "test_class0": 129,
+        "test_class1": 143
+      },
+      "split_stats": {
+        "represented_datasets": [
+          "medxpertqa_mm",
+          "mmmu_pro",
+          "vqa_rad"
+        ],
+        "bucket_summary": {
+          "class_0::medxpertqa_mm": {
+            "total": 158,
+            "train": 110,
+            "val": 16,
+            "test": 32
+          },
+          "class_0::mmmu_pro": {
+            "total": 327,
+            "train": 229,
+            "val": 33,
+            "test": 65
+          },
+          "class_0::vqa_rad": {
+            "total": 158,
+            "train": 110,
+            "val": 16,
+            "test": 32
+          },
+          "class_1::medxpertqa_mm": {
+            "total": 189,
+            "train": 132,
+            "val": 19,
+            "test": 38
+          },
+          "class_1::mmmu_pro": {
+            "total": 328,
+            "train": 229,
+            "val": 33,
+            "test": 66
+          },
+          "class_1::vqa_rad": {
+            "total": 196,
+            "train": 137,
+            "val": 20,
+            "test": 39
+          }
+        },
+        "val_fraction": 0.1,
+        "test_fraction": 0.2
+      }
+    },
+    {
+      "split_seed": 433015235,
+      "split_sizes": {
+        "train_total": 947,
+        "train_class0": 449,
+        "train_class1": 498,
+        "val_total": 137,
+        "val_class0": 65,
+        "val_class1": 72,
+        "test_total": 272,
+        "test_class0": 129,
+        "test_class1": 143
+      },
+      "split_stats": {
+        "represented_datasets": [
+          "medxpertqa_mm",
+          "mmmu_pro",
+          "vqa_rad"
+        ],
+        "bucket_summary": {
+          "class_0::medxpertqa_mm": {
+            "total": 158,
+            "train": 110,
+            "val": 16,
+            "test": 32
+          },
+          "class_0::mmmu_pro": {
+            "total": 327,
+            "train": 229,
+            "val": 33,
+            "test": 65
+          },
+          "class_0::vqa_rad": {
+            "total": 158,
+            "train": 110,
+            "val": 16,
+            "test": 32
+          },
+          "class_1::medxpertqa_mm": {
+            "total": 189,
+            "train": 132,
+            "val": 19,
+            "test": 38
+          },
+          "class_1::mmmu_pro": {
+            "total": 328,
+            "train": 229,
+            "val": 33,
+            "test": 66
+          },
+          "class_1::vqa_rad": {
+            "total": 196,
+            "train": 137,
+            "val": 20,
+            "test": 39
+          }
+        },
+        "val_fraction": 0.1,
+        "test_fraction": 0.2
+      }
+    }
+  ],
+  "llm_strategies": [
+    "current_visual_plus_last",
+    "text_nonspecial_mean",
+    "all_nonspecial_mean"
+  ],
+  "responses_path": "./data_and_results/gen_qwen3_vl_32b_instruct_/responses.json",
+  "mirage_root": "./MIRAGE",
+  "vlm": "qwen3_vl_32b_instruct",
+  "model_path": "./models/qwen3_vl_32b_instruct",
+  "device_map": "",
+  "max_memory_per_gpu_gib": 0.0,
+  "max_memory_cpu_gib": 0.0,
+  "features_cache_path": "./data_and_results/qwen3_vl_32b_instruct/qwen3_vl_32b_instruct_preextracted_all_examples_features.pt"
+}

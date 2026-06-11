@@ -1,0 +1,6 @@
+{
+  "analysis_summary_json": "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/analysis/top_probe_summary.json",
+  "plots_dir": "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/analysis/plots",
+  "num_experiments": 8,
+  "plot_runtime_notes": []
+}

@@ -1,0 +1,11 @@
+command=./miniconda3/envs/probing_vlms/bin/python ./analyze_full_probe_results.py --experiment_run_root ./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305 --output_dir ./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis
+start_utc=2026-05-02T07:42:24.630867Z
+{
+  "analysis_summary_json": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/top_probe_summary.json",
+  "plots_dir": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/analysis/plots",
+  "num_experiments": 16,
+  "plot_runtime_notes": []
+}
+end_utc=2026-05-02T07:42:53.222764Z
+elapsed_sec=28.59
+return_code=0

@@ -1,0 +1,244 @@
+[
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_479",
+    "question_id": "MM-479",
+    "variant_id": "mutation_1",
+    "label": 1
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_1849",
+    "question_id": "MM-1849",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_646",
+    "question_id": "MM-646",
+    "variant_id": "mutation_4",
+    "label": 0
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_1103",
+    "question_id": "MM-1103",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_445",
+    "question_id": "MM-445",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_987",
+    "question_id": "MM-987",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_1590",
+    "question_id": "MM-1590",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_529",
+    "question_id": "MM-529",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_1636",
+    "question_id": "MM-1636",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_1964",
+    "question_id": "MM-1964",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_888",
+    "question_id": "MM-888",
+    "variant_id": "mutation_3",
+    "label": 1
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_1870",
+    "question_id": "MM-1870",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_1539",
+    "question_id": "MM-1539",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_69",
+    "question_id": "MM-69",
+    "variant_id": "original",
+    "label": 1
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_736",
+    "question_id": "MM-736",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_166",
+    "question_id": "MM-166",
+    "variant_id": "mutation_2",
+    "label": 1
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_1075",
+    "question_id": "MM-1075",
+    "variant_id": "mutation_4",
+    "label": 1
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_571",
+    "question_id": "MM-571",
+    "variant_id": "mutation_2",
+    "label": 0
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_387",
+    "question_id": "MM-387",
+    "variant_id": "mutation_1",
+    "label": 0
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_1007",
+    "question_id": "MM-1007",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_64",
+    "question_id": "MM-64",
+    "variant_id": "mutation_3",
+    "label": 0
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_1480",
+    "question_id": "MM-1480",
+    "variant_id": "original",
+    "label": 0
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_1480",
+    "question_id": "MM-1480",
+    "variant_id": "mutation_1",
+    "label": 1,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_1539",
+    "question_id": "MM-1539",
+    "variant_id": "mutation_1",
+    "label": 1,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_1964",
+    "question_id": "MM-1964",
+    "variant_id": "mutation_2",
+    "label": 1,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_387",
+    "question_id": "MM-387",
+    "variant_id": "mutation_4",
+    "label": 1,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_571",
+    "question_id": "MM-571",
+    "variant_id": "mutation_3",
+    "label": 1,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_64",
+    "question_id": "MM-64",
+    "variant_id": "mutation_2",
+    "label": 0,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_64",
+    "question_id": "MM-64",
+    "variant_id": "original",
+    "label": 1,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_646",
+    "question_id": "MM-646",
+    "variant_id": "mutation_2",
+    "label": 1,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_736",
+    "question_id": "MM-736",
+    "variant_id": "mutation_3",
+    "label": 1,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_987",
+    "question_id": "MM-987",
+    "variant_id": "mutation_1",
+    "label": 0,
+    "source_group": "contrastive_pair_augmentation"
+  },
+  {
+    "dataset": "medxpertqa_mm",
+    "unique_id": "medxpertqa_mm_987",
+    "question_id": "MM-987",
+    "variant_id": "mutation_3",
+    "label": 1,
+    "source_group": "contrastive_pair_augmentation"
+  }
+]

@@ -1,0 +1,16 @@
+command=./miniconda3/envs/probing_vlms/bin/python ./analyze_full_probe_results.py --experiment_run_root ./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260430_194220 --output_dir ./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260430_194220/analysis
+start_utc=2026-05-02T05:33:03.152365Z
+{
+  "analysis_summary_json": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260430_194220/analysis/top_probe_summary.json",
+  "plots_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260430_194220/analysis/plots",
+  "num_experiments": 28,
+  "plot_runtime_notes": [
+    "Skipped contrastive artifact with no heldout test accuracies: ./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260430_194220/01_logreg_contrastive/01_01_logreg_contrastive_vqa_rad_qwen3_vl_32b_instruct_20260430_194220_590657/qwen3_vl_32b_instruct_all_feature_probe_accuracies.json",
+    "Skipped contrastive artifact with no heldout test accuracies: ./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260430_194220/01_logreg_contrastive/01_02_logreg_contrastive_mmmu_pro_qwen3_vl_32b_instruct_20260430_194220_590657/qwen3_vl_32b_instruct_all_feature_probe_accuracies.json",
+    "Skipped contrastive artifact with no heldout test accuracies: ./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260430_194220/01_logreg_contrastive/01_03_logreg_contrastive_medxpertqa_mm_qwen3_vl_32b_instruct_20260430_194220_590657/qwen3_vl_32b_instruct_all_feature_probe_accuracies.json",
+    "Skipped contrastive artifact with no heldout test accuracies: ./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260430_194220/01_logreg_contrastive/01_04_logreg_contrastive_all_qwen3_vl_32b_instruct_20260430_194220_590657/qwen3_vl_32b_instruct_all_feature_probe_accuracies.json"
+  ]
+}
+end_utc=2026-05-02T05:35:30.333190Z
+elapsed_sec=147.18
+return_code=0

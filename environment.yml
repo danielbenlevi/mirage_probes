@@ -1,0 +1,30 @@
+name: probing_vlms
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - pillow
+  - requests
+  - tqdm
+  - pyarrow
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pip:
+      - transformers
+      - accelerate
+      - huggingface-hub
+      - sentencepiece
+      - qwen-vl-utils
+      - einops
+      - timm
+      - av
+      - openai

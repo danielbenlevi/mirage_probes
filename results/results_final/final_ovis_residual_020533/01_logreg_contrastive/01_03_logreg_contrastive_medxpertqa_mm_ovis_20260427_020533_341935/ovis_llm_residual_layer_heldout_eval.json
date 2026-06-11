@@ -1,0 +1,5630 @@
+{
+  "language_model/layer_1": {
+    "best_feature": "language_model/layer_1__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.6,
+    "validation_accuracy_mean": 0.6599999999999999,
+    "test_accuracy_mean": 0.5,
+    "macro_benchmark_test_accuracy_mean": 0.5,
+    "train_accuracy_std": 0.18371173070873836,
+    "validation_accuracy_std": 0.04898979485566355,
+    "test_accuracy_std": 0.12247448713915889,
+    "macro_benchmark_test_accuracy_std": 0.12247448713915889,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_1__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.35,
+        "test_accuracy_mirage_true": 0.5,
+        "test_accuracy_mirage_false": 0.2,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.35
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.2
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "macro_benchmark_test_accuracy": 0.35,
+        "macro_benchmark_class0_test_accuracy": 0.2,
+        "macro_benchmark_class1_test_accuracy": 0.5,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 774156152
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_1__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.375,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.55,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.55
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.55,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 438878539
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_1__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.75,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.5,
+        "test_accuracy_mirage_true": 0.1,
+        "test_accuracy_mirage_false": 0.9,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.9
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.1
+        },
+        "macro_benchmark_test_accuracy": 0.5,
+        "macro_benchmark_class0_test_accuracy": 0.9,
+        "macro_benchmark_class1_test_accuracy": 0.1,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 654671520
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_1__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.4,
+        "test_accuracy_mirage_true": 0.5,
+        "test_accuracy_mirage_false": 0.3,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "macro_benchmark_test_accuracy": 0.4,
+        "macro_benchmark_class0_test_accuracy": 0.3,
+        "macro_benchmark_class1_test_accuracy": 0.5,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 89250953
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_1__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.875,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.7,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.8,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.8
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.7,
+        "macro_benchmark_class0_test_accuracy": 0.8,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 433215241
+      }
+    ]
+  },
+  "language_model/layer_2": {
+    "best_feature": "language_model/layer_2__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.625,
+    "validation_accuracy_mean": 0.58,
+    "test_accuracy_mean": 0.5,
+    "macro_benchmark_test_accuracy_mean": 0.5,
+    "train_accuracy_std": 0.2850438562747845,
+    "validation_accuracy_std": 0.11661903789690603,
+    "test_accuracy_std": 0.0316227766016838,
+    "macro_benchmark_test_accuracy_std": 0.0316227766016838,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_2__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.5,
+        "test_accuracy_mirage_true": 0.3,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "macro_benchmark_test_accuracy": 0.5,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.3,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 774156052
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_2__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.25,
+        "validation_accuracy": 0.8,
+        "test_accuracy": 0.45,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.5,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.45
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.45,
+        "macro_benchmark_class0_test_accuracy": 0.5,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 438878539
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_2__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.5,
+        "test_accuracy_mirage_true": 0.3,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "macro_benchmark_test_accuracy": 0.5,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.3,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 654671520
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_2__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.875,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.5,
+        "test_accuracy_mirage_true": 0.3,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "macro_benchmark_test_accuracy": 0.5,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.3,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 89450959
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_2__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.375,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.55,
+        "test_accuracy_mirage_true": 0.7,
+        "test_accuracy_mirage_false": 0.4,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.55
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "macro_benchmark_test_accuracy": 0.55,
+        "macro_benchmark_class0_test_accuracy": 0.4,
+        "macro_benchmark_class1_test_accuracy": 0.7,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433015335
+      }
+    ]
+  },
+  "language_model/layer_3": {
+    "best_feature": "language_model/layer_3__text_nonspecial_mean",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.575,
+    "validation_accuracy_mean": 0.68,
+    "test_accuracy_mean": 0.58,
+    "macro_benchmark_test_accuracy_mean": 0.58,
+    "train_accuracy_std": 0.2692582403567252,
+    "validation_accuracy_std": 0.09797958971132713,
+    "test_accuracy_std": 0.11224972160321822,
+    "macro_benchmark_test_accuracy_std": 0.11224972160321822,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_3__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.4,
+        "test_accuracy_mirage_true": 0.3,
+        "test_accuracy_mirage_false": 0.5,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "macro_benchmark_test_accuracy": 0.4,
+        "macro_benchmark_class0_test_accuracy": 0.5,
+        "macro_benchmark_class1_test_accuracy": 0.3,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 774056049
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_3__text_nonspecial_mean",
+        "best_c": 0.01,
+        "train_accuracy": 0.25,
+        "validation_accuracy": 0.8,
+        "test_accuracy": 0.6,
+        "test_accuracy_mirage_true": 0.8,
+        "test_accuracy_mirage_false": 0.4,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.8
+        },
+        "macro_benchmark_test_accuracy": 0.6,
+        "macro_benchmark_class0_test_accuracy": 0.4,
+        "macro_benchmark_class1_test_accuracy": 0.8,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 439078545
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_3__text_nonspecial_mean",
+        "best_c": 0.01,
+        "train_accuracy": 0.375,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.55,
+        "test_accuracy_mirage_true": 0.3,
+        "test_accuracy_mirage_false": 0.8,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.55
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.8
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "macro_benchmark_test_accuracy": 0.55,
+        "macro_benchmark_class0_test_accuracy": 0.8,
+        "macro_benchmark_class1_test_accuracy": 0.3,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 654771623
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_3__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.75,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.6,
+        "test_accuracy_mirage_true": 0.5,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "macro_benchmark_test_accuracy": 0.6,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.5,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 89350956
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_3__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.75,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.9,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.75
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.9
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.75,
+        "macro_benchmark_class0_test_accuracy": 0.9,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 433215241
+      }
+    ]
+  },
+  "language_model/layer_4": {
+    "best_feature": "language_model/layer_4__text_nonspecial_mean",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.725,
+    "validation_accuracy_mean": 0.62,
+    "test_accuracy_mean": 0.53,
+    "macro_benchmark_test_accuracy_mean": 0.53,
+    "train_accuracy_std": 0.16583123951777,
+    "validation_accuracy_std": 0.19390719429665315,
+    "test_accuracy_std": 0.08124038404635961,
+    "macro_benchmark_test_accuracy_std": 0.08124038404635961,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_4__text_nonspecial_mean",
+        "best_c": 0.1,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.45,
+        "test_accuracy_mirage_true": 0.2,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.45
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.2
+        },
+        "macro_benchmark_test_accuracy": 0.45,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.2,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 773957046
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_4__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.5,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.5,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 438878439
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_4__text_nonspecial_mean",
+        "best_c": 0.01,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 1.0,
+        "test_accuracy": 0.6,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.6,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 654771623
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_4__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.75,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.65,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.65
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.65,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 89450959
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_4__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.75,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.45,
+        "test_accuracy_mirage_true": 0.3,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.45
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "macro_benchmark_test_accuracy": 0.45,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.3,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 433115238
+      }
+    ]
+  },
+  "language_model/layer_5": {
+    "best_feature": "language_model/layer_5__all_nonspecial_mean",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.65,
+    "validation_accuracy_mean": 0.62,
+    "test_accuracy_mean": 0.63,
+    "macro_benchmark_test_accuracy_mean": 0.63,
+    "train_accuracy_std": 0.1224744871391589,
+    "validation_accuracy_std": 0.039999999999999994,
+    "test_accuracy_std": 0.08124038404635961,
+    "macro_benchmark_test_accuracy_std": 0.08124038404635961,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_5__all_nonspecial_mean",
+        "best_c": 0.1,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.65,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.65
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.65,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 773957046
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_5__all_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.6,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.6,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 438878439
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_5__all_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.75,
+        "test_accuracy_mirage_true": 0.8,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.75
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.8
+        },
+        "macro_benchmark_test_accuracy": 0.75,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.8,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 654671520
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_5__all_nonspecial_mean",
+        "best_c": 0.1,
+        "train_accuracy": 0.875,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.5,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.4,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.5,
+        "macro_benchmark_class0_test_accuracy": 0.4,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 89251953
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_5__all_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.65,
+        "test_accuracy_mirage_true": 0.5,
+        "test_accuracy_mirage_false": 0.8,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.65
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.8
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "macro_benchmark_test_accuracy": 0.65,
+        "macro_benchmark_class0_test_accuracy": 0.8,
+        "macro_benchmark_class1_test_accuracy": 0.5,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 433215241
+      }
+    ]
+  },
+  "language_model/layer_6": {
+    "best_feature": "language_model/layer_6__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.625,
+    "validation_accuracy_mean": 0.6,
+    "test_accuracy_mean": 0.52,
+    "macro_benchmark_test_accuracy_mean": 0.52,
+    "train_accuracy_std": 0.2091650066335189,
+    "validation_accuracy_std": 0.08944271909999157,
+    "test_accuracy_std": 0.08717797887081348,
+    "macro_benchmark_test_accuracy_std": 0.08717797887081348,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_6__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.75,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.6,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.6,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 774056049
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_6__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.375,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.55,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.55
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.55,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 438878539
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_6__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.75,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.55,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.5,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.55
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.55,
+        "macro_benchmark_class0_test_accuracy": 0.5,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 654571617
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_6__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.875,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.55,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.55
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.55,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 89350956
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_6__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.375,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.35,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.3,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.35
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.35,
+        "macro_benchmark_class0_test_accuracy": 0.3,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433015335
+      }
+    ]
+  },
+  "language_model/layer_7": {
+    "best_feature": "language_model/layer_7__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.7,
+    "validation_accuracy_mean": 0.62,
+    "test_accuracy_mean": 0.47000000000000003,
+    "macro_benchmark_test_accuracy_mean": 0.47000000000000003,
+    "train_accuracy_std": 0.18708286933869706,
+    "validation_accuracy_std": 0.0748331477354788,
+    "test_accuracy_std": 0.12083045973594572,
+    "macro_benchmark_test_accuracy_std": 0.12083045973594572,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_7__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.75,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.55,
+        "test_accuracy_mirage_true": 0.7,
+        "test_accuracy_mirage_false": 0.4,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.55
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "macro_benchmark_test_accuracy": 0.55,
+        "macro_benchmark_class0_test_accuracy": 0.4,
+        "macro_benchmark_class1_test_accuracy": 0.7,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 773956046
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_7__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.3,
+        "test_accuracy_mirage_true": 0.3,
+        "test_accuracy_mirage_false": 0.3,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "macro_benchmark_test_accuracy": 0.3,
+        "macro_benchmark_class0_test_accuracy": 0.3,
+        "macro_benchmark_class1_test_accuracy": 0.3,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 438978542
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_7__current_visual_plus_last",
+        "best_c": 0.1,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.55,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.55
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.55,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 654772523
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_7__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.75,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.6,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.6,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 89350956
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_7__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.35,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.3,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.35
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.35,
+        "macro_benchmark_class0_test_accuracy": 0.3,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433015235
+      }
+    ]
+  },
+  "language_model/layer_8": {
+    "best_feature": "language_model/layer_8__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.675,
+    "validation_accuracy_mean": 0.6,
+    "test_accuracy_mean": 0.44000000000000006,
+    "macro_benchmark_test_accuracy_mean": 0.44000000000000006,
+    "train_accuracy_std": 0.203100960115899,
+    "validation_accuracy_std": 0.06324555320336757,
+    "test_accuracy_std": 0.16552945357246848,
+    "macro_benchmark_test_accuracy_std": 0.16552945357246848,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_8__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.2,
+        "test_accuracy_mirage_true": 0.3,
+        "test_accuracy_mirage_false": 0.1,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.2
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.1
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "macro_benchmark_test_accuracy": 0.2,
+        "macro_benchmark_class0_test_accuracy": 0.1,
+        "macro_benchmark_class1_test_accuracy": 0.3,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 773956046
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_8__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.375,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.4,
+        "test_accuracy_mirage_true": 0.7,
+        "test_accuracy_mirage_false": 0.1,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.1
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "macro_benchmark_test_accuracy": 0.4,
+        "macro_benchmark_class0_test_accuracy": 0.1,
+        "macro_benchmark_class1_test_accuracy": 0.7,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 439078545
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_8__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.65,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.65
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.65,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 654771523
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_8__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.75,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.6,
+        "test_accuracy_mirage_true": 0.5,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "macro_benchmark_test_accuracy": 0.6,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.5,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 89350956
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_8__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.35,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.3,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.35
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.35,
+        "macro_benchmark_class0_test_accuracy": 0.3,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433015235
+      }
+    ]
+  },
+  "language_model/layer_9": {
+    "best_feature": "language_model/layer_9__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.475,
+    "validation_accuracy_mean": 0.6599999999999999,
+    "test_accuracy_mean": 0.51,
+    "macro_benchmark_test_accuracy_mean": 0.51,
+    "train_accuracy_std": 0.09354143466934853,
+    "validation_accuracy_std": 0.10198039027185571,
+    "test_accuracy_std": 0.1019803902718557,
+    "macro_benchmark_test_accuracy_std": 0.1019803902718557,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_9__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.4,
+        "test_accuracy_mirage_true": 0.5,
+        "test_accuracy_mirage_false": 0.3,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "macro_benchmark_test_accuracy": 0.4,
+        "macro_benchmark_class0_test_accuracy": 0.3,
+        "macro_benchmark_class1_test_accuracy": 0.5,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 774056149
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_9__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.375,
+        "validation_accuracy": 0.8,
+        "test_accuracy": 0.5,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.4,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.5,
+        "macro_benchmark_class0_test_accuracy": 0.4,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 439078545
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_9__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.65,
+        "test_accuracy_mirage_true": 0.9,
+        "test_accuracy_mirage_false": 0.4,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.65
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.9
+        },
+        "macro_benchmark_test_accuracy": 0.65,
+        "macro_benchmark_class0_test_accuracy": 0.4,
+        "macro_benchmark_class1_test_accuracy": 0.9,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 654571517
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_9__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.6,
+        "test_accuracy_mirage_true": 0.7,
+        "test_accuracy_mirage_false": 0.5,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "macro_benchmark_test_accuracy": 0.6,
+        "macro_benchmark_class0_test_accuracy": 0.5,
+        "macro_benchmark_class1_test_accuracy": 0.7,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 89451059
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_9__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.375,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.4,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.4,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.4,
+        "macro_benchmark_class0_test_accuracy": 0.4,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 433115338
+      }
+    ]
+  },
+  "language_model/layer_10": {
+    "best_feature": "language_model/layer_10__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.625,
+    "validation_accuracy_mean": 0.68,
+    "test_accuracy_mean": 0.48,
+    "macro_benchmark_test_accuracy_mean": 0.48,
+    "train_accuracy_std": 0.11180339887498948,
+    "validation_accuracy_std": 0.07483314773547885,
+    "test_accuracy_std": 0.198997487421324,
+    "macro_benchmark_test_accuracy_std": 0.198997487421324,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_10__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.75,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.45,
+        "test_accuracy_mirage_true": 0.5,
+        "test_accuracy_mirage_false": 0.4,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.45
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "macro_benchmark_test_accuracy": 0.45,
+        "macro_benchmark_class0_test_accuracy": 0.4,
+        "macro_benchmark_class1_test_accuracy": 0.5,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 774156052
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_10__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 0.8,
+        "test_accuracy": 0.2,
+        "test_accuracy_mirage_true": 0.3,
+        "test_accuracy_mirage_false": 0.1,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.2
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.1
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "macro_benchmark_test_accuracy": 0.2,
+        "macro_benchmark_class0_test_accuracy": 0.1,
+        "macro_benchmark_class1_test_accuracy": 0.3,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 438978542
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_10__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.75,
+        "test_accuracy_mirage_true": 1.0,
+        "test_accuracy_mirage_false": 0.5,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.75
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 1.0
+        },
+        "macro_benchmark_test_accuracy": 0.75,
+        "macro_benchmark_class0_test_accuracy": 0.5,
+        "macro_benchmark_class1_test_accuracy": 1.0,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 654571517
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_10__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.75,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.65,
+        "test_accuracy_mirage_true": 0.7,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.65
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "macro_benchmark_test_accuracy": 0.65,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.7,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 89451059
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_10__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.35,
+        "test_accuracy_mirage_true": 0.3,
+        "test_accuracy_mirage_false": 0.4,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.35
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "macro_benchmark_test_accuracy": 0.35,
+        "macro_benchmark_class0_test_accuracy": 0.4,
+        "macro_benchmark_class1_test_accuracy": 0.3,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 433115338
+      }
+    ]
+  },
+  "language_model/layer_11": {
+    "best_feature": "language_model/layer_11__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.625,
+    "validation_accuracy_mean": 0.6199999999999999,
+    "test_accuracy_mean": 0.6,
+    "macro_benchmark_test_accuracy_mean": 0.6,
+    "train_accuracy_std": 0.07905694150420949,
+    "validation_accuracy_std": 0.11661903789690603,
+    "test_accuracy_std": 0.19235384061671346,
+    "macro_benchmark_test_accuracy_std": 0.19235384061671346,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_11__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.25,
+        "test_accuracy_mirage_true": 0.3,
+        "test_accuracy_mirage_false": 0.2,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.25
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.2
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "macro_benchmark_test_accuracy": 0.25,
+        "macro_benchmark_class0_test_accuracy": 0.2,
+        "macro_benchmark_class1_test_accuracy": 0.3,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 773956046
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_11__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 0.8,
+        "test_accuracy": 0.75,
+        "test_accuracy_mirage_true": 0.8,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.75
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.8
+        },
+        "macro_benchmark_test_accuracy": 0.75,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.8,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 438978542
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_11__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.8,
+        "test_accuracy_mirage_true": 1.0,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.8
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 1.0
+        },
+        "macro_benchmark_test_accuracy": 0.8,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 1.0,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 654771623
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_11__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.75,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.6,
+        "test_accuracy_mirage_true": 0.7,
+        "test_accuracy_mirage_false": 0.5,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "macro_benchmark_test_accuracy": 0.6,
+        "macro_benchmark_class0_test_accuracy": 0.5,
+        "macro_benchmark_class1_test_accuracy": 0.7,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 89451059
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_11__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.6,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.6,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433015235
+      }
+    ]
+  },
+  "language_model/layer_12": {
+    "best_feature": "language_model/layer_12__text_nonspecial_mean",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.725,
+    "validation_accuracy_mean": 0.5800000000000001,
+    "test_accuracy_mean": 0.58,
+    "macro_benchmark_test_accuracy_mean": 0.58,
+    "train_accuracy_std": 0.18371173070873836,
+    "validation_accuracy_std": 0.03999999999999999,
+    "test_accuracy_std": 0.08124038404635958,
+    "macro_benchmark_test_accuracy_std": 0.08124038404635958,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_12__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.45,
+        "test_accuracy_mirage_true": 0.2,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.45
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.2
+        },
+        "macro_benchmark_test_accuracy": 0.45,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.2,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 774156052
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_12__text_nonspecial_mean",
+        "best_c": 0.01,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.7,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.8,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.8
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.7,
+        "macro_benchmark_class0_test_accuracy": 0.8,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 438978542
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_12__text_nonspecial_mean",
+        "best_c": 0.01,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.6,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.8,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.8
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.6,
+        "macro_benchmark_class0_test_accuracy": 0.8,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 654571617
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_12__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.875,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.55,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.55
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.55,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 89250953
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_12__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.6,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.8,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.8
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.6,
+        "macro_benchmark_class0_test_accuracy": 0.8,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 433215241
+      }
+    ]
+  },
+  "language_model/layer_13": {
+    "best_feature": "language_model/layer_13__text_nonspecial_mean",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.675,
+    "validation_accuracy_mean": 0.6599999999999999,
+    "test_accuracy_mean": 0.5700000000000001,
+    "macro_benchmark_test_accuracy_mean": 0.5700000000000001,
+    "train_accuracy_std": 0.1695582495781317,
+    "validation_accuracy_std": 0.04898979485566354,
+    "test_accuracy_std": 0.024494897427831747,
+    "macro_benchmark_test_accuracy_std": 0.024494897427831747,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_13__text_nonspecial_mean",
+        "best_c": 0.01,
+        "train_accuracy": 0.75,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.55,
+        "test_accuracy_mirage_true": 0.5,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.55
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "macro_benchmark_test_accuracy": 0.55,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.5,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 774156152
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_13__text_nonspecial_mean",
+        "best_c": 0.01,
+        "train_accuracy": 0.375,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.55,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.5,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.55
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.55,
+        "macro_benchmark_class0_test_accuracy": 0.5,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 439078545
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_13__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.75,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.6,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.6,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 654671520
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_13__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.875,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.55,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.55
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.55,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 89250953
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_13__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.6,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.8,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.8
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.6,
+        "macro_benchmark_class0_test_accuracy": 0.8,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433015235
+      }
+    ]
+  },
+  "language_model/layer_14": {
+    "best_feature": "language_model/layer_14__all_nonspecial_mean",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.7,
+    "validation_accuracy_mean": 0.62,
+    "test_accuracy_mean": 0.5199999999999999,
+    "macro_benchmark_test_accuracy_mean": 0.5199999999999999,
+    "train_accuracy_std": 0.203100960115899,
+    "validation_accuracy_std": 0.11661903789690602,
+    "test_accuracy_std": 0.14352700094407325,
+    "macro_benchmark_test_accuracy_std": 0.14352700094407325,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_14__all_nonspecial_mean",
+        "best_c": 0.1,
+        "train_accuracy": 0.875,
+        "validation_accuracy": 0.8,
+        "test_accuracy": 0.55,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.55
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.55,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 774157052
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_14__all_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.75,
+        "test_accuracy_mirage_true": 0.7,
+        "test_accuracy_mirage_false": 0.8,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.75
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.8
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "macro_benchmark_test_accuracy": 0.75,
+        "macro_benchmark_class0_test_accuracy": 0.8,
+        "macro_benchmark_class1_test_accuracy": 0.7,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 438978442
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_14__all_nonspecial_mean",
+        "best_c": 0.01,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.5,
+        "test_accuracy_mirage_true": 0.5,
+        "test_accuracy_mirage_false": 0.5,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "macro_benchmark_test_accuracy": 0.5,
+        "macro_benchmark_class0_test_accuracy": 0.5,
+        "macro_benchmark_class1_test_accuracy": 0.5,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 654571617
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_14__all_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.5,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.4,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.5,
+        "macro_benchmark_class0_test_accuracy": 0.4,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 89450959
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_14__all_nonspecial_mean",
+        "best_c": 0.01,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.3,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.2,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.2
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.3,
+        "macro_benchmark_class0_test_accuracy": 0.2,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 433215341
+      }
+    ]
+  },
+  "language_model/layer_15": {
+    "best_feature": "language_model/layer_15__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.725,
+    "validation_accuracy_mean": 0.6599999999999999,
+    "test_accuracy_mean": 0.48999999999999994,
+    "macro_benchmark_test_accuracy_mean": 0.48999999999999994,
+    "train_accuracy_std": 0.21505813167606566,
+    "validation_accuracy_std": 0.10198039027185571,
+    "test_accuracy_std": 0.14966629547095764,
+    "macro_benchmark_test_accuracy_std": 0.14966629547095764,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_15__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.875,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.35,
+        "test_accuracy_mirage_true": 0.1,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.35
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.1
+        },
+        "macro_benchmark_test_accuracy": 0.35,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.1,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 773956046
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_15__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.375,
+        "validation_accuracy": 0.8,
+        "test_accuracy": 0.5,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.4,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.5,
+        "macro_benchmark_class0_test_accuracy": 0.4,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 439078545
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_15__current_visual_plus_last",
+        "best_c": 0.1,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.6,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.6,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 654772523
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_15__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.75,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.7,
+        "test_accuracy_mirage_true": 0.7,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "macro_benchmark_test_accuracy": 0.7,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.7,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 89351056
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_15__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.3,
+        "test_accuracy_mirage_true": 0.2,
+        "test_accuracy_mirage_false": 0.4,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.2
+        },
+        "macro_benchmark_test_accuracy": 0.3,
+        "macro_benchmark_class0_test_accuracy": 0.4,
+        "macro_benchmark_class1_test_accuracy": 0.2,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 433215241
+      }
+    ]
+  },
+  "language_model/layer_16": {
+    "best_feature": "language_model/layer_16__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.575,
+    "validation_accuracy_mean": 0.68,
+    "test_accuracy_mean": 0.43,
+    "macro_benchmark_test_accuracy_mean": 0.43,
+    "train_accuracy_std": 0.18708286933869706,
+    "validation_accuracy_std": 0.07483314773547885,
+    "test_accuracy_std": 0.2293468988235943,
+    "macro_benchmark_test_accuracy_std": 0.2293468988235943,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_16__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.15,
+        "test_accuracy_mirage_true": 0.0,
+        "test_accuracy_mirage_false": 0.3,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.15
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.0
+        },
+        "macro_benchmark_test_accuracy": 0.15,
+        "macro_benchmark_class0_test_accuracy": 0.3,
+        "macro_benchmark_class1_test_accuracy": 0.0,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 773956046
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_16__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.375,
+        "validation_accuracy": 0.8,
+        "test_accuracy": 0.2,
+        "test_accuracy_mirage_true": 0.3,
+        "test_accuracy_mirage_false": 0.1,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.2
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.1
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "macro_benchmark_test_accuracy": 0.2,
+        "macro_benchmark_class0_test_accuracy": 0.1,
+        "macro_benchmark_class1_test_accuracy": 0.3,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 439078545
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_16__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.875,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.6,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.6,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 654671520
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_16__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.75,
+        "test_accuracy_mirage_true": 0.8,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.75
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.8
+        },
+        "macro_benchmark_test_accuracy": 0.75,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.8,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 89350956
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_16__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.375,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.45,
+        "test_accuracy_mirage_true": 0.5,
+        "test_accuracy_mirage_false": 0.4,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.45
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "macro_benchmark_test_accuracy": 0.45,
+        "macro_benchmark_class0_test_accuracy": 0.4,
+        "macro_benchmark_class1_test_accuracy": 0.5,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 433115338
+      }
+    ]
+  },
+  "language_model/layer_17": {
+    "best_feature": "language_model/layer_17__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.55,
+    "validation_accuracy_mean": 0.62,
+    "test_accuracy_mean": 0.4699999999999999,
+    "macro_benchmark_test_accuracy_mean": 0.4699999999999999,
+    "train_accuracy_std": 0.09999999999999999,
+    "validation_accuracy_std": 0.039999999999999994,
+    "test_accuracy_std": 0.13999999999999999,
+    "macro_benchmark_test_accuracy_std": 0.13999999999999999,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_17__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.5,
+        "test_accuracy_mirage_true": 0.5,
+        "test_accuracy_mirage_false": 0.5,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "macro_benchmark_test_accuracy": 0.5,
+        "macro_benchmark_class0_test_accuracy": 0.5,
+        "macro_benchmark_class1_test_accuracy": 0.5,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 774156152
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_17__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.375,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.2,
+        "test_accuracy_mirage_true": 0.3,
+        "test_accuracy_mirage_false": 0.1,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.2
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.1
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "macro_benchmark_test_accuracy": 0.2,
+        "macro_benchmark_class0_test_accuracy": 0.1,
+        "macro_benchmark_class1_test_accuracy": 0.3,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 439078545
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_17__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.5,
+        "test_accuracy_mirage_true": 0.2,
+        "test_accuracy_mirage_false": 0.8,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.8
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.2
+        },
+        "macro_benchmark_test_accuracy": 0.5,
+        "macro_benchmark_class0_test_accuracy": 0.8,
+        "macro_benchmark_class1_test_accuracy": 0.2,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 654571617
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_17__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.6,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.6,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 89350956
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_17__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.55,
+        "test_accuracy_mirage_true": 0.3,
+        "test_accuracy_mirage_false": 0.8,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.55
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.8
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "macro_benchmark_test_accuracy": 0.55,
+        "macro_benchmark_class0_test_accuracy": 0.8,
+        "macro_benchmark_class1_test_accuracy": 0.3,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433015335
+      }
+    ]
+  },
+  "language_model/layer_18": {
+    "best_feature": "language_model/layer_18__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.575,
+    "validation_accuracy_mean": 0.6199999999999999,
+    "test_accuracy_mean": 0.45,
+    "macro_benchmark_test_accuracy_mean": 0.45,
+    "train_accuracy_std": 0.203100960115899,
+    "validation_accuracy_std": 0.039999999999999994,
+    "test_accuracy_std": 0.17029386365926402,
+    "macro_benchmark_test_accuracy_std": 0.17029386365926402,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_18__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.3,
+        "test_accuracy_mirage_true": 0.3,
+        "test_accuracy_mirage_false": 0.3,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "macro_benchmark_test_accuracy": 0.3,
+        "macro_benchmark_class0_test_accuracy": 0.3,
+        "macro_benchmark_class1_test_accuracy": 0.3,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 774156152
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_18__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.375,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.4,
+        "test_accuracy_mirage_true": 0.5,
+        "test_accuracy_mirage_false": 0.3,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "macro_benchmark_test_accuracy": 0.4,
+        "macro_benchmark_class0_test_accuracy": 0.3,
+        "macro_benchmark_class1_test_accuracy": 0.5,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 439078545
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_18__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.875,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.65,
+        "test_accuracy_mirage_true": 0.7,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.65
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "macro_benchmark_test_accuracy": 0.65,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.7,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 654671520
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_18__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.75,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.65,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.65
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.65,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 89351056
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_18__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.375,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.25,
+        "test_accuracy_mirage_true": 0.2,
+        "test_accuracy_mirage_false": 0.3,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.25
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.2
+        },
+        "macro_benchmark_test_accuracy": 0.25,
+        "macro_benchmark_class0_test_accuracy": 0.3,
+        "macro_benchmark_class1_test_accuracy": 0.2,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433015335
+      }
+    ]
+  },
+  "language_model/layer_19": {
+    "best_feature": "language_model/layer_19__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.625,
+    "validation_accuracy_mean": 0.6599999999999999,
+    "test_accuracy_mean": 0.43,
+    "macro_benchmark_test_accuracy_mean": 0.43,
+    "train_accuracy_std": 0.23717082451262844,
+    "validation_accuracy_std": 0.08000000000000002,
+    "test_accuracy_std": 0.1469693845669907,
+    "macro_benchmark_test_accuracy_std": 0.1469693845669907,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_19__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.35,
+        "test_accuracy_mirage_true": 0.2,
+        "test_accuracy_mirage_false": 0.5,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.35
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.2
+        },
+        "macro_benchmark_test_accuracy": 0.35,
+        "macro_benchmark_class0_test_accuracy": 0.5,
+        "macro_benchmark_class1_test_accuracy": 0.2,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 774156052
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_19__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.375,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.35,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.3,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.35
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.35,
+        "macro_benchmark_class0_test_accuracy": 0.3,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 439078545
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_19__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.55,
+        "test_accuracy_mirage_true": 0.3,
+        "test_accuracy_mirage_false": 0.8,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.55
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.8
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "macro_benchmark_test_accuracy": 0.55,
+        "macro_benchmark_class0_test_accuracy": 0.8,
+        "macro_benchmark_class1_test_accuracy": 0.3,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 654571617
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_19__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.75,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.65,
+        "test_accuracy_mirage_true": 0.7,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.65
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "macro_benchmark_test_accuracy": 0.65,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.7,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 89350956
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_19__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.375,
+        "validation_accuracy": 0.8,
+        "test_accuracy": 0.25,
+        "test_accuracy_mirage_true": 0.2,
+        "test_accuracy_mirage_false": 0.3,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.25
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.2
+        },
+        "macro_benchmark_test_accuracy": 0.25,
+        "macro_benchmark_class0_test_accuracy": 0.3,
+        "macro_benchmark_class1_test_accuracy": 0.2,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433015335
+      }
+    ]
+  },
+  "language_model/layer_20": {
+    "best_feature": "language_model/layer_20__text_nonspecial_mean",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.775,
+    "validation_accuracy_mean": 0.62,
+    "test_accuracy_mean": 0.55,
+    "macro_benchmark_test_accuracy_mean": 0.55,
+    "train_accuracy_std": 0.16583123951777,
+    "validation_accuracy_std": 0.11661903789690602,
+    "test_accuracy_std": 0.07071067811865475,
+    "macro_benchmark_test_accuracy_std": 0.07071067811865475,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_20__text_nonspecial_mean",
+        "best_c": 0.01,
+        "train_accuracy": 0.75,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.6,
+        "test_accuracy_mirage_true": 0.7,
+        "test_accuracy_mirage_false": 0.5,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "macro_benchmark_test_accuracy": 0.6,
+        "macro_benchmark_class0_test_accuracy": 0.5,
+        "macro_benchmark_class1_test_accuracy": 0.7,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 773956146
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_20__text_nonspecial_mean",
+        "best_c": 0.01,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 0.8,
+        "test_accuracy": 0.5,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.4,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.5,
+        "macro_benchmark_class0_test_accuracy": 0.4,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 438878539
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_20__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.875,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.65,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.9,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.65
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.9
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.65,
+        "macro_benchmark_class0_test_accuracy": 0.9,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 654771523
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_20__text_nonspecial_mean",
+        "best_c": 0.1,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.45,
+        "test_accuracy_mirage_true": 0.5,
+        "test_accuracy_mirage_false": 0.4,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.45
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "macro_benchmark_test_accuracy": 0.45,
+        "macro_benchmark_class0_test_accuracy": 0.4,
+        "macro_benchmark_class1_test_accuracy": 0.5,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 89351956
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_20__text_nonspecial_mean",
+        "best_c": 0.01,
+        "train_accuracy": 0.75,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.55,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.5,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.55
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.55,
+        "macro_benchmark_class0_test_accuracy": 0.5,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 433215341
+      }
+    ]
+  },
+  "language_model/layer_21": {
+    "best_feature": "language_model/layer_21__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.625,
+    "validation_accuracy_mean": 0.5800000000000001,
+    "test_accuracy_mean": 0.5800000000000001,
+    "macro_benchmark_test_accuracy_mean": 0.5800000000000001,
+    "train_accuracy_std": 0.13693063937629152,
+    "validation_accuracy_std": 0.0748331477354788,
+    "test_accuracy_std": 0.18055470085267789,
+    "macro_benchmark_test_accuracy_std": 0.18055470085267789,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_21__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.875,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.4,
+        "test_accuracy_mirage_true": 0.2,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.2
+        },
+        "macro_benchmark_test_accuracy": 0.4,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.2,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 774156052
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_21__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.8,
+        "test_accuracy_mirage_true": 0.7,
+        "test_accuracy_mirage_false": 0.9,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.8
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.9
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "macro_benchmark_test_accuracy": 0.8,
+        "macro_benchmark_class0_test_accuracy": 0.9,
+        "macro_benchmark_class1_test_accuracy": 0.7,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 438978542
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_21__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.75,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.9,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.75
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.9
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.75,
+        "macro_benchmark_class0_test_accuracy": 0.9,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 654771523
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_21__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.35,
+        "test_accuracy_mirage_true": 0.3,
+        "test_accuracy_mirage_false": 0.4,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.35
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "macro_benchmark_test_accuracy": 0.35,
+        "macro_benchmark_class0_test_accuracy": 0.4,
+        "macro_benchmark_class1_test_accuracy": 0.3,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 89450959
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_21__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.6,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.6,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 433215341
+      }
+    ]
+  },
+  "language_model/layer_22": {
+    "best_feature": "language_model/layer_22__all_nonspecial_mean",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.625,
+    "validation_accuracy_mean": 0.5599999999999999,
+    "test_accuracy_mean": 0.57,
+    "macro_benchmark_test_accuracy_mean": 0.57,
+    "train_accuracy_std": 0.19364916731037085,
+    "validation_accuracy_std": 0.07999999999999999,
+    "test_accuracy_std": 0.08124038404635958,
+    "macro_benchmark_test_accuracy_std": 0.08124038404635958,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_22__all_nonspecial_mean",
+        "best_c": 1.0,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.6,
+        "test_accuracy_mirage_true": 0.7,
+        "test_accuracy_mirage_false": 0.5,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "macro_benchmark_test_accuracy": 0.6,
+        "macro_benchmark_class0_test_accuracy": 0.5,
+        "macro_benchmark_class1_test_accuracy": 0.7,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 773966046
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_22__all_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.7,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.8,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.8
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.7,
+        "macro_benchmark_class0_test_accuracy": 0.8,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 438878439
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_22__all_nonspecial_mean",
+        "best_c": 0.01,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.55,
+        "test_accuracy_mirage_true": 0.3,
+        "test_accuracy_mirage_false": 0.8,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.55
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.8
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "macro_benchmark_test_accuracy": 0.55,
+        "macro_benchmark_class0_test_accuracy": 0.8,
+        "macro_benchmark_class1_test_accuracy": 0.3,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 654671620
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_22__all_nonspecial_mean",
+        "best_c": 0.1,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.45,
+        "test_accuracy_mirage_true": 0.5,
+        "test_accuracy_mirage_false": 0.4,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.45
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "macro_benchmark_test_accuracy": 0.45,
+        "macro_benchmark_class0_test_accuracy": 0.4,
+        "macro_benchmark_class1_test_accuracy": 0.5,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 89251953
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_22__all_nonspecial_mean",
+        "best_c": 0.01,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.55,
+        "test_accuracy_mirage_true": 0.3,
+        "test_accuracy_mirage_false": 0.8,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.55
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.8
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "macro_benchmark_test_accuracy": 0.55,
+        "macro_benchmark_class0_test_accuracy": 0.8,
+        "macro_benchmark_class1_test_accuracy": 0.3,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 433115338
+      }
+    ]
+  },
+  "language_model/layer_23": {
+    "best_feature": "language_model/layer_23__text_nonspecial_mean",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.7,
+    "validation_accuracy_mean": 0.58,
+    "test_accuracy_mean": 0.44000000000000006,
+    "macro_benchmark_test_accuracy_mean": 0.44000000000000006,
+    "train_accuracy_std": 0.1274754878398196,
+    "validation_accuracy_std": 0.0748331477354788,
+    "test_accuracy_std": 0.0374165738677394,
+    "macro_benchmark_test_accuracy_std": 0.0374165738677394,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_23__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.875,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.45,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.5,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.45
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.45,
+        "macro_benchmark_class0_test_accuracy": 0.5,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 774056049
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_23__text_nonspecial_mean",
+        "best_c": 0.01,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.4,
+        "test_accuracy_mirage_true": 0.3,
+        "test_accuracy_mirage_false": 0.5,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "macro_benchmark_test_accuracy": 0.4,
+        "macro_benchmark_class0_test_accuracy": 0.5,
+        "macro_benchmark_class1_test_accuracy": 0.3,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 438878539
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_23__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.75,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.4,
+        "test_accuracy_mirage_true": 0.1,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.1
+        },
+        "macro_benchmark_test_accuracy": 0.4,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.1,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 654771523
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_23__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.75,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.45,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.3,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.45
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.45,
+        "macro_benchmark_class0_test_accuracy": 0.3,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 89350956
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_23__text_nonspecial_mean",
+        "best_c": 0.0,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.5,
+        "test_accuracy_mirage_true": 0.3,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "macro_benchmark_test_accuracy": 0.5,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.3,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433015235
+      }
+    ]
+  },
+  "language_model/layer_24": {
+    "best_feature": "language_model/layer_24__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.6,
+    "validation_accuracy_mean": 0.6,
+    "test_accuracy_mean": 0.5,
+    "macro_benchmark_test_accuracy_mean": 0.5,
+    "train_accuracy_std": 0.24238399287081647,
+    "validation_accuracy_std": 0.08944271909999157,
+    "test_accuracy_std": 0.14832396974191328,
+    "macro_benchmark_test_accuracy_std": 0.14832396974191328,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_24__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.35,
+        "test_accuracy_mirage_true": 0.1,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.35
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.1
+        },
+        "macro_benchmark_test_accuracy": 0.35,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.1,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 773956046
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_24__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.65,
+        "test_accuracy_mirage_true": 0.5,
+        "test_accuracy_mirage_false": 0.8,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.65
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.8
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "macro_benchmark_test_accuracy": 0.65,
+        "macro_benchmark_class0_test_accuracy": 0.8,
+        "macro_benchmark_class1_test_accuracy": 0.5,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 438978542
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_24__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.5,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.65,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.65
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.65,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 654771623
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_24__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.55,
+        "test_accuracy_mirage_true": 0.5,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.55
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "macro_benchmark_test_accuracy": 0.55,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.5,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 89450959
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_24__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.25,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.3,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.2,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.2
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.3,
+        "macro_benchmark_class0_test_accuracy": 0.2,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433015335
+      }
+    ]
+  },
+  "language_model/layer_25": {
+    "best_feature": "language_model/layer_25__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.725,
+    "validation_accuracy_mean": 0.6199999999999999,
+    "test_accuracy_mean": 0.48,
+    "macro_benchmark_test_accuracy_mean": 0.48,
+    "train_accuracy_std": 0.18371173070873836,
+    "validation_accuracy_std": 0.0748331477354788,
+    "test_accuracy_std": 0.18055470085267789,
+    "macro_benchmark_test_accuracy_std": 0.18055470085267789,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_25__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.875,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.3,
+        "test_accuracy_mirage_true": 0.0,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.0
+        },
+        "macro_benchmark_test_accuracy": 0.3,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.0,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 773956046
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_25__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.75,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.5,
+        "test_accuracy_mirage_true": 0.2,
+        "test_accuracy_mirage_false": 0.8,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.8
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.2
+        },
+        "macro_benchmark_test_accuracy": 0.5,
+        "macro_benchmark_class0_test_accuracy": 0.8,
+        "macro_benchmark_class1_test_accuracy": 0.2,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 438978442
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_25__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.875,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.7,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.8,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.8
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.7,
+        "macro_benchmark_class0_test_accuracy": 0.8,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 654771523
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_25__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.75,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.65,
+        "test_accuracy_mirage_true": 0.7,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.65
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "macro_benchmark_test_accuracy": 0.65,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.7,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 89450959
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_25__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.375,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.25,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.1,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.25
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.1
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.25,
+        "macro_benchmark_class0_test_accuracy": 0.1,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433015335
+      }
+    ]
+  },
+  "language_model/layer_26": {
+    "best_feature": "language_model/layer_26__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.725,
+    "validation_accuracy_mean": 0.64,
+    "test_accuracy_mean": 0.51,
+    "macro_benchmark_test_accuracy_mean": 0.51,
+    "train_accuracy_std": 0.21505813167606566,
+    "validation_accuracy_std": 0.04898979485566354,
+    "test_accuracy_std": 0.12409673645990857,
+    "macro_benchmark_test_accuracy_std": 0.12409673645990857,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_26__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 1.0,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.4,
+        "test_accuracy_mirage_true": 0.2,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.2
+        },
+        "macro_benchmark_test_accuracy": 0.4,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.2,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 773956046
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_26__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.75,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.5,
+        "test_accuracy_mirage_true": 0.3,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "macro_benchmark_test_accuracy": 0.5,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.3,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 438978442
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_26__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.65,
+        "test_accuracy_mirage_true": 0.7,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.65
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "macro_benchmark_test_accuracy": 0.65,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.7,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 654571617
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_26__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.875,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.65,
+        "test_accuracy_mirage_true": 0.7,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.65
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "macro_benchmark_test_accuracy": 0.65,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.7,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 2,
+        "best_init_seed": 89451059
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_26__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.375,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.35,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.3,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.35
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.35,
+        "macro_benchmark_class0_test_accuracy": 0.3,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433015335
+      }
+    ]
+  },
+  "language_model/layer_27": {
+    "best_feature": "language_model/layer_27__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.675,
+    "validation_accuracy_mean": 0.6,
+    "test_accuracy_mean": 0.5199999999999999,
+    "macro_benchmark_test_accuracy_mean": 0.5199999999999999,
+    "train_accuracy_std": 0.2318404623873926,
+    "validation_accuracy_std": 0.1264911064067352,
+    "test_accuracy_std": 0.12884098726725127,
+    "macro_benchmark_test_accuracy_std": 0.12884098726725127,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_27__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.875,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.5,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.5,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 773956046
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_27__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.875,
+        "validation_accuracy": 0.4,
+        "test_accuracy": 0.65,
+        "test_accuracy_mirage_true": 0.7,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.65
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "macro_benchmark_test_accuracy": 0.65,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.7,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 438878439
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_27__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.65,
+        "test_accuracy_mirage_true": 0.5,
+        "test_accuracy_mirage_false": 0.8,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.65
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.8
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "macro_benchmark_test_accuracy": 0.65,
+        "macro_benchmark_class0_test_accuracy": 0.8,
+        "macro_benchmark_class1_test_accuracy": 0.5,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 654671620
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_27__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.75,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.5,
+        "test_accuracy_mirage_true": 0.6,
+        "test_accuracy_mirage_false": 0.4,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "macro_benchmark_test_accuracy": 0.5,
+        "macro_benchmark_class0_test_accuracy": 0.4,
+        "macro_benchmark_class1_test_accuracy": 0.6,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 89350956
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_27__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.25,
+        "validation_accuracy": 0.8,
+        "test_accuracy": 0.3,
+        "test_accuracy_mirage_true": 0.4,
+        "test_accuracy_mirage_false": 0.2,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.2
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "macro_benchmark_test_accuracy": 0.3,
+        "macro_benchmark_class0_test_accuracy": 0.2,
+        "macro_benchmark_class1_test_accuracy": 0.4,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433015335
+      }
+    ]
+  },
+  "language_model/layer_28": {
+    "best_feature": "language_model/layer_28__current_visual_plus_last",
+    "num_eval_seeds": 5,
+    "eval_seeds": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ],
+    "train_accuracy_mean": 0.675,
+    "validation_accuracy_mean": 0.6,
+    "test_accuracy_mean": 0.51,
+    "macro_benchmark_test_accuracy_mean": 0.51,
+    "train_accuracy_std": 0.1695582495781317,
+    "validation_accuracy_std": 0.06324555320336757,
+    "test_accuracy_std": 0.07999999999999999,
+    "macro_benchmark_test_accuracy_std": 0.07999999999999999,
+    "seed_runs": [
+      {
+        "eval_seed": 42,
+        "split_seed": 773956046,
+        "feature": "language_model/layer_28__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.75,
+        "validation_accuracy": 0.5,
+        "test_accuracy": 0.5,
+        "test_accuracy_mirage_true": 0.3,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.3
+        },
+        "macro_benchmark_test_accuracy": 0.5,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.3,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 773956046
+      },
+      {
+        "eval_seed": 43,
+        "split_seed": 438878439,
+        "feature": "language_model/layer_28__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.625,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.45,
+        "test_accuracy_mirage_true": 0.1,
+        "test_accuracy_mirage_false": 0.8,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.45
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.8
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.1
+        },
+        "macro_benchmark_test_accuracy": 0.45,
+        "macro_benchmark_class0_test_accuracy": 0.8,
+        "macro_benchmark_class1_test_accuracy": 0.1,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 438978542
+      },
+      {
+        "eval_seed": 44,
+        "split_seed": 654571517,
+        "feature": "language_model/layer_28__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.75,
+        "validation_accuracy": 0.7,
+        "test_accuracy": 0.6,
+        "test_accuracy_mirage_true": 0.5,
+        "test_accuracy_mirage_false": 0.7,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "macro_benchmark_test_accuracy": 0.6,
+        "macro_benchmark_class0_test_accuracy": 0.7,
+        "macro_benchmark_class1_test_accuracy": 0.5,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 1,
+        "best_init_seed": 654671620
+      },
+      {
+        "eval_seed": 45,
+        "split_seed": 89250953,
+        "feature": "language_model/layer_28__current_visual_plus_last",
+        "best_c": 0.0,
+        "train_accuracy": 0.875,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.6,
+        "test_accuracy_mirage_true": 0.7,
+        "test_accuracy_mirage_false": 0.5,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.5
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.7
+        },
+        "macro_benchmark_test_accuracy": 0.6,
+        "macro_benchmark_class0_test_accuracy": 0.5,
+        "macro_benchmark_class1_test_accuracy": 0.7,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 89250953
+      },
+      {
+        "eval_seed": 46,
+        "split_seed": 433015235,
+        "feature": "language_model/layer_28__current_visual_plus_last",
+        "best_c": 0.01,
+        "train_accuracy": 0.375,
+        "validation_accuracy": 0.6,
+        "test_accuracy": 0.4,
+        "test_accuracy_mirage_true": 0.2,
+        "test_accuracy_mirage_false": 0.6,
+        "benchmark_test_accuracy": {
+          "medxpertqa_mm": 0.4
+        },
+        "benchmark_class0_test_accuracy": {
+          "medxpertqa_mm": 0.6
+        },
+        "benchmark_class1_test_accuracy": {
+          "medxpertqa_mm": 0.2
+        },
+        "macro_benchmark_test_accuracy": 0.4,
+        "macro_benchmark_class0_test_accuracy": 0.6,
+        "macro_benchmark_class1_test_accuracy": 0.2,
+        "num_holdout_examples": 20,
+        "num_holdout_examples_per_class": {
+          "mirage_true": 10,
+          "mirage_false": 10
+        },
+        "num_holdout_examples_by_benchmark": {
+          "medxpertqa_mm": {
+            "mirage_true": 10,
+            "mirage_false": 10
+          }
+        },
+        "best_init_index": 0,
+        "best_init_seed": 433015335
+      }
+    ]
+  }
+}

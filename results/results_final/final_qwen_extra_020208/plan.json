@@ -1,0 +1,176 @@
+{
+  "vlm": "qwen3_vl_32b_instruct",
+  "execute": true,
+  "gpus": "0,1,2,3,4,5,6,7",
+  "poll_interval_sec": 10.0,
+  "analysis_script": "analyze_full_probe_results.py",
+  "analysis_output_dir_name": "analysis",
+  "stages": [
+    {
+      "phase_key": "residual_standard",
+      "stage_key": "logreg_contrastive",
+      "jobs": [
+        {
+          "mode": "vqa_rad",
+          "save_dir": "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_residual_standard/01_logreg_contrastive/01_01_residual_standard_logreg_contrastive_vqa_rad_qwen3_vl_32b_instruct_20260503_020208_549896",
+          "log_path": "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_residual_standard/01_logreg_contrastive/01_01_residual_standard_logreg_contrastive_vqa_rad_qwen3_vl_32b_instruct_20260503_020208_549896.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_log_reg_contrastive.py",
+            "--vlm",
+            "qwen3_vl_32b_instruct",
+            "--save_dir",
+            "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_residual_standard/01_logreg_contrastive/01_01_residual_standard_logreg_contrastive_vqa_rad_qwen3_vl_32b_instruct_20260503_020208_549896",
+            "--features_cache_path",
+            "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_residual_standard/01_logreg_contrastive/01_01_residual_standard_logreg_contrastive_vqa_rad_qwen3_vl_32b_instruct_20260503_020208_549896/features_cache.pt",
+            "--heldout_eval_all_features",
+            "--vqa_only_pairs"
+          ]
+        },
+        {
+          "mode": "mmmu_pro",
+          "save_dir": "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_residual_standard/01_logreg_contrastive/01_02_residual_standard_logreg_contrastive_mmmu_pro_qwen3_vl_32b_instruct_20260503_020208_549896",
+          "log_path": "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_residual_standard/01_logreg_contrastive/01_02_residual_standard_logreg_contrastive_mmmu_pro_qwen3_vl_32b_instruct_20260503_020208_549896.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_log_reg_contrastive.py",
+            "--vlm",
+            "qwen3_vl_32b_instruct",
+            "--save_dir",
+            "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_residual_standard/01_logreg_contrastive/01_02_residual_standard_logreg_contrastive_mmmu_pro_qwen3_vl_32b_instruct_20260503_020208_549896",
+            "--features_cache_path",
+            "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_residual_standard/01_logreg_contrastive/01_02_residual_standard_logreg_contrastive_mmmu_pro_qwen3_vl_32b_instruct_20260503_020208_549896/features_cache.pt",
+            "--heldout_eval_all_features",
+            "--mmmu_only_pairs"
+          ]
+        },
+        {
+          "mode": "medxpertqa_mm",
+          "save_dir": "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_residual_standard/01_logreg_contrastive/01_03_residual_standard_logreg_contrastive_medxpertqa_mm_qwen3_vl_32b_instruct_20260503_020208_549896",
+          "log_path": "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_residual_standard/01_logreg_contrastive/01_03_residual_standard_logreg_contrastive_medxpertqa_mm_qwen3_vl_32b_instruct_20260503_020208_549896.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_log_reg_contrastive.py",
+            "--vlm",
+            "qwen3_vl_32b_instruct",
+            "--save_dir",
+            "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_residual_standard/01_logreg_contrastive/01_03_residual_standard_logreg_contrastive_medxpertqa_mm_qwen3_vl_32b_instruct_20260503_020208_549896",
+            "--features_cache_path",
+            "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_residual_standard/01_logreg_contrastive/01_03_residual_standard_logreg_contrastive_medxpertqa_mm_qwen3_vl_32b_instruct_20260503_020208_549896/features_cache.pt",
+            "--heldout_eval_all_features",
+            "--medxpert_only_pairs"
+          ]
+        },
+        {
+          "mode": "all",
+          "save_dir": "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_residual_standard/01_logreg_contrastive/01_04_residual_standard_logreg_contrastive_all_qwen3_vl_32b_instruct_20260503_020208_549896",
+          "log_path": "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_residual_standard/01_logreg_contrastive/01_04_residual_standard_logreg_contrastive_all_qwen3_vl_32b_instruct_20260503_020208_549896.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_log_reg_contrastive.py",
+            "--vlm",
+            "qwen3_vl_32b_instruct",
+            "--save_dir",
+            "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_residual_standard/01_logreg_contrastive/01_04_residual_standard_logreg_contrastive_all_qwen3_vl_32b_instruct_20260503_020208_549896",
+            "--features_cache_path",
+            "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_residual_standard/01_logreg_contrastive/01_04_residual_standard_logreg_contrastive_all_qwen3_vl_32b_instruct_20260503_020208_549896/features_cache.pt",
+            "--heldout_eval_all_features"
+          ]
+        }
+      ]
+    },
+    {
+      "phase_key": "additional_targets_text_nonspecial_mean",
+      "stage_key": "logreg_contrastive",
+      "jobs": [
+        {
+          "mode": "vqa_rad",
+          "save_dir": "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_additional_targets_text_nonspecial_mean/02_logreg_contrastive/02_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_qwen3_vl_32b_instruct_20260503_020208_549896",
+          "log_path": "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_additional_targets_text_nonspecial_mean/02_logreg_contrastive/02_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_qwen3_vl_32b_instruct_20260503_020208_549896.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_log_reg_contrastive.py",
+            "--vlm",
+            "qwen3_vl_32b_instruct",
+            "--save_dir",
+            "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_additional_targets_text_nonspecial_mean/02_logreg_contrastive/02_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_qwen3_vl_32b_instruct_20260503_020208_549896",
+            "--features_cache_path",
+            "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_additional_targets_text_nonspecial_mean/02_logreg_contrastive/02_01_additional_targets_text_nonspecial_mean_logreg_contrastive_vqa_rad_qwen3_vl_32b_instruct_20260503_020208_549896/features_cache.pt",
+            "--heldout_eval_all_features",
+            "--vqa_only_pairs",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        },
+        {
+          "mode": "mmmu_pro",
+          "save_dir": "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_additional_targets_text_nonspecial_mean/02_logreg_contrastive/02_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_qwen3_vl_32b_instruct_20260503_020208_549896",
+          "log_path": "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_additional_targets_text_nonspecial_mean/02_logreg_contrastive/02_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_qwen3_vl_32b_instruct_20260503_020208_549896.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_log_reg_contrastive.py",
+            "--vlm",
+            "qwen3_vl_32b_instruct",
+            "--save_dir",
+            "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_additional_targets_text_nonspecial_mean/02_logreg_contrastive/02_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_qwen3_vl_32b_instruct_20260503_020208_549896",
+            "--features_cache_path",
+            "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_additional_targets_text_nonspecial_mean/02_logreg_contrastive/02_02_additional_targets_text_nonspecial_mean_logreg_contrastive_mmmu_pro_qwen3_vl_32b_instruct_20260503_020208_549896/features_cache.pt",
+            "--heldout_eval_all_features",
+            "--mmmu_only_pairs",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        },
+        {
+          "mode": "medxpertqa_mm",
+          "save_dir": "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_additional_targets_text_nonspecial_mean/02_logreg_contrastive/02_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_qwen3_vl_32b_instruct_20260503_020208_549896",
+          "log_path": "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_additional_targets_text_nonspecial_mean/02_logreg_contrastive/02_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_qwen3_vl_32b_instruct_20260503_020208_549896.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_log_reg_contrastive.py",
+            "--vlm",
+            "qwen3_vl_32b_instruct",
+            "--save_dir",
+            "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_additional_targets_text_nonspecial_mean/02_logreg_contrastive/02_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_qwen3_vl_32b_instruct_20260503_020208_549896",
+            "--features_cache_path",
+            "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_additional_targets_text_nonspecial_mean/02_logreg_contrastive/02_03_additional_targets_text_nonspecial_mean_logreg_contrastive_medxpertqa_mm_qwen3_vl_32b_instruct_20260503_020208_549896/features_cache.pt",
+            "--heldout_eval_all_features",
+            "--medxpert_only_pairs",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        },
+        {
+          "mode": "all",
+          "save_dir": "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_additional_targets_text_nonspecial_mean/02_logreg_contrastive/02_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_qwen3_vl_32b_instruct_20260503_020208_549896",
+          "log_path": "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_additional_targets_text_nonspecial_mean/02_logreg_contrastive/02_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_qwen3_vl_32b_instruct_20260503_020208_549896.log",
+          "command": [
+            "./miniconda3/envs/probing_vlms/bin/python",
+            "./train_log_reg_contrastive.py",
+            "--vlm",
+            "qwen3_vl_32b_instruct",
+            "--save_dir",
+            "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_additional_targets_text_nonspecial_mean/02_logreg_contrastive/02_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_qwen3_vl_32b_instruct_20260503_020208_549896",
+            "--features_cache_path",
+            "./data_and_results/tmp_probe_experiments/tmp_probe_qwen3_vl_32b_instruct_20260503_020208/phase_additional_targets_text_nonspecial_mean/02_logreg_contrastive/02_04_additional_targets_text_nonspecial_mean_logreg_contrastive_all_qwen3_vl_32b_instruct_20260503_020208_549896/features_cache.pt",
+            "--heldout_eval_all_features",
+            "--include_attention_probes",
+            "--include_mlp_probes",
+            "--no_include_residual_probes",
+            "--llm_feature_strategies",
+            "text_nonspecial_mean"
+          ]
+        }
+      ]
+    }
+  ]
+}

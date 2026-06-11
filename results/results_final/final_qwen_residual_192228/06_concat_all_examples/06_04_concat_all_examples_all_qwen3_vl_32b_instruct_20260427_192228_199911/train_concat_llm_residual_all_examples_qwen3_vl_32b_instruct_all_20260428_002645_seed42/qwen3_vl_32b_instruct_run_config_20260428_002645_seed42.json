@@ -1,0 +1,123 @@
+{
+  "script_name": "train_concat_llm_residual_all_examples",
+  "run_id": "20260428_002645_seed42",
+  "probe_type": "logreg",
+  "feature_variant": "concat_llm_residual",
+  "vlm": "qwen3_vl_32b_instruct",
+  "model_path": "./models/qwen3_vl_32b_instruct",
+  "device_map": "",
+  "max_memory_per_gpu_gib": 0.0,
+  "max_memory_cpu_gib": 0.0,
+  "responses_path": "./data_and_results/gen_qwen3_vl_32b_instruct_/responses.json",
+  "mirage_root": "./MIRAGE",
+  "benchmark_mode": "all",
+  "neutral_as_non_mirage": false,
+  "include_contrastive_pairs_in_training_examples": true,
+  "num_contrastive_pair_examples_added": 526,
+  "num_examples_dropped_not_in_preextracted_cache": 431,
+  "exclude_short_responses_in_training_examples": true,
+  "num_samples": 1095,
+  "num_class0_total": 570,
+  "num_class1_total": 525,
+  "num_features": 3,
+  "val_fraction": 0.1,
+  "test_fraction": 0.2,
+  "regularization_sweep_c_values": [
+    0.0,
+    0.01,
+    0.1,
+    1.0
+  ],
+  "num_split_seeds": 5,
+  "split_seeds": [
+    773956046,
+    438878439,
+    654571517,
+    89250953,
+    433015235
+  ],
+  "multi_init_enabled": true,
+  "num_probe_inits": 3,
+  "probe_epochs": 800,
+  "probe_lr": 0.03,
+  "mlp_hidden_dim": 512,
+  "normalize_features": true,
+  "pca_components": 0,
+  "early_stopping_patience": 200,
+  "early_stopping_min_delta": 0.0001,
+  "features_cache_path": "./data_and_results/qwen3_vl_32b_instruct/qwen3_vl_32b_instruct_preextracted_all_examples_features.pt",
+  "feature_extraction_version": 1,
+  "selection_stats": {
+    "selected_benchmark": null,
+    "excluded_datasets": [
+      "microvqa"
+    ],
+    "benchmark_parity_across_classes_enabled": true,
+    "represented_datasets": [
+      "medxpertqa_mm",
+      "mmmu_pro",
+      "vqa_rad"
+    ],
+    "desired_examples_per_class_pre_split": 500,
+    "selected_examples_per_dataset_pre_split": {
+      "medxpertqa_mm": 133,
+      "mmmu_pro": 230,
+      "vqa_rad": 137
+    },
+    "selected_examples_per_class_pre_split": {
+      "class0": 500,
+      "class1": 500
+    },
+    "selected_per_dataset_per_class": {
+      "medxpertqa_mm": {
+        "class0_selected": 133,
+        "class1_selected": 133,
+        "class0_non_neutral_selected": 133,
+        "class0_neutral_selected": 0,
+        "class0_available_total": 164,
+        "class1_available_total": 344
+      },
+      "mmmu_pro": {
+        "class0_selected": 230,
+        "class1_selected": 230,
+        "class0_non_neutral_selected": 230,
+        "class0_neutral_selected": 0,
+        "class0_available_total": 290,
+        "class1_available_total": 283
+      },
+      "vqa_rad": {
+        "class0_selected": 137,
+        "class1_selected": 137,
+        "class0_non_neutral_selected": 137,
+        "class0_neutral_selected": 0,
+        "class0_available_total": 168,
+        "class1_available_total": 309
+      }
+    },
+    "pair_caps_by_ds": {
+      "medxpertqa_mm": 164,
+      "mmmu_pro": 283,
+      "vqa_rad": 168
+    },
+    "class0_non_neutral_available": 622,
+    "class0_neutral_available": 0,
+    "class1_available": 936,
+    "class0_non_neutral_selected": 500,
+    "class0_neutral_selected": 0,
+    "exclude_short_responses_in_training_examples": true,
+    "min_response_tokens_required": 10,
+    "short_response_examples_excluded_pre_sampling": 0,
+    "activation_diff_without_short_filter_enabled": false,
+    "short_without_response_rows_excluded_pre_sampling": 0,
+    "short_without_response_aug_examples_excluded_pre_sampling": 0,
+    "short_without_response_examples_excluded_post_sampling": 0,
+    "short_without_response_examples_excluded_total": 0
+  },
+  "preextract_response_filter_stats": {
+    "responses_before_signature_filter": 24600,
+    "responses_after_signature_filter": 2000,
+    "responses_dropped_by_signature_filter": 22600,
+    "preextract_path": "./data_and_results/qwen3_vl_32b_instruct/qwen3_vl_32b_instruct_preextracted_all_examples_features.pt"
+  },
+  "run_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/06_concat_all_examples/06_04_concat_all_examples_all_qwen3_vl_32b_instruct_20260427_192228_199911/train_concat_llm_residual_all_examples_qwen3_vl_32b_instruct_all_20260428_002645_seed42"
+}

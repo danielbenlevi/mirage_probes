@@ -1,0 +1,211 @@
+{
+  "num_samples": 235,
+  "num_train_examples": 164,
+  "num_val_examples": 24,
+  "num_test_examples": 47,
+  "num_class0_total": 97,
+  "num_class1_total": 138,
+  "training_mode": "all_examples_benchmark_balanced_train_val_test_multiseed",
+  "num_split_seeds": 3,
+  "split_seeds": [
+    654571518,
+    89250953,
+    773956047
+  ],
+  "val_fraction": 0.1,
+  "test_fraction": 0.2,
+  "regularization_sweep_c_values": [
+    0.0,
+    0.01,
+    0.1,
+    1.0
+  ],
+  "hyperparam_selection_metric": "val_accuracy",
+  "early_stopping_patience": 200,
+  "early_stopping_min_delta": 0.0001,
+  "probe_epochs": 800,
+  "probe_lr": 0.03,
+  "multi_init_probe_selection": false,
+  "probe_num_initializations": 1,
+  "normalize_features": true,
+  "pca_components": 0,
+  "include_attention_probes": true,
+  "include_mlp_probes": true,
+  "include_residual_probes": false,
+  "include_additional_attention_mlp_probes": false,
+  "use_additional_feature_preextract_cache": null,
+  "requested_llm_feature_strategies": [
+    "text_nonspecial_mean"
+  ],
+  "neutral_as_non_mirage": false,
+  "include_contrastive_pairs_in_training_examples": true,
+  "num_contrastive_pair_examples_added": 53,
+  "num_examples_dropped_not_in_preextracted_cache": 0,
+  "exclude_short_responses_in_training_examples": true,
+  "selected_benchmark": "vqa_rad",
+  "included_datasets": [
+    "vqa_rad"
+  ],
+  "excluded_datasets": [],
+  "target_examples_per_class": 500,
+  "selection_stats": {
+    "selected_benchmark": "vqa_rad",
+    "excluded_datasets": [],
+    "benchmark_parity_across_classes_enabled": true,
+    "represented_datasets": [
+      "vqa_rad"
+    ],
+    "desired_examples_per_class_pre_split": 91,
+    "selected_examples_per_dataset_pre_split": {
+      "vqa_rad": 91
+    },
+    "selected_examples_per_class_pre_split": {
+      "class0": 91,
+      "class1": 91
+    },
+    "selected_per_dataset_per_class": {
+      "vqa_rad": {
+        "class0_selected": 91,
+        "class1_selected": 91,
+        "class0_non_neutral_selected": 91,
+        "class0_neutral_selected": 0,
+        "class0_available_total": 91,
+        "class1_available_total": 824
+      }
+    },
+    "pair_caps_by_ds": {
+      "vqa_rad": 91
+    },
+    "class0_non_neutral_available": 91,
+    "class0_neutral_available": 0,
+    "class1_available": 824,
+    "class0_non_neutral_selected": 91,
+    "class0_neutral_selected": 0,
+    "exclude_short_responses_in_training_examples": true,
+    "min_response_tokens_required": 10,
+    "short_response_examples_excluded_pre_sampling": 132
+  },
+  "preextract_response_filter_stats": null,
+  "preextract_selected_filter_stats": null,
+  "preextract_feature_source_stats": null,
+  "split_stats_by_seed": [
+    {
+      "split_seed": 654571518,
+      "split_sizes": {
+        "train_total": 164,
+        "train_class0": 68,
+        "train_class1": 96,
+        "val_total": 24,
+        "val_class0": 10,
+        "val_class1": 14,
+        "test_total": 47,
+        "test_class0": 19,
+        "test_class1": 28
+      },
+      "split_stats": {
+        "represented_datasets": [
+          "vqa_rad"
+        ],
+        "bucket_summary": {
+          "class_0::vqa_rad": {
+            "total": 97,
+            "train": 68,
+            "val": 10,
+            "test": 19
+          },
+          "class_1::vqa_rad": {
+            "total": 138,
+            "train": 96,
+            "val": 14,
+            "test": 28
+          }
+        },
+        "val_fraction": 0.1,
+        "test_fraction": 0.2
+      }
+    },
+    {
+      "split_seed": 89250953,
+      "split_sizes": {
+        "train_total": 164,
+        "train_class0": 68,
+        "train_class1": 96,
+        "val_total": 24,
+        "val_class0": 10,
+        "val_class1": 14,
+        "test_total": 47,
+        "test_class0": 19,
+        "test_class1": 28
+      },
+      "split_stats": {
+        "represented_datasets": [
+          "vqa_rad"
+        ],
+        "bucket_summary": {
+          "class_0::vqa_rad": {
+            "total": 97,
+            "train": 68,
+            "val": 10,
+            "test": 19
+          },
+          "class_1::vqa_rad": {
+            "total": 138,
+            "train": 96,
+            "val": 14,
+            "test": 28
+          }
+        },
+        "val_fraction": 0.1,
+        "test_fraction": 0.2
+      }
+    },
+    {
+      "split_seed": 773956047,
+      "split_sizes": {
+        "train_total": 164,
+        "train_class0": 68,
+        "train_class1": 96,
+        "val_total": 24,
+        "val_class0": 10,
+        "val_class1": 14,
+        "test_total": 47,
+        "test_class0": 19,
+        "test_class1": 28
+      },
+      "split_stats": {
+        "represented_datasets": [
+          "vqa_rad"
+        ],
+        "bucket_summary": {
+          "class_0::vqa_rad": {
+            "total": 97,
+            "train": 68,
+            "val": 10,
+            "test": 19
+          },
+          "class_1::vqa_rad": {
+            "total": 138,
+            "train": 96,
+            "val": 14,
+            "test": 28
+          }
+        },
+        "val_fraction": 0.1,
+        "test_fraction": 0.2
+      }
+    }
+  ],
+  "llm_strategies": [
+    "current_visual_plus_last",
+    "text_nonspecial_mean",
+    "all_nonspecial_mean"
+  ],
+  "responses_path": "./data_and_results/responses.json",
+  "mirage_root": "./MIRAGE",
+  "vlm": "ovis",
+  "model_path": "AIDC-AI/Ovis2.5-2B",
+  "device_map": "",
+  "max_memory_per_gpu_gib": 0.0,
+  "max_memory_cpu_gib": 0.0,
+  "features_cache_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/02_logreg_all_examples/02_01_logreg_all_examples_vqa_rad_ovis_20260501_023840_488024/features_cache.pt"
+}

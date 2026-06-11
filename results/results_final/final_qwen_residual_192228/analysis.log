@@ -1,0 +1,11 @@
+command=./miniconda3/envs/probing_vlms/bin/python ./analyze_full_probe_results.py --experiment_run_root ./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228 --output_dir ./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/analysis
+start_utc=2026-04-28T06:01:32.356540Z
+{
+  "analysis_summary_json": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/analysis/top_probe_summary.json",
+  "plots_dir": "./data_and_results/full_probe_experiments/full_probe_qwen3_vl_32b_instruct_20260427_192228/analysis/plots",
+  "num_experiments": 32,
+  "plot_runtime_notes": []
+}
+end_utc=2026-04-28T06:01:38.893056Z
+elapsed_sec=6.54
+return_code=0

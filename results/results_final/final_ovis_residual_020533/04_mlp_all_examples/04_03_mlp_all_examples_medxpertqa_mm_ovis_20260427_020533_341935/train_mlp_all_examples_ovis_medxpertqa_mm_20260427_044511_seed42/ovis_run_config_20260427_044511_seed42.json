@@ -1,0 +1,94 @@
+{
+  "script_name": "train_mlp_all_examples",
+  "run_id": "20260427_044511_seed42",
+  "probe_type": "mlp",
+  "feature_variant": "raw",
+  "vlm": "ovis",
+  "model_path": "AIDC-AI/Ovis2.5-2B",
+  "device_map": "",
+  "max_memory_per_gpu_gib": 0.0,
+  "max_memory_cpu_gib": 0.0,
+  "responses_path": "./data_and_results/responses.json",
+  "mirage_root": "./MIRAGE",
+  "benchmark_mode": "medxpertqa_mm",
+  "neutral_as_non_mirage": false,
+  "include_contrastive_pairs_in_training_examples": true,
+  "num_contrastive_pair_examples_added": 11,
+  "num_examples_dropped_not_in_preextracted_cache": 0,
+  "exclude_short_responses_in_training_examples": true,
+  "num_samples": 33,
+  "num_class0_total": 13,
+  "num_class1_total": 20,
+  "num_features": 116,
+  "val_fraction": 0.1,
+  "test_fraction": 0.2,
+  "regularization_sweep_c_values": [
+    0.0,
+    0.01,
+    0.1,
+    1.0
+  ],
+  "num_split_seeds": 5,
+  "split_seeds": [
+    773956046,
+    438878439,
+    654571517,
+    89250953,
+    433015235
+  ],
+  "multi_init_enabled": true,
+  "num_probe_inits": 3,
+  "probe_epochs": 800,
+  "probe_lr": 0.03,
+  "mlp_hidden_dim": 512,
+  "normalize_features": true,
+  "pca_components": 0,
+  "early_stopping_patience": 200,
+  "early_stopping_min_delta": 0.0001,
+  "features_cache_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260427_020533/04_mlp_all_examples/04_03_mlp_all_examples_medxpertqa_mm_ovis_20260427_020533_341935/features_cache.pt",
+  "feature_extraction_version": 1,
+  "selection_stats": {
+    "selected_benchmark": "medxpertqa_mm",
+    "excluded_datasets": [],
+    "benchmark_parity_across_classes_enabled": true,
+    "represented_datasets": [
+      "medxpertqa_mm"
+    ],
+    "desired_examples_per_class_pre_split": 11,
+    "selected_examples_per_dataset_pre_split": {
+      "medxpertqa_mm": 11
+    },
+    "selected_examples_per_class_pre_split": {
+      "class0": 11,
+      "class1": 11
+    },
+    "selected_per_dataset_per_class": {
+      "medxpertqa_mm": {
+        "class0_selected": 11,
+        "class1_selected": 11,
+        "class0_non_neutral_selected": 11,
+        "class0_neutral_selected": 0,
+        "class0_available_total": 11,
+        "class1_available_total": 1659
+      }
+    },
+    "pair_caps_by_ds": {
+      "medxpertqa_mm": 11
+    },
+    "class0_non_neutral_available": 11,
+    "class0_neutral_available": 0,
+    "class1_available": 1659,
+    "class0_non_neutral_selected": 11,
+    "class0_neutral_selected": 0,
+    "exclude_short_responses_in_training_examples": true,
+    "min_response_tokens_required": 10,
+    "short_response_examples_excluded_pre_sampling": 0,
+    "activation_diff_without_short_filter_enabled": false,
+    "short_without_response_rows_excluded_pre_sampling": 0,
+    "short_without_response_aug_examples_excluded_pre_sampling": 0,
+    "short_without_response_examples_excluded_post_sampling": 0,
+    "short_without_response_examples_excluded_total": 0
+  },
+  "preextract_response_filter_stats": null,
+  "run_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260427_020533/04_mlp_all_examples/04_03_mlp_all_examples_medxpertqa_mm_ovis_20260427_020533_341935/train_mlp_all_examples_ovis_medxpertqa_mm_20260427_044511_seed42"
+}

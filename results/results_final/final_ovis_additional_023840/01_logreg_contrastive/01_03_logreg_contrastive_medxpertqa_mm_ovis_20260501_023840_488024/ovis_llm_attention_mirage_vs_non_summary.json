@@ -1,0 +1,5 @@
+{
+  "deprecated": true,
+  "note": "Legacy mirage-vs-non attention-focus summary is no longer produced. See ovis_attention_layer_probe_accuracies.json for activation-family probe results.",
+  "num_attention_activation_features": 476
+}

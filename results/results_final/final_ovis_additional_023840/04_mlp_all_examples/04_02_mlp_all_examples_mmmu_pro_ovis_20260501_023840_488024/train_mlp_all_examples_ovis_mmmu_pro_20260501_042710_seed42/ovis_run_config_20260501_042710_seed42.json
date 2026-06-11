@@ -1,0 +1,100 @@
+{
+  "script_name": "train_mlp_all_examples",
+  "run_id": "20260501_042710_seed42",
+  "probe_type": "mlp",
+  "feature_variant": "raw",
+  "vlm": "ovis",
+  "model_path": "AIDC-AI/Ovis2.5-2B",
+  "device_map": "",
+  "max_memory_per_gpu_gib": 0.0,
+  "max_memory_cpu_gib": 0.0,
+  "responses_path": "./data_and_results/responses.json",
+  "mirage_root": "./MIRAGE",
+  "benchmark_mode": "mmmu_pro",
+  "neutral_as_non_mirage": false,
+  "include_contrastive_pairs_in_training_examples": true,
+  "num_contrastive_pair_examples_added": 26,
+  "num_examples_dropped_not_in_preextracted_cache": 0,
+  "exclude_short_responses_in_training_examples": true,
+  "num_samples": 144,
+  "num_class0_total": 63,
+  "num_class1_total": 81,
+  "num_features": 476,
+  "val_fraction": 0.1,
+  "test_fraction": 0.2,
+  "regularization_sweep_c_values": [
+    0.0,
+    0.01,
+    0.1,
+    1.0
+  ],
+  "num_split_seeds": 3,
+  "split_seeds": [
+    654571518,
+    89250953,
+    773956047
+  ],
+  "multi_init_enabled": false,
+  "num_probe_inits": 1,
+  "probe_epochs": 800,
+  "probe_lr": 0.03,
+  "mlp_hidden_dim": 512,
+  "normalize_features": true,
+  "pca_components": 0,
+  "early_stopping_patience": 200,
+  "early_stopping_min_delta": 0.0001,
+  "include_attention_probes": true,
+  "include_mlp_probes": true,
+  "include_residual_probes": false,
+  "include_additional_attention_mlp_probes": false,
+  "use_additional_feature_preextract_cache": null,
+  "requested_llm_feature_strategies": [
+    "text_nonspecial_mean"
+  ],
+  "features_cache_path": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/04_mlp_all_examples/04_02_mlp_all_examples_mmmu_pro_ovis_20260501_023840_488024/features_cache.pt",
+  "feature_extraction_version": 1,
+  "selection_stats": {
+    "selected_benchmark": "mmmu_pro",
+    "excluded_datasets": [],
+    "benchmark_parity_across_classes_enabled": true,
+    "represented_datasets": [
+      "mmmu_pro"
+    ],
+    "desired_examples_per_class_pre_split": 59,
+    "selected_examples_per_dataset_pre_split": {
+      "mmmu_pro": 59
+    },
+    "selected_examples_per_class_pre_split": {
+      "class0": 59,
+      "class1": 59
+    },
+    "selected_per_dataset_per_class": {
+      "mmmu_pro": {
+        "class0_selected": 59,
+        "class1_selected": 59,
+        "class0_non_neutral_selected": 59,
+        "class0_neutral_selected": 0,
+        "class0_available_total": 59,
+        "class1_available_total": 1087
+      }
+    },
+    "pair_caps_by_ds": {
+      "mmmu_pro": 59
+    },
+    "class0_non_neutral_available": 59,
+    "class0_neutral_available": 0,
+    "class1_available": 1087,
+    "class0_non_neutral_selected": 59,
+    "class0_neutral_selected": 0,
+    "exclude_short_responses_in_training_examples": true,
+    "min_response_tokens_required": 10,
+    "short_response_examples_excluded_pre_sampling": 49,
+    "activation_diff_without_short_filter_enabled": false,
+    "short_without_response_rows_excluded_pre_sampling": 0,
+    "short_without_response_aug_examples_excluded_pre_sampling": 0,
+    "short_without_response_examples_excluded_post_sampling": 0,
+    "short_without_response_examples_excluded_total": 0
+  },
+  "preextract_response_filter_stats": null,
+  "run_dir": "./data_and_results/full_probe_experiments/full_probe_ovis_20260501_023840/04_mlp_all_examples/04_02_mlp_all_examples_mmmu_pro_ovis_20260501_023840_488024/train_mlp_all_examples_ovis_mmmu_pro_20260501_042710_seed42"
+}

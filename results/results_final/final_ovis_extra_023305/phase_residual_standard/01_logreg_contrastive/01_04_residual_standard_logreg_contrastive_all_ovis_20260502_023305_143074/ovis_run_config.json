@@ -1,0 +1,734 @@
+{
+  "num_pairs": 82,
+  "num_samples": 164,
+  "num_class0_samples": 82,
+  "num_class1_samples": 82,
+  "training_pair_counts_by_benchmark": {
+    "medxpertqa_mm": 9,
+    "mmmu_pro": 24,
+    "vqa_rad": 49
+  },
+  "training_sample_counts_by_benchmark_and_class": {
+    "medxpertqa_mm": {
+      "class0": 9,
+      "class1": 9,
+      "total": 18
+    },
+    "mmmu_pro": {
+      "class0": 24,
+      "class1": 24,
+      "total": 48
+    },
+    "vqa_rad": {
+      "class0": 49,
+      "class1": 49,
+      "total": 98
+    }
+  },
+  "selected_benchmark": null,
+  "training_mode": "pair_benchmark_stratified_validation_multiseed",
+  "num_split_seeds": 5,
+  "split_seeds": [
+    773956046,
+    438878439,
+    654571517,
+    89250953,
+    433015235
+  ],
+  "regularization_sweep_c_values": [
+    0.0,
+    0.01,
+    0.1,
+    1.0
+  ],
+  "hyperparam_selection_metric": "validation_accuracy",
+  "probe_epochs": 800,
+  "probe_lr": 0.03,
+  "multi_init_probe_selection": true,
+  "probe_num_initializations": 3,
+  "early_stopping_patience": 200,
+  "early_stopping_min_delta": 0.0001,
+  "include_attention_probes": false,
+  "include_mlp_probes": false,
+  "include_residual_probes": true,
+  "include_additional_attention_mlp_probes": false,
+  "use_additional_feature_preextract_cache": null,
+  "requested_llm_feature_strategies": [
+    "current_visual_plus_last",
+    "text_nonspecial_mean",
+    "all_nonspecial_mean"
+  ],
+  "llm_strategies": [
+    "current_visual_plus_last",
+    "text_nonspecial_mean",
+    "all_nonspecial_mean"
+  ],
+  "feature_extraction_version": 2,
+  "num_attention_activation_features": 0,
+  "num_eval_seeds": 5,
+  "eval_seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "heldout_eval_all_features": true,
+  "num_holdout_mirage_true": 50,
+  "num_holdout_mirage_false": 50,
+  "exclude_short_responses_in_training_pairs": true,
+  "num_training_pairs_skipped_short_responses": 0,
+  "min_response_tokens_required_for_training_pairs": 10,
+  "exclude_short_responses_in_holdout": false,
+  "num_candidates_skipped_short_responses": 0,
+  "holdout_pool_sizes_before_preextract_filter": {
+    "mirage_true": 8884,
+    "mirage_false": 154
+  },
+  "holdout_pool_sizes_by_benchmark_before_preextract_filter": {
+    "medxpertqa_mm": {
+      "mirage_true": 4416,
+      "mirage_false": 10,
+      "pair_cap": 10
+    },
+    "mmmu_pro": {
+      "mirage_true": 2541,
+      "mirage_false": 64,
+      "pair_cap": 64
+    },
+    "vqa_rad": {
+      "mirage_true": 1927,
+      "mirage_false": 80,
+      "pair_cap": 80
+    }
+  },
+  "holdout_selection_plan_before_preextract_filter": {
+    "selection_policy": "benchmark_cap_proportional_balanced_per_class",
+    "requested_num_holdout_mirage_true": 50,
+    "requested_num_holdout_mirage_false": 50,
+    "requested_num_holdout_per_class_balanced": 50,
+    "selected_num_holdout_per_class_balanced": 50,
+    "selected_num_holdout_total": 100,
+    "num_classes": 2,
+    "represented_benchmarks_with_both_classes": [
+      "medxpertqa_mm",
+      "mmmu_pro",
+      "vqa_rad"
+    ],
+    "pair_caps_by_benchmark": {
+      "medxpertqa_mm": 10,
+      "mmmu_pro": 64,
+      "vqa_rad": 80
+    },
+    "selected_pairs_by_benchmark": {
+      "medxpertqa_mm": 3,
+      "mmmu_pro": 21,
+      "vqa_rad": 26
+    },
+    "counts_by_benchmark_before_selection": {
+      "medxpertqa_mm": {
+        "mirage_true": 4416,
+        "mirage_false": 10,
+        "pair_cap": 10
+      },
+      "mmmu_pro": {
+        "mirage_true": 2541,
+        "mirage_false": 64,
+        "pair_cap": 64
+      },
+      "vqa_rad": {
+        "mirage_true": 1927,
+        "mirage_false": 80,
+        "pair_cap": 80
+      }
+    }
+  },
+  "holdout_pool_sizes": {
+    "mirage_true": 8884,
+    "mirage_false": 154
+  },
+  "holdout_pool_sizes_by_benchmark_after_preextract_filter": {
+    "medxpertqa_mm": {
+      "mirage_true": 4416,
+      "mirage_false": 10,
+      "pair_cap": 10
+    },
+    "mmmu_pro": {
+      "mirage_true": 2541,
+      "mirage_false": 64,
+      "pair_cap": 64
+    },
+    "vqa_rad": {
+      "mirage_true": 1927,
+      "mirage_false": 80,
+      "pair_cap": 80
+    }
+  },
+  "holdout_selection_plan_after_preextract_filter": {
+    "selection_policy": "benchmark_cap_proportional_balanced_per_class",
+    "requested_num_holdout_mirage_true": 50,
+    "requested_num_holdout_mirage_false": 50,
+    "requested_num_holdout_per_class_balanced": 50,
+    "selected_num_holdout_per_class_balanced": 50,
+    "selected_num_holdout_total": 100,
+    "num_classes": 2,
+    "represented_benchmarks_with_both_classes": [
+      "medxpertqa_mm",
+      "mmmu_pro",
+      "vqa_rad"
+    ],
+    "pair_caps_by_benchmark": {
+      "medxpertqa_mm": 10,
+      "mmmu_pro": 64,
+      "vqa_rad": 80
+    },
+    "selected_pairs_by_benchmark": {
+      "medxpertqa_mm": 3,
+      "mmmu_pro": 21,
+      "vqa_rad": 26
+    },
+    "counts_by_benchmark_before_selection": {
+      "medxpertqa_mm": {
+        "mirage_true": 4416,
+        "mirage_false": 10,
+        "pair_cap": 10
+      },
+      "mmmu_pro": {
+        "mirage_true": 2541,
+        "mirage_false": 64,
+        "pair_cap": 64
+      },
+      "vqa_rad": {
+        "mirage_true": 1927,
+        "mirage_false": 80,
+        "pair_cap": 80
+      }
+    }
+  },
+  "holdout_pool_filter_to_preextract_cache": {
+    "mirage_true_before": 8884,
+    "mirage_false_before": 154,
+    "mirage_true_after": 8884,
+    "mirage_false_after": 154,
+    "mirage_true_dropped": 0,
+    "mirage_false_dropped": 0
+  },
+  "holdout_selected_sizes_by_seed": {
+    "42": {
+      "num_examples_total": 100,
+      "num_examples_per_class": {
+        "mirage_true": 50,
+        "mirage_false": 50
+      },
+      "selected_counts_by_benchmark": {
+        "medxpertqa_mm": {
+          "mirage_true": 3,
+          "mirage_false": 3
+        },
+        "mmmu_pro": {
+          "mirage_true": 21,
+          "mirage_false": 21
+        },
+        "vqa_rad": {
+          "mirage_true": 26,
+          "mirage_false": 26
+        }
+      }
+    },
+    "43": {
+      "num_examples_total": 100,
+      "num_examples_per_class": {
+        "mirage_true": 50,
+        "mirage_false": 50
+      },
+      "selected_counts_by_benchmark": {
+        "medxpertqa_mm": {
+          "mirage_true": 3,
+          "mirage_false": 3
+        },
+        "mmmu_pro": {
+          "mirage_true": 21,
+          "mirage_false": 21
+        },
+        "vqa_rad": {
+          "mirage_true": 26,
+          "mirage_false": 26
+        }
+      }
+    },
+    "44": {
+      "num_examples_total": 100,
+      "num_examples_per_class": {
+        "mirage_true": 50,
+        "mirage_false": 50
+      },
+      "selected_counts_by_benchmark": {
+        "medxpertqa_mm": {
+          "mirage_true": 3,
+          "mirage_false": 3
+        },
+        "mmmu_pro": {
+          "mirage_true": 21,
+          "mirage_false": 21
+        },
+        "vqa_rad": {
+          "mirage_true": 26,
+          "mirage_false": 26
+        }
+      }
+    },
+    "45": {
+      "num_examples_total": 100,
+      "num_examples_per_class": {
+        "mirage_true": 50,
+        "mirage_false": 50
+      },
+      "selected_counts_by_benchmark": {
+        "medxpertqa_mm": {
+          "mirage_true": 3,
+          "mirage_false": 3
+        },
+        "mmmu_pro": {
+          "mirage_true": 21,
+          "mirage_false": 21
+        },
+        "vqa_rad": {
+          "mirage_true": 26,
+          "mirage_false": 26
+        }
+      }
+    },
+    "46": {
+      "num_examples_total": 100,
+      "num_examples_per_class": {
+        "mirage_true": 50,
+        "mirage_false": 50
+      },
+      "selected_counts_by_benchmark": {
+        "medxpertqa_mm": {
+          "mirage_true": 3,
+          "mirage_false": 3
+        },
+        "mmmu_pro": {
+          "mirage_true": 21,
+          "mirage_false": 21
+        },
+        "vqa_rad": {
+          "mirage_true": 26,
+          "mirage_false": 26
+        }
+      }
+    }
+  },
+  "pairs_path": "./data_and_results/ovis/contrastive_conversation_pairs.json",
+  "responses_path": "./data_and_results/responses.json",
+  "mirage_root": "./MIRAGE",
+  "neutral_as_non_mirage_pairs": false,
+  "vqa_only_pairs": false,
+  "mmmu_only_pairs": false,
+  "medxpert_only_pairs": false,
+  "single_benchmark_validation_pairs": 5,
+  "all_mode_validation_pairs": 9,
+  "qwen_validation_fraction_if_applicable": null,
+  "supported_contrastive_benchmarks": [
+    "vqa_rad",
+    "mmmu_pro",
+    "medxpertqa_mm"
+  ],
+  "vlm": "ovis",
+  "model_path": "AIDC-AI/Ovis2.5-2B",
+  "attn_implementation": "eager",
+  "device_map": "",
+  "max_memory_per_gpu_gib": 0.0,
+  "max_memory_cpu_gib": 0.0,
+  "features_cache_path": "./data_and_results/tmp_probe_experiments/tmp_probe_ovis_20260502_023305/phase_residual_standard/01_logreg_contrastive/01_04_residual_standard_logreg_contrastive_all_ovis_20260502_023305_143074/features_cache.pt",
+  "normalize_features": true,
+  "pca_components": 0,
+  "split_details": [
+    {
+      "split_seed": 773956046,
+      "validation_pairs": [
+        2,
+        6,
+        7,
+        13,
+        14,
+        15,
+        35,
+        62,
+        71
+      ],
+      "validation_pairs_by_benchmark": {
+        "medxpertqa_mm": [
+          2,
+          6,
+          7
+        ],
+        "mmmu_pro": [
+          13,
+          14,
+          15
+        ],
+        "vqa_rad": [
+          35,
+          62,
+          71
+        ]
+      },
+      "split_sizes": {
+        "train_total": 146,
+        "val_total": 18
+      },
+      "split_label_counts": {
+        "train_class0": 73,
+        "train_class1": 73,
+        "val_class0": 9,
+        "val_class1": 9
+      },
+      "split_benchmark_class_counts": {
+        "train": {
+          "medxpertqa_mm": {
+            "class0": 6,
+            "class1": 6,
+            "total": 12
+          },
+          "mmmu_pro": {
+            "class0": 21,
+            "class1": 21,
+            "total": 42
+          },
+          "vqa_rad": {
+            "class0": 46,
+            "class1": 46,
+            "total": 92
+          }
+        },
+        "val": {
+          "medxpertqa_mm": {
+            "class0": 3,
+            "class1": 3,
+            "total": 6
+          },
+          "mmmu_pro": {
+            "class0": 3,
+            "class1": 3,
+            "total": 6
+          },
+          "vqa_rad": {
+            "class0": 3,
+            "class1": 3,
+            "total": 6
+          }
+        }
+      }
+    },
+    {
+      "split_seed": 438878439,
+      "validation_pairs": [
+        1,
+        4,
+        6,
+        12,
+        17,
+        27,
+        37,
+        46,
+        48
+      ],
+      "validation_pairs_by_benchmark": {
+        "medxpertqa_mm": [
+          1,
+          4,
+          6
+        ],
+        "mmmu_pro": [
+          12,
+          17,
+          27
+        ],
+        "vqa_rad": [
+          37,
+          46,
+          48
+        ]
+      },
+      "split_sizes": {
+        "train_total": 146,
+        "val_total": 18
+      },
+      "split_label_counts": {
+        "train_class0": 73,
+        "train_class1": 73,
+        "val_class0": 9,
+        "val_class1": 9
+      },
+      "split_benchmark_class_counts": {
+        "train": {
+          "medxpertqa_mm": {
+            "class0": 6,
+            "class1": 6,
+            "total": 12
+          },
+          "mmmu_pro": {
+            "class0": 21,
+            "class1": 21,
+            "total": 42
+          },
+          "vqa_rad": {
+            "class0": 46,
+            "class1": 46,
+            "total": 92
+          }
+        },
+        "val": {
+          "medxpertqa_mm": {
+            "class0": 3,
+            "class1": 3,
+            "total": 6
+          },
+          "mmmu_pro": {
+            "class0": 3,
+            "class1": 3,
+            "total": 6
+          },
+          "vqa_rad": {
+            "class0": 3,
+            "class1": 3,
+            "total": 6
+          }
+        }
+      }
+    },
+    {
+      "split_seed": 654571517,
+      "validation_pairs": [
+        0,
+        2,
+        8,
+        13,
+        20,
+        24,
+        57,
+        77,
+        81
+      ],
+      "validation_pairs_by_benchmark": {
+        "medxpertqa_mm": [
+          0,
+          2,
+          8
+        ],
+        "mmmu_pro": [
+          13,
+          20,
+          24
+        ],
+        "vqa_rad": [
+          57,
+          77,
+          81
+        ]
+      },
+      "split_sizes": {
+        "train_total": 146,
+        "val_total": 18
+      },
+      "split_label_counts": {
+        "train_class0": 73,
+        "train_class1": 73,
+        "val_class0": 9,
+        "val_class1": 9
+      },
+      "split_benchmark_class_counts": {
+        "train": {
+          "medxpertqa_mm": {
+            "class0": 6,
+            "class1": 6,
+            "total": 12
+          },
+          "mmmu_pro": {
+            "class0": 21,
+            "class1": 21,
+            "total": 42
+          },
+          "vqa_rad": {
+            "class0": 46,
+            "class1": 46,
+            "total": 92
+          }
+        },
+        "val": {
+          "medxpertqa_mm": {
+            "class0": 3,
+            "class1": 3,
+            "total": 6
+          },
+          "mmmu_pro": {
+            "class0": 3,
+            "class1": 3,
+            "total": 6
+          },
+          "vqa_rad": {
+            "class0": 3,
+            "class1": 3,
+            "total": 6
+          }
+        }
+      }
+    },
+    {
+      "split_seed": 89250953,
+      "validation_pairs": [
+        0,
+        6,
+        7,
+        13,
+        16,
+        21,
+        51,
+        55,
+        80
+      ],
+      "validation_pairs_by_benchmark": {
+        "medxpertqa_mm": [
+          0,
+          6,
+          7
+        ],
+        "mmmu_pro": [
+          13,
+          16,
+          21
+        ],
+        "vqa_rad": [
+          51,
+          55,
+          80
+        ]
+      },
+      "split_sizes": {
+        "train_total": 146,
+        "val_total": 18
+      },
+      "split_label_counts": {
+        "train_class0": 73,
+        "train_class1": 73,
+        "val_class0": 9,
+        "val_class1": 9
+      },
+      "split_benchmark_class_counts": {
+        "train": {
+          "medxpertqa_mm": {
+            "class0": 6,
+            "class1": 6,
+            "total": 12
+          },
+          "mmmu_pro": {
+            "class0": 21,
+            "class1": 21,
+            "total": 42
+          },
+          "vqa_rad": {
+            "class0": 46,
+            "class1": 46,
+            "total": 92
+          }
+        },
+        "val": {
+          "medxpertqa_mm": {
+            "class0": 3,
+            "class1": 3,
+            "total": 6
+          },
+          "mmmu_pro": {
+            "class0": 3,
+            "class1": 3,
+            "total": 6
+          },
+          "vqa_rad": {
+            "class0": 3,
+            "class1": 3,
+            "total": 6
+          }
+        }
+      }
+    },
+    {
+      "split_seed": 433015235,
+      "validation_pairs": [
+        2,
+        6,
+        8,
+        13,
+        14,
+        31,
+        37,
+        45,
+        76
+      ],
+      "validation_pairs_by_benchmark": {
+        "medxpertqa_mm": [
+          2,
+          6,
+          8
+        ],
+        "mmmu_pro": [
+          13,
+          14,
+          31
+        ],
+        "vqa_rad": [
+          37,
+          45,
+          76
+        ]
+      },
+      "split_sizes": {
+        "train_total": 146,
+        "val_total": 18
+      },
+      "split_label_counts": {
+        "train_class0": 73,
+        "train_class1": 73,
+        "val_class0": 9,
+        "val_class1": 9
+      },
+      "split_benchmark_class_counts": {
+        "train": {
+          "medxpertqa_mm": {
+            "class0": 6,
+            "class1": 6,
+            "total": 12
+          },
+          "mmmu_pro": {
+            "class0": 21,
+            "class1": 21,
+            "total": 42
+          },
+          "vqa_rad": {
+            "class0": 46,
+            "class1": 46,
+            "total": 92
+          }
+        },
+        "val": {
+          "medxpertqa_mm": {
+            "class0": 3,
+            "class1": 3,
+            "total": 6
+          },
+          "mmmu_pro": {
+            "class0": 3,
+            "class1": 3,
+            "total": 6
+          },
+          "vqa_rad": {
+            "class0": 3,
+            "class1": 3,
+            "total": 6
+          }
+        }
+      }
+    }
+  ]
+}
